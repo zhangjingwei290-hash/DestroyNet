@@ -1,0 +1,22 @@
+{
+  "frozen_before_scanning": 1793246557.566255,
+  "reports": 900,
+  "phase_bounds": [
+    0,
+    0.3333333333333333,
+    0.6666666666666666,
+    1
+  ],
+  "metric": "actual q/N",
+  "fresh": "last_accepted_before=false and stagnation_before=0",
+  "success": "last_accepted_before=true",
+  "deep_stall": "last_accepted_before=false and stagnation_before>=5",
+  "primary_contrasts": [
+    "late_minus_early_controlled",
+    "deep_stall_minus_fresh_controlled",
+    "success_minus_fresh_controlled"
+  ],
+  "matching": "within IID/seed, direction/repair; state contrasts also phase; phase contrasts also success/stall/fresh regime. Equal matched cells per run, equal available seeds per IID, equal IIDs.",
+  "tests": "two-sided exact conditional signed-rank, doubled average ranks, absdiff<=1e-12 dropped; Holm over three primary contrasts; IID bootstrap exploratory; related instance variants not independent families",
+  "exclusions": "No training, inference, solver execution, source edits, weight loading or result rewriting."
+}

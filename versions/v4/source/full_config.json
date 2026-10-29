@@ -1,0 +1,7 @@
+{
+  "meta_seconds": 2100,
+  "adaptation_seconds": 1500,
+  "repair_seconds": 2.0,
+  "local_seconds": 2.0,
+  "solve_seconds_by_n": {"50": 10.0, "150": 15.0, "250": 20.0}
+}

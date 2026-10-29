@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "at": 1792623458.983571,
+  "results": 360,
+  "complete_search_seeds": 20,
+  "distinct_iids": 9,
+  "paired_comparisons": 180,
+  "archived_solutions_rechecked": 20182,
+  "decision_records": 97042,
+  "point_events_rechecked": 102757,
+  "hv_curve_points_recomputed": 1800,
+  "cached_results_byte_identical": 18,
+  "checkpoint_files_unchanged": 16,
+  "solver_binding_matches": true,
+  "wrapper_matches": true,
+  "worker_exited": true,
+  "failed_searches": 0,
+  "recoveries": 0,
+  "elapsed_seconds": 14.440445599961095,
+  "verification_scope": "Independent reread of all published artifacts using frozen physical evaluator and moocore; not a second physical implementation",
+  "gap_percent_quantiles": {
+    "min": -4.475845995811505,
+    "p05": -2.45460330721799,
+    "p25": -0.1463746467022425,
+    "median": 0.4676415399280964,
+    "p75": 0.9729908062105284,
+    "p95": 2.8239497131615994,
+    "max": 4.673256451922404
+  },
+  "per_seed_mean_gap_sample_sd": 0.5706647814538328,
+  "mean_curve_relative_loss_percent": [
+    0.4725368887731645,
+    0.15141743963527174,
+    0.10334937171829442,
+    0.1671612235433597,
+    0.3406108302941002
+  ],
+  "new_run_wall_seconds": 61657.17866611481,
+  "total_actual_search_seconds": 64801.502665800625,
+  "new_search_seconds": 61561.428298300365
+}

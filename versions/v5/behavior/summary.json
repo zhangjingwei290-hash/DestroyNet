@@ -1,0 +1,221 @@
+{
+  "reports": 900,
+  "instances": 45,
+  "seeds": 20,
+  "total_actions": 5207140,
+  "phase_action_counts": [
+    1690485,
+    1737439,
+    1779216
+  ],
+  "state_action_counts": {
+    "fresh": 23421,
+    "shallow_stall": 507525,
+    "deep_stall": 4396656,
+    "success": 279538
+  },
+  "metrics": {
+    "early": {
+      "instances": 45,
+      "mean": 0.2982886408355881,
+      "iid_bootstrap_ci95": [
+        0.2948816528262768,
+        0.30171485231315964
+      ]
+    },
+    "middle": {
+      "instances": 45,
+      "mean": 0.2942744943256702,
+      "iid_bootstrap_ci95": [
+        0.2912774174634421,
+        0.29720994221287106
+      ]
+    },
+    "late": {
+      "instances": 45,
+      "mean": 0.28722319855370393,
+      "iid_bootstrap_ci95": [
+        0.28449260624662853,
+        0.2900431167414362
+      ]
+    },
+    "fresh": {
+      "instances": 45,
+      "mean": 0.3588665409102071,
+      "iid_bootstrap_ci95": [
+        0.3578312778448668,
+        0.3599443183663353
+      ]
+    },
+    "success": {
+      "instances": 45,
+      "mean": 0.15084486399600341,
+      "iid_bootstrap_ci95": [
+        0.1491426650858001,
+        0.15267150041318794
+      ]
+    },
+    "shallow_stall": {
+      "instances": 45,
+      "mean": 0.3266100946084577,
+      "iid_bootstrap_ci95": [
+        0.32516076279428163,
+        0.3281370633213521
+      ]
+    },
+    "deep_stall": {
+      "instances": 45,
+      "mean": 0.30653982168361554,
+      "iid_bootstrap_ci95": [
+        0.3061955502808921,
+        0.3068973270191224
+      ]
+    },
+    "late_minus_early": {
+      "instances": 45,
+      "mean": -0.011065442281884089,
+      "iid_bootstrap_ci95": [
+        -0.01209540829475635,
+        -0.00998500334239576
+      ],
+      "signed_rank": {
+        "n": 45,
+        "W": 0.0,
+        "p": 5.684341886080802e-14,
+        "positive": 0,
+        "negative": 45,
+        "ties": 0
+      }
+    },
+    "late_minus_early_controlled": {
+      "instances": 39,
+      "mean": -0.018937624862588962,
+      "iid_bootstrap_ci95": [
+        -0.019940618583138676,
+        -0.017968298426445903
+      ],
+      "signed_rank": {
+        "n": 39,
+        "W": 0.0,
+        "p": 3.637978807091713e-12,
+        "positive": 0,
+        "negative": 39,
+        "ties": 0
+      },
+      "holm_p_three_primary": 3.637978807091713e-12
+    },
+    "deep_stall_minus_fresh_controlled": {
+      "instances": 45,
+      "mean": -0.049099229822467734,
+      "iid_bootstrap_ci95": [
+        -0.05010359960245951,
+        -0.04810924551032446
+      ],
+      "signed_rank": {
+        "n": 45,
+        "W": 0.0,
+        "p": 5.684341886080802e-14,
+        "positive": 0,
+        "negative": 45,
+        "ties": 0
+      },
+      "holm_p_three_primary": 1.7053025658242404e-13
+    },
+    "success_minus_fresh_controlled": {
+      "instances": 45,
+      "mean": -0.19444628643025597,
+      "iid_bootstrap_ci95": [
+        -0.1964340669835909,
+        -0.19242903635763162
+      ],
+      "signed_rank": {
+        "n": 45,
+        "W": 0.0,
+        "p": 5.684341886080802e-14,
+        "positive": 0,
+        "negative": 45,
+        "ties": 0
+      },
+      "holm_p_three_primary": 1.7053025658242404e-13
+    },
+    "deep_minus_shallow_stall_controlled": {
+      "instances": 45,
+      "mean": -0.03524063064761553,
+      "iid_bootstrap_ci95": [
+        -0.03675284329447233,
+        -0.03380296169543859
+      ],
+      "signed_rank": {
+        "n": 45,
+        "W": 0.0,
+        "p": 5.684341886080802e-14,
+        "positive": 0,
+        "negative": 45,
+        "ties": 0
+      }
+    }
+  },
+  "by_scale": {
+    "50": {
+      "early": 0.3120222143331081,
+      "middle": 0.306038730140454,
+      "late": 0.29877241114520303,
+      "fresh": 0.3597830882477553,
+      "success": 0.15338004526318907,
+      "shallow_stall": 0.3291009794438539,
+      "deep_stall": 0.3076276149503715,
+      "late_minus_early": -0.013249803187905118,
+      "late_minus_early_controlled": -0.020099517345226657,
+      "deep_stall_minus_fresh_controlled": -0.04943491205319533,
+      "success_minus_fresh_controlled": -0.19252524990350078,
+      "deep_minus_shallow_stall_controlled": -0.04001844673386039
+    },
+    "150": {
+      "early": 0.29859287933656764,
+      "middle": 0.2943262042714361,
+      "late": 0.28690017911915683,
+      "fresh": 0.3592488267746334,
+      "success": 0.14865087191407073,
+      "shallow_stall": 0.32367440615503806,
+      "deep_stall": 0.3061227766544891,
+      "late_minus_early": -0.011692700217410895,
+      "late_minus_early_controlled": -0.0187075509610346,
+      "deep_stall_minus_fresh_controlled": -0.048846859314060784,
+      "success_minus_fresh_controlled": -0.19533237051613697,
+      "deep_minus_shallow_stall_controlled": -0.034002456219928465
+    },
+    "250": {
+      "early": 0.28425082883708847,
+      "middle": 0.28245854856512076,
+      "late": 0.27599700539675215,
+      "fresh": 0.3575677077082323,
+      "success": 0.15050367481075042,
+      "shallow_stall": 0.32705489822648137,
+      "deep_stall": 0.3058690734459858,
+      "late_minus_early": -0.00825382344033625,
+      "late_minus_early_controlled": -0.018470563274560713,
+      "deep_stall_minus_fresh_controlled": -0.04901591810014706,
+      "success_minus_fresh_controlled": -0.19548123887113036,
+      "deep_minus_shallow_stall_controlled": -0.031700988989057724
+    }
+  },
+  "matched_runs": {
+    "early": 900,
+    "middle": 900,
+    "late": 900,
+    "fresh": 900,
+    "success": 900,
+    "shallow_stall": 900,
+    "deep_stall": 900,
+    "late_minus_early": 900,
+    "late_minus_early_controlled": 746,
+    "deep_stall_minus_fresh_controlled": 900,
+    "success_minus_fresh_controlled": 900,
+    "deep_minus_shallow_stall_controlled": 900
+  },
+  "limitations": [
+    "Behavioral associations, not causal training benefit.",
+    "V5 has explicit success/stagnation regime anchors; these differences cannot by themselves establish learned behavior.",
+    "Related IID variants limit independence assumptions. No counterfactual inference performed."
+  ]
+}

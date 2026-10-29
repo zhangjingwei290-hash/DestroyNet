@@ -1,0 +1,8 @@
+{
+  "scope": "meta_only",
+  "batches": 207,
+  "completed_epochs": 3,
+  "completed_cycles": 540,
+  "wall_seconds": 77702.37699739984,
+  "formal_weights": true
+}

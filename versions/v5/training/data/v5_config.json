@@ -1,0 +1,7578 @@
+{
+  "version": "v5_accepted_current_distribution",
+  "inputs": {
+    "v5p_train_50_d0_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw0_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw1_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw2_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw3_0.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw4_0.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d0_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d0_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d0_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d0_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d0_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d0_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d0_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d0_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d0_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d0_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d0_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d0_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d0_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d0_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d0_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d0_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d1_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d1_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d1_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d1_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d1_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d1_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d1_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d1_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d1_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d1_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d1_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d1_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d1_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d1_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d1_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d1_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d1_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d2_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d2_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d2_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d2_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d2_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d2_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d2_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d2_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d2_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d2_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d2_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d2_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_50_d2_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_50_d2_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_50_d2_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_50_d2_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_50_d2_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d0_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d0_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d0_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d0_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d0_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d0_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d0_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d0_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d0_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d0_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d0_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d0_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d0_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d0_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d0_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d0_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d0_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d1_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d1_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d1_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d1_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d1_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d1_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d1_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d1_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d1_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d1_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d1_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d1_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d1_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d1_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d1_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d1_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d1_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d2_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d2_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d2_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d2_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d2_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d2_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d2_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d2_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d2_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d2_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d2_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d2_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_150_d2_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_150_d2_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_150_d2_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_150_d2_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_150_d2_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d0_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d0_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d0_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d0_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d0_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d0_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d0_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d0_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d0_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d0_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d0_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d0_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d0_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d0_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d0_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d0_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d0_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d1_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d1_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d1_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d1_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d1_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d1_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d1_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d1_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d1_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d1_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d1_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d1_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d1_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d1_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d1_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d1_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d1_tw4_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d2_tw0_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw0_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw0_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw0_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw0_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw0_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d2_tw0_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d2_tw0_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d2_tw1_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw1_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw1_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw1_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw1_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw1_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d2_tw1_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d2_tw1_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d2_tw2_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw2_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw2_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw2_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw2_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw2_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d2_tw2_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d2_tw2_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d2_tw3_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw3_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw3_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw3_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw3_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw3_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d2_tw3_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d2_tw3_0.json",
+      "split": "validation"
+    },
+    "v5p_train_250_d2_tw4_1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw4_1.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw4_2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw4_2.json",
+      "split": "train"
+    },
+    "v5p_train_250_d2_tw4_3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_train_250_d2_tw4_3.json",
+      "split": "train"
+    },
+    "v5p_validation_250_d2_tw4_0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\v5p_validation_250_d2_tw4_0.json",
+      "split": "validation"
+    },
+    "50-0-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-0-0.json",
+      "split": "test"
+    },
+    "50-0-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-0-1.json",
+      "split": "test"
+    },
+    "50-0-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-0-2.json",
+      "split": "test"
+    },
+    "50-0-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-0-3.json",
+      "split": "test"
+    },
+    "50-0-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-0-4.json",
+      "split": "test"
+    },
+    "50-1-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-1-0.json",
+      "split": "test"
+    },
+    "50-1-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-1-1.json",
+      "split": "test"
+    },
+    "50-1-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-1-2.json",
+      "split": "test"
+    },
+    "50-1-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-1-3.json",
+      "split": "test"
+    },
+    "50-1-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-1-4.json",
+      "split": "test"
+    },
+    "50-2-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-2-0.json",
+      "split": "test"
+    },
+    "50-2-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-2-1.json",
+      "split": "test"
+    },
+    "50-2-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-2-2.json",
+      "split": "test"
+    },
+    "50-2-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-2-3.json",
+      "split": "test"
+    },
+    "50-2-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\50-2-4.json",
+      "split": "test"
+    },
+    "150-0-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-0-0.json",
+      "split": "test"
+    },
+    "150-0-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-0-1.json",
+      "split": "test"
+    },
+    "150-0-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-0-2.json",
+      "split": "test"
+    },
+    "150-0-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-0-3.json",
+      "split": "test"
+    },
+    "150-0-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-0-4.json",
+      "split": "test"
+    },
+    "150-1-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-1-0.json",
+      "split": "test"
+    },
+    "150-1-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-1-1.json",
+      "split": "test"
+    },
+    "150-1-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-1-2.json",
+      "split": "test"
+    },
+    "150-1-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-1-3.json",
+      "split": "test"
+    },
+    "150-1-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-1-4.json",
+      "split": "test"
+    },
+    "150-2-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-2-0.json",
+      "split": "test"
+    },
+    "150-2-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-2-1.json",
+      "split": "test"
+    },
+    "150-2-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-2-2.json",
+      "split": "test"
+    },
+    "150-2-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-2-3.json",
+      "split": "test"
+    },
+    "150-2-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\150-2-4.json",
+      "split": "test"
+    },
+    "250-0-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-0-0.json",
+      "split": "test"
+    },
+    "250-0-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-0-1.json",
+      "split": "test"
+    },
+    "250-0-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-0-2.json",
+      "split": "test"
+    },
+    "250-0-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-0-3.json",
+      "split": "test"
+    },
+    "250-0-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-0-4.json",
+      "split": "test"
+    },
+    "250-1-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-1-0.json",
+      "split": "test"
+    },
+    "250-1-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-1-1.json",
+      "split": "test"
+    },
+    "250-1-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-1-2.json",
+      "split": "test"
+    },
+    "250-1-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-1-3.json",
+      "split": "test"
+    },
+    "250-1-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-1-4.json",
+      "split": "test"
+    },
+    "250-2-0": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-2-0.json",
+      "split": "test"
+    },
+    "250-2-1": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-2-1.json",
+      "split": "test"
+    },
+    "250-2-2": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-2-2.json",
+      "split": "test"
+    },
+    "250-2-3": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-2-3.json",
+      "split": "test"
+    },
+    "250-2-4": {
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v5_realworld_20261025\\dataset_accepted_20261025\\instances\\250-2-4.json",
+      "split": "test"
+    }
+  },
+  "boxes_by_instance": {
+    "v5p_train_50_d0_tw0_0": {
+      "scale": [
+        50.0,
+        14382.606507886027,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw1_0": {
+      "scale": [
+        50.0,
+        15039.814440734946,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw2_0": {
+      "scale": [
+        50.0,
+        17753.96120565493,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw3_0": {
+      "scale": [
+        50.0,
+        28496.91404479238,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw4_0": {
+      "scale": [
+        50.0,
+        15483.977991918704,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw0_0": {
+      "scale": [
+        50.0,
+        21799.875563646012,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw1_0": {
+      "scale": [
+        50.0,
+        27534.379725335635,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw2_0": {
+      "scale": [
+        50.0,
+        30799.598591607908,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw3_0": {
+      "scale": [
+        50.0,
+        14858.247562489054,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw4_0": {
+      "scale": [
+        50.0,
+        29503.954707368583,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw0_0": {
+      "scale": [
+        50.0,
+        13955.127114607387,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw1_0": {
+      "scale": [
+        50.0,
+        14442.617780703671,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw2_0": {
+      "scale": [
+        50.0,
+        14812.623759592832,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw3_0": {
+      "scale": [
+        50.0,
+        24146.947509830683,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw4_0": {
+      "scale": [
+        50.0,
+        31945.99935281387,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw0_0": {
+      "scale": [
+        150.0,
+        633043.081214043,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw1_0": {
+      "scale": [
+        150.0,
+        1065440.9730211364,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw2_0": {
+      "scale": [
+        150.0,
+        1469966.5746996359,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw3_0": {
+      "scale": [
+        150.0,
+        1256740.5897862369,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw4_0": {
+      "scale": [
+        150.0,
+        1051693.6471133009,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw0_0": {
+      "scale": [
+        150.0,
+        1091060.4378265822,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw1_0": {
+      "scale": [
+        150.0,
+        1047318.8128949136,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw2_0": {
+      "scale": [
+        150.0,
+        1767040.9289428534,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw3_0": {
+      "scale": [
+        150.0,
+        1328241.5582124286,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw4_0": {
+      "scale": [
+        150.0,
+        1282375.454115112,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw0_0": {
+      "scale": [
+        150.0,
+        1639068.8540945966,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw1_0": {
+      "scale": [
+        150.0,
+        1083868.162734964,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw2_0": {
+      "scale": [
+        150.0,
+        1462344.707920625,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw3_0": {
+      "scale": [
+        150.0,
+        1678239.119293177,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw4_0": {
+      "scale": [
+        150.0,
+        1446105.63542967,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw0_0": {
+      "scale": [
+        250.0,
+        3933214.205075877,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw1_0": {
+      "scale": [
+        250.0,
+        2753178.7102455967,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw2_0": {
+      "scale": [
+        250.0,
+        3303590.7196856374,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw3_0": {
+      "scale": [
+        250.0,
+        9099209.085345251,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw4_0": {
+      "scale": [
+        250.0,
+        3158731.8043420385,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw0_0": {
+      "scale": [
+        250.0,
+        3599384.007990839,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw1_0": {
+      "scale": [
+        250.0,
+        5741515.783261754,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw2_0": {
+      "scale": [
+        250.0,
+        4124836.3215761054,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw3_0": {
+      "scale": [
+        250.0,
+        2791587.6923203017,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw4_0": {
+      "scale": [
+        250.0,
+        4452248.563554386,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw0_0": {
+      "scale": [
+        250.0,
+        8057933.831877201,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw1_0": {
+      "scale": [
+        250.0,
+        6755943.549632107,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw2_0": {
+      "scale": [
+        250.0,
+        3267648.145214644,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw3_0": {
+      "scale": [
+        250.0,
+        9658477.677421344,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw4_0": {
+      "scale": [
+        250.0,
+        8054327.838324635,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw0_1": {
+      "scale": [
+        50.0,
+        26852.202972733885,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw0_2": {
+      "scale": [
+        50.0,
+        15499.518558216354,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw0_3": {
+      "scale": [
+        50.0,
+        15893.916383416612,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d0_tw0_0": {
+      "scale": [
+        50.0,
+        17589.475473996514,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw1_1": {
+      "scale": [
+        50.0,
+        17116.889156140594,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw1_2": {
+      "scale": [
+        50.0,
+        18835.22521277244,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw1_3": {
+      "scale": [
+        50.0,
+        16881.904926247968,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d0_tw1_0": {
+      "scale": [
+        50.0,
+        34810.1340471313,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw2_1": {
+      "scale": [
+        50.0,
+        23579.253619625386,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw2_2": {
+      "scale": [
+        50.0,
+        31265.53541147165,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw2_3": {
+      "scale": [
+        50.0,
+        29098.49173243957,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d0_tw2_0": {
+      "scale": [
+        50.0,
+        22314.194399076212,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw3_1": {
+      "scale": [
+        50.0,
+        14819.43964195671,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw3_2": {
+      "scale": [
+        50.0,
+        14729.305642610589,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw3_3": {
+      "scale": [
+        50.0,
+        30438.980285820988,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d0_tw3_0": {
+      "scale": [
+        50.0,
+        33413.428908359565,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw4_1": {
+      "scale": [
+        50.0,
+        26886.317040972557,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw4_2": {
+      "scale": [
+        50.0,
+        23409.737979003374,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d0_tw4_3": {
+      "scale": [
+        50.0,
+        25402.66353972868,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d0_tw4_0": {
+      "scale": [
+        50.0,
+        15855.20666866113,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw0_1": {
+      "scale": [
+        50.0,
+        19043.052410824585,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw0_2": {
+      "scale": [
+        50.0,
+        14493.886550917983,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw0_3": {
+      "scale": [
+        50.0,
+        23077.591105646847,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d1_tw0_0": {
+      "scale": [
+        50.0,
+        32199.251598204428,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw1_1": {
+      "scale": [
+        50.0,
+        17632.60933883948,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw1_2": {
+      "scale": [
+        50.0,
+        21434.170204456324,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw1_3": {
+      "scale": [
+        50.0,
+        30347.292373227323,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d1_tw1_0": {
+      "scale": [
+        50.0,
+        14620.214907039832,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw2_1": {
+      "scale": [
+        50.0,
+        14502.852937218571,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw2_2": {
+      "scale": [
+        50.0,
+        15192.225074266526,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw2_3": {
+      "scale": [
+        50.0,
+        31801.93213168082,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d1_tw2_0": {
+      "scale": [
+        50.0,
+        16277.48026310908,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw3_1": {
+      "scale": [
+        50.0,
+        31745.997483519022,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw3_2": {
+      "scale": [
+        50.0,
+        14919.714804167264,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw3_3": {
+      "scale": [
+        50.0,
+        16778.267893526343,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d1_tw3_0": {
+      "scale": [
+        50.0,
+        14277.03947551512,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw4_1": {
+      "scale": [
+        50.0,
+        14714.39727556934,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw4_2": {
+      "scale": [
+        50.0,
+        32073.74655886166,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d1_tw4_3": {
+      "scale": [
+        50.0,
+        21337.156614154712,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d1_tw4_0": {
+      "scale": [
+        50.0,
+        33611.08316939822,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw0_1": {
+      "scale": [
+        50.0,
+        14621.837028270662,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw0_2": {
+      "scale": [
+        50.0,
+        34175.60227105612,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw0_3": {
+      "scale": [
+        50.0,
+        14714.666508007815,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d2_tw0_0": {
+      "scale": [
+        50.0,
+        31495.42556550557,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw1_1": {
+      "scale": [
+        50.0,
+        21153.76180763426,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw1_2": {
+      "scale": [
+        50.0,
+        30681.61354616672,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw1_3": {
+      "scale": [
+        50.0,
+        26240.759090891443,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d2_tw1_0": {
+      "scale": [
+        50.0,
+        31764.83469659779,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw2_1": {
+      "scale": [
+        50.0,
+        14937.89711381234,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw2_2": {
+      "scale": [
+        50.0,
+        25148.83406189545,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw2_3": {
+      "scale": [
+        50.0,
+        23638.570430155938,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d2_tw2_0": {
+      "scale": [
+        50.0,
+        14368.32411219346,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw3_1": {
+      "scale": [
+        50.0,
+        20138.868639143722,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw3_2": {
+      "scale": [
+        50.0,
+        30455.540076814952,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw3_3": {
+      "scale": [
+        50.0,
+        34713.192594807995,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d2_tw3_0": {
+      "scale": [
+        50.0,
+        30256.06637699863,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw4_1": {
+      "scale": [
+        50.0,
+        26987.96771197299,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw4_2": {
+      "scale": [
+        50.0,
+        24195.94906050641,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_50_d2_tw4_3": {
+      "scale": [
+        50.0,
+        33340.573760079584,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_50_d2_tw4_0": {
+      "scale": [
+        50.0,
+        35127.75577470639,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw0_1": {
+      "scale": [
+        150.0,
+        1408027.4904611972,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw0_2": {
+      "scale": [
+        150.0,
+        1128758.865004668,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw0_3": {
+      "scale": [
+        150.0,
+        1300626.073427148,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d0_tw0_0": {
+      "scale": [
+        150.0,
+        913960.3653707905,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw1_1": {
+      "scale": [
+        150.0,
+        1032675.8125615949,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw1_2": {
+      "scale": [
+        150.0,
+        1422084.973941783,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw1_3": {
+      "scale": [
+        150.0,
+        1005604.7210998207,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d0_tw1_0": {
+      "scale": [
+        150.0,
+        1687734.9173540769,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw2_1": {
+      "scale": [
+        150.0,
+        1498784.762144409,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw2_2": {
+      "scale": [
+        150.0,
+        1080346.025046701,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw2_3": {
+      "scale": [
+        150.0,
+        1097333.2112285285,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d0_tw2_0": {
+      "scale": [
+        150.0,
+        1637025.3169767826,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw3_1": {
+      "scale": [
+        150.0,
+        1323263.8330562252,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw3_2": {
+      "scale": [
+        150.0,
+        1402363.417066067,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw3_3": {
+      "scale": [
+        150.0,
+        1812359.9159244604,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d0_tw3_0": {
+      "scale": [
+        150.0,
+        794356.80303104,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw4_1": {
+      "scale": [
+        150.0,
+        499281.169131694,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw4_2": {
+      "scale": [
+        150.0,
+        1645256.6480867679,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d0_tw4_3": {
+      "scale": [
+        150.0,
+        1342441.1781357653,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d0_tw4_0": {
+      "scale": [
+        150.0,
+        1187855.96821576,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw0_1": {
+      "scale": [
+        150.0,
+        1536680.4184884792,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw0_2": {
+      "scale": [
+        150.0,
+        1162885.3958766966,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw0_3": {
+      "scale": [
+        150.0,
+        1329709.3311235574,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d1_tw0_0": {
+      "scale": [
+        150.0,
+        1516121.6190917913,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw1_1": {
+      "scale": [
+        150.0,
+        1048106.8969779032,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw1_2": {
+      "scale": [
+        150.0,
+        1541744.4675434246,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw1_3": {
+      "scale": [
+        150.0,
+        1738870.3144045917,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d1_tw1_0": {
+      "scale": [
+        150.0,
+        1416051.773504458,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw2_1": {
+      "scale": [
+        150.0,
+        923611.3131033157,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw2_2": {
+      "scale": [
+        150.0,
+        1412868.3233289027,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw2_3": {
+      "scale": [
+        150.0,
+        1761122.7531728975,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d1_tw2_0": {
+      "scale": [
+        150.0,
+        1529869.235888629,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw3_1": {
+      "scale": [
+        150.0,
+        729373.3394921288,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw3_2": {
+      "scale": [
+        150.0,
+        1677928.8547528416,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw3_3": {
+      "scale": [
+        150.0,
+        1812093.0906155058,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d1_tw3_0": {
+      "scale": [
+        150.0,
+        1738939.5306823694,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw4_1": {
+      "scale": [
+        150.0,
+        1765183.7572625373,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw4_2": {
+      "scale": [
+        150.0,
+        1551987.2406502666,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d1_tw4_3": {
+      "scale": [
+        150.0,
+        1649774.7277467886,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d1_tw4_0": {
+      "scale": [
+        150.0,
+        707979.7770720487,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw0_1": {
+      "scale": [
+        150.0,
+        1378803.5417378284,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw0_2": {
+      "scale": [
+        150.0,
+        1758941.551963032,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw0_3": {
+      "scale": [
+        150.0,
+        1370063.9453676755,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d2_tw0_0": {
+      "scale": [
+        150.0,
+        822717.7062321163,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw1_1": {
+      "scale": [
+        150.0,
+        1363185.6317960091,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw1_2": {
+      "scale": [
+        150.0,
+        1798136.422154247,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw1_3": {
+      "scale": [
+        150.0,
+        1530425.683651814,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d2_tw1_0": {
+      "scale": [
+        150.0,
+        1152755.974972003,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw2_1": {
+      "scale": [
+        150.0,
+        1808599.3272555456,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw2_2": {
+      "scale": [
+        150.0,
+        1263013.6691254356,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw2_3": {
+      "scale": [
+        150.0,
+        948965.6726205591,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d2_tw2_0": {
+      "scale": [
+        150.0,
+        687635.2294971603,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw3_1": {
+      "scale": [
+        150.0,
+        1446582.1211976232,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw3_2": {
+      "scale": [
+        150.0,
+        611785.5766902888,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw3_3": {
+      "scale": [
+        150.0,
+        1713526.045954388,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d2_tw3_0": {
+      "scale": [
+        150.0,
+        1120437.9741041192,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw4_1": {
+      "scale": [
+        150.0,
+        1083216.0821421738,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw4_2": {
+      "scale": [
+        150.0,
+        1799927.9362910665,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_150_d2_tw4_3": {
+      "scale": [
+        150.0,
+        1771767.9721515523,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_150_d2_tw4_0": {
+      "scale": [
+        150.0,
+        1179678.8665749042,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw0_1": {
+      "scale": [
+        250.0,
+        5046972.961741559,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw0_2": {
+      "scale": [
+        250.0,
+        9335303.145668294,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw0_3": {
+      "scale": [
+        250.0,
+        6031293.403292308,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d0_tw0_0": {
+      "scale": [
+        250.0,
+        10181419.333639745,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw1_1": {
+      "scale": [
+        250.0,
+        5503156.304413918,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw1_2": {
+      "scale": [
+        250.0,
+        5091038.361901955,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw1_3": {
+      "scale": [
+        250.0,
+        10430227.790030895,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d0_tw1_0": {
+      "scale": [
+        250.0,
+        2843671.1716033346,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw2_1": {
+      "scale": [
+        250.0,
+        5517238.736473592,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw2_2": {
+      "scale": [
+        250.0,
+        3939581.7307768012,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw2_3": {
+      "scale": [
+        250.0,
+        9315928.509249555,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d0_tw2_0": {
+      "scale": [
+        250.0,
+        2239201.8554145694,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw3_1": {
+      "scale": [
+        250.0,
+        7269375.13995591,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw3_2": {
+      "scale": [
+        250.0,
+        4202765.94003107,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw3_3": {
+      "scale": [
+        250.0,
+        9956744.089523256,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d0_tw3_0": {
+      "scale": [
+        250.0,
+        8264395.08356463,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw4_1": {
+      "scale": [
+        250.0,
+        2965564.611427503,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw4_2": {
+      "scale": [
+        250.0,
+        4895528.510808742,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d0_tw4_3": {
+      "scale": [
+        250.0,
+        2139920.2498201258,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d0_tw4_0": {
+      "scale": [
+        250.0,
+        7447074.283225733,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw0_1": {
+      "scale": [
+        250.0,
+        7617161.4945271835,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw0_2": {
+      "scale": [
+        250.0,
+        3952682.019174819,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw0_3": {
+      "scale": [
+        250.0,
+        10112218.391904589,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d1_tw0_0": {
+      "scale": [
+        250.0,
+        5848663.68343494,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw1_1": {
+      "scale": [
+        250.0,
+        2219433.497123359,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw1_2": {
+      "scale": [
+        250.0,
+        10084879.013257561,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw1_3": {
+      "scale": [
+        250.0,
+        7932671.542373277,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d1_tw1_0": {
+      "scale": [
+        250.0,
+        6404604.97430794,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw2_1": {
+      "scale": [
+        250.0,
+        3848553.3711282406,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw2_2": {
+      "scale": [
+        250.0,
+        2137709.2899083323,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw2_3": {
+      "scale": [
+        250.0,
+        3214778.9315714384,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d1_tw2_0": {
+      "scale": [
+        250.0,
+        6979851.745529847,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw3_1": {
+      "scale": [
+        250.0,
+        3069013.978771744,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw3_2": {
+      "scale": [
+        250.0,
+        7447300.223865723,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw3_3": {
+      "scale": [
+        250.0,
+        7337940.166801253,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d1_tw3_0": {
+      "scale": [
+        250.0,
+        2920676.5242264145,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw4_1": {
+      "scale": [
+        250.0,
+        4773135.476800947,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw4_2": {
+      "scale": [
+        250.0,
+        9071136.679613594,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d1_tw4_3": {
+      "scale": [
+        250.0,
+        9534282.557075115,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d1_tw4_0": {
+      "scale": [
+        250.0,
+        6789722.010228996,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw0_1": {
+      "scale": [
+        250.0,
+        3549567.8618611367,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw0_2": {
+      "scale": [
+        250.0,
+        4077644.6438162127,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw0_3": {
+      "scale": [
+        250.0,
+        6419563.134892055,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d2_tw0_0": {
+      "scale": [
+        250.0,
+        9973690.810886972,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw1_1": {
+      "scale": [
+        250.0,
+        4528866.392770417,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw1_2": {
+      "scale": [
+        250.0,
+        2614776.6110717524,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw1_3": {
+      "scale": [
+        250.0,
+        2799523.1773515358,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d2_tw1_0": {
+      "scale": [
+        250.0,
+        6694722.742751354,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw2_1": {
+      "scale": [
+        250.0,
+        2986755.5414254214,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw2_2": {
+      "scale": [
+        250.0,
+        3434367.0996404625,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw2_3": {
+      "scale": [
+        250.0,
+        1975354.1059429022,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d2_tw2_0": {
+      "scale": [
+        250.0,
+        5597454.309724878,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw3_1": {
+      "scale": [
+        250.0,
+        3292191.898755569,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw3_2": {
+      "scale": [
+        250.0,
+        9151537.925253477,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw3_3": {
+      "scale": [
+        250.0,
+        4565990.109894933,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d2_tw3_0": {
+      "scale": [
+        250.0,
+        7250337.630013806,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw4_1": {
+      "scale": [
+        250.0,
+        2772707.231361144,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw4_2": {
+      "scale": [
+        250.0,
+        6408245.616927872,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_train_250_d2_tw4_3": {
+      "scale": [
+        250.0,
+        8648685.846581962,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "v5p_validation_250_d2_tw4_0": {
+      "scale": [
+        250.0,
+        7396610.950266225,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-0-0": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-0-1": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-0-2": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-0-3": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-0-4": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-1-0": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-1-1": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-1-2": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-1-3": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-1-4": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-2-0": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        28800.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-2-1": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        960000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-2-2": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1050000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-2-3": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "50-2-4": {
+      "scale": [
+        50.0,
+        11900.0,
+        28800.0,
+        1140000.0,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-0-0": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-0-1": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-0-2": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-0-3": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-0-4": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-1-0": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-1-1": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-1-2": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-1-3": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-1-4": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-2-0": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        28800.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-2-1": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        2880000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-2-2": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3150000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-2-3": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "150-2-4": {
+      "scale": [
+        150.0,
+        36900.0,
+        28800.0,
+        3420000.0,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-0-0": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-0-1": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-0-2": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-0-3": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-0-4": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-1-0": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-1-1": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-1-2": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-1-3": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-1-4": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-2-0": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        28800.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-2-1": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        4800000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-2-2": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5250000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-2-3": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "250-2-4": {
+      "scale": [
+        250.0,
+        62500.0,
+        28800.0,
+        5700000.0,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  },
+  "allowed_ids_by_split": {
+    "train": [
+      "v5p_train_50_d0_tw0_0",
+      "v5p_train_50_d0_tw1_0",
+      "v5p_train_50_d0_tw2_0",
+      "v5p_train_50_d0_tw3_0",
+      "v5p_train_50_d0_tw4_0",
+      "v5p_train_50_d1_tw0_0",
+      "v5p_train_50_d1_tw1_0",
+      "v5p_train_50_d1_tw2_0",
+      "v5p_train_50_d1_tw3_0",
+      "v5p_train_50_d1_tw4_0",
+      "v5p_train_50_d2_tw0_0",
+      "v5p_train_50_d2_tw1_0",
+      "v5p_train_50_d2_tw2_0",
+      "v5p_train_50_d2_tw3_0",
+      "v5p_train_50_d2_tw4_0",
+      "v5p_train_150_d0_tw0_0",
+      "v5p_train_150_d0_tw1_0",
+      "v5p_train_150_d0_tw2_0",
+      "v5p_train_150_d0_tw3_0",
+      "v5p_train_150_d0_tw4_0",
+      "v5p_train_150_d1_tw0_0",
+      "v5p_train_150_d1_tw1_0",
+      "v5p_train_150_d1_tw2_0",
+      "v5p_train_150_d1_tw3_0",
+      "v5p_train_150_d1_tw4_0",
+      "v5p_train_150_d2_tw0_0",
+      "v5p_train_150_d2_tw1_0",
+      "v5p_train_150_d2_tw2_0",
+      "v5p_train_150_d2_tw3_0",
+      "v5p_train_150_d2_tw4_0",
+      "v5p_train_250_d0_tw0_0",
+      "v5p_train_250_d0_tw1_0",
+      "v5p_train_250_d0_tw2_0",
+      "v5p_train_250_d0_tw3_0",
+      "v5p_train_250_d0_tw4_0",
+      "v5p_train_250_d1_tw0_0",
+      "v5p_train_250_d1_tw1_0",
+      "v5p_train_250_d1_tw2_0",
+      "v5p_train_250_d1_tw3_0",
+      "v5p_train_250_d1_tw4_0",
+      "v5p_train_250_d2_tw0_0",
+      "v5p_train_250_d2_tw1_0",
+      "v5p_train_250_d2_tw2_0",
+      "v5p_train_250_d2_tw3_0",
+      "v5p_train_250_d2_tw4_0",
+      "v5p_train_50_d0_tw0_1",
+      "v5p_train_50_d0_tw0_2",
+      "v5p_train_50_d0_tw0_3",
+      "v5p_train_50_d0_tw1_1",
+      "v5p_train_50_d0_tw1_2",
+      "v5p_train_50_d0_tw1_3",
+      "v5p_train_50_d0_tw2_1",
+      "v5p_train_50_d0_tw2_2",
+      "v5p_train_50_d0_tw2_3",
+      "v5p_train_50_d0_tw3_1",
+      "v5p_train_50_d0_tw3_2",
+      "v5p_train_50_d0_tw3_3",
+      "v5p_train_50_d0_tw4_1",
+      "v5p_train_50_d0_tw4_2",
+      "v5p_train_50_d0_tw4_3",
+      "v5p_train_50_d1_tw0_1",
+      "v5p_train_50_d1_tw0_2",
+      "v5p_train_50_d1_tw0_3",
+      "v5p_train_50_d1_tw1_1",
+      "v5p_train_50_d1_tw1_2",
+      "v5p_train_50_d1_tw1_3",
+      "v5p_train_50_d1_tw2_1",
+      "v5p_train_50_d1_tw2_2",
+      "v5p_train_50_d1_tw2_3",
+      "v5p_train_50_d1_tw3_1",
+      "v5p_train_50_d1_tw3_2",
+      "v5p_train_50_d1_tw3_3",
+      "v5p_train_50_d1_tw4_1",
+      "v5p_train_50_d1_tw4_2",
+      "v5p_train_50_d1_tw4_3",
+      "v5p_train_50_d2_tw0_1",
+      "v5p_train_50_d2_tw0_2",
+      "v5p_train_50_d2_tw0_3",
+      "v5p_train_50_d2_tw1_1",
+      "v5p_train_50_d2_tw1_2",
+      "v5p_train_50_d2_tw1_3",
+      "v5p_train_50_d2_tw2_1",
+      "v5p_train_50_d2_tw2_2",
+      "v5p_train_50_d2_tw2_3",
+      "v5p_train_50_d2_tw3_1",
+      "v5p_train_50_d2_tw3_2",
+      "v5p_train_50_d2_tw3_3",
+      "v5p_train_50_d2_tw4_1",
+      "v5p_train_50_d2_tw4_2",
+      "v5p_train_50_d2_tw4_3",
+      "v5p_train_150_d0_tw0_1",
+      "v5p_train_150_d0_tw0_2",
+      "v5p_train_150_d0_tw0_3",
+      "v5p_train_150_d0_tw1_1",
+      "v5p_train_150_d0_tw1_2",
+      "v5p_train_150_d0_tw1_3",
+      "v5p_train_150_d0_tw2_1",
+      "v5p_train_150_d0_tw2_2",
+      "v5p_train_150_d0_tw2_3",
+      "v5p_train_150_d0_tw3_1",
+      "v5p_train_150_d0_tw3_2",
+      "v5p_train_150_d0_tw3_3",
+      "v5p_train_150_d0_tw4_1",
+      "v5p_train_150_d0_tw4_2",
+      "v5p_train_150_d0_tw4_3",
+      "v5p_train_150_d1_tw0_1",
+      "v5p_train_150_d1_tw0_2",
+      "v5p_train_150_d1_tw0_3",
+      "v5p_train_150_d1_tw1_1",
+      "v5p_train_150_d1_tw1_2",
+      "v5p_train_150_d1_tw1_3",
+      "v5p_train_150_d1_tw2_1",
+      "v5p_train_150_d1_tw2_2",
+      "v5p_train_150_d1_tw2_3",
+      "v5p_train_150_d1_tw3_1",
+      "v5p_train_150_d1_tw3_2",
+      "v5p_train_150_d1_tw3_3",
+      "v5p_train_150_d1_tw4_1",
+      "v5p_train_150_d1_tw4_2",
+      "v5p_train_150_d1_tw4_3",
+      "v5p_train_150_d2_tw0_1",
+      "v5p_train_150_d2_tw0_2",
+      "v5p_train_150_d2_tw0_3",
+      "v5p_train_150_d2_tw1_1",
+      "v5p_train_150_d2_tw1_2",
+      "v5p_train_150_d2_tw1_3",
+      "v5p_train_150_d2_tw2_1",
+      "v5p_train_150_d2_tw2_2",
+      "v5p_train_150_d2_tw2_3",
+      "v5p_train_150_d2_tw3_1",
+      "v5p_train_150_d2_tw3_2",
+      "v5p_train_150_d2_tw3_3",
+      "v5p_train_150_d2_tw4_1",
+      "v5p_train_150_d2_tw4_2",
+      "v5p_train_150_d2_tw4_3",
+      "v5p_train_250_d0_tw0_1",
+      "v5p_train_250_d0_tw0_2",
+      "v5p_train_250_d0_tw0_3",
+      "v5p_train_250_d0_tw1_1",
+      "v5p_train_250_d0_tw1_2",
+      "v5p_train_250_d0_tw1_3",
+      "v5p_train_250_d0_tw2_1",
+      "v5p_train_250_d0_tw2_2",
+      "v5p_train_250_d0_tw2_3",
+      "v5p_train_250_d0_tw3_1",
+      "v5p_train_250_d0_tw3_2",
+      "v5p_train_250_d0_tw3_3",
+      "v5p_train_250_d0_tw4_1",
+      "v5p_train_250_d0_tw4_2",
+      "v5p_train_250_d0_tw4_3",
+      "v5p_train_250_d1_tw0_1",
+      "v5p_train_250_d1_tw0_2",
+      "v5p_train_250_d1_tw0_3",
+      "v5p_train_250_d1_tw1_1",
+      "v5p_train_250_d1_tw1_2",
+      "v5p_train_250_d1_tw1_3",
+      "v5p_train_250_d1_tw2_1",
+      "v5p_train_250_d1_tw2_2",
+      "v5p_train_250_d1_tw2_3",
+      "v5p_train_250_d1_tw3_1",
+      "v5p_train_250_d1_tw3_2",
+      "v5p_train_250_d1_tw3_3",
+      "v5p_train_250_d1_tw4_1",
+      "v5p_train_250_d1_tw4_2",
+      "v5p_train_250_d1_tw4_3",
+      "v5p_train_250_d2_tw0_1",
+      "v5p_train_250_d2_tw0_2",
+      "v5p_train_250_d2_tw0_3",
+      "v5p_train_250_d2_tw1_1",
+      "v5p_train_250_d2_tw1_2",
+      "v5p_train_250_d2_tw1_3",
+      "v5p_train_250_d2_tw2_1",
+      "v5p_train_250_d2_tw2_2",
+      "v5p_train_250_d2_tw2_3",
+      "v5p_train_250_d2_tw3_1",
+      "v5p_train_250_d2_tw3_2",
+      "v5p_train_250_d2_tw3_3",
+      "v5p_train_250_d2_tw4_1",
+      "v5p_train_250_d2_tw4_2",
+      "v5p_train_250_d2_tw4_3"
+    ],
+    "validation": [
+      "v5p_validation_50_d0_tw0_0",
+      "v5p_validation_50_d0_tw1_0",
+      "v5p_validation_50_d0_tw2_0",
+      "v5p_validation_50_d0_tw3_0",
+      "v5p_validation_50_d0_tw4_0",
+      "v5p_validation_50_d1_tw0_0",
+      "v5p_validation_50_d1_tw1_0",
+      "v5p_validation_50_d1_tw2_0",
+      "v5p_validation_50_d1_tw3_0",
+      "v5p_validation_50_d1_tw4_0",
+      "v5p_validation_50_d2_tw0_0",
+      "v5p_validation_50_d2_tw1_0",
+      "v5p_validation_50_d2_tw2_0",
+      "v5p_validation_50_d2_tw3_0",
+      "v5p_validation_50_d2_tw4_0",
+      "v5p_validation_150_d0_tw0_0",
+      "v5p_validation_150_d0_tw1_0",
+      "v5p_validation_150_d0_tw2_0",
+      "v5p_validation_150_d0_tw3_0",
+      "v5p_validation_150_d0_tw4_0",
+      "v5p_validation_150_d1_tw0_0",
+      "v5p_validation_150_d1_tw1_0",
+      "v5p_validation_150_d1_tw2_0",
+      "v5p_validation_150_d1_tw3_0",
+      "v5p_validation_150_d1_tw4_0",
+      "v5p_validation_150_d2_tw0_0",
+      "v5p_validation_150_d2_tw1_0",
+      "v5p_validation_150_d2_tw2_0",
+      "v5p_validation_150_d2_tw3_0",
+      "v5p_validation_150_d2_tw4_0",
+      "v5p_validation_250_d0_tw0_0",
+      "v5p_validation_250_d0_tw1_0",
+      "v5p_validation_250_d0_tw2_0",
+      "v5p_validation_250_d0_tw3_0",
+      "v5p_validation_250_d0_tw4_0",
+      "v5p_validation_250_d1_tw0_0",
+      "v5p_validation_250_d1_tw1_0",
+      "v5p_validation_250_d1_tw2_0",
+      "v5p_validation_250_d1_tw3_0",
+      "v5p_validation_250_d1_tw4_0",
+      "v5p_validation_250_d2_tw0_0",
+      "v5p_validation_250_d2_tw1_0",
+      "v5p_validation_250_d2_tw2_0",
+      "v5p_validation_250_d2_tw3_0",
+      "v5p_validation_250_d2_tw4_0"
+    ],
+    "test": [
+      "50-0-0",
+      "50-0-1",
+      "50-0-2",
+      "50-0-3",
+      "50-0-4",
+      "50-1-0",
+      "50-1-1",
+      "50-1-2",
+      "50-1-3",
+      "50-1-4",
+      "50-2-0",
+      "50-2-1",
+      "50-2-2",
+      "50-2-3",
+      "50-2-4",
+      "150-0-0",
+      "150-0-1",
+      "150-0-2",
+      "150-0-3",
+      "150-0-4",
+      "150-1-0",
+      "150-1-1",
+      "150-1-2",
+      "150-1-3",
+      "150-1-4",
+      "150-2-0",
+      "150-2-1",
+      "150-2-2",
+      "150-2-3",
+      "150-2-4",
+      "250-0-0",
+      "250-0-1",
+      "250-0-2",
+      "250-0-3",
+      "250-0-4",
+      "250-1-0",
+      "250-1-1",
+      "250-1-2",
+      "250-1-3",
+      "250-1-4",
+      "250-2-0",
+      "250-2-1",
+      "250-2-2",
+      "250-2-3",
+      "250-2-4"
+    ]
+  },
+  "distribution_receipt": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\v5_parallel_meta_20261025\\formal\\data\\distribution_acceptance.json",
+  "source_manifest": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\v5_parallel_meta_20261025\\formal\\data\\manifest.json",
+  "disclosure": "50-0-0 previously trialed with frozenV4.3; realworld45 is not called unseen blind test. No real solver outcomes used to fit/generate/select inputs."
+}

@@ -1,0 +1,28 @@
+{
+  "workers": 3,
+  "pin_cores": true,
+  "physical_cores": [
+    0,
+    1,
+    2
+  ],
+  "cpu_affinity_per_worker": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "cpu_numerical_threads": 1,
+  "preparation_verified": true,
+  "benchmark": "v5_eval_parallel_benchmark_20261026",
+  "selection": "3 physical cores: lower contention; 4/5/6 show throughput loss; 9 RAM pressure",
+  "ideal_search_hours": 42.27037037037037
+}

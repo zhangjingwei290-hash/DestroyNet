@@ -1,0 +1,3918 @@
+{
+  "frozen_validation_weights_verified": true,
+  "config": {
+    "version": "v4_3_continuous_cudagraph_20261025",
+    "project_root": "D:\\WorkSpace\\versions\\version0.7",
+    "study_root": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013",
+    "split_manifest": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v4_3_continuous_cudagraph_20261025\\split.json",
+    "device": "cuda",
+    "seed": 20261024,
+    "hidden_dim": 128,
+    "near_neighbors": 10,
+    "episode_steps": 150,
+    "learning_rate": 0.003,
+    "entropy_weight": 0.001,
+    "clip_epsilon": 0.2,
+    "ppo_epochs": 2,
+    "task_count": 5,
+    "replicas": 4,
+    "inner_updates": 4,
+    "microbatch": 8,
+    "meta_step_size": 1.0,
+    "cpu_threads": 1,
+    "meta_seconds": 2100,
+    "adaptation_seconds": 1500,
+    "repair_seconds": 2.0,
+    "local_seconds": 2.0,
+    "solve_seconds_by_n": {
+      "50": 10.0,
+      "150": 15.0,
+      "250": 20.0
+    }
+  },
+  "wall_seconds": 4949.6839934000745,
+  "comparison": [
+    {
+      "iid": "hemtv2_train_50_C_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.5326663028212899,
+      "heuristic_hv": 0.5911687708943248,
+      "ppo_hv": 0.5902559119040701,
+      "hv_gap_percent": 0.1544159697193997,
+      "ppo_hv_gain_percent": 10.811573545717907,
+      "heuristic_hv_gain_percent": 10.982948942550731,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2126.672698389877,
+          15338.724383213774,
+          1146.6153103159913,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1343.7295794532774,
+          15338.724383213774,
+          400.7563157262517,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          782.9431189365996,
+          0.0,
+          745.8589945897396,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          36.81540274295019,
+          0.0,
+          65.0487559235705,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2126.672698389877,
+          15338.724383213774,
+          1146.6153103159913,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1329.0710911169829,
+          15338.724383213774,
+          971.4270934935936,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          797.6016072728942,
+          0.0,
+          175.18821682239775,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          37.50467139944786,
+          0.0,
+          15.278726460936431,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_R_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.4201266708212283,
+      "heuristic_hv": 0.4695961756783058,
+      "ppo_hv": 0.4723316328093621,
+      "hv_gap_percent": -0.58251265081217,
+      "ppo_hv_gain_percent": 12.42600520602225,
+      "heuristic_hv_gain_percent": 11.774902259925248,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          3330.2726372461025,
+          18680.064063688056,
+          1166.5797722653333,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2055.3566927532484,
+          18558.860072963787,
+          677.277791524089,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1274.9159444928541,
+          121.2039907242688,
+          489.3019807412443,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          38.28262978334166,
+          0.6488414082041385,
+          41.943293752735734,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          3330.2726372461025,
+          18680.064063688056,
+          1166.5797722653333,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2115.7197625280824,
+          18558.860072963787,
+          806.0286844757088,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1214.5528747180201,
+          121.2039907242688,
+          360.5510877896245,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          36.47007338481358,
+          0.6488414082041385,
+          30.90668091128352,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_RC_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.4804634195100081,
+      "heuristic_hv": 0.5375369506459086,
+      "ppo_hv": 0.5395154345630765,
+      "hv_gap_percent": -0.3680647283485473,
+      "ppo_hv_gain_percent": 12.290637050639885,
+      "heuristic_hv_gain_percent": 11.878850463601553,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2921.2565006111386,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1958.0892212005792,
+          16526.428962286507,
+          293.1033948744555,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          963.1672794105593,
+          351.27256052410667,
+          622.8944503485704,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          32.97099310550309,
+          2.081281980543106,
+          68.0017375146673,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2921.2565006111386,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1994.7587909023393,
+          16526.428962286507,
+          915.9978452230259,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          926.4977097087992,
+          351.27256052410667,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          31.715726075918777,
+          2.081281980543106,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_C_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.5239564762221126,
+      "heuristic_hv": 0.5991234459560241,
+      "ppo_hv": 0.6029378046364872,
+      "hv_gap_percent": -0.6366565532044073,
+      "ppo_hv_gain_percent": 15.074024656371122,
+      "heuristic_hv_gain_percent": 14.346033143036696,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          6890.881617714199,
+          16013.633692281219,
+          3317.577011237661,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4261.900963971209,
+          15442.243756383356,
+          3317.577011237661,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2628.9806537429895,
+          571.3899358978633,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          38.151586394761765,
+          3.5681466610122397,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          6890.881617714199,
+          16013.633692281219,
+          3317.577011237661,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4338.399385703019,
+          15442.243756383356,
+          3317.577011237661,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2552.48223201118,
+          571.3899358978633,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          37.04144656105518,
+          3.5681466610122397,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_R_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.40777356871929377,
+      "heuristic_hv": 0.48191926193974066,
+      "ppo_hv": 0.48886498152439034,
+      "hv_gap_percent": -1.4412620812650094,
+      "ppo_hv_gain_percent": 19.886382793220932,
+      "heuristic_hv_gain_percent": 18.183055231686158,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10878.189041633686,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5388.49404008231,
+          18635.033333528987,
+          3114.7341196625457,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5489.695001551377,
+          292.37381111321884,
+          4.547473508864641e-13,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          50.465155372285516,
+          1.5447113747747603,
+          1.4599877017295203e-14,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10878.189041633686,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5803.622689555954,
+          18635.033333528987,
+          2791.3625086819106,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5074.5663520777325,
+          292.37381111321884,
+          323.3716109806355,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          46.64899950401702,
+          1.5447113747747603,
+          10.381997260673728,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_RC_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.4090573206192944,
+      "heuristic_hv": 0.47036266433689283,
+      "ppo_hv": 0.4741544777945288,
+      "hv_gap_percent": -0.8061467767603492,
+      "ppo_hv_gain_percent": 15.91394503750238,
+      "heuristic_hv_gain_percent": 14.986981194905619,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10083.209586339637,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5300.1607527486985,
+          18964.141652833587,
+          3393.40961458757,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4783.048833590939,
+          14.012536215836008,
+          28.556384368884665,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          47.4357771960908,
+          0.07383508467815787,
+          0.8345022825356264,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10083.209586339637,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5577.12176200123,
+          18964.141652833587,
+          3421.9659989564548,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4506.087824338407,
+          14.012536215836008,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          44.689022733823656,
+          0.07383508467815787,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_C_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.3882443113685668,
+      "heuristic_hv": 0.4670606998131823,
+      "ppo_hv": 0.4778039810766259,
+      "hv_gap_percent": -2.3001895187800545,
+      "ppo_hv_gain_percent": 23.067863993257234,
+      "heuristic_hv_gain_percent": 20.300719453373734,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          15940.58349642291,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8639.744879454047,
+          18468.17341698022,
+          4151.362153451987,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7300.838616968864,
+          459.40526645049613,
+          1243.3502304018211,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          45.800322294395194,
+          2.4271739884651042,
+          23.047572176843502,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          15940.58349642291,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9414.815635743675,
+          18487.70687239307,
+          5394.712383853808,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          6525.767860679236,
+          439.87181103764306,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          40.938073955345665,
+          2.323972962387993,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_R_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.3798641512649568,
+      "heuristic_hv": 0.44517897179174565,
+      "ppo_hv": 0.4463312566503935,
+      "hv_gap_percent": -0.2588363178993361,
+      "ppo_hv_gain_percent": 17.497598855827704,
+      "heuristic_hv_gain_percent": 17.19425755478344,
+      "ppo_objective_minima": {
+        "initial": [
+          46.0,
+          17489.338298359526,
+          20049.60097334756,
+          5226.130734749087,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9149.387926115129,
+          19789.737005167644,
+          4482.369001597477,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8339.950372244397,
+          259.8639681799141,
+          743.7617331516103,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          47.685911439123295,
+          1.2961054363393956,
+          14.231594479760352,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          46.0,
+          17489.338298359526,
+          20049.60097334756,
+          5226.130734749087,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9273.271220736262,
+          19789.737005167644,
+          5226.1307347490865,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8216.067077623264,
+          259.8639681799141,
+          9.094947017729282e-13,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          46.977575351686795,
+          1.2961054363393956,
+          1.7402831041435748e-14,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_RC_9",
+      "search_seed": 20261024,
+      "initial_hv": 0.4127585186633152,
+      "heuristic_hv": 0.4831492794276049,
+      "ppo_hv": 0.48401514164634096,
+      "hv_gap_percent": -0.17921215152424141,
+      "ppo_hv_gain_percent": 17.26351359477317,
+      "heuristic_hv_gain_percent": 17.053739070545273,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16220.033974102404,
+          19010.755401064063,
+          4884.139566652173,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8536.9659441453,
+          18751.982958962293,
+          3502.3111661670514,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7683.068029957103,
+          258.77244210177014,
+          1381.8284004851216,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          47.367767800142815,
+          1.3611896878505219,
+          28.29215630773414,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16220.033974102404,
+          19010.755401064063,
+          4884.139566652173,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8393.917202040057,
+          18751.982958962293,
+          4884.139566652173,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7826.116772062347,
+          258.77244210177014,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          48.24969407929637,
+          1.3611896878505219,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_C_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.533638476253978,
+      "heuristic_hv": 0.5900371382646883,
+      "ppo_hv": 0.5915725931830693,
+      "hv_gap_percent": -0.2602302158296061,
+      "ppo_hv_gain_percent": 10.85643549089185,
+      "heuristic_hv_gain_percent": 10.56870231820918,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2113.2708633772377,
+          15338.724383213774,
+          1293.9730184658338,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1323.7078916787984,
+          15338.724383213774,
+          476.0363586891749,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          789.5629716984392,
+          0.0,
+          817.9366597766589,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          37.36212831878216,
+          0.0,
+          63.21126083033978,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2113.2708633772377,
+          15338.724383213774,
+          1293.9730184658338,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1339.2795878944528,
+          15338.724383213774,
+          369.8177510219417,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          773.9912754827849,
+          0.0,
+          924.1552674438921,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          36.6252754862603,
+          0.0,
+          71.41997972566641,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_R_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.42199022999873603,
+      "heuristic_hv": 0.47027373305111986,
+      "ppo_hv": 0.47053933081247945,
+      "hv_gap_percent": -0.05647726902295895,
+      "ppo_hv_gain_percent": 11.504792614248164,
+      "heuristic_hv_gain_percent": 11.44185329895634,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          3281.2827865789495,
+          18680.064063688056,
+          1149.623363590552,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2116.8858486421627,
+          18558.860072963787,
+          912.9148795380192,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1164.3969379367868,
+          121.2039907242688,
+          236.70848405253264,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          35.486028290502254,
+          0.6488414082041385,
+          20.590089898071906,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          3281.2827865789495,
+          18680.064063688056,
+          1149.623363590552,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2106.267962078141,
+          18558.860072963787,
+          1046.8271213913713,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1175.0148245008086,
+          121.2039907242688,
+          102.7962421991806,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          35.80961779054324,
+          0.6488414082041385,
+          8.941732175494682,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_RC_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.4749795760356243,
+      "heuristic_hv": 0.5365759951090234,
+      "ppo_hv": 0.5392457321180775,
+      "hv_gap_percent": -0.4975505861963866,
+      "ppo_hv_gain_percent": 13.530298843340812,
+      "heuristic_hv_gain_percent": 12.968224778738549,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          3030.2255158773323,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1977.9572078748245,
+          16526.428962286507,
+          149.05850437315144,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1052.2683080025079,
+          351.27256052410667,
+          766.9393408498745,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          34.72574244025688,
+          2.081281980543106,
+          83.7271992340922,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          3030.2255158773323,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2011.1959182060232,
+          16526.428962286507,
+          367.8461068542749,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1019.0295976713091,
+          351.27256052410667,
+          548.151738368751,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          33.62883694074738,
+          2.081281980543106,
+          59.84203360601659,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_C_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.5230142212840554,
+      "heuristic_hv": 0.5943661896443728,
+      "ppo_hv": 0.6017933110664019,
+      "hv_gap_percent": -1.2495867953850015,
+      "ppo_hv_gain_percent": 15.062513900470137,
+      "heuristic_hv_gain_percent": 13.64245281612817,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          6940.502143223141,
+          16013.633692281219,
+          3317.577011237661,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4320.31803944348,
+          15442.243756383356,
+          2147.3292115622685,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2620.1841037796603,
+          571.3899358978633,
+          1170.2477996753923,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          37.75208262615502,
+          3.5681466610122397,
+          35.27417135190534,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          6940.502143223141,
+          16013.633692281219,
+          3317.577011237661,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4576.329323162603,
+          15442.243756383356,
+          3317.577011237661,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2364.1728200605376,
+          571.3899358978633,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          34.063426122113775,
+          3.5681466610122397,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_R_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.40911140274821595,
+      "heuristic_hv": 0.486418612984194,
+      "ppo_hv": 0.4884420071557545,
+      "hv_gap_percent": -0.41597794935249516,
+      "ppo_hv_gain_percent": 19.390954120230635,
+      "heuristic_hv_gain_percent": 18.896371432491232,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10766.353513675534,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5409.467130928908,
+          18635.033333528987,
+          1971.549936751492,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5356.886382746627,
+          292.37381111321884,
+          1143.1841829110542,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          49.75580985653363,
+          1.5447113747747603,
+          36.702464447749016,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10766.353513675534,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5503.72411183272,
+          18635.033333528987,
+          3114.7341196625457,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5262.629401842814,
+          292.37381111321884,
+          4.547473508864641e-13,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          48.880332557891286,
+          1.5447113747747603,
+          1.4599877017295203e-14,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_RC_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.4112154709970797,
+      "heuristic_hv": 0.4724231248852544,
+      "ppo_hv": 0.47486798341502456,
+      "hv_gap_percent": -0.5175145755966098,
+      "ppo_hv_gain_percent": 15.47911421318992,
+      "heuristic_hv_gain_percent": 14.884569819263767,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          9908.702897011412,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5228.125441990357,
+          18964.141652833587,
+          2314.9535505266654,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4680.577455021054,
+          14.012536215836008,
+          1107.0124484297894,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          47.2370349950928,
+          0.07383508467815787,
+          32.35018842289427,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          9908.702897011412,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5392.903962617642,
+          18964.141652833587,
+          3415.5162792859114,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4515.79893439377,
+          14.012536215836008,
+          6.449719670543345,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          45.57406737622329,
+          0.07383508467815787,
+          0.18847994610438032,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_C_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.38706516801073826,
+      "heuristic_hv": 0.4722157578866933,
+      "ppo_hv": 0.4793947979547215,
+      "hv_gap_percent": -1.5202881200230527,
+      "ppo_hv_gain_percent": 23.853768712513485,
+      "heuristic_hv_gain_percent": 21.999031923635325,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16078.848066520066,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8575.22626885291,
+          18468.17341698022,
+          5394.712383853808,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7503.621797667156,
+          459.40526645049613,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          46.66765782364383,
+          2.4271739884651042,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16078.848066520066,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8789.82653097893,
+          18572.569775678712,
+          5394.712383853808,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7289.0215355411365,
+          355.0089077520024,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          45.332983466138906,
+          1.8756171282636314,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_R_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.38122202131818955,
+      "heuristic_hv": 0.44495696465332507,
+      "ppo_hv": 0.44790175574460755,
+      "hv_gap_percent": -0.6618148102427905,
+      "ppo_hv_gain_percent": 17.491050017481363,
+      "heuristic_hv_gain_percent": 16.71858910845518,
+      "ppo_objective_minima": {
+        "initial": [
+          46.0,
+          17273.665533974076,
+          20049.60097334756,
+          5226.130734749087,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8942.323251058197,
+          19789.737005167644,
+          3758.881771702126,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8331.342282915879,
+          259.8639681799141,
+          1467.2489630469613,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          48.23146694909476,
+          1.2961054363393956,
+          28.07524414364666,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          46.0,
+          17273.665533974076,
+          20049.60097334756,
+          5226.130734749087,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9190.394767238478,
+          19789.737005167644,
+          5122.920568309253,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8083.270766735597,
+          259.8639681799141,
+          103.21016643983421,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          46.79534144526136,
+          1.2961054363393956,
+          1.9748868078170925,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_RC_9",
+      "search_seed": 20261025,
+      "initial_hv": 0.4120292332826953,
+      "heuristic_hv": 0.4837988664488204,
+      "ppo_hv": 0.4835991643482751,
+      "hv_gap_percent": 0.04127791824134916,
+      "ppo_hv_gain_percent": 17.370110002965568,
+      "heuristic_hv_gain_percent": 17.41857794757092,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16317.878811354323,
+          19010.755401064063,
+          4996.866050728193,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8472.68127520382,
+          18751.982958962293,
+          4996.866050728193,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7845.197536150503,
+          258.77244210177014,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          48.07731217302368,
+          1.3611896878505219,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16317.878811354323,
+          19010.755401064063,
+          4996.866050728193,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8655.893022718124,
+          18751.982958962293,
+          3548.9608700497583,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7661.985788636199,
+          258.77244210177014,
+          1447.9051806784346,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          46.954545239696394,
+          1.3611896878505219,
+          28.976265642890937,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_C_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.5325028404795004,
+      "heuristic_hv": 0.5929026886106241,
+      "ppo_hv": 0.5895449397180833,
+      "hv_gap_percent": 0.5663237757293998,
+      "ppo_hv_gain_percent": 10.71207417170179,
+      "heuristic_hv_gain_percent": 11.342633980456478,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2129.4196919758574,
+          15338.724383213774,
+          1200.11953252159,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1352.4089118339248,
+          15338.724383213774,
+          539.3351931890988,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          777.0107801419326,
+          0.0,
+          660.7843393324911,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          36.489320685343884,
+          0.0,
+          55.05987707275347,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2129.4196919758574,
+          15338.724383213774,
+          1200.11953252159,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1294.4713394763703,
+          15338.724383213774,
+          586.1763763166242,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          834.9483524994871,
+          0.0,
+          613.9431562049657,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          39.210135777637646,
+          0.0,
+          51.15683392928371,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_R_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.42568348640547293,
+      "heuristic_hv": 0.47028435457305423,
+      "ppo_hv": 0.47017102214337914,
+      "hv_gap_percent": 0.024098702959825916,
+      "ppo_hv_gain_percent": 10.450848378818915,
+      "heuristic_hv_gain_percent": 10.47747201663773,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          3288.1454730974247,
+          18558.860072963787,
+          1166.5797722653333,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2128.431379306266,
+          18558.860072963787,
+          605.2673182906651,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1159.7140937911586,
+          0.0,
+          561.3124539746682,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          35.269549455143505,
+          0.0,
+          48.11607978464075,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          3288.1454730974247,
+          18558.860072963787,
+          1166.5797722653333,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2079.799325565971,
+          18558.860072963787,
+          903.2801638551186,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1208.3461475314539,
+          0.0,
+          263.29960841021466,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          36.74856107850955,
+          0.0,
+          22.570218914298845,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_RC_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.47816429570640306,
+      "heuristic_hv": 0.5362841361980312,
+      "ppo_hv": 0.5392704417440142,
+      "hv_gap_percent": -0.5568513674773822,
+      "ppo_hv_gain_percent": 12.779320117855642,
+      "heuristic_hv_gain_percent": 12.154784665753082,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2967.0262380590834,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1971.4903086844138,
+          16526.428962286507,
+          185.56412828297425,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          995.5359293746696,
+          351.27256052410667,
+          730.4337169400517,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          33.553324086069146,
+          2.081281980543106,
+          79.7418597379131,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2967.0262380590834,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2012.7569123961944,
+          16526.428962286507,
+          328.62393636671686,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          954.2693256628891,
+          351.27256052410667,
+          587.3739088563091,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          32.162483547403205,
+          2.081281980543106,
+          64.12394002010954,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_C_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.5122462671272272,
+      "heuristic_hv": 0.602684597186614,
+      "ppo_hv": 0.6013525520253943,
+      "hv_gap_percent": 0.2210186169412443,
+      "ppo_hv_gain_percent": 17.395204341437523,
+      "heuristic_hv_gain_percent": 17.65524433522608,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          6932.148267775819,
+          16343.406149525228,
+          3257.111294078883,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4328.710473776593,
+          15442.243756383356,
+          2992.3722469418217,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2603.4377939992255,
+          901.1623931418726,
+          264.73904713706133,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          37.556002748835304,
+          5.513920322955758,
+          8.12803196557427,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          6932.148267775819,
+          16343.406149525228,
+          3257.111294078883,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4250.237941786078,
+          15442.243756383356,
+          3257.111294078883,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2681.91032598974,
+          901.1623931418726,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          38.68801160033802,
+          5.513920322955758,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_R_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.4088570933263447,
+      "heuristic_hv": 0.48703664321230145,
+      "ppo_hv": 0.4865507036084728,
+      "hv_gap_percent": 0.09977475218775711,
+      "ppo_hv_gain_percent": 19.002632350104307,
+      "heuristic_hv_gain_percent": 19.121485517081346,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10787.599442700244,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5546.389494092625,
+          18635.033333528987,
+          2865.0459561661137,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5241.2099486076195,
+          292.37381111321884,
+          249.68816349643248,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          48.58550761406184,
+          1.5447113747747603,
+          8.016355615081649,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10787.599442700244,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5491.606536658237,
+          18635.033333528987,
+          3114.734119662546,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5295.992906042007,
+          292.37381111321884,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          49.09334031331411,
+          1.5447113747747603,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_RC_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.41076228803249837,
+      "heuristic_hv": 0.47059527953372504,
+      "ppo_hv": 0.47441189186032434,
+      "hv_gap_percent": -0.8110179792667861,
+      "ppo_hv_gain_percent": 15.49548380711868,
+      "heuristic_hv_gain_percent": 14.56633027043925,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          9985.319136629794,
+          18964.141652833587,
+          3160.0245455969593,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5333.752938315202,
+          18964.141652833587,
+          3160.0245455969593,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4651.566198314592,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          46.58405139251834,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          9985.319136629794,
+          18964.141652833587,
+          3160.0245455969593,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5525.89884030348,
+          18964.141652833587,
+          3160.0245455969593,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4459.420296326314,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          44.65976735753525,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_C_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.38651960427800985,
+      "heuristic_hv": 0.47045752951841696,
+      "ppo_hv": 0.47911275958399246,
+      "hv_gap_percent": -1.8397473783521787,
+      "ppo_hv_gain_percent": 23.955616812487378,
+      "heuristic_hv_gain_percent": 21.716343572584623,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16130.151889551056,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8556.125346456585,
+          18468.17341698022,
+          3165.3346300054764,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7574.026543094471,
+          459.40526645049613,
+          2229.377753848332,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          46.95570503586421,
+          2.4271739884651042,
+          41.32523840419712,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16130.151889551056,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8400.534642570681,
+          18572.569775678712,
+          5394.712383853808,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7729.617246980375,
+          355.0089077520024,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          47.920300440490834,
+          1.8756171282636314,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_R_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.3803008564517104,
+      "heuristic_hv": 0.44825643713021646,
+      "ppo_hv": 0.4485291705670714,
+      "hv_gap_percent": -0.06084317240395552,
+      "ppo_hv_gain_percent": 17.940615425362434,
+      "heuristic_hv_gain_percent": 17.868900247174402,
+      "ppo_objective_minima": {
+        "initial": [
+          46.0,
+          17422.485534544365,
+          20049.60097334756,
+          5118.202447954028,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8897.3826482451,
+          19789.737005167644,
+          3300.8421992126437,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8525.102886299264,
+          259.8639681799141,
+          1817.360248741384,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          48.93161121813618,
+          1.2961054363393956,
+          35.5077835865571,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          46.0,
+          17422.485534544365,
+          20049.60097334756,
+          5118.202447954028,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8759.69075722958,
+          19789.737005167644,
+          5118.202447954028,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8662.794777314784,
+          259.8639681799141,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          49.721922627736795,
+          1.2961054363393956,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_RC_9",
+      "search_seed": 20261026,
+      "initial_hv": 0.4128717563307361,
+      "heuristic_hv": 0.4870246435924774,
+      "ppo_hv": 0.4868452361734178,
+      "hv_gap_percent": 0.036837441681843525,
+      "ppo_hv_gain_percent": 17.91681768210474,
+      "heuristic_hv_gain_percent": 17.96027122822618,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16203.928585828562,
+          19010.755401064063,
+          4996.866050728193,
+          0.0
+        ],
+        "final": [
+          44.0,
+          8130.239701069242,
+          18751.982958962293,
+          2691.179995075384,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8073.68888475932,
+          258.77244210177014,
+          2305.686055652809,
+          0.0
+        ],
+        "improvement_percent": [
+          6.382978723404255,
+          49.82550275999309,
+          1.3611896878505219,
+          46.14264285345015,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16203.928585828562,
+          19010.755401064063,
+          4996.866050728193,
+          0.0
+        ],
+        "final": [
+          43.0,
+          7873.753890025441,
+          18751.982958962293,
+          4996.866050728193,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          8330.174695803122,
+          258.77244210177014,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          51.40836465478147,
+          1.3611896878505219,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_C_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.5341589507789419,
+      "heuristic_hv": 0.5907835427050891,
+      "ppo_hv": 0.592163827188482,
+      "hv_gap_percent": -0.23363624468495212,
+      "ppo_hv_gain_percent": 10.859104078468402,
+      "heuristic_hv_gain_percent": 10.600700754630044,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2091.3616401403865,
+          15338.724383213774,
+          1192.330784320612,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1315.1974738253034,
+          15338.724383213774,
+          502.0366666781557,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          776.1641663150831,
+          0.0,
+          690.2941176424564,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          37.1128623293952,
+          0.0,
+          57.894514401537045,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2091.3616401403865,
+          15338.724383213774,
+          1192.330784320612,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1336.7834966113858,
+          15338.724383213774,
+          527.9377806722201,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          754.5781435290007,
+          0.0,
+          664.393003648392,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          36.08071072195568,
+          0.0,
+          55.72220497745195,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_R_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.42206435014203714,
+      "heuristic_hv": 0.46862724267346967,
+      "ppo_hv": 0.47058809668827284,
+      "hv_gap_percent": -0.41842510128448834,
+      "ppo_hv_gain_percent": 11.49676501460169,
+      "heuristic_hv_gain_percent": 11.032178509216129,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          3281.422457479137,
+          18680.064063688056,
+          1053.8974299274205,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2121.875227579449,
+          18558.860072963787,
+          205.53478663467058,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1159.5472298996879,
+          121.2039907242688,
+          848.3626432927499,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          35.33672500036701,
+          0.6488414082041385,
+          80.49764798754417,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          3281.422457479137,
+          18680.064063688056,
+          1053.8974299274205,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2156.157182005715,
+          18558.860072963787,
+          782.7714253963777,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1125.2652754734218,
+          121.2039907242688,
+          271.1260045310428,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          34.29199653670549,
+          0.6488414082041385,
+          25.72603337211996,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_RC_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.4777868180914196,
+      "heuristic_hv": 0.5359500470606156,
+      "ppo_hv": 0.5386584196532539,
+      "hv_gap_percent": -0.5053404897512821,
+      "ppo_hv_gain_percent": 12.740326701559844,
+      "heuristic_hv_gain_percent": 12.173468745231691,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2974.5907849344126,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1972.3979575684336,
+          16526.428962286507,
+          440.10074301083614,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1002.1928273659789,
+          351.27256052410667,
+          475.8971022121898,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          33.69178820972097,
+          2.081281980543106,
+          51.953954334501624,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2974.5907849344126,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2017.5187285322615,
+          16526.428962286507,
+          489.47361076673087,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          957.072056402151,
+          351.27256052410667,
+          426.52423445629506,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          32.17491499165166,
+          2.081281980543106,
+          46.56389058998774,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_C_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.5114663680442385,
+      "heuristic_hv": 0.5991135566590764,
+      "ppo_hv": 0.6008185576891254,
+      "hv_gap_percent": -0.28458728918718623,
+      "ppo_hv_gain_percent": 17.469807445317404,
+      "heuristic_hv_gain_percent": 17.13645199194348,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          6952.294497613344,
+          16354.83193870233,
+          3317.577011237661,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4355.740536563076,
+          15442.243756383356,
+          2824.1930921452704,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2596.5539610502683,
+          912.5881823189738,
+          493.38391909239044,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          37.34815839492473,
+          5.579930052105341,
+          14.87181510545637,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          6952.294497613344,
+          16354.83193870233,
+          3317.577011237661,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4258.93730813568,
+          15442.243756383356,
+          3317.5770112376604,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2693.357189477664,
+          912.5881823189738,
+          4.547473508864641e-13,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          38.74055091311606,
+          5.579930052105341,
+          1.3707213106013636e-14,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_R_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.40836831778140953,
+      "heuristic_hv": 0.4851801652874249,
+      "ppo_hv": 0.48828462517401316,
+      "hv_gap_percent": -0.6398571311646968,
+      "ppo_hv_gain_percent": 19.56966393151514,
+      "heuristic_hv_gain_percent": 18.80945317289062,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10828.181794229095,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5460.68834199883,
+          18635.033333528987,
+          3114.734119662546,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5367.493452230265,
+          292.37381111321884,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          49.56966510380241,
+          1.5447113747747603,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10828.181794229095,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5514.8958133558335,
+          18635.033333528987,
+          3114.734119662546,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5313.285980873261,
+          292.37381111321884,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          49.069050389466035,
+          1.5447113747747603,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_RC_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.40969458123351576,
+      "heuristic_hv": 0.47062999525030574,
+      "ppo_hv": 0.474029032505904,
+      "hv_gap_percent": -0.7222313260739941,
+      "ppo_hv_gain_percent": 15.70302713760307,
+      "heuristic_hv_gain_percent": 14.873375633459574,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10031.713817652644,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5320.75138535324,
+          18964.141652833587,
+          2747.9151213524547,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4710.962432299404,
+          14.012536215836008,
+          674.0508776040001,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          46.96069403424966,
+          0.07383508467815787,
+          19.69776665839331,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10031.713817652644,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5522.489379066425,
+          18964.141652833587,
+          2295.754057666599,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4509.22443858622,
+          14.012536215836008,
+          1126.211941289856,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          44.94969175308221,
+          0.07383508467815787,
+          32.91125457217576,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_C_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.3864442712101438,
+      "heuristic_hv": 0.4735543316341542,
+      "ppo_hv": 0.4764210579098657,
+      "hv_gap_percent": -0.6053637532611977,
+      "ppo_hv_gain_percent": 23.283250238892432,
+      "heuristic_hv_gain_percent": 22.541428845930803,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16146.118094364545,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8622.902601099944,
+          18468.17341698022,
+          4244.013909114297,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7523.215493264601,
+          459.40526645049613,
+          1150.6984747395109,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          46.59457740427662,
+          2.4271739884651042,
+          21.330117212244947,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16146.118094364545,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8962.322004326972,
+          18468.17341698022,
+          4341.929404507153,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7183.796090037573,
+          459.40526645049613,
+          1052.7829793466553,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          44.49240398250848,
+          2.4271739884651042,
+          19.515090044422003,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_R_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.3800262362691178,
+      "heuristic_hv": 0.43616063305654096,
+      "ppo_hv": 0.44740723848480163,
+      "hv_gap_percent": -2.5785466582452283,
+      "ppo_hv_gain_percent": 17.73061851655094,
+      "heuristic_hv_gain_percent": 14.771189836396257,
+      "ppo_objective_minima": {
+        "initial": [
+          46.0,
+          17463.99622195785,
+          20049.60097334756,
+          5226.130734749087,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8965.494253445853,
+          19789.737005167644,
+          5226.130734749087,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8498.501968511995,
+          259.8639681799141,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          48.66298561051365,
+          1.2961054363393956,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          46.0,
+          17463.99622195785,
+          20049.60097334756,
+          5226.130734749087,
+          0.0
+        ],
+        "final": [
+          43.0,
+          10235.38112178778,
+          19789.737005167644,
+          5226.130734749087,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          7228.615100170069,
+          259.8639681799141,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          41.391529225604046,
+          1.2961054363393956,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_RC_9",
+      "search_seed": 20261027,
+      "initial_hv": 0.412520217294656,
+      "heuristic_hv": 0.4878288808303852,
+      "ppo_hv": 0.4898407873577384,
+      "hv_gap_percent": -0.41242054466486067,
+      "ppo_hv_gain_percent": 18.743461973853677,
+      "heuristic_hv_gain_percent": 18.25575096164016,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16249.479378334687,
+          19010.755401064063,
+          4996.866050728193,
+          0.0
+        ],
+        "final": [
+          43.0,
+          7893.490154773505,
+          18751.982958962293,
+          3020.3304845158154,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          8355.98922356118,
+          258.77244210177014,
+          1976.5355662123775,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          51.42311965208043,
+          1.3611896878505219,
+          39.55550431303511,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16249.479378334687,
+          19010.755401064063,
+          4996.866050728193,
+          0.0
+        ],
+        "final": [
+          43.0,
+          7675.940190068598,
+          18751.982958962293,
+          4996.866050728193,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          8573.539188266088,
+          258.77244210177014,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          52.76193155884813,
+          1.3611896878505219,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_C_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.5313018066922148,
+      "heuristic_hv": 0.5914451858354595,
+      "ppo_hv": 0.5926331335300503,
+      "hv_gap_percent": -0.20085507888829782,
+      "ppo_hv_gain_percent": 11.543594632149437,
+      "heuristic_hv_gain_percent": 11.320002752801841,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2146.2434304494536,
+          15338.724383213774,
+          1185.7240185444975,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1304.017440857633,
+          15338.724383213774,
+          870.1561724980885,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          842.2259895918207,
+          0.0,
+          315.56784604640904,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          39.24186686574722,
+          0.0,
+          26.613937232525284,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2146.2434304494536,
+          15338.724383213774,
+          1185.7240185444975,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1327.494897412493,
+          15338.724383213774,
+          440.22009790560753,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          818.7485330369607,
+          0.0,
+          745.50392063889,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          38.147980859072604,
+          0.0,
+          62.873308542236714,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_R_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.42201785482443516,
+      "heuristic_hv": 0.4694433825292627,
+      "ppo_hv": 0.4697894522028858,
+      "hv_gap_percent": -0.07371915048808551,
+      "ppo_hv_gain_percent": 11.319804797909383,
+      "heuristic_hv_gain_percent": 11.237801235816711,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          3281.422457479137,
+          18680.064063688056,
+          1166.5797722653333,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2130.7731981252928,
+          18558.860072963787,
+          800.2380372041948,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1150.6492593538442,
+          121.2039907242688,
+          366.3417350611385,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          35.0655630070198,
+          0.6488414082041385,
+          31.403059076684873,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          3281.422457479137,
+          18680.064063688056,
+          1166.5797722653333,
+          0.0
+        ],
+        "final": [
+          9.0,
+          2129.726982152784,
+          18558.860072963787,
+          608.1113327148582,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          1151.695475326353,
+          121.2039907242688,
+          558.4684395504751,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          35.09744600855544,
+          0.6488414082041385,
+          47.87228896194627,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_50_RC_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.4783936279059179,
+      "heuristic_hv": 0.5368428023334828,
+      "ppo_hv": 0.5389248470559147,
+      "hv_gap_percent": -0.38783135647566086,
+      "ppo_hv_gain_percent": 12.653015345325846,
+      "heuristic_hv_gain_percent": 12.217799531196865,
+      "ppo_objective_minima": {
+        "initial": [
+          9.0,
+          2962.509406152064,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1978.2853994103843,
+          16526.428962286507,
+          429.00224723931615,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          984.2240067416797,
+          351.27256052410667,
+          486.9955979837098,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          33.22264579811295,
+          2.081281980543106,
+          53.16558336063954,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          9.0,
+          2962.509406152064,
+          16877.701522810614,
+          915.9978452230259,
+          0.0
+        ],
+        "final": [
+          9.0,
+          1996.3544297146398,
+          16526.428962286507,
+          501.2392866731541,
+          0.0
+        ],
+        "improvement": [
+          0.0,
+          966.1549764374242,
+          351.27256052410667,
+          414.75855854987185,
+          0.0
+        ],
+        "improvement_percent": [
+          0.0,
+          32.61272266110172,
+          2.081281980543106,
+          45.2794251332422,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_C_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.5117463681002857,
+      "heuristic_hv": 0.6009029740066528,
+      "ppo_hv": 0.601516869100682,
+      "hv_gap_percent": -0.10216209947105498,
+      "ppo_hv_gain_percent": 17.54199083691478,
+      "heuristic_hv_gain_percent": 17.42203002579889,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          6938.886235215545,
+          16354.83193870233,
+          3252.315934210235,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4349.316200511634,
+          15442.243756383356,
+          3252.315934210235,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2589.570034703911,
+          912.5881823189738,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          37.319678503469085,
+          5.579930052105341,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          6938.886235215545,
+          16354.83193870233,
+          3252.315934210235,
+          0.0
+        ],
+        "final": [
+          26.0,
+          4295.9151950515125,
+          15442.243756383356,
+          3252.315934210235,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          2642.9710401640323,
+          912.5881823189738,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          38.08926894853368,
+          5.579930052105341,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_R_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.40894911967165204,
+      "heuristic_hv": 0.48544030042509123,
+      "ppo_hv": 0.48859393099353365,
+      "hv_gap_percent": -0.6496433373333128,
+      "ppo_hv_gain_percent": 19.47548178752138,
+      "heuristic_hv_gain_percent": 18.704327035806916,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          10778.607766982388,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5415.930156188644,
+          18635.033333528987,
+          3114.7341196625457,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5362.677610793744,
+          292.37381111321884,
+          4.547473508864641e-13,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          49.75297113251478,
+          1.5447113747747603,
+          1.4599877017295203e-14,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          10778.607766982388,
+          18927.407144642206,
+          3114.734119662546,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5558.545879103806,
+          18635.033333528987,
+          2995.4498485321533,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          5220.061887878582,
+          292.37381111321884,
+          119.28427113039288,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          48.429834360138386,
+          1.5447113747747603,
+          3.8296774796083164,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_150_RC_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.4103911376046212,
+      "heuristic_hv": 0.4721386702599079,
+      "ppo_hv": 0.47293068107968406,
+      "hv_gap_percent": -0.16774961884400424,
+      "ppo_hv_gain_percent": 15.239009263234788,
+      "heuristic_hv_gain_percent": 15.046020003184251,
+      "ppo_objective_minima": {
+        "initial": [
+          28.0,
+          9968.941771784537,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5412.644595723493,
+          18964.141652833587,
+          3421.9659989564548,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4556.297176061044,
+          14.012536215836008,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          45.704923153999154,
+          0.07383508467815787,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          28.0,
+          9968.941771784537,
+          18978.154189049423,
+          3421.9659989564548,
+          0.0
+        ],
+        "final": [
+          26.0,
+          5409.23682970593,
+          18964.141652833587,
+          3421.9659989564548,
+          0.0
+        ],
+        "improvement": [
+          2.0,
+          4559.704942078607,
+          14.012536215836008,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          7.142857142857143,
+          45.739106983091304,
+          0.07383508467815787,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_C_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.3861273282483431,
+      "heuristic_hv": 0.47197673258597683,
+      "ppo_hv": 0.4794025569621118,
+      "hv_gap_percent": -1.5733454349430815,
+      "ppo_hv_gain_percent": 24.15659858547423,
+      "heuristic_hv_gain_percent": 22.233444270077275,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16180.382183597456,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8550.37791398122,
+          18468.17341698022,
+          3557.335908259334,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7630.004269616236,
+          459.40526645049613,
+          1837.3764755944744,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          47.1558964617721,
+          2.4271739884651042,
+          34.058840302472476,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16180.382183597456,
+          18927.578683430715,
+          5394.712383853808,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8416.282015480472,
+          18572.569775678712,
+          5394.712383853808,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7764.100168116984,
+          355.0089077520024,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          47.984652525622586,
+          1.8756171282636314,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_R_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.3809117143622758,
+      "heuristic_hv": 0.4443364202491316,
+      "ppo_hv": 0.44677873803804713,
+      "hv_gap_percent": -0.5496550986178785,
+      "ppo_hv_gain_percent": 17.291939625969825,
+      "heuristic_hv_gain_percent": 16.65076276087801,
+      "ppo_objective_minima": {
+        "initial": [
+          46.0,
+          17328.38416399735,
+          20049.60097334756,
+          5006.420963686566,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9068.329600320618,
+          19789.737005167644,
+          5006.420963686566,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8260.054563676733,
+          259.8639681799141,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          47.66777147541773,
+          1.2961054363393956,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          46.0,
+          17328.38416399735,
+          20049.60097334756,
+          5006.420963686566,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9194.638694325666,
+          19789.737005167644,
+          5006.420963686566,
+          0.0
+        ],
+        "improvement": [
+          3.0,
+          8133.745469671685,
+          259.8639681799141,
+          0.0,
+          0.0
+        ],
+        "improvement_percent": [
+          6.521739130434782,
+          46.93885703763953,
+          1.2961054363393956,
+          0.0,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    },
+    {
+      "iid": "hemtv2_train_250_RC_9",
+      "search_seed": 20261028,
+      "initial_hv": 0.4118603437281999,
+      "heuristic_hv": 0.4755138454746898,
+      "ppo_hv": 0.4876559544096286,
+      "hv_gap_percent": -2.553471166085136,
+      "ppo_hv_gain_percent": 18.403231055294004,
+      "heuristic_hv_gain_percent": 15.45511790970021,
+      "ppo_objective_minima": {
+        "initial": [
+          47.0,
+          16342.57684999983,
+          19010.755401064063,
+          4841.249223943543,
+          0.0
+        ],
+        "final": [
+          43.0,
+          8112.917782374727,
+          18751.982958962293,
+          4098.172849977491,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          8229.659067625103,
+          258.77244210177014,
+          743.0763739660524,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          50.35716914878812,
+          1.3611896878505219,
+          15.348856040936552,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      },
+      "heuristic_objective_minima": {
+        "initial": [
+          47.0,
+          16342.57684999983,
+          19010.755401064063,
+          4841.249223943543,
+          0.0
+        ],
+        "final": [
+          43.0,
+          9325.539153751606,
+          18751.982958962293,
+          4151.803462053917,
+          0.0
+        ],
+        "improvement": [
+          4.0,
+          7017.037696248224,
+          258.77244210177014,
+          689.4457618896258,
+          0.0
+        ],
+        "improvement_percent": [
+          8.51063829787234,
+          42.937155876053275,
+          1.3611896878505219,
+          14.241071467252889,
+          0.0
+        ],
+        "zero_initial_objectives": [
+          4
+        ],
+        "note": "Per-objective archive minima; may be different solutions"
+      }
+    }
+  ],
+  "mean_paired_hv_gap_percent": -0.58968610443882,
+  "training": {
+    "version": "v4_3_continuous_cudagraph_20261025",
+    "method": "ppo",
+    "meta_seconds": 2100.1668136999942,
+    "adaptation_seconds": 1489.8810672999825,
+    "meta_batches": 101,
+    "optimized_fit_ids": [
+      "hemtv2_train_150_C_4",
+      "hemtv2_train_150_C_5",
+      "hemtv2_train_150_C_6",
+      "hemtv2_train_150_C_7",
+      "hemtv2_train_150_RC_4",
+      "hemtv2_train_150_RC_5",
+      "hemtv2_train_150_RC_6",
+      "hemtv2_train_150_R_4",
+      "hemtv2_train_150_R_5",
+      "hemtv2_train_150_R_6",
+      "hemtv2_train_150_R_7",
+      "hemtv2_train_250_C_4",
+      "hemtv2_train_250_C_5",
+      "hemtv2_train_250_C_6",
+      "hemtv2_train_250_C_7",
+      "hemtv2_train_250_RC_4",
+      "hemtv2_train_250_RC_5",
+      "hemtv2_train_250_RC_6",
+      "hemtv2_train_250_R_4",
+      "hemtv2_train_250_R_5",
+      "hemtv2_train_250_R_6",
+      "hemtv2_train_250_R_7",
+      "hemtv2_train_50_C_4",
+      "hemtv2_train_50_C_5",
+      "hemtv2_train_50_C_6",
+      "hemtv2_train_50_C_7",
+      "hemtv2_train_50_RC_4",
+      "hemtv2_train_50_RC_5",
+      "hemtv2_train_50_RC_6",
+      "hemtv2_train_50_RC_7",
+      "hemtv2_train_50_R_4",
+      "hemtv2_train_50_R_5",
+      "hemtv2_train_50_R_6",
+      "hemtv2_train_50_R_7"
+    ],
+    "missing_fit_ids": [
+      "hemtv2_train_150_C_8",
+      "hemtv2_train_150_RC_7",
+      "hemtv2_train_150_RC_8",
+      "hemtv2_train_150_R_8",
+      "hemtv2_train_250_C_8",
+      "hemtv2_train_250_RC_7",
+      "hemtv2_train_250_RC_8",
+      "hemtv2_train_250_R_8",
+      "hemtv2_train_50_C_8",
+      "hemtv2_train_50_RC_8",
+      "hemtv2_train_50_R_8"
+    ],
+    "direction_updates": {
+      "15": 11,
+      "5": 10,
+      "6": 11,
+      "7": 10,
+      "8": 11,
+      "9": 11,
+      "10": 11,
+      "11": 11,
+      "12": 10,
+      "13": 11,
+      "14": 11,
+      "0": 10,
+      "1": 10,
+      "2": 11,
+      "3": 10,
+      "4": 8
+    },
+    "direction_spent": {
+      "15": 89.85816550045274,
+      "5": 90.89728959999047,
+      "6": 93.24562159972265,
+      "7": 92.46052730013616,
+      "8": 86.5192467996385,
+      "9": 92.04362870007753,
+      "10": 99.78436329984106,
+      "11": 95.98562599997967,
+      "12": 92.86745130061172,
+      "13": 86.7423012999352,
+      "14": 91.04729269980453,
+      "0": 87.87269840016961,
+      "1": 91.42501150048338,
+      "2": 91.82033710018732,
+      "3": 93.88246800005436,
+      "4": 61.26786979986355
+    },
+    "adaptation_initializations": [
+      {
+        "direction": 15,
+        "parent": null,
+        "parent_updates": 0,
+        "next_iid": 34
+      },
+      {
+        "direction": 5,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 38
+      },
+      {
+        "direction": 6,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 41
+      },
+      {
+        "direction": 7,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 45
+      },
+      {
+        "direction": 8,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 48
+      },
+      {
+        "direction": 9,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 52
+      },
+      {
+        "direction": 10,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 56
+      },
+      {
+        "direction": 11,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 59
+      },
+      {
+        "direction": 12,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 63
+      },
+      {
+        "direction": 13,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 66
+      },
+      {
+        "direction": 14,
+        "parent": 15,
+        "parent_updates": 11,
+        "next_iid": 70
+      },
+      {
+        "direction": 0,
+        "parent": 5,
+        "parent_updates": 10,
+        "next_iid": 74
+      },
+      {
+        "direction": 1,
+        "parent": 5,
+        "parent_updates": 10,
+        "next_iid": 77
+      },
+      {
+        "direction": 2,
+        "parent": 6,
+        "parent_updates": 11,
+        "next_iid": 80
+      },
+      {
+        "direction": 3,
+        "parent": 7,
+        "parent_updates": 10,
+        "next_iid": 84
+      },
+      {
+        "direction": 4,
+        "parent": 8,
+        "parent_updates": 11,
+        "next_iid": 87
+      }
+    ],
+    "adaptation_next_iid": 90,
+    "direction_quota_seconds": {
+      "15": 93.74999978125561,
+      "5": 93.93121536665906,
+      "6": 94.04326045714386,
+      "7": 93.96645199229869,
+      "8": 93.92743444999603,
+      "9": 94.3647212727334,
+      "10": 94.31107564999256,
+      "11": 93.37370852223184,
+      "12": 92.61941568748443,
+      "13": 92.1095531285807,
+      "14": 92.35932383333177,
+      "0": 91.76523509998806,
+      "1": 91.74728872498963,
+      "2": 90.29027493329097,
+      "3": 86.95121440000366,
+      "4": 75.24011879996397
+    },
+    "fit_coverage_passed": false,
+    "adaptation_coverage_passed": true,
+    "final_partial_meta_round_updates": 0,
+    "meta_completed_search_cycles": 33,
+    "adapt_completed_search_cycles": 55,
+    "meta_traversal_only_steps": 1690,
+    "adapt_traversal_only_steps": 11189
+  },
+  "search_seeds": [
+    20261024,
+    20261025,
+    20261026,
+    20261027,
+    20261028
+  ],
+  "training_seed": 20261024,
+  "collection_protocol": "continued_three_stage_actual_search",
+  "scope": "35min meta + 25min adaptation; one training seed, five independent paired search seeds; nine development IIDs",
+  "meta_sampling": {
+    "batches": 101,
+    "transitions": 36429,
+    "optimizer_steps": 200,
+    "q_slot_counts": [
+      0,
+      63,
+      1405,
+      6654,
+      5573,
+      8749,
+      13772,
+      213,
+      0,
+      0
+    ],
+    "q_slot_percent": [
+      0.0,
+      0.17293914189244833,
+      3.8568173707760303,
+      18.26566746273573,
+      15.298251393120866,
+      24.01658019709572,
+      37.80504543083807,
+      0.5846990035411348,
+      0.0,
+      0.0
+    ],
+    "timeout_fraction": 0.05465425896950232,
+    "positive_reward_fraction": 0.3472782673145022,
+    "optimized_iids": [
+      "hemtv2_train_150_C_4",
+      "hemtv2_train_150_C_5",
+      "hemtv2_train_150_C_6",
+      "hemtv2_train_150_C_7",
+      "hemtv2_train_150_RC_4",
+      "hemtv2_train_150_RC_5",
+      "hemtv2_train_150_RC_6",
+      "hemtv2_train_150_R_4",
+      "hemtv2_train_150_R_5",
+      "hemtv2_train_150_R_6",
+      "hemtv2_train_150_R_7",
+      "hemtv2_train_250_C_4",
+      "hemtv2_train_250_C_5",
+      "hemtv2_train_250_C_6",
+      "hemtv2_train_250_C_7",
+      "hemtv2_train_250_RC_4",
+      "hemtv2_train_250_RC_5",
+      "hemtv2_train_250_RC_6",
+      "hemtv2_train_250_R_4",
+      "hemtv2_train_250_R_5",
+      "hemtv2_train_250_R_6",
+      "hemtv2_train_250_R_7",
+      "hemtv2_train_50_C_4",
+      "hemtv2_train_50_C_5",
+      "hemtv2_train_50_C_6",
+      "hemtv2_train_50_C_7",
+      "hemtv2_train_50_RC_4",
+      "hemtv2_train_50_RC_5",
+      "hemtv2_train_50_RC_6",
+      "hemtv2_train_50_RC_7",
+      "hemtv2_train_50_R_4",
+      "hemtv2_train_50_R_5",
+      "hemtv2_train_50_R_6",
+      "hemtv2_train_50_R_7"
+    ]
+  },
+  "adaptation_sampling": {
+    "batches": 167,
+    "transitions": 11583,
+    "optimizer_steps": 334,
+    "q_slot_counts": [
+      0,
+      11,
+      272,
+      1276,
+      1343,
+      3055,
+      5481,
+      145,
+      0,
+      0
+    ],
+    "q_slot_percent": [
+      0.0,
+      0.0949667616334283,
+      2.3482690149356817,
+      11.016144349477683,
+      11.594578261244928,
+      26.374859708193043,
+      47.31934731934732,
+      1.2518345851679185,
+      0.0,
+      0.0
+    ],
+    "timeout_fraction": 0.05715272381939049,
+    "positive_reward_fraction": 0.22653889320555987,
+    "optimized_iids": [
+      "hemtv2_train_150_C_4",
+      "hemtv2_train_150_C_5",
+      "hemtv2_train_150_C_6",
+      "hemtv2_train_150_C_7",
+      "hemtv2_train_150_C_8",
+      "hemtv2_train_150_RC_4",
+      "hemtv2_train_150_RC_5",
+      "hemtv2_train_150_RC_6",
+      "hemtv2_train_150_RC_7",
+      "hemtv2_train_150_RC_8",
+      "hemtv2_train_150_R_4",
+      "hemtv2_train_150_R_5",
+      "hemtv2_train_150_R_6",
+      "hemtv2_train_150_R_7",
+      "hemtv2_train_150_R_8",
+      "hemtv2_train_250_C_4",
+      "hemtv2_train_250_C_5",
+      "hemtv2_train_250_C_6",
+      "hemtv2_train_250_C_7",
+      "hemtv2_train_250_C_8",
+      "hemtv2_train_250_RC_4",
+      "hemtv2_train_250_RC_5",
+      "hemtv2_train_250_RC_6",
+      "hemtv2_train_250_RC_7",
+      "hemtv2_train_250_RC_8",
+      "hemtv2_train_250_R_4",
+      "hemtv2_train_250_R_5",
+      "hemtv2_train_250_R_6",
+      "hemtv2_train_250_R_7",
+      "hemtv2_train_250_R_8",
+      "hemtv2_train_50_C_4",
+      "hemtv2_train_50_C_5",
+      "hemtv2_train_50_C_6",
+      "hemtv2_train_50_C_7",
+      "hemtv2_train_50_C_8",
+      "hemtv2_train_50_RC_4",
+      "hemtv2_train_50_RC_5",
+      "hemtv2_train_50_RC_6",
+      "hemtv2_train_50_RC_7",
+      "hemtv2_train_50_RC_8",
+      "hemtv2_train_50_R_4",
+      "hemtv2_train_50_R_5",
+      "hemtv2_train_50_R_6",
+      "hemtv2_train_50_R_7",
+      "hemtv2_train_50_R_8"
+    ]
+  }
+}

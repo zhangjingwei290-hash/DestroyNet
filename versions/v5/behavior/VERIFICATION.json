@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "reports": 900,
+  "actions": 5207140,
+  "aggregation_recomputed": true,
+  "rank_fixtures": "exhaustive sign enumeration including ties and zeros",
+  "scipy_exact_crosschecks": [
+    "late_minus_early_controlled",
+    "deep_stall_minus_fresh_controlled",
+    "success_minus_fresh_controlled",
+    "deep_minus_shallow_stall_controlled"
+  ],
+  "analysis_sha256": "8eb2a1de3e0fbb88a9ee601776b6eaa3d7bdbf498982e8394345ce40a630a79f",
+  "protocol_sha256": "9b96aa97300e179082de64418327af47390652f528b8c3720efbdb1b4e04c795"
+}

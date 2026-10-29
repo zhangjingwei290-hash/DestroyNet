@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-23T10:40:06.826429+00:00",
+  "command": "python3 baselines/moead_emnh_dpr_v2_20261023/verify_snapshot.py --check-originals",
+  "passed": true,
+  "snapshot_files": 268,
+  "originals_checked": true,
+  "result_inventory_files": 587,
+  "approved_input_files": 54,
+  "errors": [],
+  "scope": "SHA-256 and handoff integrity; no new training, search, regression or scientific performance evaluation"
+}

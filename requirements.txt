@@ -1,0 +1,9 @@
+torch==2.10.0
+torch-geometric==2.8.1
+numpy==1.26.4
+scipy==1.10.1
+pymoo==0.6.1.5
+alns==7.0.0
+moocore==0.3.2
+psutil
+threadpoolctl

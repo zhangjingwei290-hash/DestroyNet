@@ -1,0 +1,295 @@
+{
+  "updated": 1792621867.2843218,
+  "planned_search_seeds": 20,
+  "complete_search_seeds": [
+    20268020,
+    20268021,
+    20268022,
+    20268023,
+    20268024,
+    20268025,
+    20268026,
+    20268027,
+    20268028,
+    20268029,
+    20268030,
+    20268031,
+    20268032,
+    20268033,
+    20268034,
+    20268035,
+    20268036,
+    20268037,
+    20268038,
+    20268039
+  ],
+  "complete": true,
+  "mean_delta_hv": -0.0017636021935439786,
+  "mean_relative_hv_loss_percent": 0.34061083029410266,
+  "delta_hv_intervals": {
+    "fixed_nine_iid_seed_bootstrap_95_ci": [
+      -0.0029114641940520495,
+      -0.0006776624534297556
+    ],
+    "crossed_iid_seed_bootstrap_95_ci": [
+      -0.0032292978373908783,
+      -0.0001639458463013062
+    ]
+  },
+  "relative_loss_intervals": {
+    "fixed_nine_iid_seed_bootstrap_95_ci": [
+      0.10297089970357529,
+      0.58811105529872
+    ],
+    "crossed_iid_seed_bootstrap_95_ci": [
+      -0.004676314462274106,
+      0.6576339264104565
+    ]
+  },
+  "search_seed_count": 20,
+  "distinct_iids": 9,
+  "per_seed_iid_mean_relative_loss_percent": [
+    0.3737329050425513,
+    1.5955670335566587,
+    0.5743403727185885,
+    0.6887405460020519,
+    0.02655959172668924,
+    -0.753308513114993,
+    0.8997535120150444,
+    0.3266926642102253,
+    0.6098296470157897,
+    -0.0048828096482355955,
+    0.9673347749128859,
+    0.8570387640684605,
+    -0.5848124478121629,
+    0.13848616861549543,
+    -0.054451712009469314,
+    0.31858841431166074,
+    0.9256168250535328,
+    -0.3359328895511106,
+    0.23694759022724543,
+    0.006376168541145527
+  ],
+  "fraction_pairs_loss_at_most_1_percent": 0.7722222222222223,
+  "fraction_pairs_absolute_gap_at_most_1_percent": 0.6444444444444445,
+  "wins_ties_losses": [
+    53,
+    0,
+    127
+  ],
+  "equivalence_or_noninferiority_claim": false,
+  "training_seeds": 1,
+  "bootstrap_samples": 10000,
+  "uncertainty_excludes_training_seed_variance": true,
+  "per_iid": {
+    "hemtv2_train_50_C_9": {
+      "mean_relative_loss_percent": 0.5698448894687014,
+      "std_relative_loss_percent": 0.5043965113202014,
+      "min_relative_loss_percent": -0.05873317817650504,
+      "max_relative_loss_percent": 1.7257901599489198,
+      "mean_hv": {
+        "heuristic": 0.5902935771395095,
+        "ppo": 0.5869244440301113
+      },
+      "std_hv": {
+        "heuristic": 0.0016383641461061513,
+        "ppo": 0.002211806345592549
+      }
+    },
+    "hemtv2_train_50_R_9": {
+      "mean_relative_loss_percent": 0.4680843620302281,
+      "std_relative_loss_percent": 0.4827273200026728,
+      "min_relative_loss_percent": -0.7983858714864664,
+      "max_relative_loss_percent": 1.2248233723612052,
+      "mean_hv": {
+        "heuristic": 0.46893070861177144,
+        "ppo": 0.46673166388613596
+      },
+      "std_hv": {
+        "heuristic": 0.0012146001187411924,
+        "ppo": 0.0016099063152920335
+      }
+    },
+    "hemtv2_train_50_RC_9": {
+      "mean_relative_loss_percent": 0.44055402534187127,
+      "std_relative_loss_percent": 0.33624782701591205,
+      "min_relative_loss_percent": -0.14831190046152481,
+      "max_relative_loss_percent": 1.0839909755512616,
+      "mean_hv": {
+        "heuristic": 0.5372344445943729,
+        "ppo": 0.534865031351343
+      },
+      "std_hv": {
+        "heuristic": 0.0012663351449402845,
+        "ppo": 0.0013860546598161013
+      }
+    },
+    "hemtv2_train_150_C_9": {
+      "mean_relative_loss_percent": 0.16723073031912472,
+      "std_relative_loss_percent": 1.111069606227699,
+      "min_relative_loss_percent": -3.538772042125411,
+      "max_relative_loss_percent": 1.572342793730823,
+      "mean_hv": {
+        "heuristic": 0.5959491248863749,
+        "ppo": 0.5949098033861986
+      },
+      "std_hv": {
+        "heuristic": 0.004903760970937099,
+        "ppo": 0.0037382168074761852
+      }
+    },
+    "hemtv2_train_150_R_9": {
+      "mean_relative_loss_percent": 0.293241846706905,
+      "std_relative_loss_percent": 0.983606395975172,
+      "min_relative_loss_percent": -1.3986300765865358,
+      "max_relative_loss_percent": 1.9869220280756357,
+      "mean_hv": {
+        "heuristic": 0.48279849843936623,
+        "ppo": 0.4813642614029874
+      },
+      "std_hv": {
+        "heuristic": 0.0030430780189718855,
+        "ppo": 0.003608076666625738
+      }
+    },
+    "hemtv2_train_150_RC_9": {
+      "mean_relative_loss_percent": 0.434614818149217,
+      "std_relative_loss_percent": 0.82312904721569,
+      "min_relative_loss_percent": -1.066672546864049,
+      "max_relative_loss_percent": 2.366098719201626,
+      "mean_hv": {
+        "heuristic": 0.47029801502320534,
+        "ppo": 0.46824729764756984
+      },
+      "std_hv": {
+        "heuristic": 0.0021822553290923308,
+        "ppo": 0.003610889905716734
+      }
+    },
+    "hemtv2_train_250_C_9": {
+      "mean_relative_loss_percent": 0.29430309282870065,
+      "std_relative_loss_percent": 2.65580114574874,
+      "min_relative_loss_percent": -4.475845995811505,
+      "max_relative_loss_percent": 4.026481780253253,
+      "mean_hv": {
+        "heuristic": 0.45011985918125647,
+        "ppo": 0.44860751578106095
+      },
+      "std_hv": {
+        "heuristic": 0.010797976274149712,
+        "ppo": 0.008968148324631858
+      }
+    },
+    "hemtv2_train_250_R_9": {
+      "mean_relative_loss_percent": 0.42650893022578795,
+      "std_relative_loss_percent": 2.06129041516598,
+      "min_relative_loss_percent": -3.611067245869242,
+      "max_relative_loss_percent": 4.673256451922404,
+      "mean_hv": {
+        "heuristic": 0.42612977329520174,
+        "ppo": 0.4242113268850215
+      },
+      "std_hv": {
+        "heuristic": 0.0069161166732664035,
+        "ppo": 0.005881488109439683
+      }
+    },
+    "hemtv2_train_250_RC_9": {
+      "mean_relative_loss_percent": -0.02888522242361171,
+      "std_relative_loss_percent": 2.012828368890082,
+      "min_relative_loss_percent": -4.235545072646841,
+      "max_relative_loss_percent": 3.4864897534774717,
+      "mean_hv": {
+        "heuristic": 0.46306616801630957,
+        "ppo": 0.4630864050750437
+      },
+      "std_hv": {
+        "heuristic": 0.007153383682784091,
+        "ppo": 0.005179473836806283
+      }
+    }
+  },
+  "mean_hv_by_arm": {
+    "heuristic": 0.4983133521319298,
+    "ppo": 0.4965497499383858
+  },
+  "scope": "Frozen one-training-seed policy, nine development IIDs, repeated stochastic search; incomplete training coverage remains",
+  "execution_costs": {
+    "heuristic": {
+      "search_seconds": 32400.730335299857,
+      "inference_seconds": 0.09536409215070307,
+      "actions": 51058,
+      "accepted": 8523,
+      "timeouts": 3837,
+      "failed": 53,
+      "repair_seconds": 32325.318205895717
+    },
+    "ppo": {
+      "search_seconds": 32400.772330500768,
+      "inference_seconds": 893.6048943024362,
+      "actions": 45984,
+      "accepted": 8884,
+      "timeouts": 3815,
+      "failed": 20,
+      "repair_seconds": 31221.98541070684
+    }
+  },
+  "mean_hv_time_curve": {
+    "heuristic": [
+      {
+        "fraction": 0.1,
+        "hv": 0.4709680135196414
+      },
+      {
+        "fraction": 0.25,
+        "hv": 0.4824513051233683
+      },
+      {
+        "fraction": 0.5,
+        "hv": 0.491134340729789
+      },
+      {
+        "fraction": 0.75,
+        "hv": 0.49512741505019797
+      },
+      {
+        "fraction": 1.0,
+        "hv": 0.4983133521319298
+      }
+    ],
+    "ppo": [
+      {
+        "fraction": 0.1,
+        "hv": 0.46833483709507084
+      },
+      {
+        "fraction": 0.25,
+        "hv": 0.4814388240527337
+      },
+      {
+        "fraction": 0.5,
+        "hv": 0.4903212379285492
+      },
+      {
+        "fraction": 0.75,
+        "hv": 0.49414405967501346
+      },
+      {
+        "fraction": 1.0,
+        "hv": 0.4965497499383858
+      }
+    ]
+  },
+  "initial_hv_and_gain": {
+    "heuristic": {
+      "mean_initial_hv": 0.43812114671977126,
+      "mean_absolute_hv_gain": 0.06019220541215855,
+      "mean_relative_hv_gain_percent": 13.802020501193445
+    },
+    "ppo": {
+      "mean_initial_hv": 0.43812114671977126,
+      "mean_absolute_hv_gain": 0.058428603218614567,
+      "mean_relative_hv_gain_percent": 13.403183407561288
+    }
+  }
+}

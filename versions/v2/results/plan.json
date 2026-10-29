@@ -1,0 +1,601 @@
+{
+  "schema": "frozen_ppo_search_seed_stability_v1",
+  "approved": "2026-10-21 user: 20 search seeds; PPO plus heuristic",
+  "created": 1792560135.1235335,
+  "source_root": "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020",
+  "solver_binding_id": "d95cc1d7ac2ffb482266dd5f43ca75b08879a52900251b01b586a481209b62a1",
+  "training_seed": 20261020,
+  "search_seeds": [
+    20268020,
+    20268021,
+    20268022,
+    20268023,
+    20268024,
+    20268025,
+    20268026,
+    20268027,
+    20268028,
+    20268029,
+    20268030,
+    20268031,
+    20268032,
+    20268033,
+    20268034,
+    20268035,
+    20268036,
+    20268037,
+    20268038,
+    20268039
+  ],
+  "development_ids": [
+    "hemtv2_train_50_C_9",
+    "hemtv2_train_50_R_9",
+    "hemtv2_train_50_RC_9",
+    "hemtv2_train_150_C_9",
+    "hemtv2_train_150_R_9",
+    "hemtv2_train_150_RC_9",
+    "hemtv2_train_250_C_9",
+    "hemtv2_train_250_R_9",
+    "hemtv2_train_250_RC_9"
+  ],
+  "arms": [
+    "heuristic",
+    "ppo"
+  ],
+  "boxes": {
+    "hemtv2_train_50_C_9": {
+      "scale": [
+        50.0,
+        8339.298332843719,
+        28800.0,
+        617915.4047888753,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_9": {
+      "scale": [
+        50.0,
+        12671.424569108989,
+        28800.0,
+        822050.8220223172,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_9": {
+      "scale": [
+        50.0,
+        11276.118188918159,
+        28800.0,
+        631994.5474744885,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_C_9": {
+      "scale": [
+        150.0,
+        30379.848194389822,
+        28800.0,
+        1875376.751942676,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_9": {
+      "scale": [
+        150.0,
+        40936.30004657071,
+        28800.0,
+        2449415.076039083,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_9": {
+      "scale": [
+        150.0,
+        38821.503660591334,
+        28800.0,
+        2592847.7667507473,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_9": {
+      "scale": [
+        250.0,
+        52389.614541578594,
+        28800.0,
+        4183712.7946450426,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_9": {
+      "scale": [
+        250.0,
+        69863.6910910554,
+        28800.0,
+        4111135.8451356,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_9": {
+      "scale": [
+        250.0,
+        65201.37691731142,
+        28800.0,
+        4016909.9626553054,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  },
+  "checkpoint_files_sha256": {
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_00.pt": "d09c7b963c7601be9513d33809e7496a5509a6522b7d4ee56f34c21634a98231",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_01.pt": "6fd8fd6320ddf985cf4aa9cc69e3a0a3c7149083afeffe24488c27de43baeabc",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_02.pt": "13680b6db2bfc35003b0f565154ec14e1fb8099aeb349541ce265cfdf14ebd67",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_03.pt": "dccc24efe331429ee438e705a8e95daa3214ad24a87e22d646189c7b954736a7",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_04.pt": "9d62464f62d931e9e1d4ded178786b111c9a4a4cb1eaf2931fbd3ee393bb32a7",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_05.pt": "975e876f2c6c99f229296c9ef5a14c61ab4a186d8b759b1b8f6b35654da536e5",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_06.pt": "5d86eeb83bcd8c7d0ea7c5c2a585aa634bb16a1e08e8b8351c7717e839218bba",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_07.pt": "d1b7b90d172e5520e4d843b657c33584400767536e0680ad94562bc2444ddaed",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_08.pt": "de61026b2f6ded7a7f90617f135751c806a1de72ba329efaae9f580709fc95f0",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_09.pt": "d0ded303982d5a9ff175ff0e0afad1471015b432ca7c697bce5a5df97bc78222",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_10.pt": "bbbc47854d0aee5c59d520f304469d477b17300c6c8e8e717cdf043f475e2ac5",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_11.pt": "44a46d12b17c16b58771358a77fe016ba2df32c96d8d0f5a99337aece94d5b6a",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_12.pt": "d041925f67150db8de00f0bf28b5a778f2f4584d784ff18d0c47ad41f48b223b",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_13.pt": "a19a0c2cf217afd4964151811650c9b6667cfd24f80e35fc1715cc8f8af22286",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_14.pt": "ac2488c1303fb650189a73c168763a77fbe5f8beeb4e45759ea2fa8b0f2f5677",
+    "D:\\WorkSpace\\fuxian\\DPR\\runs_emnh\\20261020_gpu_v2_seed20261020\\ppo\\directions\\direction_15.pt": "bf4abebed36508166999a56335782a8a61fa54cbff9b238c381514c02263cafa"
+  },
+  "source_binding": {
+    "id": "d95cc1d7ac2ffb482266dd5f43ca75b08879a52900251b01b586a481209b62a1",
+    "schema": "moead_emnh_dpr_gpu_v2_closed_loop",
+    "contract": {
+      "training_seed": 20261020,
+      "cpu_threads": 1,
+      "training_caps": {
+        "meta_seconds": 10800.0,
+        "adaptation_seconds": 3600.0,
+        "prior_ppo_debit": 335.0391342
+      },
+      "training_batch": {
+        "tasks": 5,
+        "replicas": 4,
+        "inner_updates": 4,
+        "microbatch": 8,
+        "learning_rate": 0.0001,
+        "entropy": 0.001,
+        "clip": 0.2,
+        "ppo_epochs": 2
+      },
+      "version": "moead_emnh_dpr_gpu_v2_closed_loop",
+      "context": [
+        "weight_0",
+        "weight_1",
+        "weight_2",
+        "weight_3",
+        "weight_4",
+        "objective_0",
+        "objective_1",
+        "objective_2",
+        "objective_3",
+        "objective_4",
+        "global_remaining_seconds/300",
+        "global_used_fraction",
+        "local_remaining_seconds/300",
+        "local_remaining_fraction",
+        "stagnation_fraction",
+        "last_accepted",
+        "last_reward",
+        "archive_fraction",
+        "max_delay/horizon",
+        "N/250",
+        "max_q/N",
+        "repair_is_greedy",
+        "repair_is_regret2",
+        "repair_is_regret3",
+        "repair_is_noisy_greedy",
+        "repair_probability_greedy",
+        "repair_probability_regret2",
+        "repair_probability_regret3",
+        "repair_probability_noisy_greedy",
+        "repair_recent_seconds/300_greedy",
+        "repair_recent_seconds/300_regret2",
+        "repair_recent_seconds/300_regret3",
+        "repair_recent_seconds/300_noisy_greedy",
+        "repair_recent_success_rate_greedy",
+        "repair_recent_success_rate_regret2",
+        "repair_recent_success_rate_regret3",
+        "repair_recent_success_rate_noisy_greedy",
+        "repair_recent_improvement_greedy",
+        "repair_recent_improvement_regret2",
+        "repair_recent_improvement_regret3",
+        "repair_recent_improvement_noisy_greedy",
+        "repair_count/1000_greedy",
+        "repair_count/1000_regret2",
+        "repair_count/1000_regret3",
+        "repair_count/1000_noisy_greedy"
+      ],
+      "ratios": [
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "node_schema": "mo_dpr.environment.NODE_FEATURES_17_physical",
+      "decode": "stochastic_q_then_distinct_anchors_then_Beta; same_in_all_entrypoints",
+      "hidden": "zero_each_new_local_search; own_history; stored_one_step_detached_replay",
+      "objectives": "five_raw_physical; fixed_affine_augmented_Tchebycheff_rho=.05",
+      "repairers": [
+        "greedy",
+        "regret2",
+        "regret3",
+        "noisy_greedy"
+      ],
+      "repair_selection": "alns.RouletteWheel; per_actual_direction_persistent; EWMA_rate=.2_first_sample_exact",
+      "state_source": "neural_MOEAD_full_feedback; auxiliary_same_start_replicas_do_not_drive_population",
+      "meta_tasks": "five_continuous_cyclic_preferences_replace_five_axis_slots; eleven_background_directions",
+      "reward": "accepted_before_minus_after; failures/rejections/timeouts_zero; objectives_null_on_failure",
+      "acceptance": "strict_scalar_improvement; equal_scores_rejected",
+      "timing": "global_solver_walltime; local=min(10s,global_budget/16,remaining); gamma=1; late_candidates_excluded",
+      "termination": "local_budget_is_terminal; external_resource_cutoff_is_truncation",
+      "population_directions": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.5,
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.5,
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.5,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.5
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ],
+      "repair_seconds": 10.0,
+      "local_seconds": 10.0,
+      "architecture": {
+        "hidden": 128,
+        "critic": 256,
+        "anchors": 2,
+        "near": 10
+      },
+      "archive": "exact_5D_nondominated_union"
+    },
+    "split": {
+      "version": "dpr_train_development_v2",
+      "origin": "20261015_stage12_v1 frozen IID split",
+      "fit_ids": [
+        "hemtv2_train_50_C_4",
+        "hemtv2_train_50_C_5",
+        "hemtv2_train_50_C_6",
+        "hemtv2_train_50_C_7",
+        "hemtv2_train_50_C_8",
+        "hemtv2_train_50_R_4",
+        "hemtv2_train_50_R_5",
+        "hemtv2_train_50_R_6",
+        "hemtv2_train_50_R_7",
+        "hemtv2_train_50_R_8",
+        "hemtv2_train_50_RC_4",
+        "hemtv2_train_50_RC_5",
+        "hemtv2_train_50_RC_6",
+        "hemtv2_train_50_RC_7",
+        "hemtv2_train_50_RC_8",
+        "hemtv2_train_150_C_4",
+        "hemtv2_train_150_C_5",
+        "hemtv2_train_150_C_6",
+        "hemtv2_train_150_C_7",
+        "hemtv2_train_150_C_8",
+        "hemtv2_train_150_R_4",
+        "hemtv2_train_150_R_5",
+        "hemtv2_train_150_R_6",
+        "hemtv2_train_150_R_7",
+        "hemtv2_train_150_R_8",
+        "hemtv2_train_150_RC_4",
+        "hemtv2_train_150_RC_5",
+        "hemtv2_train_150_RC_6",
+        "hemtv2_train_150_RC_7",
+        "hemtv2_train_150_RC_8",
+        "hemtv2_train_250_C_4",
+        "hemtv2_train_250_C_5",
+        "hemtv2_train_250_C_6",
+        "hemtv2_train_250_C_7",
+        "hemtv2_train_250_C_8",
+        "hemtv2_train_250_R_4",
+        "hemtv2_train_250_R_5",
+        "hemtv2_train_250_R_6",
+        "hemtv2_train_250_R_7",
+        "hemtv2_train_250_R_8",
+        "hemtv2_train_250_RC_4",
+        "hemtv2_train_250_RC_5",
+        "hemtv2_train_250_RC_6",
+        "hemtv2_train_250_RC_7",
+        "hemtv2_train_250_RC_8"
+      ],
+      "development_ids": [
+        "hemtv2_train_50_C_9",
+        "hemtv2_train_50_R_9",
+        "hemtv2_train_50_RC_9",
+        "hemtv2_train_150_C_9",
+        "hemtv2_train_150_R_9",
+        "hemtv2_train_150_RC_9",
+        "hemtv2_train_250_C_9",
+        "hemtv2_train_250_R_9",
+        "hemtv2_train_250_RC_9"
+      ],
+      "id": "8e03d13175b63c79b11e9b9681c72ceddd08ea2669774cd01fb93e9a0f5adb38",
+      "input_configuration_id": "87bf149b65c4c48df02b979e749f295d75ac3baae79f38a224f0ee229406754d"
+    },
+    "sources": {
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\config.py": "e1020ecaaad89dc404203d34c1a11d55a9608daef26ae47cbc9942fccac285d2",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\environment.py": "d98f422b3a983bc475ddf98d92a6f510ed8d70460c8f532398dd13a0e9003c1f",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\model.py": "cc715b323764b6b4eb7e4227b640638c31813629a6217dc7eee678cdb49349d8",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\outer.py": "eecd83df21d575195738b36dd04d6ca5b0b9325de584ca31af0728b91ce34d9c",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\recovery.py": "c389dbd5422df521e1ae781bdd4f4bbae7ac06750057d50434e2563eea9a0688",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\repair.py": "f4be3a02fefb9c2afd7c3fa6adc9e74ccfbbae27659f5696a149c4644c0f9147",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\runner.py": "89b31bf7da5cf028af1ad0b3402ae6a3859bcdb252bbf4b9cc301794258a8321",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\training.py": "57843718fd854f547eec37f281452c4fcfc2df9f3327f11d66cb4f85d9a35287",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\__init__.py": "a4b27f4bcba45527bfb22c951589646fdb60da9783a7e5120cf6b4631b591d41",
+      "d:\\workspace\\fuxian\\dpr\\moea_emnh_v2\\protocol.md": "6376484cf24b2c4267afbbd91608bdfe1e96dab50d4df3572d77b2ba1da93736",
+      "d:\\workspace\\fuxian\\dpr\\emnh_v2_run.py": "99c0b78cdd2f7c0ea23b93a319aa670992b97ed0cad08366199d0b6ff9a28e5f",
+      "d:\\workspace\\fuxian\\dpr\\lib\\ppo_1.py": "215e7bcb06fd4b84930fca512e7882146479c5ccb0781bd6a4d6a464a21f7e2f",
+      "d:\\workspace\\fuxian\\dpr\\lib\\vrp_helper_env.py": "11654a3d4ab28869d9b1174a042abc4a6044a0d3e87d2f17cfbd37e64ff5724a",
+      "d:\\workspace\\fuxian\\dpr\\mo_dpr\\environment.py": "0a14c8bd0cf01651eeb2d7473effa453192c2196c382606a8e4843b080ca8f82",
+      "d:\\workspace\\fuxian\\dpr\\mo_dpr\\data.py": "862e6575cecff969f8329dcc5b44f27a44f77535d910be4619d51449e5d0427a",
+      "d:\\workspace\\fuxian\\dpr\\mo_dpr\\artifacts.py": "d7e987b022b2532f326ec082c04cdd763d6c1aad17ac41f4d768d6a458359043",
+      "d:\\workspace\\versions\\version0.7\\src\\evaluation\\vrptw_eval.py": "f8c07917c09627004a438a3ec788763970cabc0308686d7233566c5ad1492d90",
+      "d:\\workspace\\versions\\version0.7\\src\\pilot\\engine.py": "d12a34c6db0072d13ff41fc92088571d48cbe2e5a9b6d6ce35f9d3a74eb8e125",
+      "d:\\workspace\\versions\\version0.7\\src\\core\\protocol.py": "ab40041870973ae4c681cc4e0f0bbbcdcb207e5bb591040943f959af2d5a682a",
+      "d:\\workspace\\versions\\version0.7\\src\\core\\task_protocol.py": "9fd14885562a073881190c8165cb7831f42037059e41c6ad8f4f7cad02879db2"
+    },
+    "dependencies": {
+      "torch": "2.10.0+cu130",
+      "torch-geometric": "2.8.1",
+      "numpy": "1.26.4",
+      "pymoo": "0.6.1.5",
+      "alns": "7.0.0",
+      "moocore": "0.3.2"
+    }
+  },
+  "wrapper_sha256": "daff9d51cd8d9c8dad16e5818ed4e3faf1159009c67be285bf2ef01a81d60d54",
+  "reused_seed": 20268020,
+  "total_results": 360,
+  "reused_results": 18,
+  "new_results": 342,
+  "total_solver_seconds": 64800.0,
+  "new_solver_seconds": 61560.0,
+  "automatic_training": false,
+  "automatic_next_stage": false,
+  "decode": "unchanged stochastic",
+  "seed_scope": "search only; Config.seed stays training seed",
+  "summary": "paired each IID/seed; equal IID weight, equal seed weight; no best-seed selection or cross-seed archive pooling",
+  "id": "bb2de7eadbcafa25e2383eab95fec1b49963f1c721eeadd62434b8805f2571d6"
+}

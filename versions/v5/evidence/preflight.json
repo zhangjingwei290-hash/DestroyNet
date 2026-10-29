@@ -1,0 +1,284 @@
+{
+  "passed": true,
+  "source_feasible": 45,
+  "initial_pair_checks": [
+    "50-0-0",
+    "150-0-0",
+    "250-0-0"
+  ],
+  "instances": [
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "initial_vehicles": 7,
+      "budget": 117.0
+    },
+    {
+      "iid": "50-0-1",
+      "n": 50,
+      "initial_vehicles": 19,
+      "budget": 245.0
+    },
+    {
+      "iid": "50-0-2",
+      "n": 50,
+      "initial_vehicles": 25,
+      "budget": 282.0
+    },
+    {
+      "iid": "50-0-3",
+      "n": 50,
+      "initial_vehicles": 26,
+      "budget": 253.0
+    },
+    {
+      "iid": "50-0-4",
+      "n": 50,
+      "initial_vehicles": 18,
+      "budget": 142.0
+    },
+    {
+      "iid": "50-1-0",
+      "n": 50,
+      "initial_vehicles": 7,
+      "budget": 114.0
+    },
+    {
+      "iid": "50-1-1",
+      "n": 50,
+      "initial_vehicles": 19,
+      "budget": 222.0
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "initial_vehicles": 22,
+      "budget": 270.0
+    },
+    {
+      "iid": "50-1-3",
+      "n": 50,
+      "initial_vehicles": 25,
+      "budget": 221.0
+    },
+    {
+      "iid": "50-1-4",
+      "n": 50,
+      "initial_vehicles": 16,
+      "budget": 139.0
+    },
+    {
+      "iid": "50-2-0",
+      "n": 50,
+      "initial_vehicles": 16,
+      "budget": 130.0
+    },
+    {
+      "iid": "50-2-1",
+      "n": 50,
+      "initial_vehicles": 24,
+      "budget": 199.0
+    },
+    {
+      "iid": "50-2-2",
+      "n": 50,
+      "initial_vehicles": 21,
+      "budget": 200.0
+    },
+    {
+      "iid": "50-2-3",
+      "n": 50,
+      "initial_vehicles": 26,
+      "budget": 184.0
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "initial_vehicles": 23,
+      "budget": 146.0
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "initial_vehicles": 19,
+      "budget": 183.0
+    },
+    {
+      "iid": "150-0-1",
+      "n": 150,
+      "initial_vehicles": 55,
+      "budget": 267.0
+    },
+    {
+      "iid": "150-0-2",
+      "n": 150,
+      "initial_vehicles": 64,
+      "budget": 301.0
+    },
+    {
+      "iid": "150-0-3",
+      "n": 150,
+      "initial_vehicles": 64,
+      "budget": 309.0
+    },
+    {
+      "iid": "150-0-4",
+      "n": 150,
+      "initial_vehicles": 62,
+      "budget": 239.0
+    },
+    {
+      "iid": "150-1-0",
+      "n": 150,
+      "initial_vehicles": 20,
+      "budget": 163.0
+    },
+    {
+      "iid": "150-1-1",
+      "n": 150,
+      "initial_vehicles": 52,
+      "budget": 245.0
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "initial_vehicles": 62,
+      "budget": 300.0
+    },
+    {
+      "iid": "150-1-3",
+      "n": 150,
+      "initial_vehicles": 62,
+      "budget": 308.0
+    },
+    {
+      "iid": "150-1-4",
+      "n": 150,
+      "initial_vehicles": 59,
+      "budget": 239.0
+    },
+    {
+      "iid": "150-2-0",
+      "n": 150,
+      "initial_vehicles": 20,
+      "budget": 163.0
+    },
+    {
+      "iid": "150-2-1",
+      "n": 150,
+      "initial_vehicles": 52,
+      "budget": 258.0
+    },
+    {
+      "iid": "150-2-2",
+      "n": 150,
+      "initial_vehicles": 54,
+      "budget": 295.0
+    },
+    {
+      "iid": "150-2-3",
+      "n": 150,
+      "initial_vehicles": 68,
+      "budget": 341.0
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "initial_vehicles": 57,
+      "budget": 220.0
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "initial_vehicles": 31,
+      "budget": 258.0
+    },
+    {
+      "iid": "250-0-1",
+      "n": 250,
+      "initial_vehicles": 101,
+      "budget": 345.0
+    },
+    {
+      "iid": "250-0-2",
+      "n": 250,
+      "initial_vehicles": 101,
+      "budget": 354.0
+    },
+    {
+      "iid": "250-0-3",
+      "n": 250,
+      "initial_vehicles": 108,
+      "budget": 407.0
+    },
+    {
+      "iid": "250-0-4",
+      "n": 250,
+      "initial_vehicles": 102,
+      "budget": 292.0
+    },
+    {
+      "iid": "250-1-0",
+      "n": 250,
+      "initial_vehicles": 32,
+      "budget": 225.0
+    },
+    {
+      "iid": "250-1-1",
+      "n": 250,
+      "initial_vehicles": 97,
+      "budget": 303.0
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "initial_vehicles": 107,
+      "budget": 338.0
+    },
+    {
+      "iid": "250-1-3",
+      "n": 250,
+      "initial_vehicles": 119,
+      "budget": 400.0
+    },
+    {
+      "iid": "250-1-4",
+      "n": 250,
+      "initial_vehicles": 95,
+      "budget": 261.0
+    },
+    {
+      "iid": "250-2-0",
+      "n": 250,
+      "initial_vehicles": 31,
+      "budget": 237.0
+    },
+    {
+      "iid": "250-2-1",
+      "n": 250,
+      "initial_vehicles": 97,
+      "budget": 292.0
+    },
+    {
+      "iid": "250-2-2",
+      "n": 250,
+      "initial_vehicles": 97,
+      "budget": 329.0
+    },
+    {
+      "iid": "250-2-3",
+      "n": 250,
+      "initial_vehicles": 116,
+      "budget": 395.0
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "initial_vehicles": 97,
+      "budget": 282.0
+    }
+  ],
+  "search_started": false,
+  "training_started": false,
+  "checkpoint_sha256": "1a3493e34e4c23f7eae7c465ba6c48a69d49884a01ec80d599eec6cd9c48187f"
+}

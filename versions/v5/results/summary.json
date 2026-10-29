@@ -1,0 +1,78 @@
+{
+  "scope": "45realworld_20seed_individual_run_metrics",
+  "instances": 45,
+  "seeds": [
+    20261024,
+    20261025,
+    20261026,
+    20261027,
+    20261028,
+    20261029,
+    20261030,
+    20261031,
+    20261032,
+    20261033,
+    20261034,
+    20261035,
+    20261036,
+    20261037,
+    20261038,
+    20261039,
+    20261040,
+    20261041,
+    20261042,
+    20261043
+  ],
+  "raw_runs": 1800,
+  "paired_blocks": 900,
+  "methods": [
+    "MOEA/D + ordinary Heuristic-ALNS",
+    "MOEA/D + frozen V5"
+  ],
+  "results": {
+    "heuristic_hv": 0.742176465285423,
+    "v5_hv": 0.7667272237949541,
+    "heuristic_igd_plus": 0.102259013664852,
+    "v5_igd_plus": 0.08193104356226467,
+    "hv_gain_percent": 3.307940854752034,
+    "igd_reduction_percent": 19.878902968114943,
+    "hv_test": {
+      "W": 311.0,
+      "p": 0.019024213499051257,
+      "wins_ties_losses": [
+        30,
+        0,
+        15
+      ],
+      "rank_biserial": 0.39903381642512076,
+      "median_advantage": 0.014561919354240338,
+      "holm_p_four_overall_endpoints": 0.038048426998102514,
+      "mean_advantage": 0.02455075850953109,
+      "iid_bootstrap95": [
+        0.006409104890551601,
+        0.04338608253062553
+      ],
+      "bootstrap_note": "Equal-instance paired percentile bootstrap, 5000 resamples; conditional on one trained model; related variants limit IID independence."
+    },
+    "igd_test": {
+      "W": 95.0,
+      "p": 1.793997057575325e-07,
+      "wins_ties_losses": [
+        36,
+        0,
+        9
+      ],
+      "rank_biserial": 0.8164251207729468,
+      "median_advantage": 0.019808986134612017,
+      "holm_p_four_overall_endpoints": 7.1759882303013e-07,
+      "mean_advantage": 0.020327970102587318,
+      "iid_bootstrap95": [
+        0.014058658092060593,
+        0.026890564354026963
+      ],
+      "bootstrap_note": "Equal-instance paired percentile bootstrap, 5000 resamples; conditional on one trained model; related variants limit IID independence."
+    }
+  },
+  "normalization": "Per-IID shared empirical ND ideal/nadir over both methods x20 final archives, HVref=(1.1)^5,no clipping; each seed scored separately; report20-seed mean/sample SD, equal45IIDmacro.",
+  "statistics": "Two-sided Wilcoxon signed-rank on45 instance mean differences, SciPy1.10.1 auto,zero_method wilcox; retain original Holm four-endpoint adjustment."
+}

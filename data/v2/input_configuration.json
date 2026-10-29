@@ -1,0 +1,4104 @@
+{
+  "version": "hemt_feature_stage_v3",
+  "seed": 26101311,
+  "execution_host": "host",
+  "device": "cpu",
+  "threads": 1,
+  "allowed_ids_by_split": {
+    "train": [
+      "hemtv2_train_150_C_5",
+      "hemtv2_train_150_C_7",
+      "hemtv2_train_150_C_9",
+      "hemtv2_train_150_C_4",
+      "hemtv2_train_150_C_6",
+      "hemtv2_train_150_C_8",
+      "hemtv2_train_150_R_5",
+      "hemtv2_train_150_R_7",
+      "hemtv2_train_150_R_9",
+      "hemtv2_train_150_R_4",
+      "hemtv2_train_150_R_6",
+      "hemtv2_train_150_R_8",
+      "hemtv2_train_150_RC_5",
+      "hemtv2_train_150_RC_7",
+      "hemtv2_train_150_RC_9",
+      "hemtv2_train_150_RC_4",
+      "hemtv2_train_150_RC_6",
+      "hemtv2_train_150_RC_8",
+      "hemtv2_train_250_C_5",
+      "hemtv2_train_250_C_7",
+      "hemtv2_train_250_C_9",
+      "hemtv2_train_250_C_4",
+      "hemtv2_train_250_C_6",
+      "hemtv2_train_250_C_8",
+      "hemtv2_train_250_R_5",
+      "hemtv2_train_250_R_7",
+      "hemtv2_train_250_R_9",
+      "hemtv2_train_250_R_4",
+      "hemtv2_train_250_R_6",
+      "hemtv2_train_250_R_8",
+      "hemtv2_train_250_RC_5",
+      "hemtv2_train_250_RC_7",
+      "hemtv2_train_250_RC_9",
+      "hemtv2_train_250_RC_4",
+      "hemtv2_train_250_RC_6",
+      "hemtv2_train_250_RC_8",
+      "hemtv2_train_50_C_5",
+      "hemtv2_train_50_C_7",
+      "hemtv2_train_50_C_9",
+      "hemtv2_train_50_C_4",
+      "hemtv2_train_50_C_6",
+      "hemtv2_train_50_C_8",
+      "hemtv2_train_50_R_5",
+      "hemtv2_train_50_R_7",
+      "hemtv2_train_50_R_9",
+      "hemtv2_train_50_R_4",
+      "hemtv2_train_50_R_6",
+      "hemtv2_train_50_R_8",
+      "hemtv2_train_50_RC_5",
+      "hemtv2_train_50_RC_7",
+      "hemtv2_train_50_RC_9",
+      "hemtv2_train_50_RC_4",
+      "hemtv2_train_50_RC_6",
+      "hemtv2_train_50_RC_8"
+    ],
+    "dev": [
+      "hemtv2_dev_150_C_1",
+      "hemtv2_dev_150_C_0",
+      "hemtv2_dev_150_R_1",
+      "hemtv2_dev_150_R_0",
+      "hemtv2_dev_150_RC_1",
+      "hemtv2_dev_150_RC_0",
+      "hemtv2_dev_250_C_1",
+      "hemtv2_dev_250_C_0",
+      "hemtv2_dev_250_R_1",
+      "hemtv2_dev_250_R_0",
+      "hemtv2_dev_250_RC_1",
+      "hemtv2_dev_250_RC_0",
+      "hemtv2_dev_50_C_1",
+      "hemtv2_dev_50_C_0",
+      "hemtv2_dev_50_R_1",
+      "hemtv2_dev_50_R_0",
+      "hemtv2_dev_50_RC_1",
+      "hemtv2_dev_50_RC_0"
+    ]
+  },
+  "train_instance_ids": [
+    "hemtv2_train_150_C_5",
+    "hemtv2_train_150_C_7",
+    "hemtv2_train_150_C_9",
+    "hemtv2_train_150_C_4",
+    "hemtv2_train_150_C_6",
+    "hemtv2_train_150_C_8",
+    "hemtv2_train_150_R_5",
+    "hemtv2_train_150_R_7",
+    "hemtv2_train_150_R_9",
+    "hemtv2_train_150_R_4",
+    "hemtv2_train_150_R_6",
+    "hemtv2_train_150_R_8",
+    "hemtv2_train_150_RC_5",
+    "hemtv2_train_150_RC_7",
+    "hemtv2_train_150_RC_9",
+    "hemtv2_train_150_RC_4",
+    "hemtv2_train_150_RC_6",
+    "hemtv2_train_150_RC_8",
+    "hemtv2_train_250_C_5",
+    "hemtv2_train_250_C_7",
+    "hemtv2_train_250_C_9",
+    "hemtv2_train_250_C_4",
+    "hemtv2_train_250_C_6",
+    "hemtv2_train_250_C_8",
+    "hemtv2_train_250_R_5",
+    "hemtv2_train_250_R_7",
+    "hemtv2_train_250_R_9",
+    "hemtv2_train_250_R_4",
+    "hemtv2_train_250_R_6",
+    "hemtv2_train_250_R_8",
+    "hemtv2_train_250_RC_5",
+    "hemtv2_train_250_RC_7",
+    "hemtv2_train_250_RC_9",
+    "hemtv2_train_250_RC_4",
+    "hemtv2_train_250_RC_6",
+    "hemtv2_train_250_RC_8",
+    "hemtv2_train_50_C_5",
+    "hemtv2_train_50_C_7",
+    "hemtv2_train_50_C_9",
+    "hemtv2_train_50_C_4",
+    "hemtv2_train_50_C_6",
+    "hemtv2_train_50_C_8",
+    "hemtv2_train_50_R_5",
+    "hemtv2_train_50_R_7",
+    "hemtv2_train_50_R_9",
+    "hemtv2_train_50_R_4",
+    "hemtv2_train_50_R_6",
+    "hemtv2_train_50_R_8",
+    "hemtv2_train_50_RC_5",
+    "hemtv2_train_50_RC_7",
+    "hemtv2_train_50_RC_9",
+    "hemtv2_train_50_RC_4",
+    "hemtv2_train_50_RC_6",
+    "hemtv2_train_50_RC_8"
+  ],
+  "dev_instance_ids": [
+    "hemtv2_dev_150_C_1",
+    "hemtv2_dev_150_C_0",
+    "hemtv2_dev_150_R_1",
+    "hemtv2_dev_150_R_0",
+    "hemtv2_dev_150_RC_1",
+    "hemtv2_dev_150_RC_0",
+    "hemtv2_dev_250_C_1",
+    "hemtv2_dev_250_C_0",
+    "hemtv2_dev_250_R_1",
+    "hemtv2_dev_250_R_0",
+    "hemtv2_dev_250_RC_1",
+    "hemtv2_dev_250_RC_0",
+    "hemtv2_dev_50_C_1",
+    "hemtv2_dev_50_C_0",
+    "hemtv2_dev_50_R_1",
+    "hemtv2_dev_50_R_0",
+    "hemtv2_dev_50_RC_1",
+    "hemtv2_dev_50_RC_0"
+  ],
+  "pilot_ids": [
+    "hemtv2_train_150_C_5",
+    "hemtv2_train_150_C_4",
+    "hemtv2_train_150_R_5",
+    "hemtv2_train_150_R_4",
+    "hemtv2_train_150_RC_5",
+    "hemtv2_train_150_RC_4",
+    "hemtv2_train_250_C_5",
+    "hemtv2_train_250_C_4",
+    "hemtv2_train_250_R_5",
+    "hemtv2_train_250_R_4",
+    "hemtv2_train_250_RC_5",
+    "hemtv2_train_250_RC_4",
+    "hemtv2_train_50_C_5",
+    "hemtv2_train_50_C_4",
+    "hemtv2_train_50_R_5",
+    "hemtv2_train_50_R_4",
+    "hemtv2_train_50_RC_5",
+    "hemtv2_train_50_RC_4"
+  ],
+  "inputs": {
+    "hemtv2_train_150_C_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_C_5.json",
+      "sha256": "c2e3a972857a9843e762663117feba698c49ff1db2078c1dab8514a12cea02b3",
+      "split": "train",
+      "fingerprint": "6030844f54b6432e55af221c3c885b79e96d35789c8b182f4463d9d78096cdf4"
+    },
+    "hemtv2_train_150_C_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_C_7.json",
+      "sha256": "02bc2c6a6328a0906206dd6dcfe9bd6b46d08cf75284ad464e70e010a6a23c1c",
+      "split": "train",
+      "fingerprint": "ea651461494e38ce1034adf8e712c16b32eda46d4540cadbe6f590f2de750ab8"
+    },
+    "hemtv2_train_150_C_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_C_9.json",
+      "sha256": "c913448280bf52e56fc5aac9321153de17e045067979a0f91aec0ab17177d995",
+      "split": "train",
+      "fingerprint": "dcb0941e7194f6001596bfdf334111a37678990d192f591cb13281d0e82ea215"
+    },
+    "hemtv2_train_150_C_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_C_4.json",
+      "sha256": "2d61ff5300405230f79d2cc14d4e4911f43cffee770bf79f4aa29354b430219d",
+      "split": "train",
+      "fingerprint": "ee0a67de61e0b2808abf16d2b5ffe18284b135aa0dd962e9e4a3ab47f33d8cf1"
+    },
+    "hemtv2_train_150_C_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_C_6.json",
+      "sha256": "0094617496b5ac778f85bc0c88873fe69a5e4fcbfe3a05ebe42874d87aece528",
+      "split": "train",
+      "fingerprint": "047beb2c3b8e90cbaa1b5634a37d560ed5fc9f56650de4c4783d3885713a91b2"
+    },
+    "hemtv2_train_150_C_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_C_8.json",
+      "sha256": "3dd75df2e87c8e1af41b9a2410ffaac1ed9894e8a422f21f88698f368331b776",
+      "split": "train",
+      "fingerprint": "bea37a491efa9e55c4f5b0211fc3537f6d6b3ecd6eef4d0e58e5bbf6af1cba32"
+    },
+    "hemtv2_train_150_R_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_R_5.json",
+      "sha256": "1b07397534a2651ddfe8dd3a922759bd32a40a87921a35faad3ec663b3fd8906",
+      "split": "train",
+      "fingerprint": "ced22e49f729b4023f8d4aa75640b96b47415a675a13114614dae81e61a8f99e"
+    },
+    "hemtv2_train_150_R_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_R_7.json",
+      "sha256": "e0f9ce23b350b50ceb1c4bcf18f0a6c73390845520f2d6f325fb973de7d446ca",
+      "split": "train",
+      "fingerprint": "33e982483c7fa756834b42ef5e28ecddbca83c938bbc072006ac23df146cf38a"
+    },
+    "hemtv2_train_150_R_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_R_9.json",
+      "sha256": "7add4f171b557768c2002281f0bf8fa6c3d0c476acea6b2710ffed8e4eeb8847",
+      "split": "train",
+      "fingerprint": "4741b5e530a293b87a475eed2fdbaad9e9b703c10af43b0c496730d48b3344a7"
+    },
+    "hemtv2_train_150_R_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_R_4.json",
+      "sha256": "49c26f634deeba5a87261259e8daf0f453bef398eaa27ced98cb07e662f41bae",
+      "split": "train",
+      "fingerprint": "c54b58a5b489b77ec7467ccfd7d065f90557d6d50cf79bd35cfd1f708a968f53"
+    },
+    "hemtv2_train_150_R_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_R_6.json",
+      "sha256": "6644a85ca4c0f2abea663233f2bcbca1e23c19fa99864ad3beb8fb7cc43ae01a",
+      "split": "train",
+      "fingerprint": "11fb6ed583357c1833d0f19788eb45ca315e23a09ade3fd553ab715bd403add4"
+    },
+    "hemtv2_train_150_R_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_R_8.json",
+      "sha256": "d7db2acba1338cce71cc6e9395b6e686e41a204e2b09f172ecc8864587fbe756",
+      "split": "train",
+      "fingerprint": "36c0b9144e9408944d3b5851eec44c1a6cadb234e58ce40c03ea985180a2d86a"
+    },
+    "hemtv2_train_150_RC_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_RC_5.json",
+      "sha256": "5d23df569f80cf31105c9ac8a355db572585e1ed3a856c63be3a341fa0b98e40",
+      "split": "train",
+      "fingerprint": "cfe5711bbf1ed6e4f974cbbbcd0345cd0b29dfd5be9eca1af3d5d258b0352ef3"
+    },
+    "hemtv2_train_150_RC_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_RC_7.json",
+      "sha256": "48dd882eddcef734586573ff4e48b2f3bd2a4bfb265a889df60f740fb5ca8d85",
+      "split": "train",
+      "fingerprint": "466fa8229a67d9c282a573d39c00e36111a84206c554076b55949d072e9173cb"
+    },
+    "hemtv2_train_150_RC_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_RC_9.json",
+      "sha256": "fab0420b6f9414d94698a5197e30bdf088d64ce4ee77bfb046ed6d84da0d4260",
+      "split": "train",
+      "fingerprint": "345430851894bdd3f1bf03ea61ffaed9e37928697a12ce73b337f3b76f841028"
+    },
+    "hemtv2_train_150_RC_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_RC_4.json",
+      "sha256": "86c371724fdbd86940033eefa02aa64b23fb8775b576cfff67e5c861ce2fb007",
+      "split": "train",
+      "fingerprint": "9dc17faff45bff80fa945c24827ee7ec00260f6d88880fe4069e250ffa0f4e16"
+    },
+    "hemtv2_train_150_RC_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_RC_6.json",
+      "sha256": "f0363bc55efcbc1b29c89e12e88ac8663a901bafd314d2208b28122c79aa24f5",
+      "split": "train",
+      "fingerprint": "e07196d6ba0d845b6b1589cea957ca3e89d9c812355d940ee618ba2df038d135"
+    },
+    "hemtv2_train_150_RC_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_150_RC_8.json",
+      "sha256": "ad8bf0739fbfa746725ed602fbe5883d9e861b980ff0abecbeb207e258a2eea7",
+      "split": "train",
+      "fingerprint": "25ee33b6e67d0575bf848e7af5a6a00e7ee9890020363cda527346ae152b4c84"
+    },
+    "hemtv2_train_250_C_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_C_5.json",
+      "sha256": "41a72371103d49a87a9692a3cd2596e43e8a0137cb69421e44d75fcd8d4b40f0",
+      "split": "train",
+      "fingerprint": "4bfbf84ac5dbacc76dde651a6db1754ccdd69f1f91eb810938554a3963e1763a"
+    },
+    "hemtv2_train_250_C_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_C_7.json",
+      "sha256": "d9375debd1281995b435015c41dcb4fd8b11332e1d6936522c7b24911635fdce",
+      "split": "train",
+      "fingerprint": "12be281e148c125ccd05e1acf3bf025621e9bbddc8b478e56327f6e4fcd7f2c1"
+    },
+    "hemtv2_train_250_C_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_C_9.json",
+      "sha256": "8bc27a1f2a2c7b75b19b14489a67893ef44bd20c6598234ac88bc11541f77a00",
+      "split": "train",
+      "fingerprint": "c2edc57a133e767536f4e50174f325e5d2b9e075d8ade784a37e241db963134d"
+    },
+    "hemtv2_train_250_C_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_C_4.json",
+      "sha256": "98ee90039f9093e7822ebe1a81dfbb034b79905327c37c2646cd2155940c5f97",
+      "split": "train",
+      "fingerprint": "76ee3f18e91564ac6943cba6729688797ff8974d6aec2150564da7d6645bc714"
+    },
+    "hemtv2_train_250_C_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_C_6.json",
+      "sha256": "0641bc970563047b82c3974a913f3b1ceffc58bdf9b0a5f3b9d5c863e57ff5de",
+      "split": "train",
+      "fingerprint": "81b3b1e6b20815c5c37c72c83c5084257a102db211f0ee57532ede91bd925c8a"
+    },
+    "hemtv2_train_250_C_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_C_8.json",
+      "sha256": "f3aee473680e41e895f310c2df2b1d1f2b049c6f61e9f71d0b1231e499700a7f",
+      "split": "train",
+      "fingerprint": "97648d060ade00ec6627dec6c99187eed10a592ed24605bfdb6f9c44f0c38556"
+    },
+    "hemtv2_train_250_R_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_R_5.json",
+      "sha256": "e3847d30c730a30b56de260f970d4773568b0cd8a9095d8231d8a0232744a7a8",
+      "split": "train",
+      "fingerprint": "df6ffd4a33f3fd9856cd6a77c1f83eef24f4593d3c1c1688544c0d39f9703c90"
+    },
+    "hemtv2_train_250_R_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_R_7.json",
+      "sha256": "24037cb17edbad69a6da36036c09a39d42f783b772a46ce7adcf766a7bac1c8a",
+      "split": "train",
+      "fingerprint": "ddbde66635345b19c5b951e74c6d888c1e6b920c9352961df59d67170fb8bbeb"
+    },
+    "hemtv2_train_250_R_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_R_9.json",
+      "sha256": "d18f539b06bbae84627dad78a31ed891306a46d0c8e3f9a73faf627d90cb2ab6",
+      "split": "train",
+      "fingerprint": "b068bdad87647edc46fc791be00e87cabdb94597621a35dd655f61ab38003ce3"
+    },
+    "hemtv2_train_250_R_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_R_4.json",
+      "sha256": "43938993aaa0a91fb2a45e2e2f0a1e6961b9299dc91486f053b3fd5fc748b846",
+      "split": "train",
+      "fingerprint": "3a5fa7f7064d00b674f827dc8e38ffe314d1ff8ce5a2406af3a2843f4456b1ef"
+    },
+    "hemtv2_train_250_R_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_R_6.json",
+      "sha256": "d7c4ce4d25498d5b796dea2bc1bc81da2cfcae2d4c75f3c79ca55dd2be035636",
+      "split": "train",
+      "fingerprint": "0984600971dbe6b639962da2b8550306f4d4548365ba0086cfcb630df3e2f34c"
+    },
+    "hemtv2_train_250_R_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_R_8.json",
+      "sha256": "d3e962f7643e65ea064f55405ffd51a8bd1e1db552a662b44077073303f62a5a",
+      "split": "train",
+      "fingerprint": "235ff9739ac332bc2b3bbbab03484237888db0adf9cb1b3c52a123d2f010835a"
+    },
+    "hemtv2_train_250_RC_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_RC_5.json",
+      "sha256": "c752ad3c437d6a3d05c844e848c4b8124e7d15a27f96cd3e74cb62d4c3cb6ea8",
+      "split": "train",
+      "fingerprint": "1ff8bff0eb1559be975d03d2b673fb49b758390c3832cb2aa8ffc0a66b8e0baf"
+    },
+    "hemtv2_train_250_RC_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_RC_7.json",
+      "sha256": "eef745a318100dc6cdecbd0feadf5a99cd79c03238e63ce9ebd4cd6f9a59e4bc",
+      "split": "train",
+      "fingerprint": "eeef357281c7ac4bae5ab5fd5a42616abb5d7367230b2eaa1d8f2c6618bb39d3"
+    },
+    "hemtv2_train_250_RC_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_RC_9.json",
+      "sha256": "7a4ce74a25de54f0d48b72830e7a9f6f7c459d065bad5259616fdbf8f7c5a131",
+      "split": "train",
+      "fingerprint": "2b743de7432fecb348c1ee751b71049b9d45e6d83d6a7dafedb4b39597f1eb39"
+    },
+    "hemtv2_train_250_RC_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_RC_4.json",
+      "sha256": "1902807ebdc6c6604440c2a30c4e43c56a6950b1e66371e893c7556033f631c4",
+      "split": "train",
+      "fingerprint": "b4a579f943209bf57734bf75681cbfa915ddc042166e7b2efda0d9eda471084e"
+    },
+    "hemtv2_train_250_RC_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_RC_6.json",
+      "sha256": "aed603b6250ff06f033ed5deee6f22c73d18cb076e7a266f25cfb00e3d68b33f",
+      "split": "train",
+      "fingerprint": "ae533b2e1ba41a3d91ddcb75232542f0caab5356fc39147ed76bf1128a37cd33"
+    },
+    "hemtv2_train_250_RC_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_250_RC_8.json",
+      "sha256": "2b5a82ddf0f9da2f723708724b920d9471774faa71daac7bfd97f8d463cdfd15",
+      "split": "train",
+      "fingerprint": "979bab3aa0a0bf19a695d62e9c93fa893923d27e31a1abcd910c9b9bedd4c84a"
+    },
+    "hemtv2_train_50_C_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_C_5.json",
+      "sha256": "254cab533f77d667ec9144514ae5551112727002e8b280df2bdc42f113065fd8",
+      "split": "train",
+      "fingerprint": "900715937eae746879461488ddc853448ba77dc6017ccde43c7384b8626dedf5"
+    },
+    "hemtv2_train_50_C_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_C_7.json",
+      "sha256": "416005d7fd9f80db3bf510e0e033cb09f4e9bf683b94936488868a84e3d8cd6d",
+      "split": "train",
+      "fingerprint": "f1189866f65f94721a84ca0d84c853e7ba0b0b461af4b2f97265e5495f8a8dfd"
+    },
+    "hemtv2_train_50_C_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_C_9.json",
+      "sha256": "82220154c6840983590e64c8a8d9407c091250ddd1d0819394202ff8862207f6",
+      "split": "train",
+      "fingerprint": "98deebfd6421ff6a67904b61cb576b270b1f197260b77f504d65bd9e235bed3e"
+    },
+    "hemtv2_train_50_C_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_C_4.json",
+      "sha256": "495de74d2b6109c18899a293293927f4f80710cd1a47031ca7d128f301094d3b",
+      "split": "train",
+      "fingerprint": "d8711978a4103786dc4c7c80632d73f33bac9dba854e39c6d0ec1bf921f1bd40"
+    },
+    "hemtv2_train_50_C_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_C_6.json",
+      "sha256": "3616a7e79bdf6f0996a71bce4bba6d384cd69007d414e43bf6b22179437748d3",
+      "split": "train",
+      "fingerprint": "6945c83c65daaa454b7006976a0e7501c7c49d194f2a10bf421ab931fb1a8d3a"
+    },
+    "hemtv2_train_50_C_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_C_8.json",
+      "sha256": "796eda51ab0f7229299777b0dd78be4c77e181fa87a42e7b3b2f76a86dda0cbc",
+      "split": "train",
+      "fingerprint": "a0aa3399377c632eae598335dd3ad00039cd7251d4a2347d8db5864163240352"
+    },
+    "hemtv2_train_50_R_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_R_5.json",
+      "sha256": "7df4ce275c04d1fb4502e1a74125ded31e8d7560982bcc8575470c7f3d5e507f",
+      "split": "train",
+      "fingerprint": "0d2bcc7a4a5e168cec9d48032a9ca75dc3c61af4155814d46631ac9599b001d5"
+    },
+    "hemtv2_train_50_R_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_R_7.json",
+      "sha256": "08ea2fd704e3d1c3dffabd7e5f02018e65ed9bb9bb4b423ee822e7684ec6f63b",
+      "split": "train",
+      "fingerprint": "d85a69756128e9ec61ce22137ee3ba5d50ea2315591752526ff610b7e38758ae"
+    },
+    "hemtv2_train_50_R_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_R_9.json",
+      "sha256": "3bc3d666ef1cb008699ce54c2d14ab069dbbbc1076be611b1438565f20822a9d",
+      "split": "train",
+      "fingerprint": "c5bed96b596b48fc3bce76d2efdfa42f3fd66f24adbd795bad0592f3e812f098"
+    },
+    "hemtv2_train_50_R_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_R_4.json",
+      "sha256": "b2cba41590d1f6b22c0ed9e0640b6e5f9a38965007f4a65647fc87bfe002195c",
+      "split": "train",
+      "fingerprint": "027d2f9e31b67ef42df730c23c0dabfc10e72bb39ac4d076b1a0c07cb91aed2f"
+    },
+    "hemtv2_train_50_R_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_R_6.json",
+      "sha256": "5fc2d6be053fd634b12573702e43e985c1a2a859ac50ed7271e0ae76283b82f1",
+      "split": "train",
+      "fingerprint": "53964ae48ba227c1b68bd7bcf1406cc432d4299f1b7ebd5094e0f7e9f6c7b955"
+    },
+    "hemtv2_train_50_R_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_R_8.json",
+      "sha256": "3e28452bb39c4d2e3a3ab520281eae781be8ed004bafc6fe245948500a62dfe7",
+      "split": "train",
+      "fingerprint": "dfd30f4c35fe486cc31458ce45d4e82b42e3446200dc689962f9658fe7d8db7e"
+    },
+    "hemtv2_train_50_RC_5": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_RC_5.json",
+      "sha256": "0e571e2d077df31f45876a2e140a393721c199c5d86129c07f1c97e430efadda",
+      "split": "train",
+      "fingerprint": "f7875f95d315c9ed60f3aa7864f98e0dbcc742319b99890a00834b61d38e07a1"
+    },
+    "hemtv2_train_50_RC_7": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_RC_7.json",
+      "sha256": "ed706d549d29b032c4ab059da8b1b27a991260f1b9be1777a6e04f1b0d2ca32f",
+      "split": "train",
+      "fingerprint": "4dd1f793747ee08afd90c34fac29f721ea866d1dda8a81192f493f48f4a5d84d"
+    },
+    "hemtv2_train_50_RC_9": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_RC_9.json",
+      "sha256": "28b42660a07e80cda46d7ca6a0ed5e54bf204e218e78f4354b99b147c6846d62",
+      "split": "train",
+      "fingerprint": "6eb19f29bba0f227651a61f5748d33df731ded68e220399d327b38ae06c3e363"
+    },
+    "hemtv2_train_50_RC_4": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_RC_4.json",
+      "sha256": "0a3d35b3c072153d72f5528a11c3386f55d43258d6eb5cdfa68c2fa71416b537",
+      "split": "train",
+      "fingerprint": "b53678461653586faa326862e46da211741e7e6fff9f77090618ce6d52659cf4"
+    },
+    "hemtv2_train_50_RC_6": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_RC_6.json",
+      "sha256": "837f8046d12b0a38f311c2fec93ffe6810057262679fc8ec8c659e416bb41d68",
+      "split": "train",
+      "fingerprint": "ddac99b36ca16c7a1738aacf259143239518e93d4c1220f6630388c90c5d6e84"
+    },
+    "hemtv2_train_50_RC_8": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_train_50_RC_8.json",
+      "sha256": "f43de73a2eadb4fcda87ae18565d16f71077f0d03b3eb8f597027370fd89e1a1",
+      "split": "train",
+      "fingerprint": "f98dd49aa48596ed59ffdd5526a44a9413a22299c823d5c4ec7f70accf822116"
+    },
+    "hemtv2_dev_150_C_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_150_C_1.json",
+      "sha256": "11c34dbbe93d670a1d4d214b78032c8213606599187efdff2bf99cdc56c0f990",
+      "split": "dev",
+      "fingerprint": "03deb19a7d0d3db5facb5e221df44957fcb125b79ffbd09c1ade96e2fde221de"
+    },
+    "hemtv2_dev_150_C_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_150_C_0.json",
+      "sha256": "e226db9316aa62e0527f4fb9020deb0cfbaafa219dd34f59e9ec0e40424ec408",
+      "split": "dev",
+      "fingerprint": "5a1a5ed6b2346ef86704f0bb4d140c94c525887b638e3734392092923e511441"
+    },
+    "hemtv2_dev_150_R_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_150_R_1.json",
+      "sha256": "fd31b8ab43ca960444fa24194df734a51956a397fc2917a7f007d38748371fb2",
+      "split": "dev",
+      "fingerprint": "60ea4e50be2bd54614e3d29de5cc0a975855bfd4f0fa9acebafec9b5b3ef47fa"
+    },
+    "hemtv2_dev_150_R_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_150_R_0.json",
+      "sha256": "a7fbf71fb5e53cec479fe7100fb3e8fd537ec51536546c18efcb7eec605919c0",
+      "split": "dev",
+      "fingerprint": "c1ac860256a304d7d7a66a76a9934fd09fc1f2b77514390fd28d590792ac29b4"
+    },
+    "hemtv2_dev_150_RC_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_150_RC_1.json",
+      "sha256": "01a4163160472adfc6604c6dfa55a3dd5088378ff5726a3e3ad4c4ff00c6a9b8",
+      "split": "dev",
+      "fingerprint": "7797c5e8e118bed1420a8919f583aab95efe0a19b1f8e88d1759530ff510c174"
+    },
+    "hemtv2_dev_150_RC_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_150_RC_0.json",
+      "sha256": "f357b046edd99236199269b4d74713350eda73de3e0e0f8c8248ccf80ecf687a",
+      "split": "dev",
+      "fingerprint": "836bb5faa88ba525315ad86f54ca2e79a8baa199f504d16f19010549c5e94b1e"
+    },
+    "hemtv2_dev_250_C_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_250_C_1.json",
+      "sha256": "1c2cca76c7c5ffe52832329308f42af272eb7ebc951966a535f27a840c49fd32",
+      "split": "dev",
+      "fingerprint": "731592b8da96577cb93e06ee3a3abfa62a360ca46bc4f62897dad25fa0e06387"
+    },
+    "hemtv2_dev_250_C_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_250_C_0.json",
+      "sha256": "f5779a3435f95101a49fda59bf8e8a7ece7e11f266831c49413bfc3ab70af6f6",
+      "split": "dev",
+      "fingerprint": "da0413735f6463f6a1d79d6717da2efa2d44796bb9db6724c24680d78b6dabac"
+    },
+    "hemtv2_dev_250_R_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_250_R_1.json",
+      "sha256": "f533b9e6703d3914b1cb5d732b4fea8737d2e12c27073dbd3124b7dc12e0f0f8",
+      "split": "dev",
+      "fingerprint": "25ff12c7ca6d143669e99bbd93db46bccad2890d3c54d06afbd42c3aaba73d4f"
+    },
+    "hemtv2_dev_250_R_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_250_R_0.json",
+      "sha256": "9f4298343fc26be8548a8f15689e92fe9068443e37b1b4a7d0189e5c24800a12",
+      "split": "dev",
+      "fingerprint": "7bbb4f431aefa2648c7640dcbfd557528f4cf75a6ab8159de4177837ba6f6fce"
+    },
+    "hemtv2_dev_250_RC_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_250_RC_1.json",
+      "sha256": "0ff4ed1922a180d6e43d41af0951536c8736e23490fe09a00dec286318c692fe",
+      "split": "dev",
+      "fingerprint": "d6525b26048eb5e6bddda8767f73ed71b140e922ff2e713aed72ec2352004df2"
+    },
+    "hemtv2_dev_250_RC_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_250_RC_0.json",
+      "sha256": "b914c543ae505b8207c0bb56d0428ec99c0b3148190005f6378fe0ec512eb0e7",
+      "split": "dev",
+      "fingerprint": "71fc4521849a0d4a9c8089bbfec192babd1340311d4afac6ebce3b0bf7bfba36"
+    },
+    "hemtv2_dev_50_C_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_50_C_1.json",
+      "sha256": "9d872dad34fef634607931652caf47b23cfd7ee51f64a15a2a71469c93f68d86",
+      "split": "dev",
+      "fingerprint": "8e0e5b17aecf7fd10a3c992a8dd664404f3e6a91563747e013fc4590833b45c4"
+    },
+    "hemtv2_dev_50_C_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_50_C_0.json",
+      "sha256": "92e87b58d5eb6f742cae1a75b680596439a17aeffc407cbbf7c77a29ae7d605e",
+      "split": "dev",
+      "fingerprint": "63aca38f91020a6bb24035b6f4dabc03a41ebb15b5fb42242aa60155d8e5f2a2"
+    },
+    "hemtv2_dev_50_R_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_50_R_1.json",
+      "sha256": "aaa457956baa5d2c901d68c2e8c49380dca67ce5436bef44b3553f390ebda8ad",
+      "split": "dev",
+      "fingerprint": "a799d6c847c230ae281e7062c49a1bed8afb7153e8fddb46d8ea2e94e08b614d"
+    },
+    "hemtv2_dev_50_R_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_50_R_0.json",
+      "sha256": "83fa744b34cb0efbe7936bc9b4ccd05d14db09c94be94c0020c8a0baff47c3c8",
+      "split": "dev",
+      "fingerprint": "63e92dc7944d8c4a714dcf7b96af7db13c4ed9b056cb0d17310852a482f5d793"
+    },
+    "hemtv2_dev_50_RC_1": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_50_RC_1.json",
+      "sha256": "53999c78147823c10534155454f2c613bc351e27d476dbe3fcb17befe3119b95",
+      "split": "dev",
+      "fingerprint": "2b21b633b5d5667d775a1cb3b78d258a259067a399fcffc6a13f72c93b0299be"
+    },
+    "hemtv2_dev_50_RC_0": {
+      "path": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013\\inputs\\hemtv2_dev_50_RC_0.json",
+      "sha256": "ac0acff920a68a5a2956d00d6a93b32c283d9fb722dd5cc4b439beb8e99b30ed",
+      "split": "dev",
+      "fingerprint": "9ff73a0001e6dcebf3c0e3f711288becdbdc8684ce1aad6adf1bd3bcbbeb6a7e"
+    }
+  },
+  "boxes_by_instance": {
+    "hemtv2_train_150_C_5": {
+      "scale": [
+        150.0,
+        34933.1183295525,
+        28800.0,
+        2234382.4663116615,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_C_7": {
+      "scale": [
+        150.0,
+        36059.25697295317,
+        28800.0,
+        2458740.7068203143,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_C_9": {
+      "scale": [
+        150.0,
+        30379.848194389822,
+        28800.0,
+        1875376.751942676,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_C_4": {
+      "scale": [
+        150.0,
+        32012.708020221038,
+        10000.0,
+        350796.52216615045,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_C_6": {
+      "scale": [
+        150.0,
+        36135.92666871756,
+        10000.0,
+        200864.56402080716,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_C_8": {
+      "scale": [
+        150.0,
+        32853.20784956944,
+        10000.0,
+        333265.25499932666,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_5": {
+      "scale": [
+        150.0,
+        41381.596242360785,
+        28800.0,
+        2273182.8309499016,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_7": {
+      "scale": [
+        150.0,
+        41383.305561801215,
+        28800.0,
+        2610654.6655447674,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_9": {
+      "scale": [
+        150.0,
+        40936.30004657071,
+        28800.0,
+        2449415.076039083,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_4": {
+      "scale": [
+        150.0,
+        39640.233985089195,
+        10000.0,
+        393314.5028601453,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_6": {
+      "scale": [
+        150.0,
+        39462.65410564862,
+        10000.0,
+        433750.24095105764,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_R_8": {
+      "scale": [
+        150.0,
+        39916.282442457814,
+        10000.0,
+        438276.15141706745,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_5": {
+      "scale": [
+        150.0,
+        42121.684416506076,
+        28800.0,
+        2605349.0033229273,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_7": {
+      "scale": [
+        150.0,
+        41235.68794401346,
+        28800.0,
+        2334643.872811364,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_9": {
+      "scale": [
+        150.0,
+        38821.503660591334,
+        28800.0,
+        2592847.7667507473,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_4": {
+      "scale": [
+        150.0,
+        39026.403206605486,
+        10000.0,
+        431754.5739202433,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_6": {
+      "scale": [
+        150.0,
+        37929.48744633968,
+        10000.0,
+        399930.1023834205,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_150_RC_8": {
+      "scale": [
+        150.0,
+        38828.420869238114,
+        10000.0,
+        485868.09662124387,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_5": {
+      "scale": [
+        250.0,
+        55132.152005444455,
+        28800.0,
+        3693209.638289276,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_7": {
+      "scale": [
+        250.0,
+        59632.157379448014,
+        28800.0,
+        3658520.4614245044,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_9": {
+      "scale": [
+        250.0,
+        52389.614541578594,
+        28800.0,
+        4183712.7946450426,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_4": {
+      "scale": [
+        250.0,
+        55393.250374441996,
+        10000.0,
+        573471.2041674148,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_6": {
+      "scale": [
+        250.0,
+        59378.887487971864,
+        10000.0,
+        996641.3693993108,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_C_8": {
+      "scale": [
+        250.0,
+        65245.60980232789,
+        10000.0,
+        1387456.3741840438,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_5": {
+      "scale": [
+        250.0,
+        68892.61480141207,
+        28800.0,
+        3636604.512183256,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_7": {
+      "scale": [
+        250.0,
+        67446.36442599805,
+        28800.0,
+        4175818.988066705,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_9": {
+      "scale": [
+        250.0,
+        69863.6910910554,
+        28800.0,
+        4111135.8451356,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_4": {
+      "scale": [
+        250.0,
+        69309.00109578275,
+        10000.0,
+        1192950.3640225607,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_6": {
+      "scale": [
+        250.0,
+        67994.81927733605,
+        10000.0,
+        1194966.6159538245,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_R_8": {
+      "scale": [
+        250.0,
+        65622.46020508942,
+        10000.0,
+        1129806.8465477251,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_5": {
+      "scale": [
+        250.0,
+        69520.94468150513,
+        28800.0,
+        4121772.1591177196,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_7": {
+      "scale": [
+        250.0,
+        67478.50487862552,
+        28800.0,
+        4251306.317132856,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_9": {
+      "scale": [
+        250.0,
+        65201.37691731142,
+        28800.0,
+        4016909.9626553054,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_4": {
+      "scale": [
+        250.0,
+        66217.74117922461,
+        10000.0,
+        1045270.3413728722,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_6": {
+      "scale": [
+        250.0,
+        68981.81049036996,
+        10000.0,
+        1036317.2610129302,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_250_RC_8": {
+      "scale": [
+        250.0,
+        66924.77890383494,
+        10000.0,
+        1079064.33733797,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_C_5": {
+      "scale": [
+        50.0,
+        10126.232554809083,
+        28800.0,
+        818881.4112914198,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_C_7": {
+      "scale": [
+        50.0,
+        12373.360187118393,
+        28800.0,
+        684297.7359785207,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_C_9": {
+      "scale": [
+        50.0,
+        8339.298332843719,
+        28800.0,
+        617915.4047888753,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_C_4": {
+      "scale": [
+        50.0,
+        10274.16938956449,
+        10000.0,
+        52780.626698682434,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_C_6": {
+      "scale": [
+        50.0,
+        11762.399340283357,
+        10000.0,
+        42947.82369613216,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_C_8": {
+      "scale": [
+        50.0,
+        13018.150815020723,
+        10000.0,
+        46864.55782660722,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_5": {
+      "scale": [
+        50.0,
+        13180.205514193545,
+        28800.0,
+        759157.5297463785,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_7": {
+      "scale": [
+        50.0,
+        14126.319582276417,
+        28800.0,
+        759960.045094137,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_9": {
+      "scale": [
+        50.0,
+        12671.424569108989,
+        28800.0,
+        822050.8220223172,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_4": {
+      "scale": [
+        50.0,
+        13274.259980143437,
+        10000.0,
+        48262.09858118139,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_6": {
+      "scale": [
+        50.0,
+        13151.635568005444,
+        10000.0,
+        52848.44632462923,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_R_8": {
+      "scale": [
+        50.0,
+        13787.98316370254,
+        10000.0,
+        57922.39428180597,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_5": {
+      "scale": [
+        50.0,
+        11619.521194324785,
+        28800.0,
+        766936.0002978354,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_7": {
+      "scale": [
+        50.0,
+        12499.625574451547,
+        28800.0,
+        690011.7345436736,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_9": {
+      "scale": [
+        50.0,
+        11276.118188918159,
+        28800.0,
+        631994.5474744885,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_4": {
+      "scale": [
+        50.0,
+        13316.090617295135,
+        10000.0,
+        45653.80628566386,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_6": {
+      "scale": [
+        50.0,
+        13090.438615244795,
+        10000.0,
+        43178.88471958465,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_train_50_RC_8": {
+      "scale": [
+        50.0,
+        12426.506373499822,
+        10000.0,
+        49312.967638757786,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_150_C_1": {
+      "scale": [
+        150.0,
+        33424.57996972558,
+        28800.0,
+        2300140.7508140285,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_150_C_0": {
+      "scale": [
+        150.0,
+        33489.698366847995,
+        10000.0,
+        283101.53652101813,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_150_R_1": {
+      "scale": [
+        150.0,
+        40860.93037989999,
+        28800.0,
+        2518067.3299709596,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_150_R_0": {
+      "scale": [
+        150.0,
+        41422.75297797017,
+        10000.0,
+        469369.0403443961,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_150_RC_1": {
+      "scale": [
+        150.0,
+        39856.34794165149,
+        28800.0,
+        2355413.456802481,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_150_RC_0": {
+      "scale": [
+        150.0,
+        40931.290482963246,
+        10000.0,
+        365502.5247433764,
+        270000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_250_C_1": {
+      "scale": [
+        250.0,
+        60214.86829525418,
+        28800.0,
+        3907762.33814302,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_250_C_0": {
+      "scale": [
+        250.0,
+        67715.92504324841,
+        10000.0,
+        1063449.2062313838,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_250_R_1": {
+      "scale": [
+        250.0,
+        68499.4924954408,
+        28800.0,
+        4192180.3544254624,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_250_R_0": {
+      "scale": [
+        250.0,
+        70428.59619266515,
+        10000.0,
+        1224231.6990422783,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_250_RC_1": {
+      "scale": [
+        250.0,
+        66911.8675838477,
+        28800.0,
+        3886928.681176468,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_250_RC_0": {
+      "scale": [
+        250.0,
+        66577.060031714,
+        10000.0,
+        1071207.1492707492,
+        450000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_50_C_1": {
+      "scale": [
+        50.0,
+        10206.238302430704,
+        28800.0,
+        574619.0069550943,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_50_C_0": {
+      "scale": [
+        50.0,
+        11556.032693952728,
+        10000.0,
+        37444.53401641792,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_50_R_1": {
+      "scale": [
+        50.0,
+        13295.91290682011,
+        28800.0,
+        811770.6433922623,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_50_R_0": {
+      "scale": [
+        50.0,
+        11860.110762697355,
+        10000.0,
+        48184.308968552126,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_50_RC_1": {
+      "scale": [
+        50.0,
+        13598.579616952122,
+        28800.0,
+        738528.9036397121,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "hemtv2_dev_50_RC_0": {
+      "scale": [
+        50.0,
+        12221.073670747914,
+        10000.0,
+        45745.768813396135,
+        90000.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  },
+  "forbidden_ids": [
+    "hemtv2_train_250_R_1",
+    "hemtv2_train_250_R_2",
+    "hemtv2_train_150_R_3",
+    "hemtv2_train_250_C_0",
+    "hemtv2_train_50_RC_3",
+    "hemtv2_train_150_C_0",
+    "hemtv2_train_150_C_3",
+    "hemtv2_train_250_R_3",
+    "hemtv2_train_150_C_1",
+    "hemtv2_train_50_C_3",
+    "hemtv2_train_150_RC_1",
+    "hemtv2_train_150_R_0",
+    "hemtv2_train_150_RC_2",
+    "hemtv2_train_50_RC_2",
+    "hemtv2_train_250_R_0",
+    "hemtv2_train_50_R_3",
+    "hemtv2_train_250_RC_0",
+    "hemtv2_train_50_C_2",
+    "hemtv2_train_250_RC_1",
+    "hemtv2_train_50_C_0",
+    "hemtv2_train_150_R_1",
+    "hemtv2_train_150_C_2",
+    "hemtv2_train_250_RC_2",
+    "hemtv2_train_50_RC_1",
+    "hemtv2_train_250_RC_3",
+    "hemtv2_train_50_RC_0",
+    "hemtv2_train_50_R_1",
+    "hemtv2_train_150_RC_0",
+    "hemtv2_train_250_C_3",
+    "hemtv2_train_50_C_1",
+    "hemtv2_train_50_R_0",
+    "hemtv2_train_150_RC_3",
+    "hemtv2_train_250_C_1",
+    "hemtv2_train_250_C_2",
+    "hemtv2_train_50_R_2",
+    "hemtv2_train_150_R_2"
+  ],
+  "q_values_by_instance": {
+    "hemtv2_train_150_C_5": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_C_7": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_C_9": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_C_4": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_C_6": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_C_8": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_R_5": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_R_7": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_R_9": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_R_4": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_R_6": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_R_8": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_RC_5": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_RC_7": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_RC_9": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_RC_4": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_RC_6": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_150_RC_8": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_C_5": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_C_7": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_C_9": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_C_4": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_C_6": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_C_8": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_R_5": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_R_7": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_R_9": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_R_4": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_R_6": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_R_8": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_RC_5": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_RC_7": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_RC_9": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_RC_4": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_RC_6": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_250_RC_8": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_train_50_C_5": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_C_7": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_C_9": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_C_4": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_C_6": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_C_8": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_R_5": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_R_7": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_R_9": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_R_4": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_R_6": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_R_8": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_RC_5": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_RC_7": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_RC_9": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_RC_4": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_RC_6": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_train_50_RC_8": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_dev_150_C_1": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_150_C_0": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_150_R_1": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_150_R_0": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_150_RC_1": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_150_RC_0": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_250_C_1": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_250_C_0": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_250_R_1": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_250_R_0": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_250_RC_1": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_250_RC_0": [
+      1,
+      4,
+      8,
+      12,
+      15
+    ],
+    "hemtv2_dev_50_C_1": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_dev_50_C_0": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_dev_50_R_1": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_dev_50_R_0": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_dev_50_RC_1": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "hemtv2_dev_50_RC_0": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ]
+  },
+  "repair_ids": [
+    "greedy",
+    "regret2",
+    "regret3",
+    "noisy_greedy"
+  ],
+  "patterns": [
+    "random",
+    "related",
+    "longedge",
+    "tighttime"
+  ],
+  "preferences_by_instance": {
+    "hemtv2_train_50_C_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_C_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_C_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.07211154917846481,
+        0.09238142088448743,
+        0.2324833944132218,
+        0.1903704442064009,
+        0.412653191317425
+      ]
+    ],
+    "hemtv2_train_50_C_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_50_C_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_C_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.24378004358170394,
+        0.2965788586684999,
+        0.038025881276069505,
+        0.26355775340670184,
+        0.1580574630670248
+      ]
+    ],
+    "hemtv2_train_50_R_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_R_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_R_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_R_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_R_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_R_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_RC_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_50_RC_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_RC_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_50_RC_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_RC_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_50_RC_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.39486486347880073,
+        0.37510306760569756,
+        0.10263653934998462,
+        0.12057634345398584,
+        0.006819186111531187
+      ]
+    ],
+    "hemtv2_train_150_C_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.5958621367273209,
+        0.05460764701245648,
+        0.1553365579050781,
+        0.10654462253281419,
+        0.0876490358223302
+      ]
+    ],
+    "hemtv2_train_150_C_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_C_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_C_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_C_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.0010137092825142086,
+        0.6155855004142521,
+        0.010641708531011677,
+        0.33233803909178894,
+        0.04042104268043326
+      ]
+    ],
+    "hemtv2_train_150_C_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_R_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_150_R_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_R_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_R_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_R_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.5019152758645123,
+        0.022459379374100898,
+        0.3254585130943638,
+        0.11811455659782832,
+        0.032052275069194634
+      ]
+    ],
+    "hemtv2_train_150_R_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_150_RC_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_RC_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_RC_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_RC_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_RC_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_150_RC_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_250_C_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_C_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_250_C_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_C_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.09747093818228914,
+        0.11887089197403722,
+        0.48699441509204183,
+        0.206185865111526,
+        0.0904778896401059
+      ]
+    ],
+    "hemtv2_train_250_C_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_C_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_R_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_250_R_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_R_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_train_250_R_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_R_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_R_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.12782634517436678,
+        0.3213267844772713,
+        0.12995846176486528,
+        0.041433698370585255,
+        0.3794547102129114
+      ]
+    ],
+    "hemtv2_train_250_RC_5": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_RC_7": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_RC_9": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_RC_4": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_RC_6": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_train_250_RC_8": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.23838821465127333,
+        0.3170572170806432,
+        0.09919655149504138,
+        0.1874785202833423,
+        0.15787949648969962
+      ]
+    ],
+    "hemtv2_dev_50_C_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_dev_50_C_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_50_R_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.03360344244071536,
+        0.24591469182781453,
+        0.15101248252263888,
+        0.225111558643715,
+        0.34435782456511627
+      ]
+    ],
+    "hemtv2_dev_50_R_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_50_RC_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_50_RC_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_150_C_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_150_C_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_150_R_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.18628541938871973,
+        0.0786678834189066,
+        0.3662539334875012,
+        0.177244510398434,
+        0.1915482533064386
+      ]
+    ],
+    "hemtv2_dev_150_R_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ],
+    "hemtv2_dev_150_RC_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_150_RC_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_250_C_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.3523078980045743,
+        0.5099705320729278,
+        0.02478080924505462,
+        0.055860942014421766,
+        0.05707981866302167
+      ]
+    ],
+    "hemtv2_dev_250_C_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.96,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_250_R_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_250_R_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.96,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_250_RC_1": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.96,
+        0.01
+      ]
+    ],
+    "hemtv2_dev_250_RC_0": [
+      [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.96
+      ]
+    ]
+  },
+  "preference_sampling": "uniform + predetermined scale-balanced near-corner/Dirichlet; constant within each trajectory",
+  "capture_budget_seconds": 360.0,
+  "stop_after_all_stages": true,
+  "rolling_window": 20,
+  "feedback_window": 20,
+  "min_stagnation_completed": 12,
+  "min_stagnation_seconds": 10.0,
+  "stagnation_min_completed": 12,
+  "stagnation_min_seconds": 10.0,
+  "max_snapshots_per_kind": 1,
+  "first_action_deadline_seconds": 30.0,
+  "repetitions": 2,
+  "long_ids": [
+    "hemtv2_train_150_C_5",
+    "hemtv2_train_150_C_7",
+    "hemtv2_train_150_C_9",
+    "hemtv2_train_150_C_4",
+    "hemtv2_train_150_C_6",
+    "hemtv2_train_150_C_8",
+    "hemtv2_train_150_R_5",
+    "hemtv2_train_150_R_7",
+    "hemtv2_train_150_R_9",
+    "hemtv2_train_150_R_4",
+    "hemtv2_train_150_R_6",
+    "hemtv2_train_150_R_8",
+    "hemtv2_train_150_RC_5",
+    "hemtv2_train_150_RC_7",
+    "hemtv2_train_150_RC_9",
+    "hemtv2_train_150_RC_4",
+    "hemtv2_train_150_RC_6",
+    "hemtv2_train_150_RC_8",
+    "hemtv2_train_250_C_5",
+    "hemtv2_train_250_C_7",
+    "hemtv2_train_250_C_9",
+    "hemtv2_train_250_C_4",
+    "hemtv2_train_250_C_6",
+    "hemtv2_train_250_C_8",
+    "hemtv2_train_250_R_5",
+    "hemtv2_train_250_R_7",
+    "hemtv2_train_250_R_9",
+    "hemtv2_train_250_R_4",
+    "hemtv2_train_250_R_6",
+    "hemtv2_train_250_R_8",
+    "hemtv2_train_250_RC_5",
+    "hemtv2_train_250_RC_7",
+    "hemtv2_train_250_RC_9",
+    "hemtv2_train_250_RC_4",
+    "hemtv2_train_250_RC_6",
+    "hemtv2_train_250_RC_8",
+    "hemtv2_train_50_C_5",
+    "hemtv2_train_50_C_7",
+    "hemtv2_train_50_C_9",
+    "hemtv2_train_50_C_4",
+    "hemtv2_train_50_C_6",
+    "hemtv2_train_50_C_8",
+    "hemtv2_train_50_R_5",
+    "hemtv2_train_50_R_7",
+    "hemtv2_train_50_R_9",
+    "hemtv2_train_50_R_4",
+    "hemtv2_train_50_R_6",
+    "hemtv2_train_50_R_8",
+    "hemtv2_train_50_RC_5",
+    "hemtv2_train_50_RC_7",
+    "hemtv2_train_50_RC_9",
+    "hemtv2_train_50_RC_4",
+    "hemtv2_train_50_RC_6",
+    "hemtv2_train_50_RC_8",
+    "hemtv2_dev_150_C_1",
+    "hemtv2_dev_150_C_0",
+    "hemtv2_dev_150_R_1",
+    "hemtv2_dev_150_R_0",
+    "hemtv2_dev_150_RC_1",
+    "hemtv2_dev_150_RC_0",
+    "hemtv2_dev_250_C_1",
+    "hemtv2_dev_250_C_0",
+    "hemtv2_dev_250_R_1",
+    "hemtv2_dev_250_R_0",
+    "hemtv2_dev_250_RC_1",
+    "hemtv2_dev_250_RC_0",
+    "hemtv2_dev_50_C_1",
+    "hemtv2_dev_50_C_0",
+    "hemtv2_dev_50_R_1",
+    "hemtv2_dev_50_R_0",
+    "hemtv2_dev_50_RC_1",
+    "hemtv2_dev_50_RC_0"
+  ],
+  "long_stages": [
+    "initial",
+    "progress",
+    "stagnating"
+  ],
+  "long_horizons": [
+    24.0
+  ],
+  "long_repetitions": 1,
+  "prefix_horizons": [
+    8.0,
+    24.0
+  ],
+  "long_repair": "greedy",
+  "long_pattern": "related",
+  "long_q": "all_three_q",
+  "feature_models": {
+    "trees": 50,
+    "depth": 5,
+    "nested_folds": 3
+  },
+  "training_gate": {
+    "min_train_iids": 36,
+    "min_dev_iids": 12,
+    "min_stagnating_iids": 6,
+    "both_q_and_D_positive_dev_iid_bootstrap_lower": true,
+    "max_censor_fraction": 0.01,
+    "min_per_scale_coverage": 3,
+    "no_neural_training_before_feature_gate": true
+  },
+  "train_after_confirmation": true,
+  "holdout_access": false,
+  "primary_target": "single complete exact normalized-box HV marginal; null for failures/censor",
+  "long_target": "q selection uses fixed greedy+related 24s rollouts; 8s eligible archive prefix retained; no random q switch",
+  "selection_scope": "Best of preregistered candidate feature groups under nested IID protocol; not global optimal feature proof"
+}

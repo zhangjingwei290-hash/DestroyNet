@@ -1,0 +1,30 @@
+{
+  "version": "v4_emnh_fullrange_20261024",
+  "project_root": "D:\\WorkSpace\\versions\\version0.7",
+  "study_root": "D:\\WorkSpace\\versions\\version0.7\\artifacts\\hemt_feature_stage_v3_20261013",
+  "split_manifest": "D:\\WorkSpace\\fuxian\\DPR\\experiments\\v4_emnh_fullrange_20261024\\split.json",
+  "device": "cuda",
+  "seed": 20261024,
+  "hidden_dim": 128,
+  "near_neighbors": 10,
+  "episode_steps": 150,
+  "learning_rate": 0.003,
+  "entropy_weight": 0.001,
+  "clip_epsilon": 0.2,
+  "ppo_epochs": 2,
+  "task_count": 5,
+  "replicas": 4,
+  "inner_updates": 4,
+  "microbatch": 8,
+  "meta_step_size": 1.0,
+  "cpu_threads": 1,
+  "meta_seconds": 2100,
+  "adaptation_seconds": 1500,
+  "repair_seconds": 2.0,
+  "local_seconds": 2.0,
+  "solve_seconds_by_n": {
+    "50": 10.0,
+    "150": 15.0,
+    "250": 20.0
+  }
+}

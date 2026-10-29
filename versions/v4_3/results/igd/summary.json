@@ -1,0 +1,58 @@
+{
+  "empirical_ideal_nadir": {
+    "igd": {
+      "heuristic_mean": 0.17990399541755486,
+      "ppo_mean": 0.1458517350372611,
+      "reduction_of_grand_means_percent": 18.928017858224276,
+      "mean_paired_reduction_percent": 16.909013375928943,
+      "seed_block_bootstrap_95_percent": [
+        15.009462099937632,
+        18.9840504523176
+      ],
+      "ppo_wins": 38,
+      "ties": 0,
+      "ppo_losses": 7
+    },
+    "igd_plus": {
+      "heuristic_mean": 0.07403303737111713,
+      "ppo_mean": 0.06728915284480075,
+      "reduction_of_grand_means_percent": 9.109290616444989,
+      "mean_paired_reduction_percent": 4.896335474242647,
+      "seed_block_bootstrap_95_percent": [
+        -9.106939565092002,
+        18.899610513577297
+      ],
+      "ppo_wins": 31,
+      "ties": 0,
+      "ppo_losses": 14
+    }
+  },
+  "fixed_physical": {
+    "igd": {
+      "heuristic_mean": 0.01917943608263347,
+      "ppo_mean": 0.01452603671392241,
+      "reduction_of_grand_means_percent": 24.2624410262229,
+      "mean_paired_reduction_percent": 21.375602891988997,
+      "seed_block_bootstrap_95_percent": [
+        18.599985497061628,
+        24.407592825748928
+      ],
+      "ppo_wins": 39,
+      "ties": 0,
+      "ppo_losses": 6
+    },
+    "igd_plus": {
+      "heuristic_mean": 0.008431041118261647,
+      "ppo_mean": 0.00466942382212868,
+      "reduction_of_grand_means_percent": 44.61628455334299,
+      "mean_paired_reduction_percent": 36.19413173552232,
+      "seed_block_bootstrap_95_percent": [
+        28.558700339894646,
+        43.829563131149975
+      ],
+      "ppo_wins": 38,
+      "ties": 0,
+      "ppo_losses": 7
+    }
+  }
+}
