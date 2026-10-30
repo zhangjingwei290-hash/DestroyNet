@@ -1,0 +1,8 @@
+{
+  "reason": "Incomplete five-task batch at source solver tail incorrectly ended whole meta phase",
+  "training_process_seconds": 1488.4270691871643,
+  "preflight_seconds": 39.72688007354736,
+  "previous_total_seconds": 1528.1539492607117,
+  "meta_phase_seconds_before_recovery": 328.73510241508484,
+  "resume_note": "Meta weights restored at a complete four-inner-update merge boundary; Adam and RNG were not saved by the first wrapper and are explicitly reinitialized at that boundary. Old direction weights are retained only as incident artifacts."
+}

@@ -1,0 +1,9 @@
+﻿method,metric,W,p,instance_WTL,holm_p
+v5_meta_frozen,hv,20.0,0.8203125,"[4, 0, 5]",1.0
+v5_meta_frozen,igd_plus,15.0,0.42578125,"[4, 0, 5]",1.0
+step1_adapted,hv,4.0,0.02734375,"[1, 0, 8]",0.21875
+step1_adapted,igd_plus,17.0,0.5703125,"[3, 0, 6]",1.0
+step2_meta_only,hv,10.0,0.1640625,"[2, 0, 7]",1.0
+step2_meta_only,igd_plus,11.0,0.203125,"[6, 0, 3]",1.0
+step2_adapted,hv,14.0,0.359375,"[4, 0, 5]",1.0
+step2_adapted,igd_plus,17.0,0.5703125,"[6, 0, 3]",1.0

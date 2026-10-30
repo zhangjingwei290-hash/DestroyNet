@@ -1,1 +1,15 @@
-{"passed": true, "manifest_files": 757, "original_byte_copies": 740, "python_files_parsed": 221, "neural_model_loaded": false, "search_or_training_executed": false}
+{
+  "passed": true,
+  "manifest_files": 1390,
+  "original_byte_copies": 1370,
+  "python_files_parsed": 325,
+  "neural_model_loaded": false,
+  "search_or_training_executed": false,
+  "pilot_reports": 135,
+  "pilot_new_searches": 81,
+  "pilot_reused_searches": 54,
+  "pilot_new_deployed_models": 33,
+  "pilot_complete_original_readonly_verified": true,
+  "source_archive": "versions/v5_fix_pilot_20261030",
+  "pilot_physical_verification": "versions/v5_fix_pilot_20261030/step2_analysis/VERIFICATION.json"
+}

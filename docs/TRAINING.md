@@ -27,3 +27,6 @@ V5完成三轮180IID，共540个完整搜索周期、207批、414个optimizer st
 V5合成集由真实统计参与拟合；N150/N250最近邻中位数偏差为约−41.58%/−39.61%，配置中保留分布门禁false和用户接受回执。真实45例未作为元训练输入；50-0-0有过V4.3试跑记录，真实基准不是盲测。一个训练seed与多个搜索seed分别记录。
 
 机器可读数据：各版本checkpoints/training_report.json、results/summary.json；V5为training/training_report.json。V5报告中含完整history；latest_checkpoint等恢复状态未随本次发布。
+## 2026-10-30追加：V5两步Pilot
+
+[实际机制与训练入口](../versions/v5_fix_pilot_20261030/MECHANISMS.md)及[训练记录](../versions/v5_fix_pilot_20261030/step2_training/training_report.json)。第1步冻结encoder，16方向实际更新，含技术分支累计2204.629秒。第2步含技术分支累计2590.657秒，上限2700秒；meta累计1174.215秒，17批meta及16方向各1批，58834优化交互，5个150/250客户FIT输入，训练seed20261024。source-tail错误前后的元权重在完整元更新边界衔接，Adam/RNG重建；两次运行分支、覆盖及计费条件在新增目录说明。原冻结版本训练数据保留在上文。

@@ -1,5 +1,7 @@
 # 资产与执行边界
 
+2026-10-30新增目录[versions/v5_fix_pilot_20261030](../versions/v5_fix_pilot_20261030/README.md)：包含第1步/第2步网络源码、实际训练包装器、原起点权重、第1步16方向权重、第2步共享meta及16方向权重、物理依赖、270输入与划分、135份含最终路线/目标的紧凑报告、训练日志和三张结果表。完整逐步records/variation_events/point_events及弃用分支的方向权重仍留在本地。新目录PACKAGE_CONTENTS.json列出具体范围，旧版本范围保留如下。
+
 - versions/*/source：从冻结快照复制的源文件，保持字节不变。V2 source中也保留其运行目录下的元/方向权重；V4/F权重在checkpoints；V5只有实际部署meta权重。
 - dependencies：V2外部Python物理定义/约束/评价源码，以及V5同主机补跑保存的物理模块副本。版本目录下的source仍使用原绝对路径约定。
 - data：原冻结输入字节和划分；JSON中的本地路径是溯源字段，不是远程下载地址。
