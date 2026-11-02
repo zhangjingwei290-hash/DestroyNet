@@ -1,0 +1,19 @@
+{
+  "meta_target_epochs": 3,
+  "fit_instances": 180,
+  "meta_seconds": 129600,
+  "estimated_meta_seconds": 79288.39847029548,
+  "hardcap_multiplier": 1.5,
+  "hardcap_rounding_seconds": 21600,
+  "smoke_cycles": 8,
+  "smoke_seconds": 542.2204517999198,
+  "smoke_local_seconds": 2.0,
+  "formal_local_seconds": 10.0,
+  "sampling_seconds": 494.04069110006094,
+  "update_seconds": 43.8716472000815,
+  "smoke_window_allocation_units": 2851.0,
+  "target_window_allocation_units": 374151.0,
+  "update_window_scale": 329.4375,
+  "scope": "coarse runtime extrapolation; allocation units are not measured CPU seconds; not a convergence/ETA guarantee",
+  "uncertainty": "smoke cohort1N50/4N150/3N250, local2 vs formal10; policy/instance/action rates change. Re-estimate from formal progress."
+}

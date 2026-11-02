@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "scope": "derived statistics and tables only; no training or solver evaluation",
+  "instances": 45,
+  "seeds": 20,
+  "metrics": 2700,
+  "overall_and_scale_tests": 24,
+  "per_instance_tests": 270,
+  "existing_24_exact_p_and_W_and_holm_matched": true,
+  "all_135_mean_sd_matched": true,
+  "tied_rank_enumeration_check_passed": true,
+  "R_definition": "positive means target better: target-baseline for HV; baseline-target for IGD+",
+  "holm_family": "6 per scope and 6 per instance; not global correction across 45 instances",
+  "inputs_sha256": {
+    "main_table.csv": "60096885e5c052a5c5c047e99384cc0ef529bfe3a30f78461ae714212bfb0bf1",
+    "per_run_metrics.csv": "08fd410b6fe04a42311251515836c5363968e561a4453a2266c65789379fe46c",
+    "comparisons.csv": "115de28ad19a14ab5b8c154bc97b19c4aa95b183e03af26c9feb3ba7b40c28ae"
+  },
+  "significant_instance_summary": [
+    {
+      "scale": 50,
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 11,
+      "nonsignificant": 3,
+      "significant_losses": 1
+    },
+    {
+      "scale": 50,
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 9,
+      "nonsignificant": 4,
+      "significant_losses": 2
+    },
+    {
+      "scale": 50,
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 9,
+      "nonsignificant": 5,
+      "significant_losses": 1
+    },
+    {
+      "scale": 50,
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 8,
+      "nonsignificant": 6,
+      "significant_losses": 1
+    },
+    {
+      "scale": 150,
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 9,
+      "nonsignificant": 6,
+      "significant_losses": 0
+    },
+    {
+      "scale": 150,
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 7,
+      "nonsignificant": 6,
+      "significant_losses": 2
+    },
+    {
+      "scale": 150,
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 11,
+      "nonsignificant": 3,
+      "significant_losses": 1
+    },
+    {
+      "scale": 150,
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 10,
+      "nonsignificant": 1,
+      "significant_losses": 4
+    },
+    {
+      "scale": 250,
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 8,
+      "nonsignificant": 7,
+      "significant_losses": 0
+    },
+    {
+      "scale": 250,
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 4,
+      "nonsignificant": 9,
+      "significant_losses": 2
+    },
+    {
+      "scale": 250,
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 10,
+      "nonsignificant": 5,
+      "significant_losses": 0
+    },
+    {
+      "scale": 250,
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 9,
+      "nonsignificant": 6,
+      "significant_losses": 0
+    },
+    {
+      "scale": "overall",
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 28,
+      "nonsignificant": 16,
+      "significant_losses": 1
+    },
+    {
+      "scale": "overall",
+      "metric": "HV",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 20,
+      "nonsignificant": 19,
+      "significant_losses": 6
+    },
+    {
+      "scale": "overall",
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS",
+      "significant_wins": 30,
+      "nonsignificant": 13,
+      "significant_losses": 2
+    },
+    {
+      "scale": "overall",
+      "metric": "IGD+",
+      "baseline": "MOEA/D–ALNS-T",
+      "significant_wins": 27,
+      "nonsignificant": 13,
+      "significant_losses": 5
+    }
+  ]
+}

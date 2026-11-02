@@ -1,0 +1,11 @@
+{
+  "repair": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\v5_step5_multiscale_20261031\\stage2_r3_full12pass_co_adapted\\engineering\\replay_guard_direction05_batch003\\REPAIR.json",
+  "original_manifest": "stage2_coordinator/SOURCE_MANIFEST.json",
+  "effective_manifest": "stage2_coordinator/EFFECTIVE_SOURCE_MANIFEST.json",
+  "old_completed_training_preserved": true,
+  "thresholds_unchanged": true,
+  "evaluation_dependency_repair": "engineering/smoke_missing_diagnostics/REPAIR.json",
+  "previous_effective_manifest": "engineering/smoke_missing_diagnostics/before/stage2_coordinator/EFFECTIVE_SOURCE_MANIFEST.json",
+  "continuation_entrypoint": "coordinator_stage2_eval_resume.py",
+  "training_complete_no_dispatch": true
+}

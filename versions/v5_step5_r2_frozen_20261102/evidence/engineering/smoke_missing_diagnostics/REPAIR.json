@@ -1,0 +1,30 @@
+{
+  "ready_for_evaluation_resume": true,
+  "observed_failure": "ModuleNotFoundError: diagnostics from step3_diagnostics before Search construction",
+  "cause_proven": true,
+  "repair": "Copy inherited diagnostics.py byte-for-byte; reporting bins only",
+  "dependency_source": "/mnt/d/workspace/fuxian/DPR/runs/experiments/v5_step5_multiscale_20261031/diagnostics.py",
+  "dependency_sha256": "5c2c3b0a06d3478c99dc64b7522ecea49ac5463ce4adbaf66cba094321bd3613",
+  "validation": {
+    "passed": true,
+    "spawn_imports": [
+      "step3_diagnostics",
+      "stage2_eval",
+      "stage2_reporting",
+      "verify_stage2_batch",
+      "verify_stage2_final"
+    ],
+    "diagnostics_path": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\v5_step5_multiscale_20261031\\stage2_r3_full12pass_co_adapted\\diagnostics.py",
+    "searches": 0,
+    "optimizer_steps": 0,
+    "weights_loaded": 0
+  },
+  "formal_searches_before_failure": 0,
+  "training_repeated": false,
+  "q_gate_repeated": false,
+  "completed_weights_unchanged": true,
+  "training_active_seconds": 39099.28010920016,
+  "resumption": "technical_smoke then existing core36/model selection/full45x20 pipeline; no training or qgate dispatch",
+  "previous_manifest": "engineering/smoke_missing_diagnostics/before/stage2_coordinator/EFFECTIVE_SOURCE_MANIFEST.json",
+  "recorded_unix": 1793486352.7172306
+}

@@ -1,0 +1,8 @@
+{
+  "root": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\v5_step5_multiscale_20261031",
+  "archive": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\v5_step5_multiscale_20261031\\stage2_archive_r2",
+  "archive_receipt_sha256": "e9bd78ec68dc7b72036b22935eeb8f0e20d96f7fa6c3739778198fef855fc8d2",
+  "r2_audit_sha256": "d10ca83127e8eb22c7a242299e6a9bd32275bd2f38713820a7f2939ab30c7ea3",
+  "r2_meta_sha256": "d14e6205e61c936e38bd97cb7543d7ceacfc97feba4f49714bbb6cba93ffc355",
+  "r2_pool_sha256": "3f7b6527284266d7eacb7eb026190f44430692dd79f15425fa41ec4a78726889"
+}

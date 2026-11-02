@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "version": "v5_step5_r2_frozen_20261102",
+  "package_hashes_verified": 835,
+  "r2_models": 17,
+  "directions": 16,
+  "source_locks_verified": 2,
+  "input_roles": [
+    180,
+    45,
+    45
+  ],
+  "compact_runs_verified": 2700,
+  "initial_populations_paired": 900,
+  "checkpoint_bindings_verified": 900,
+  "per_run_metrics": 2700,
+  "mean_sd_rows": 135,
+  "aggregate_exact_tests": 24,
+  "per_instance_exact_tests": 270,
+  "all_holm_recomputed": true,
+  "original_raw_feasibility_audit": "completed audit receipts retained; full search not rerun",
+  "model_loaded": false,
+  "training_or_search_executed": false
+}

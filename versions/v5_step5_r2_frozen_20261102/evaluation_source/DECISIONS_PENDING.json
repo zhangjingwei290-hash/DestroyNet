@@ -1,0 +1,51 @@
+{
+  "status": "approved_by_user",
+  "stage1_reference_penalty": 1.0,
+  "stage1_pulse_mapping": "linear",
+  "stage1_candidate_anchor_included": true,
+  "stage2_bonus_penalty": {
+    "escape_bonus": 1.0,
+    "stall_min": 6,
+    "waste_penalty": -1.0,
+    "waste_stagnation_max": 3,
+    "waste_q_ratio_above": 0.25,
+    "waste_time_mean_factor": 2.0,
+    "trajectory_weight": 0.4,
+    "step_weight": 0.6,
+    "horizon": 4,
+    "discount": 0.8,
+    "efficiency_regularizer_seconds": 0.002
+  },
+  "stage2_hard_limit_seconds": 4500,
+  "stage2_direction_update_target": 20,
+  "stage2_scale_feature_index": 19,
+  "stage2_training_sampling_replay_contract": "same_cache_state_and_candidates_exact_distribution_replay_initial_PPO_ratio_checked",
+  "automatic_launch": true,
+  "old_formal_experiment_must_remain_paused": true,
+  "stage1_approved": true,
+  "stage1_candidate_rule": "anchor_plus_first_m_nearby_customers_excluding_anchor_and_depot",
+  "stage2_approved": true,
+  "stage2_meta_min_batches": 60,
+  "stage2_meta_requires_all_fit_covered": true,
+  "stage2_switch_to_adaptation": "immediately_after_both_60_meta_batches_and_FIT_coverage",
+  "stage2_phys_idx": [
+    18,
+    17,
+    19,
+    12,
+    13
+  ],
+  "stage2_other_parameters": "frozen_context_q_history_norm_remaining_encoder",
+  "approved_unix": 1793419884.1546907,
+  "mechanism_revision": "r2_user_emergency_three_fixes",
+  "stage1_legacy_u_calibration": {
+    "lower": 0.06,
+    "width": 0.32,
+    "apply_to": "sample_and_mode_anchor_refinement_only"
+  },
+  "normalization_source": "archive_only_prefer_two_or_more_in_box",
+  "span_floor_fraction": 0.15,
+  "replacement": "user_exact_code_dominance_priority_then_clone_checked_nondominated_cap2",
+  "stage2_legacy_u_calibration": false,
+  "revision_approved_unix": 1793421924.0998921
+}

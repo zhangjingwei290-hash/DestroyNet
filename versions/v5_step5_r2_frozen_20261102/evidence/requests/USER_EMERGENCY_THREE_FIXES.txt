@@ -1,0 +1,80 @@
+# 紧急指令：立即中止当前 Stage 1 剩余进程，修复 3 处机制实现 Bug 后重跑 Stage 1 并进入 Stage 2
+
+我们对已跑完的前 20 个 Stage 1 结果进行了逐算例、逐方向诊断：
+1. **正面进展**：双时间尺度更新使单次运行总推理耗时降至 `3.5s ~ 6.8s`（占总预算 `< 4%`），且中间车辆档位（如 `50-0-0` 的 6/8 车、`150-0-0` 的 13/14/15 车、`250-0-0` 的 16/18/24/25/27 车）已被成功填补并大幅刷新最短距离。
+2. **存在问题与根因**：整体 HV / IGD+ 在部分算例（如 `50-0-4`, `250-0-4`, `150-0-0`, `250-0-0`）出现退化，经核查源码与输出 JSON，定位到当前实现中存在 **3 处必须立即修复的 Bug**：
+
+---
+
+## 第一步：立即中止当前正在运行的 Stage 1 进程并清理半成品目录
+1. 立即终止 `coordinator_stage1.py`（PID 42212）及 `stage1_eval.py`（PID 28088 及其 3 个 worker 子进程）。
+2. 将当前已跑出一半的 `stage1_evaluation` 与 `stage1_coordinator` 移至 `stage1_aborted_partial/` 归档留存（或清空重建 `stage1_evaluation`），准备在修复以下 3 处代码后重新执行完整的 36 runs。
+
+---
+
+## 第二步：精准修复以下 3 处代码 Bug
+
+### 修复 1：`repo/solver/outer.py` 中 `RoutedMOEAD._replace` 的 `return` 阻断邻域协同 Bug（核心致命问题）
+- **病灶现场**：当前 `outer.py:108-120` 在 `for j in neighbors:` 循环内一旦 `child < parent` 就立即 `return`。因为 `neighbors[0] == k`（自身），每次方向 `k` 局搜改进自身后只更新了 `self.pop[k]` 就直接退出，**导致好解 0 次传播给邻居**！
+  - 在 `50-0-4`（142s 仅够跑 14 次外层迭代）和 `250-0-4` 中，有 2 个方向从未被抽中执行，且因无邻居传播，结束时 `50-0-4` 的 `pop[0]=18辆车, pop[13]=19辆车`，`250-0-4` 的 `pop[4]=97辆车` 仍停留在初始垃圾解，并在 `RouteExchange` 交配时持续污染其他方向！
+  - 在 `150-0-0` 和 `250-0-0` 中，`dir 5` 找到了 `16车/1859距离`、`dir 9` 找到了 `19车/17100时长`，却因 `return` 无法共享给相邻的 `dir 0, 7, 8` 和 `dir 2, 12, 13`！
+- **精确修改方案（标准 MOEA/D-DE 限额替换 + 帕累托支配优先）**：
+  将 `RoutedMOEAD._replace(self, k, off)` 修改为：
+  ```python
+  def _replace(self, k, off):
+      neighbors = self.neighbors[k]
+      replaced = 0
+      max_nondom_replace = 2  # 除自身外允许传播给邻居，限制非支配替换数防止单一解刷屏
+      for j in neighbors:
+          old_F = self.pop[j].F
+          if np.allclose(off.F, old_F, atol=1e-7, rtol=0.):
+              continue
+          # 若新解严格帕累托支配该邻居（例如淘汰未访问方向的18车/97车初始垃圾解），无条件替换！
+          strictly_dominates = bool(np.all(off.F <= old_F) and np.any(off.F < old_F))
+          if strictly_dominates:
+              self.pop[j] = off
+              continue
+          # 非支配情形下：若邻域内已有其他槽位与 off.F 完全相同，且 j != k，则不再克隆覆盖
+          already_in_neighbors = any(
+              m != j and np.allclose(off.F, self.pop[m].F, atol=1e-7, rtol=0.)
+              for m in neighbors
+          )
+          if already_in_neighbors and j != k:
+              self.clone_rejections = getattr(self, 'clone_rejections', 0) + 1
+              continue
+          parent = float(self.decomposition.do(old_F[None, :], weights=self.ref_dirs[j:j+1], ideal_point=self.ideal)[0])
+          child = float(self.decomposition.do(off.F[None, :], weights=self.ref_dirs[j:j+1], ideal_point=self.ideal)[0])
+          if child < parent:
+              if j == k or replaced < max_nondom_replace:
+                  self.pop[j] = off
+                  if j != k:
+                      replaced += 1
+  ```
+
+### 修复 2：`stage1_mechanisms.py` 与 `outer.py` 中动态切比雪夫 `span` 被离群垃圾解撑爆的问题
+- **病灶现场**：当前 `outer.py:231` 将 `self.algorithm.pop`（含未更新的 97 辆车、14289 距离等初始离群解）混入 `dynamic_coordinates`，导致 `span` 在车辆数和距离上被撑大 10 倍，而最长时长 $f_2$ 的初始 `span` 被压在 `0.05 * 28800 = 1440`，使切比雪夫权重比例严重失真，阻碍了 $f_2$（最长时长）向极端低值推进。
+- **精确修改方案**：
+  1. 在 `outer.py` 中，传入 `dynamic_coordinates` 的点集**仅使用 `self.archive`**（若有至少 2 个框内解，则优先使用满足 `F <= physical_reference` 的框内非支配档案解），严禁混入 `self.algorithm.pop` 中的被支配过渡解。
+  2. 在 `stage1_mechanisms.py:dynamic_coordinates(objectives, physical_scales, physical_reference=None)` 中：
+     - 若提供了 `physical_reference`，先筛选 `in_box = points[np.all(points <= physical_reference, axis=1)]`；若 `len(in_box) >= 2` 则用 `in_box` 计算 `ideal` 和 `max`，否则用 `points`。
+     - 将跨度下界设为 `span = np.maximum(pts.max(0) - ideal, 0.15 * np.asarray(physical_scales))`（将原 `0.05` 提高到 `0.15`，防止搜索初期某单一目标跨度过小导致权重畸变 20 倍）。
+
+### 修复 3：`stage1_mechanisms.py` 中 Stage 1 冻结旧模型的 $u$ 区间校准
+- **病灶现场**：Stage 1 加载的是冻结的 Step 4 权重，其 `q_head` 受限于旧版 `-1.15` 偏置与 `0.35 * tanh`，输出的精修采样值 $u$ 集中在 $[0.08, 0.35]$（均值 $\approx 0.20$，原为配合线性公式 `0.01 + 0.59*u` 输出 `~13%`）。直接将未解锁的 $u \approx 0.20$ 代入 `2 * (qmax/2)^u`，导致在 $N=250$ 上 **84.4% 的步数被锁死在 $q=2\sim 5$ 个点（均值仅 4.3 个点）**，完全丧失了腾空整条路线（需拔除 10~25 个点）以减少车数和均衡最长路线时长的能力！
+- **精确修改方案**：
+  - 在 **Stage 1（零训练，使用旧冻结权重）** 的 `refinement_q(u, n)` 中，先将旧模型压缩在 $[0.06, 0.38]$ 的 $u$ 线性拉伸校准回 $[0, 1]$ 满带宽，再执行对数点数映射：
+    ```python
+    def refinement_q(u, n):
+        qmax = min(math.floor(0.45 * n), 100)
+        u_calibrated = np.clip((float(u) - 0.06) / 0.32, 0.0, 1.0)
+        return int(np.clip(np.rint(2.0 * (qmax / 2.0) ** u_calibrated), 2, n))
+    ```
+    （这样当旧模型采样下尾 $u \le 0.12$ 时对应 $q=2\sim 4$ 个点的真局部微调；采样中位 $u \approx 0.20$ 时对应 $q \approx 6\sim 12$ 个点的跨路线交换；采样上尾 $u \ge 0.28$ 时对应 $q \approx 15\sim 45$ 个点的减车/腾空路线重排！）
+  - 在 **Stage 2（已移除 `-1.15` 偏置与 `0.35*tanh` 并重训的新模型）** 中，因为新 `q_head` 直接在 $(0, 1)$ 全区间输出 $u$，直接使用未拉伸的原公式 `2.0 * (qmax / 2.0) ** u`。
+
+---
+
+## 第三步：重新运行预检、冒烟测试、Stage 1（36 runs）与 Stage 2
+1. 修改完成后，先运行 `preflight_stage1.py` 与 `stage1_eval.py --smoke`，确认所有断言与合法性检查通过。
+2. 完整运行修复后的 Stage 1（12 IIDs × 3 seeds = 36 runs），生成 `STAGE1_REPORT.md` 与 `stage1_summary.json`。
+3. 紧接着携带上述修复后的 `_replace` 与 `dynamic_coordinates` 进入 **Stage 2**（75 分钟硬上限重训 + 36 runs 验证），输出最终五方法对比报告 `STAGE2_REPORT.md`。

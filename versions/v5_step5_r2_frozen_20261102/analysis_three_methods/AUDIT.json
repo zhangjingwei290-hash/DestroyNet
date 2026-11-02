@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "metrics2700_unique": true,
+  "comparisons24_scipy_exact_matched": true,
+  "source2700_size_mtime_unchanged": true,
+  "initial_budget_physical_bindings_passed": true,
+  "scope": "supplementary statistics verification; no additional search or training"
+}

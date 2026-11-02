@@ -58,3 +58,7 @@ V2训练seed20261020，搜索seed20268020..20268039。V4/F训练seed20261024，�
 ## 2026-10-30追加：V5两步Pilot
 
 完整结果见[README中的三张表](../versions/v5_fix_pilot_20261030/README.md)、[逐实例均值与样本SD](../versions/v5_fix_pilot_20261030/step2_analysis/main_table.csv)和[135份逐seed指标](../versions/v5_fix_pilot_20261030/step2_analysis/per_run_metrics.csv)。9IID×3seed，调参ALNS和旧V5各复用27次；第1步、第2步单头、第2步16方向各新增27次。HV为0.814569/0.803593/0.781318/0.800145/0.793160，IGD+为0.082043/0.076046/0.080379/0.069689/0.073218（依次为ALNS、旧V5、第1步、第2步单头、第2步方向）。本表五方法共同经验参考与上文历史结果分别保留。
+
+## 2026-11-02追加：Step5 r2
+
+最新三方法各900次，主指标共同经验前沿、逐seed独立计分。详细逐IID均值SD与总体/逐IID精确Wilcoxon/Holm6均归档，不与其他方法集合的旧参考直接比较。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。

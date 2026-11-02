@@ -14,3 +14,7 @@
 历史源码中的Windows绝对路径需在独立运行副本中重新配置。V4/F入口source/full_validate.py、V5入口evaluation/evaluate.py；原声明的输入/源码哈希必须在新配置中重新建立，不能删除校验后冒充同一次冻结执行。本次只做文件、数据和代码静态校验，未运行求解器/训练来宣称跨平台复现通过。
 
 原DPR许可原文保留；外部物理模块的来源记录在ARCHIVE_MANIFEST.json及源码。没有为他人代码重新授予许可。
+
+## 2026-11-02追加：Step5 r2
+
+新增17份实际r2最终模型、270输入、135个gzip JSONL共2700紧凑报告，原始逐步日志与恢复断点保留本地。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。

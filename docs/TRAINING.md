@@ -30,3 +30,7 @@ V5合成集由真实统计参与拟合；N150/N250最近邻中位数偏差为约
 ## 2026-10-30追加：V5两步Pilot
 
 [实际机制与训练入口](../versions/v5_fix_pilot_20261030/MECHANISMS.md)及[训练记录](../versions/v5_fix_pilot_20261030/step2_training/training_report.json)。第1步冻结encoder，16方向实际更新，含技术分支累计2204.629秒。第2步含技术分支累计2590.657秒，上限2700秒；meta累计1174.215秒，17批meta及16方向各1批，58834优化交互，5个150/250客户FIT输入，训练seed20261024。source-tail错误前后的元权重在完整元更新边界衔接，Adam/RNG重建；两次运行分支、覆盖及计费条件在新增目录说明。原冻结版本训练数据保留在上文。
+
+## 2026-11-02追加：Step5 r2
+
+实际60meta批、15merges、16方向各20PPO批、223330优化转移、4460.9478429活跃秒；单训练seed20261024。r3 full12训练量不属于部署r2。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。

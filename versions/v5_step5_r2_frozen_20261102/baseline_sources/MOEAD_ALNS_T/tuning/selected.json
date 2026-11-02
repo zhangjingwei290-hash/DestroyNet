@@ -1,0 +1,195 @@
+{
+  "selection": "Maximum equal-IID mean shared empirical HV on three synthetic validation instances; one tuning seed; three predeclared candidates per family.",
+  "trials": [
+    {
+      "iid": "v5p_validation_50_d0_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "compact",
+        "decay": 0.6,
+        "max_ratio": 0.4
+      },
+      "hv": 0.7523690766823242
+    },
+    {
+      "iid": "v5p_validation_50_d0_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "medium",
+        "decay": 0.8,
+        "max_ratio": 0.6
+      },
+      "hv": 0.7603251317221301
+    },
+    {
+      "iid": "v5p_validation_50_d0_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "broad",
+        "decay": 0.9,
+        "max_ratio": 1.0
+      },
+      "hv": 0.7496950181750477
+    },
+    {
+      "iid": "v5p_validation_50_d0_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "reactive",
+        "decay": 0.8,
+        "stall_threshold": 2
+      },
+      "hv": 0.6852741678515166
+    },
+    {
+      "iid": "v5p_validation_50_d0_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "moderate",
+        "decay": 0.8,
+        "stall_threshold": 5
+      },
+      "hv": 0.734417941540192
+    },
+    {
+      "iid": "v5p_validation_50_d0_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "patient",
+        "decay": 0.8,
+        "stall_threshold": 10
+      },
+      "hv": 0.7328242555387183
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "medium",
+        "decay": 0.8,
+        "max_ratio": 0.6
+      },
+      "hv": 0.3601588955769146
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "broad",
+        "decay": 0.9,
+        "max_ratio": 1.0
+      },
+      "hv": 0.3363116481944285
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "reactive",
+        "decay": 0.8,
+        "stall_threshold": 2
+      },
+      "hv": 0.3140137565519805
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "moderate",
+        "decay": 0.8,
+        "stall_threshold": 5
+      },
+      "hv": 0.3733069421479302
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "patient",
+        "decay": 0.8,
+        "stall_threshold": 10
+      },
+      "hv": 0.3845719798159026
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "compact",
+        "decay": 0.6,
+        "max_ratio": 0.4
+      },
+      "hv": 0.41178630942917793
+    },
+    {
+      "iid": "v5p_validation_250_d2_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "broad",
+        "decay": 0.9,
+        "max_ratio": 1.0
+      },
+      "hv": 0.3091861966894328
+    },
+    {
+      "iid": "v5p_validation_250_d2_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "reactive",
+        "decay": 0.8,
+        "stall_threshold": 2
+      },
+      "hv": 0.3698852424492941
+    },
+    {
+      "iid": "v5p_validation_250_d2_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "moderate",
+        "decay": 0.8,
+        "stall_threshold": 5
+      },
+      "hv": 0.4557555539943511
+    },
+    {
+      "iid": "v5p_validation_250_d2_tw2_0",
+      "method": "alns_state_rule",
+      "parameters": {
+        "name": "patient",
+        "decay": 0.8,
+        "stall_threshold": 10
+      },
+      "hv": 0.467317435382045
+    },
+    {
+      "iid": "v5p_validation_250_d2_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "compact",
+        "decay": 0.6,
+        "max_ratio": 0.4
+      },
+      "hv": 0.3888057156524769
+    },
+    {
+      "iid": "v5p_validation_250_d2_tw2_0",
+      "method": "alns_tuned",
+      "parameters": {
+        "name": "medium",
+        "decay": 0.8,
+        "max_ratio": 0.6
+      },
+      "hv": 0.43677922824126514
+    }
+  ],
+  "alns_tuned": {
+    "name": "medium",
+    "decay": 0.8,
+    "max_ratio": 0.6
+  },
+  "alns_state_rule": {
+    "name": "patient",
+    "decay": 0.8,
+    "stall_threshold": 10
+  }
+}

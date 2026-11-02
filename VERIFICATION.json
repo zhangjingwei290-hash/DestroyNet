@@ -1,15 +1,34 @@
 {
   "passed": true,
-  "manifest_files": 1390,
-  "original_byte_copies": 1370,
-  "python_files_parsed": 325,
+  "manifest_files": 2229,
+  "original_byte_copies": 2065,
+  "python_files_parsed": 590,
   "neural_model_loaded": false,
   "search_or_training_executed": false,
-  "pilot_reports": 135,
-  "pilot_new_searches": 81,
-  "pilot_reused_searches": 54,
-  "pilot_new_deployed_models": 33,
-  "pilot_complete_original_readonly_verified": true,
-  "source_archive": "versions/v5_fix_pilot_20261030",
-  "pilot_physical_verification": "versions/v5_fix_pilot_20261030/step2_analysis/VERIFICATION.json"
+  "latest_addition": {
+    "passed": true,
+    "version": "v5_step5_r2_frozen_20261102",
+    "package_hashes_verified": 835,
+    "r2_models": 17,
+    "directions": 16,
+    "source_locks_verified": 2,
+    "input_roles": [
+      180,
+      45,
+      45
+    ],
+    "compact_runs_verified": 2700,
+    "initial_populations_paired": 900,
+    "checkpoint_bindings_verified": 900,
+    "per_run_metrics": 2700,
+    "mean_sd_rows": 135,
+    "aggregate_exact_tests": 24,
+    "per_instance_exact_tests": 270,
+    "all_holm_recomputed": true,
+    "original_raw_feasibility_audit": "completed audit receipts retained; full search not rerun",
+    "model_loaded": false,
+    "training_or_search_executed": false
+  },
+  "previous_versions_preserved": true,
+  "publication_scope": "file and offline statistics verification; no new solver execution"
 }

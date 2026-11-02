@@ -44,4 +44,8 @@ def main():
  contents=json.loads((pilot/'PACKAGE_CONTENTS.json').read_text())
  for entry in contents['files']:assert sha(pilot/entry['path'])==entry['sha256'],entry['path']
  print(json.dumps(dict(passed=True,manifest_files=len(manifest),original_byte_copies=len(copies),python_files_parsed=len(sources),neural_model_loaded=False,search_or_training_executed=False)))
-if __name__=='__main__':main()
+if __name__=='__main__':
+ main()
+ import subprocess,sys
+ extra=ROOT/'tools/verify_step5_r2_archive.py'
+ if extra.exists():subprocess.run([sys.executable,str(extra)],check=True)

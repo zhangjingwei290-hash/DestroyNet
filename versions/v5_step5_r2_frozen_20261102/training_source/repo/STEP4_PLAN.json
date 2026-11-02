@@ -1,0 +1,165 @@
+{
+  "scope": "two_sequential_pilots_only_stop_after_stage2",
+  "baseline_root": "D:/workspace/fuxian/DPR/runs/experiments/v5_desktop_alnstuned45_20seed_20261028",
+  "test_ids": [
+    "50-0-2",
+    "50-1-3",
+    "50-2-1",
+    "150-0-2",
+    "150-1-1",
+    "150-2-0",
+    "250-0-4",
+    "250-1-0",
+    "250-2-3"
+  ],
+  "search_seeds": [
+    20261024,
+    20261025,
+    20261026
+  ],
+  "training_seed": 20261024,
+  "step1_adaptation_seconds": 1800,
+  "step2_total_training_seconds": 1800,
+  "step2_meta_seconds": 1200,
+  "step2_adaptation_seconds": 600,
+  "replicas": 4,
+  "step2_training_local_seconds": 10.0,
+  "eval_workers": 3,
+  "eval_affinities": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "numeric_threads": 1,
+  "step1_freeze_encoder": true,
+  "step2_warm_start": "original_meta_complete_with_explicit_neutral_q_initialization",
+  "checkpoint_sha256": "1a3493e34e4c23f7eae7c465ba6c48a69d49884a01ec80d599eec6cd9c48187f",
+  "direction_order": [
+    15,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "reporting": "Each IID: common empirical ND of seven methods x all three seeds. Each own seed archive independently scored, then three-seed mean/sample SD and equal IID macro; HVref=(1.1)^5, no clipping; zero span uniformly zeroed retaining5D.",
+  "TW0_ids": [
+    "150-2-0",
+    "250-1-0"
+  ],
+  "no_test_training": true,
+  "baseline_reused": true,
+  "step1_retained_technical_run_seconds": 445.3015900000464,
+  "step1_total_adaptation_and_technical_cap_seconds": 2700,
+  "final_methods": [
+    "alns_tuned",
+    "v5_meta_frozen",
+    "step1_adapted",
+    "step2_meta_only",
+    "step2_adapted"
+  ],
+  "final_new_runs": 81,
+  "final_reused_runs": 54,
+  "final_total_runs": 135,
+  "step2_evaluation_methods": [
+    "step2_meta_only",
+    "step2_adapted"
+  ],
+  "step2_evaluation_same_worker_pair": true,
+  "step2_evaluation_alternating_order": true,
+  "user_added_meta_evaluation": true,
+  "step2_selected_initial_budget_seconds": 1800,
+  "step2_inclusive_recovery_cap_seconds": 2700,
+  "step2_recovery_previous_paid_seconds": 1528.1539492607117,
+  "step2_recovery_checkpoint": "incidents/step2_source_tail/retained_training/meta_pilot.pt",
+  "step2_recovery_optimizer": "reinitialized at complete four-inner-update merge boundary; original state was not serialized",
+  "step2_recovery_excludes_old_direction_branch": true,
+  "stage": 4,
+  "methods": [
+    "alns_tuned",
+    "v5_meta_frozen",
+    "step1_adapted",
+    "step2_meta_only",
+    "step2_adapted",
+    "step3_meta_only",
+    "step3_adapted",
+    "step4_k4_meta",
+    "step4_k4_adapted"
+  ],
+  "new_searches": 54,
+  "reused_searches": 189,
+  "total_searches": 189,
+  "meta_seconds": 1200,
+  "adaptation_seconds": 600,
+  "training_ceiling_seconds": 1800,
+  "learning_rate": 0.001,
+  "reference_scope": "Per IID: joint nine methods x all three seeds; own archive scored independently per seed",
+  "q_state_prior": [
+    0.35,
+    0.25,
+    -0.95,
+    1.85,
+    -0.55,
+    -0.75,
+    -0.65
+  ],
+  "q_mu_bias": -1.15,
+  "read_only_dirs": [
+    "baseline_cache",
+    "step1_training",
+    "step1_evaluation",
+    "step1_analysis",
+    "step2_training",
+    "step2_evaluation",
+    "step2_analysis"
+  ],
+  "total_runs": 243,
+  "training_seconds": 0,
+  "K": 4,
+  "parallel_evaluation_workers": 3,
+  "meta_checkpoint": "/mnt/d/workspace/fuxian/DPR/runs/experiments/v5_fix_verification_20261030/step3_training/meta_pilot.pt",
+  "direction_checkpoint_dir": "/mnt/d/workspace/fuxian/DPR/runs/experiments/v5_fix_verification_20261030/step3_training/checkpoints",
+  "checkpoint_binding": {
+    "meta": "7e07fa453484ae628ff04412cda181a68033eb796c5089cbef9082be5765c32b",
+    "directions": [
+      "90baff419c88f6bbbdb227fff110d8fa70009febaf557d01dee5dbe1bc425725",
+      "e28fe0d5e12b146c41985a7f88dc3d76c416669c7d9bcc35a5cd0977e74a0bda",
+      "038f9bacf15894fb9c280e4e97b6237b0490e685be6f541a7ca337081e3e0553",
+      "24402e04a5257f2abad3c52be5c5a5e666135b7a9cc0f8fa45374871a5f7b9c0",
+      "70d73cf369efe0f6383c52fcb4aca33ccf42fa3b4b992e4e75d14a11883d6e1f",
+      "1d6b975e238b927ba1fc1ffc2afcb4da0be948753afa464d2dfbeffdec76edaf",
+      "33de45bf4352f722f1a49ad8ade3d61530a40839777c10134bcf330b59642570",
+      "5ae5c038466cc246162210fe4234b1b05a99a7b7e3ece5e3c7aa46139660bb96",
+      "705b3e9e9aefee81e58491d8a3c7bbe8c6024c2992ae93a7c644735b6f34f92d",
+      "9dbd2286d77cb8e8865b8b69d6c6975b05fc8b9e91bf99f07b0ccf44481cb7d7",
+      "57db1b6dc3dd1d26ae405b6052ab1909baf4654123ba75b70bbea5d7da4db66f",
+      "1446b9c33dade7173d680c4cb02cba3baf33781c63ec9225bbfd94498839733b",
+      "4cee60e576defcdd7fa694c3186026ce76ba59691a38abdccad86051baf92f09",
+      "d2f5c9df89b7c17573eb762dec4d00747b1e42eca35f89d8799db5e1b3240a19",
+      "65e9e67438ab6e1e279e7758de328abc64f001d6507db94e4205a98298554207",
+      "3e99b5c2fad064674d5c1c843efb4dbbf51169b39c96e1c1d24b658f8b7226b3"
+    ]
+  },
+  "logits_cache": "Precompute one 1D vector per mode at integer_q(mode,N)/N; reuse independently of sampled q (explicit user selection)",
+  "cache_cycle": "One refresh and three cache hits; acceptance immediately refreshes",
+  "sampling": "CPU NumPy independent session RNG domain4; FP32 u and Gumbel score arithmetic; no CUDA calls on cache hits"
+}

@@ -1,0 +1,79 @@
+{
+  "revision": "stage2_r2_structured_modes_unified_scalar",
+  "training_seed": 20261024,
+  "hard_training_seconds": 4500,
+  "meta_min_batches": 60,
+  "fit_required": 180,
+  "adaptation_updates_target": 20,
+  "trajectory_seconds": 2.5,
+  "replicas": 4,
+  "span_floor_fraction": 0.05,
+  "tie_eps": 0.001,
+  "reference_penalty": 1.0,
+  "meta_step_size": 0.5,
+  "frozen": [
+    "encoder",
+    "context",
+    "q_history_norm"
+  ],
+  "rho_lo": 0.04,
+  "rho_hi": 0.25,
+  "mode_names": [
+    "spatial_cluster",
+    "bottleneck_global",
+    "route_coherent"
+  ],
+  "mode_bias": [
+    0.2,
+    0.2,
+    -0.2
+  ],
+  "initial_mu": [
+    0.35,
+    0.4,
+    0.3
+  ],
+  "initial_kappa": 4.0,
+  "fast_lr": 0.003,
+  "slow_lr": 0.0003,
+  "raw_scale_feature_index": 19,
+  "physical_indices": [
+    18,
+    17,
+    19,
+    12,
+    13
+  ],
+  "macro_ratio_initial_tolerance": 0.0001,
+  "micro_ratio_initial_tolerance": 0.0001,
+  "scalar_agreement_tolerance": 1e-09,
+  "cpu_gpu_tolerance": 5e-05,
+  "mid_late_min_fraction": 0.5,
+  "dead_directions_tw_positive": [
+    3,
+    4,
+    14
+  ],
+  "advantage": {
+    "horizon": 8,
+    "discount": 0.85,
+    "trajectory_weight": 0.6,
+    "step_weight": 0.4,
+    "nd_coefficient": 0.15,
+    "escape_bonus": 0.75,
+    "no_time_division": true,
+    "no_large_q_waste_penalty": true
+  },
+  "original_meta_sha256": "1a3493e34e4c23f7eae7c465ba6c48a69d49884a01ec80d599eec6cd9c48187f",
+  "pending_decisions": [],
+  "training_must_not_start_before_decisions": false,
+  "clone_policy": "pre_replacement_neighbor_snapshot",
+  "route_cap_policy": "first_whole_route_priority_then_stop_if_above_cap",
+  "mid_vehicle_reduction_fraction": 0.1,
+  "late_window_seconds": 2.5,
+  "late_acceptance_below": 0.15,
+  "late_stagnation_min": 4,
+  "meta_later_from_batch": 31,
+  "preference_rebind_requires_real_advance": true,
+  "decision_approved_unix": 1793427160.6145258
+}

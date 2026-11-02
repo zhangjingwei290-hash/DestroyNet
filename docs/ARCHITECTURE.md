@@ -41,3 +41,7 @@ Beta训练项使用保存u的连续密度；节点项按1/q平均。因此组合
 context45维：偏好5、归一化目标5、全局剩余秒/已用比例/局搜剩余秒/剩余比例4、停滞/上次接受/上次奖励/档案比例4、允许迟到比/N比例/最大q比例3、当前修复器one-hot4，以及四修复器各自概率/近期耗时/成功率/改善/计数20。
 
 源码：versions/v5/source/solver/{config,model,network,environment}.py。实际权重SHA256见versions/v5/README.md和ARCHIVE_MANIFEST.json。
+
+## 2026-11-02追加：Step5 r2
+
+结构化三mode categorical/Beta/选中prefix PL，统一动态标量化与前置邻居快照判重；共享encoder/context/history归一化冻结。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。

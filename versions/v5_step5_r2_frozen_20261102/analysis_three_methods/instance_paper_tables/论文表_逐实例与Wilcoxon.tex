@@ -1,0 +1,230 @@
+% Requires booktabs, graphicx, longtable, and a Unicode-capable compiler for Chinese comments.
+% Directions and significance conventions: see accompanying Markdown notes.
+\begin{table*}[t]
+\centering
+\caption{Pairwise Wilcoxon signed-rank tests (overall).}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrcc}
+\toprule
+Comparison & Metric & $w/t/l$ & $R^+$ & $R^-$ & $p$ & $p_{\mathrm{Holm}}$ & $\alpha=.05$ & $\alpha=.01$ \\
+\midrule
+MOEA/D--ALNS-T vs MOEA/D--ALNS & HV & 45/0/0 & 1035 & 0 & 5.684e-14 & 3.411e-13 & YES & YES \\
+MOEA/D--ALNS-T vs MOEA/D--ALNS & IGD+ & 45/0/0 & 1035 & 0 & 5.684e-14 & 3.411e-13 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & HV & 40/0/5 & 951 & 84 & 6.655e-08 & 1.996e-07 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & IGD+ & 39/0/6 & 955 & 80 & 4.557e-08 & 1.823e-07 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & HV & 30/0/15 & 759 & 276 & 0.005711 & 0.005711 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & IGD+ & 32/0/13 & 797 & 238 & 0.001231 & 0.002461 & YES & YES \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Pairwise Wilcoxon signed-rank tests (50).}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrcc}
+\toprule
+Comparison & Metric & $w/t/l$ & $R^+$ & $R^-$ & $p$ & $p_{\mathrm{Holm}}$ & $\alpha=.05$ & $\alpha=.01$ \\
+\midrule
+MOEA/D--ALNS-T vs MOEA/D--ALNS & HV & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--ALNS-T vs MOEA/D--ALNS & IGD+ & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & HV & 13/0/2 & 111 & 9 & 0.002014 & 0.008057 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & IGD+ & 12/0/3 & 106 & 14 & 0.006714 & 0.020142 & YES & NO \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & HV & 13/0/2 & 99 & 21 & 0.025574 & 0.051147 & NO & NO \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & IGD+ & 11/0/4 & 89 & 31 & 0.106995 & 0.106995 & NO & NO \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Pairwise Wilcoxon signed-rank tests (150).}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrcc}
+\toprule
+Comparison & Metric & $w/t/l$ & $R^+$ & $R^-$ & $p$ & $p_{\mathrm{Holm}}$ & $\alpha=.05$ & $\alpha=.01$ \\
+\midrule
+MOEA/D--ALNS-T vs MOEA/D--ALNS & HV & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--ALNS-T vs MOEA/D--ALNS & IGD+ & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & HV & 13/0/2 & 105 & 15 & 0.008362 & 0.033447 & YES & NO \\
+MOEA/D--DPR vs MOEA/D--ALNS & IGD+ & 12/0/3 & 105 & 15 & 0.008362 & 0.033447 & YES & NO \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & HV & 9/0/6 & 80 & 40 & 0.276855 & 0.337646 & NO & NO \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & IGD+ & 10/0/5 & 85 & 35 & 0.168823 & 0.337646 & NO & NO \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Pairwise Wilcoxon signed-rank tests (250).}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrcc}
+\toprule
+Comparison & Metric & $w/t/l$ & $R^+$ & $R^-$ & $p$ & $p_{\mathrm{Holm}}$ & $\alpha=.05$ & $\alpha=.01$ \\
+\midrule
+MOEA/D--ALNS-T vs MOEA/D--ALNS & HV & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--ALNS-T vs MOEA/D--ALNS & IGD+ & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & HV & 14/0/1 & 117 & 3 & 0.000305 & 0.000916 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS & IGD+ & 15/0/0 & 120 & 0 & 6.104e-05 & 0.000366 & YES & YES \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & HV & 8/0/7 & 84 & 36 & 0.187622 & 0.187622 & NO & NO \\
+MOEA/D--DPR vs MOEA/D--ALNS-T & IGD+ & 11/0/4 & 107 & 13 & 0.005371 & 0.010742 & YES & NO \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Per-instance HV results on 50-customer instances (mean $\pm$ sample SD over 20 search seeds).}
+\begin{tabular}{lccccc}
+\toprule
+Instance & MOEA/D--ALNS & MOEA/D--ALNS-T & MOEA/D--DPR & vs ALNS & vs ALNS-T \\
+\midrule
+50-0-0 & $0.6954 \pm 0.0499$ & $0.7089 \pm 0.0513$ & $\mathbf{0.7527 \pm 0.0480}$ & $+$ & $=$ \\
+50-0-1 & $0.7110 \pm 0.0439$ & $\mathbf{0.7360 \pm 0.0244}$ & $0.6784 \pm 0.0405$ & $-$ & $-$ \\
+50-0-2 & $0.6954 \pm 0.0073$ & $0.7030 \pm 0.0078$ & $\mathbf{0.7075 \pm 0.0094}$ & $+$ & $=$ \\
+50-0-3 & $0.9958 \pm 0.0051$ & $1.0029 \pm 0.0048$ & $\mathbf{1.0318 \pm 0.0097}$ & $+$ & $+$ \\
+50-0-4 & $1.2276 \pm 0.0317$ & $1.2490 \pm 0.0219$ & $\mathbf{1.2687 \pm 0.0609}$ & $=$ & $=$ \\
+50-1-0 & $0.8038 \pm 0.0599$ & $0.8306 \pm 0.0567$ & $\mathbf{0.8480 \pm 0.0420}$ & $=$ & $=$ \\
+50-1-1 & $0.6677 \pm 0.0329$ & $\mathbf{0.6798 \pm 0.0321}$ & $0.6419 \pm 0.0355$ & $=$ & $-$ \\
+50-1-2 & $0.6912 \pm 0.0120$ & $0.7013 \pm 0.0077$ & $\mathbf{0.7070 \pm 0.0102}$ & $+$ & $+$ \\
+50-1-3 & $0.9952 \pm 0.0056$ & $1.0038 \pm 0.0042$ & $\mathbf{1.0310 \pm 0.0089}$ & $+$ & $+$ \\
+50-1-4 & $1.3242 \pm 0.0402$ & $1.3457 \pm 0.0397$ & $\mathbf{1.3986 \pm 0.0644}$ & $+$ & $+$ \\
+50-2-0 & $0.8547 \pm 0.0627$ & $0.8961 \pm 0.0449$ & $\mathbf{1.0142 \pm 0.0727}$ & $+$ & $+$ \\
+50-2-1 & $0.9933 \pm 0.0140$ & $1.0017 \pm 0.0105$ & $\mathbf{1.0462 \pm 0.0208}$ & $+$ & $+$ \\
+50-2-2 & $0.9114 \pm 0.0337$ & $0.9241 \pm 0.0178$ & $\mathbf{0.9635 \pm 0.0222}$ & $+$ & $+$ \\
+50-2-3 & $1.1295 \pm 0.0050$ & $1.1327 \pm 0.0041$ & $\mathbf{1.1441 \pm 0.0155}$ & $+$ & $+$ \\
+50-2-4 & $1.1764 \pm 0.0158$ & $1.1832 \pm 0.0234$ & $\mathbf{1.2714 \pm 0.0210}$ & $+$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Per-instance HV results on 150-customer instances (mean $\pm$ sample SD over 20 search seeds).}
+\begin{tabular}{lccccc}
+\toprule
+Instance & MOEA/D--ALNS & MOEA/D--ALNS-T & MOEA/D--DPR & vs ALNS & vs ALNS-T \\
+\midrule
+150-0-0 & $0.4754 \pm 0.0580$ & $0.5493 \pm 0.0537$ & $\mathbf{0.6075 \pm 0.0422}$ & $+$ & $+$ \\
+150-0-1 & $0.6445 \pm 0.0492$ & $\mathbf{0.6968 \pm 0.0246}$ & $0.6915 \pm 0.0470$ & $+$ & $=$ \\
+150-0-2 & $0.5248 \pm 0.0412$ & $\mathbf{0.5700 \pm 0.0442}$ & $0.4547 \pm 0.1320$ & $=$ & $-$ \\
+150-0-3 & $0.5162 \pm 0.0083$ & $0.5219 \pm 0.0068$ & $\mathbf{0.5283 \pm 0.0270}$ & $=$ & $=$ \\
+150-0-4 & $0.6020 \pm 0.0398$ & $0.6075 \pm 0.0373$ & $\mathbf{0.7797 \pm 0.0505}$ & $+$ & $+$ \\
+150-1-0 & $0.4949 \pm 0.0520$ & $0.5374 \pm 0.0535$ & $\mathbf{0.5695 \pm 0.0524}$ & $+$ & $=$ \\
+150-1-1 & $0.6650 \pm 0.0437$ & $\mathbf{0.7022 \pm 0.0365}$ & $0.6809 \pm 0.0691$ & $=$ & $=$ \\
+150-1-2 & $0.5072 \pm 0.0428$ & $\mathbf{0.5568 \pm 0.0404}$ & $0.5428 \pm 0.0736$ & $=$ & $=$ \\
+150-1-3 & $0.1591 \pm 0.0017$ & $0.1621 \pm 0.0025$ & $\mathbf{0.1716 \pm 0.0042}$ & $+$ & $+$ \\
+150-1-4 & $0.5640 \pm 0.0509$ & $0.5986 \pm 0.0443$ & $\mathbf{0.7847 \pm 0.0564}$ & $+$ & $+$ \\
+150-2-0 & $0.5366 \pm 0.0823$ & $0.5651 \pm 0.0994$ & $\mathbf{0.8707 \pm 0.0735}$ & $+$ & $+$ \\
+150-2-1 & $0.7247 \pm 0.0414$ & $\mathbf{0.7617 \pm 0.0311}$ & $0.7468 \pm 0.0455$ & $=$ & $=$ \\
+150-2-2 & $0.5085 \pm 0.0387$ & $\mathbf{0.5533 \pm 0.0361}$ & $0.4823 \pm 0.0436$ & $=$ & $-$ \\
+150-2-3 & $0.1636 \pm 0.0013$ & $0.1651 \pm 0.0015$ & $\mathbf{0.1704 \pm 0.0049}$ & $+$ & $+$ \\
+150-2-4 & $0.6207 \pm 0.0744$ & $0.6984 \pm 0.0501$ & $\mathbf{0.8820 \pm 0.0425}$ & $+$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Per-instance HV results on 250-customer instances (mean $\pm$ sample SD over 20 search seeds).}
+\begin{tabular}{lccccc}
+\toprule
+Instance & MOEA/D--ALNS & MOEA/D--ALNS-T & MOEA/D--DPR & vs ALNS & vs ALNS-T \\
+\midrule
+250-0-0 & $0.5299 \pm 0.0709$ & $0.5697 \pm 0.0631$ & $\mathbf{0.6024 \pm 0.0716}$ & $+$ & $=$ \\
+250-0-1 & $0.5238 \pm 0.0345$ & $\mathbf{0.5424 \pm 0.0563}$ & $0.5423 \pm 0.0616$ & $=$ & $=$ \\
+250-0-2 & $0.3242 \pm 0.0484$ & $\mathbf{0.3486 \pm 0.0477}$ & $0.3074 \pm 0.0318$ & $=$ & $-$ \\
+250-0-3 & $0.8158 \pm 0.1067$ & $\mathbf{0.8622 \pm 0.0438}$ & $0.8404 \pm 0.2673$ & $=$ & $=$ \\
+250-0-4 & $0.2792 \pm 0.0800$ & $0.4002 \pm 0.0792$ & $\mathbf{0.6559 \pm 0.0904}$ & $+$ & $+$ \\
+250-1-0 & $0.4154 \pm 0.0814$ & $0.4854 \pm 0.0757$ & $\mathbf{0.5347 \pm 0.0368}$ & $+$ & $=$ \\
+250-1-1 & $0.4286 \pm 0.0437$ & $0.5005 \pm 0.0450$ & $\mathbf{0.5212 \pm 0.0696}$ & $+$ & $=$ \\
+250-1-2 & $0.3254 \pm 0.0466$ & $\mathbf{0.3904 \pm 0.0620}$ & $0.3312 \pm 0.0364$ & $=$ & $-$ \\
+250-1-3 & $0.7863 \pm 0.1186$ & $\mathbf{0.8290 \pm 0.0554}$ & $0.8134 \pm 0.2870$ & $=$ & $=$ \\
+250-1-4 & $0.3304 \pm 0.0676$ & $0.4247 \pm 0.0723$ & $\mathbf{0.6027 \pm 0.1305}$ & $+$ & $+$ \\
+250-2-0 & $0.6258 \pm 0.0894$ & $0.6382 \pm 0.0679$ & $\mathbf{0.7367 \pm 0.0617}$ & $+$ & $+$ \\
+250-2-1 & $0.4578 \pm 0.0446$ & $\mathbf{0.5198 \pm 0.0560}$ & $0.5168 \pm 0.0647$ & $+$ & $=$ \\
+250-2-2 & $0.3082 \pm 0.0406$ & $\mathbf{0.3544 \pm 0.0630}$ & $0.3179 \pm 0.0512$ & $=$ & $=$ \\
+250-2-3 & $0.8700 \pm 0.0480$ & $0.9055 \pm 0.0549$ & $\mathbf{0.9653 \pm 0.1527}$ & $=$ & $=$ \\
+250-2-4 & $0.3574 \pm 0.0814$ & $0.4553 \pm 0.0733$ & $\mathbf{0.6166 \pm 0.1149}$ & $+$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Per-instance IGD+ results on 50-customer instances (mean $\pm$ sample SD over 20 search seeds).}
+\begin{tabular}{lccccc}
+\toprule
+Instance & MOEA/D--ALNS & MOEA/D--ALNS-T & MOEA/D--DPR & vs ALNS & vs ALNS-T \\
+\midrule
+50-0-0 & $0.0945 \pm 0.0321$ & $0.0897 \pm 0.0351$ & $\mathbf{0.0869 \pm 0.0320}$ & $=$ & $=$ \\
+50-0-1 & $0.0799 \pm 0.0269$ & $\mathbf{0.0649 \pm 0.0143}$ & $0.1013 \pm 0.0275$ & $-$ & $-$ \\
+50-0-2 & $0.0510 \pm 0.0087$ & $0.0433 \pm 0.0079$ & $\mathbf{0.0396 \pm 0.0064}$ & $+$ & $=$ \\
+50-0-3 & $0.0367 \pm 0.0032$ & $0.0341 \pm 0.0033$ & $\mathbf{0.0137 \pm 0.0037}$ & $+$ & $+$ \\
+50-0-4 & $0.0628 \pm 0.0198$ & $\mathbf{0.0562 \pm 0.0135}$ & $0.0645 \pm 0.0478$ & $=$ & $=$ \\
+50-1-0 & $0.1190 \pm 0.0395$ & $\mathbf{0.0977 \pm 0.0352}$ & $0.0997 \pm 0.0263$ & $=$ & $=$ \\
+50-1-1 & $0.0780 \pm 0.0173$ & $\mathbf{0.0720 \pm 0.0170}$ & $0.0869 \pm 0.0185$ & $=$ & $=$ \\
+50-1-2 & $0.0528 \pm 0.0077$ & $0.0459 \pm 0.0075$ & $\mathbf{0.0393 \pm 0.0066}$ & $+$ & $+$ \\
+50-1-3 & $0.0349 \pm 0.0032$ & $0.0313 \pm 0.0027$ & $\mathbf{0.0114 \pm 0.0024}$ & $+$ & $+$ \\
+50-1-4 & $0.0656 \pm 0.0112$ & $0.0586 \pm 0.0119$ & $\mathbf{0.0513 \pm 0.0411}$ & $=$ & $=$ \\
+50-2-0 & $0.1250 \pm 0.0388$ & $0.1044 \pm 0.0226$ & $\mathbf{0.0600 \pm 0.0425}$ & $+$ & $+$ \\
+50-2-1 & $0.0710 \pm 0.0072$ & $0.0664 \pm 0.0064$ & $\mathbf{0.0475 \pm 0.0053}$ & $+$ & $+$ \\
+50-2-2 & $0.0699 \pm 0.0108$ & $0.0609 \pm 0.0073$ & $\mathbf{0.0545 \pm 0.0071}$ & $+$ & $+$ \\
+50-2-3 & $0.0271 \pm 0.0025$ & $0.0251 \pm 0.0019$ & $\mathbf{0.0126 \pm 0.0043}$ & $+$ & $+$ \\
+50-2-4 & $0.0733 \pm 0.0091$ & $0.0704 \pm 0.0082$ & $\mathbf{0.0388 \pm 0.0076}$ & $+$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Per-instance IGD+ results on 150-customer instances (mean $\pm$ sample SD over 20 search seeds).}
+\begin{tabular}{lccccc}
+\toprule
+Instance & MOEA/D--ALNS & MOEA/D--ALNS-T & MOEA/D--DPR & vs ALNS & vs ALNS-T \\
+\midrule
+150-0-0 & $0.1896 \pm 0.0554$ & $\mathbf{0.1374 \pm 0.0388}$ & $0.1447 \pm 0.0321$ & $+$ & $=$ \\
+150-0-1 & $0.1629 \pm 0.0228$ & $0.1439 \pm 0.0092$ & $\mathbf{0.1263 \pm 0.0241}$ & $+$ & $+$ \\
+150-0-2 & $0.1703 \pm 0.0427$ & $\mathbf{0.1443 \pm 0.0370}$ & $0.2229 \pm 0.0906$ & $=$ & $-$ \\
+150-0-3 & $0.0633 \pm 0.0095$ & $0.0569 \pm 0.0080$ & $\mathbf{0.0200 \pm 0.0084}$ & $+$ & $+$ \\
+150-0-4 & $0.2162 \pm 0.0194$ & $0.2097 \pm 0.0178$ & $\mathbf{0.1087 \pm 0.0177}$ & $+$ & $+$ \\
+150-1-0 & $0.1850 \pm 0.0523$ & $\mathbf{0.1506 \pm 0.0493}$ & $0.1895 \pm 0.0416$ & $=$ & $-$ \\
+150-1-1 & $0.1602 \pm 0.0189$ & $0.1459 \pm 0.0120$ & $\mathbf{0.1233 \pm 0.0304}$ & $+$ & $+$ \\
+150-1-2 & $0.1684 \pm 0.0511$ & $\mathbf{0.1285 \pm 0.0297}$ & $0.1619 \pm 0.0560$ & $=$ & $-$ \\
+150-1-3 & $0.0698 \pm 0.0083$ & $0.0624 \pm 0.0115$ & $\mathbf{0.0190 \pm 0.0046}$ & $+$ & $+$ \\
+150-1-4 & $0.2308 \pm 0.0221$ & $0.2087 \pm 0.0227$ & $\mathbf{0.1091 \pm 0.0215}$ & $+$ & $+$ \\
+150-2-0 & $0.2843 \pm 0.0425$ & $0.2515 \pm 0.0505$ & $\mathbf{0.1151 \pm 0.0371}$ & $+$ & $+$ \\
+150-2-1 & $0.1498 \pm 0.0178$ & $0.1327 \pm 0.0133$ & $\mathbf{0.1164 \pm 0.0187}$ & $+$ & $+$ \\
+150-2-2 & $0.1641 \pm 0.0296$ & $\mathbf{0.1400 \pm 0.0265}$ & $0.1898 \pm 0.0273$ & $-$ & $-$ \\
+150-2-3 & $0.0597 \pm 0.0077$ & $0.0560 \pm 0.0079$ & $\mathbf{0.0209 \pm 0.0123}$ & $+$ & $+$ \\
+150-2-4 & $0.2239 \pm 0.0344$ & $0.1847 \pm 0.0225$ & $\mathbf{0.1050 \pm 0.0151}$ & $+$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Per-instance IGD+ results on 250-customer instances (mean $\pm$ sample SD over 20 search seeds).}
+\begin{tabular}{lccccc}
+\toprule
+Instance & MOEA/D--ALNS & MOEA/D--ALNS-T & MOEA/D--DPR & vs ALNS & vs ALNS-T \\
+\midrule
+250-0-0 & $0.1922 \pm 0.0514$ & $\mathbf{0.1636 \pm 0.0445}$ & $0.1751 \pm 0.0451$ & $=$ & $=$ \\
+250-0-1 & $0.1544 \pm 0.0138$ & $0.1433 \pm 0.0172$ & $\mathbf{0.0978 \pm 0.0186}$ & $+$ & $+$ \\
+250-0-2 & $0.1657 \pm 0.0173$ & $0.1484 \pm 0.0140$ & $\mathbf{0.1231 \pm 0.0103}$ & $+$ & $+$ \\
+250-0-3 & $0.1153 \pm 0.0347$ & $\mathbf{0.0961 \pm 0.0143}$ & $0.0985 \pm 0.1317$ & $=$ & $=$ \\
+250-0-4 & $0.4274 \pm 0.0568$ & $0.3449 \pm 0.0462$ & $\mathbf{0.1555 \pm 0.0314}$ & $+$ & $+$ \\
+250-1-0 & $0.2108 \pm 0.0416$ & $\mathbf{0.1715 \pm 0.0470}$ & $0.2005 \pm 0.0277$ & $=$ & $=$ \\
+250-1-1 & $0.2155 \pm 0.0197$ & $0.1842 \pm 0.0165$ & $\mathbf{0.1256 \pm 0.0265}$ & $+$ & $+$ \\
+250-1-2 & $0.1633 \pm 0.0118$ & $0.1417 \pm 0.0118$ & $\mathbf{0.1137 \pm 0.0122}$ & $+$ & $+$ \\
+250-1-3 & $0.1142 \pm 0.0438$ & $\mathbf{0.0978 \pm 0.0160}$ & $0.1121 \pm 0.1536$ & $=$ & $=$ \\
+250-1-4 & $0.3610 \pm 0.0404$ & $0.3085 \pm 0.0381$ & $\mathbf{0.1599 \pm 0.0625}$ & $+$ & $+$ \\
+250-2-0 & $0.1918 \pm 0.0583$ & $0.1834 \pm 0.0474$ & $\mathbf{0.1509 \pm 0.0345}$ & $=$ & $=$ \\
+250-2-1 & $0.1980 \pm 0.0156$ & $0.1696 \pm 0.0183$ & $\mathbf{0.1222 \pm 0.0248}$ & $+$ & $+$ \\
+250-2-2 & $0.1407 \pm 0.0071$ & $0.1267 \pm 0.0094$ & $\mathbf{0.0911 \pm 0.0116}$ & $+$ & $+$ \\
+250-2-3 & $0.1168 \pm 0.0306$ & $0.0958 \pm 0.0254$ & $\mathbf{0.0685 \pm 0.0765}$ & $+$ & $=$ \\
+250-2-4 & $0.3539 \pm 0.0374$ & $0.3120 \pm 0.0297$ & $\mathbf{0.1679 \pm 0.0512}$ & $+$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
