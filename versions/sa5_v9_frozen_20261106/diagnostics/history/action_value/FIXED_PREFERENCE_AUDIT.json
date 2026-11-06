@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "new_candidate_calls": 1440,
+  "independent_feasible_checks": 1440,
+  "checkpoint_unchanged": true,
+  "all_original_sources_unchanged": true,
+  "seconds": 36.767589000053704,
+  "training_updates": 0
+}

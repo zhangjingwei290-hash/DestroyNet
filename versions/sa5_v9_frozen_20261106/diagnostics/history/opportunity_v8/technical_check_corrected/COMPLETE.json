@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "technical_check": true,
+  "cycles": 1,
+  "optimizer_steps": 2,
+  "collection_runs": 3,
+  "seconds": 53.20432570017874,
+  "hv_performance_claim": false,
+  "history": [
+    {
+      "cycle": 0,
+      "collected": [
+        {
+          "n": 50,
+          "actions": 480,
+          "sessions": 96,
+          "partial_actions": 79,
+          "behavior_sha": "ca80b664794cada08be735aedccadbec5f9e6eb8615071c1eebdf3e515071914"
+        },
+        {
+          "n": 150,
+          "actions": 240,
+          "sessions": 48,
+          "partial_actions": 32,
+          "behavior_sha": "ca80b664794cada08be735aedccadbec5f9e6eb8615071c1eebdf3e515071914"
+        },
+        {
+          "n": 250,
+          "actions": 160,
+          "sessions": 32,
+          "partial_actions": 0,
+          "behavior_sha": "ca80b664794cada08be735aedccadbec5f9e6eb8615071c1eebdf3e515071914"
+        }
+      ],
+      "behavior_sha": "ca80b664794cada08be735aedccadbec5f9e6eb8615071c1eebdf3e515071914",
+      "epochs": [
+        {
+          "epoch": 0,
+          "loss": -0.013777142274193466,
+          "grad_norm": 0.11625237762928009,
+          "scales": [
+            50,
+            150,
+            250
+          ]
+        },
+        {
+          "epoch": 1,
+          "loss": -0.0140216852305457,
+          "grad_norm": 0.11414988338947296,
+          "scales": [
+            50,
+            150,
+            250
+          ]
+        }
+      ],
+      "max_density_error": 3.0517578125e-05,
+      "scale_diagnostics": [
+        {
+          "n": 50,
+          "count": 480,
+          "weight": 0.3333333432674408,
+          "adv_mean": -2.582868141587369e-08,
+          "adv_sd": 0.9999999403953552,
+          "mean_return": 0.09939055889844894
+        },
+        {
+          "n": 150,
+          "count": 240,
+          "weight": 0.3333333432674408,
+          "adv_mean": -1.7881394143159923e-08,
+          "adv_sd": 0.9999998211860657,
+          "mean_return": 0.04701242223381996
+        },
+        {
+          "n": 250,
+          "count": 160,
+          "weight": 0.3333333730697632,
+          "adv_mean": -2.3841858265427618e-08,
+          "adv_sd": 0.9999998211860657,
+          "mean_return": 0.04824782535433769
+        }
+      ]
+    }
+  ]
+}

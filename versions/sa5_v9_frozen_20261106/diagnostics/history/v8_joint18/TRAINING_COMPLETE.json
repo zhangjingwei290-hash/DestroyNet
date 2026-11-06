@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "cycles": 18,
+  "optimizer_steps": 36,
+  "meta": false,
+  "history": "training_history.json"
+}

@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "metrics": 207,
+  "budgets": [
+    {
+      "iid": "50-0-0",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "50-1-2",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "50-2-4",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "150-0-0",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "150-1-2",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "150-2-4",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "250-0-0",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "250-1-2",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    },
+    {
+      "iid": "250-2-4",
+      "same_total_budget": true,
+      "old_runs": 20,
+      "new_runs": 3,
+      "no_paired_seeds": true
+    }
+  ],
+  "no_new_searches": true
+}

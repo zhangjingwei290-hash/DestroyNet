@@ -1,0 +1,49 @@
+{
+  "actions": 3200,
+  "epochs": [
+    {
+      "epoch": 0,
+      "loss": 0.0031688399612903595,
+      "grad_norm": 0.3649141788482666,
+      "mean_log_ratio": 8.456408906454271e-09,
+      "clip_fraction": 0.0,
+      "scales": [
+        50,
+        150,
+        250
+      ]
+    },
+    {
+      "epoch": 1,
+      "loss": 0.0016345866024494171,
+      "grad_norm": 0.3508022427558899,
+      "mean_log_ratio": -2.8631238819798455e-05,
+      "clip_fraction": 0.0,
+      "scales": [
+        50,
+        150,
+        250
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "n": 50,
+      "count": 2160,
+      "weight": 0.3333333432674408
+    },
+    {
+      "n": 150,
+      "count": 640,
+      "weight": 0.3333333134651184
+    },
+    {
+      "n": 250,
+      "count": 400,
+      "weight": 0.3333333134651184
+    }
+  ],
+  "passed": true,
+  "real_rollout_logratio_error": 9.5367431640625e-06,
+  "diagnostic_only": true
+}

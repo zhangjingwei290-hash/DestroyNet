@@ -1,0 +1,465 @@
+{
+  "roulette": [
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "8b50ef513502f486109e699b1aa0b9ef2741c9358db3b589708c143fdfb4d0e0"
+    },
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "85330e6be1f16b62b492f098dbb0d2989dbaf07d09012cfb38efc05591e2bbed"
+    },
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "3fa693bc0ec2700422ce0a928b99ed185ece5c04b9b850206fd97000b924b623"
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "a0f40c5e77e4506bdd77152fd5e0843f7be8a9b2b3a8397707267e8aebf277dd"
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "923a5d767f4eebbff8a2330999cd25664f7664b35fbf8c4d734f1362575e207f"
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "5d4a2398959263bc875989fca2bf92f6da33ed8a4940a1533010f831e88eed19"
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "9ed0c28bafc0a59d3f07226f91b6b24ff7a4390729faaf59e2ad894cec8da2bd"
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "261069dd74550754575c5adfd7bef1ca970f475eeca32ca1202e7f2ba37f71f9"
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "1910a988ebea16a0509e6d7389d5cd6fcddbd996c069d270ee300ef868f1e662"
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "f93feb0860ad8305b8a51b65feae2f92aff7f154783e6cb7a2a8e9d78a2ab741"
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "5ffeef9f6d6376d960a69008735fc338da2759c62a0ed1eecfe24209c2384054"
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "f0871f272da77a4efeddd370a6575656d20fb88b85f880bef422018102e9dc1e"
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "5226ef3feb8e47c9c765b2408fa2b4039dce0be0c4ce7ced8dfbbdd6cc9709b8"
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "aa7d15b988f93bdd2fbb4df5a18074cc2e040aabb1f5ecb6e2ae720081ef8b92"
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "fbcf8772637dd5c6df59b4da8c2d22e094ed96949019a4e72bd9d95ca8b38ff9"
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "e51774fda26dd2b26c7ab5bf213d880a065a4ea3726dd29a9fe8c2b10ae93e58"
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "2c20456dd1f229f176564c86789a7f393dc45c0d3bda756be042e50dd533150a"
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "01f2b95fbee4bc05b6e7a2a942c6b6c6474a858a228afccb296bc34e3afe3b13"
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "92b6d3a2c4f04cd650e51947752313d5d4850132fe68dff12ff8a3861eb5fb2b"
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "f137331e5a4ab0af66518e3634ec66b93cca190ce82609db3a041c41720cb97d"
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "9a8ef9bf9b02cb64e9c3bd0ede680bff730d9a20d0547ffdd8f43f7b45ebeac2"
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "f815fe83e564e63ec191ea2d5ca5bda531d0b6548f1a6b6247de6f5cd110bc60"
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "73bb9cac46c1ad1e456b4e53f9c62304240dfaae89837cc3d45908cf15f2b48f"
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "fa8b612e2b0748cf5dac841b843d4fa3a21326512911c498cf1e93757e3cc2e6"
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "seed": 20261104,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261104\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261104\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "83ae6a018752f96ea728884c952b18aa43e7009d337c4653c498c4a70bcaad26"
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "seed": 20261105,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261105\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261105\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "518d6817181314b071c5f09c6b9f76505db4e0f906cdaead14578a52360ae930"
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "seed": 20261106,
+      "method": "roulette",
+      "path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261106\\results\\roulette_sa5.json",
+      "audit_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261106\\analysis\\AUDIT.json",
+      "audit_sha256": "28ef20f3b8bfec9e969b754b8ad3b731d5a83d34becb193cfaa678241f055bc7",
+      "source_sha256": "453b6ee6f13b3ab29f6607562a6665f26b9164f5918b37d854cdb375c01623f8"
+    }
+  ],
+  "v8": [
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-0-0\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-0-0\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-0-0",
+      "n": 50,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-0-0\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-1-2\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-1-2\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-1-2",
+      "n": 50,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-1-2\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-2-4\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-2-4\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "50-2-4",
+      "n": 50,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-2-4\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-0-0\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-0-0\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-0-0",
+      "n": 150,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-0-0\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-1-2\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-1-2\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-1-2",
+      "n": 150,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-1-2\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-2-4\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-2-4\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "150-2-4",
+      "n": 150,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-2-4\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-0-0\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-0-0\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-0-0",
+      "n": 250,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-0-0\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-1-2\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-1-2\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-1-2",
+      "n": 250,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-1-2\\20261106\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "seed": 20261104,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-2-4\\20261104\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "seed": 20261105,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-2-4\\20261105\\results\\gate_trained.json"
+    },
+    {
+      "iid": "250-2-4",
+      "n": 250,
+      "seed": 20261106,
+      "method": "v8",
+      "path": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-2-4\\20261106\\results\\gate_trained.json"
+    }
+  ]
+}

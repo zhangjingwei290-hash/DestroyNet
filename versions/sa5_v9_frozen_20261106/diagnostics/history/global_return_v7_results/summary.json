@@ -1,0 +1,62 @@
+[
+  {
+    "n": 50,
+    "kind": "initial",
+    "hv": 0.6215253353815889,
+    "igd_plus": 0.011690950560803971,
+    "batches": 32,
+    "actions": 2496,
+    "actual_seconds": 30.000533199869096
+  },
+  {
+    "n": 50,
+    "kind": "trained",
+    "hv": 0.5814841939515829,
+    "igd_plus": 0.0375643847007167,
+    "batches": 31,
+    "actions": 2467,
+    "actual_seconds": 30.007181600201875,
+    "hv_change_pct": -6.442398909679614,
+    "igd_reduction_pct": -221.31163762387382
+  },
+  {
+    "n": 150,
+    "kind": "initial",
+    "hv": 0.49473844758204694,
+    "igd_plus": 0.017447724156848393,
+    "batches": 18,
+    "actions": 1440,
+    "actual_seconds": 30.00577459996566
+  },
+  {
+    "n": 150,
+    "kind": "trained",
+    "hv": 0.4965275802883762,
+    "igd_plus": 0.024287472645935608,
+    "batches": 17,
+    "actions": 1351,
+    "actual_seconds": 30.0084560001269,
+    "hv_change_pct": 0.36163203306178726,
+    "igd_reduction_pct": -39.20137908875956
+  },
+  {
+    "n": 250,
+    "kind": "initial",
+    "hv": 0.8456098213024905,
+    "igd_plus": 0.02059011183723169,
+    "batches": 13,
+    "actions": 976,
+    "actual_seconds": 30.000667199958116
+  },
+  {
+    "n": 250,
+    "kind": "trained",
+    "hv": 0.8923371923615231,
+    "igd_plus": 0.016209869040543157,
+    "batches": 13,
+    "actions": 1008,
+    "actual_seconds": 30.005728099960834,
+    "hv_change_pct": 5.525878470410683,
+    "igd_reduction_pct": 21.273526007605458
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "n": 50,
+      "passed": true,
+      "actions": 2209,
+      "batches": 28,
+      "complete_training_rows": 2160,
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "mean_q": 10.680398370303305
+    },
+    {
+      "n": 150,
+      "passed": true,
+      "actions": 688,
+      "batches": 9,
+      "complete_training_rows": 640,
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "mean_q": 27.636627906976745
+    },
+    {
+      "n": 250,
+      "passed": true,
+      "actions": 432,
+      "batches": 6,
+      "complete_training_rows": 400,
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "mean_q": 33.354166666666664
+    }
+  ]
+}

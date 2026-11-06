@@ -1,0 +1,9 @@
+# V9 learned scale/preference mode and grain control
+
+Frozen direction-specific original experts; train only shared 22-input/4-output Controller and Critic. No scale-specific action bounds or mode priors. All three modes use the same 4%-35% bounded linear customer target. Mode 2 removes whole routes until the selected prefix reaches the target; a whole final route can overshoot the customer target. The log likelihood is the exact sampled route prefix; no partial route is removed.
+
+CPU NumPy scoring within each five-action session; one shared GPU encoding at session entry. SA and five-step session/outer solver unchanged. Last repair input is measured seconds. Mode and conditional Beta densities both enter PPO, with categorical plus conditional expected Beta entropy.
+
+Training: fit180 only; seed20261105 chooses six distinct IID per scale, 18 full 180-second runs, 3240 seconds total. Six on-policy joint updates, two epochs each. Each update includes three scales, temporal thirds, all16 directions, equal 1/144 stratum mass; advantages standardized within scale. No stale preceding-policy replay. Per-step best gain normalized by (1+abs(best score)) minus identically normalized causal EMA opportunity cost times measured shared action-wave wall time; late/partial sessions excluded. Temporal thirds do not guarantee stagnation.
+
+Selection: checkpoints3/6, all45 validation IID, one seed20261105,180 seconds each; common empirical reference, mean own-run HV primary, earlier checkpoint tie. Tests:27 new V9 on original9IID x seeds20261104..06,117–338seconds; frozen roulette27 and V8 NumPy27 reused. Report three-method common-reference per-run HV/IGD+, IID mean/sampleSD, macro IID equal weight, exact signedrank and Holm4 for V9 vs2 controls x2 metrics per scope. Scale tests exploratory. Historical development panel is not blind test. No other experiment resumes.

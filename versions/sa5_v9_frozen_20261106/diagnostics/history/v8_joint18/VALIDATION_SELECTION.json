@@ -1,0 +1,83 @@
+{
+  "best_pass": 1,
+  "macro_hv": {
+    "1": 0.5693906278950283,
+    "2": 0.5574721872997802
+  },
+  "metrics": [
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "n": 150,
+      "seed": 20261105,
+      "method": "pass1",
+      "hv": 0.5193539338109049,
+      "igd_plus": 0.013855725186095623,
+      "budget": 180.0,
+      "seconds": 180.00665839994326,
+      "batches": 86,
+      "attempts": 6842
+    },
+    {
+      "iid": "v5p_validation_150_d1_tw2_0",
+      "n": 150,
+      "seed": 20261105,
+      "method": "pass2",
+      "hv": 0.49271818537451517,
+      "igd_plus": 0.020616013279129857,
+      "budget": 180.0,
+      "seconds": 180.00804789969698,
+      "batches": 81,
+      "attempts": 6469
+    },
+    {
+      "iid": "v5p_validation_250_d1_tw2_0",
+      "n": 250,
+      "seed": 20261105,
+      "method": "pass1",
+      "hv": 0.6636479957336461,
+      "igd_plus": 0.021258508769254336,
+      "budget": 180.0,
+      "seconds": 180.00216390006244,
+      "batches": 67,
+      "attempts": 5296
+    },
+    {
+      "iid": "v5p_validation_250_d1_tw2_0",
+      "n": 250,
+      "seed": 20261105,
+      "method": "pass2",
+      "hv": 0.6542196858368364,
+      "igd_plus": 0.04133137604525451,
+      "budget": 180.0,
+      "seconds": 180.00949670001864,
+      "batches": 62,
+      "attempts": 4954
+    },
+    {
+      "iid": "v5p_validation_50_d1_tw2_0",
+      "n": 50,
+      "seed": 20261105,
+      "method": "pass1",
+      "hv": 0.5251699541405338,
+      "igd_plus": 0.0038060191862251446,
+      "budget": 180.0,
+      "seconds": 180.01216909987852,
+      "batches": 126,
+      "attempts": 10004
+    },
+    {
+      "iid": "v5p_validation_50_d1_tw2_0",
+      "n": 50,
+      "seed": 20261105,
+      "method": "pass2",
+      "hv": 0.5254786906879888,
+      "igd_plus": 0.009646783861150338,
+      "budget": 180.0,
+      "seconds": 180.02213490009308,
+      "batches": 129,
+      "attempts": 10256
+    }
+  ],
+  "selection_rule": "macro empirical HV; ties lower IGD+, then earlier pass",
+  "gate_sha": "40da903540ffa3a496985ee0bd0cdadfb8e452aff77e45ac87fb4bf098473992"
+}

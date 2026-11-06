@@ -1,0 +1,59 @@
+{
+  "new_searches": 0,
+  "dbmt_runs": 15,
+  "v9_runs": 27,
+  "reference": "Pairwise common per-IID empirical ND over all available archives; own-seed scoring, then IID equal mean; ref1.1^5,zero span relative physical scale1e-12",
+  "comparison": [
+    {
+      "scope": "all",
+      "dbmt_hv": 0.8554447431255698,
+      "v9_hv": 0.8543120071226707,
+      "hv_change_percent": -0.13241486513323464,
+      "dbmt_igd_plus": 0.01936031725814092,
+      "v9_igd_plus": 0.061622773657881304,
+      "igd_reduction_percent": -218.29423472887163,
+      "iid_hv_wins": 5,
+      "iid_hv_losses": 4
+    },
+    {
+      "scope": 50,
+      "dbmt_hv": 1.0307685110889147,
+      "v9_hv": 1.0163996437610041,
+      "hv_change_percent": -1.3939955647976787,
+      "dbmt_igd_plus": 0.00911403385702976,
+      "v9_igd_plus": 0.026989175739096174,
+      "igd_reduction_percent": -196.12766599807077,
+      "iid_hv_wins": 2,
+      "iid_hv_losses": 1
+    },
+    {
+      "scope": 150,
+      "dbmt_hv": 0.8228846099430537,
+      "v9_hv": 0.8643566122660261,
+      "hv_change_percent": 5.0398320520105955,
+      "dbmt_igd_plus": 0.021868549722977144,
+      "v9_igd_plus": 0.05946142656271295,
+      "igd_reduction_percent": -171.90384051959887,
+      "iid_hv_wins": 1,
+      "iid_hv_losses": 2
+    },
+    {
+      "scope": 250,
+      "dbmt_hv": 0.7126811083447412,
+      "v9_hv": 0.6821797653409821,
+      "hv_change_percent": -4.279802375371067,
+      "dbmt_igd_plus": 0.027098368194415856,
+      "v9_igd_plus": 0.0984177186718348,
+      "igd_reduction_percent": -263.18688256703103,
+      "iid_hv_wins": 2,
+      "iid_hv_losses": 1
+    }
+  ],
+  "limits": [
+    "DBMT native whole solver; excludes modified window baseline and all neural adapters",
+    "Different search seeds, DBMT2seed at N50/150 and1seed at N250, V9 3seed each",
+    "Native original DBMT rmp integer zero retained; describes actual source implementation",
+    "CPU/GPU allocation and historical loads differ, same wall budgets117-338s are not equal resource budgets",
+    "Development9IID; historical descriptive comparison only; no paired-seed significance claim"
+  ]
+}

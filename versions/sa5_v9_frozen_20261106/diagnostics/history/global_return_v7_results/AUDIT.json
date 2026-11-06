@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "heldout_runs": 6,
+  "paired_initial_populations": true,
+  "physical_audits": true,
+  "source_lock_unchanged": true,
+  "full_host_rollouts": true,
+  "max_density_error": 6.103515625e-05,
+  "training_actions": 10688
+}

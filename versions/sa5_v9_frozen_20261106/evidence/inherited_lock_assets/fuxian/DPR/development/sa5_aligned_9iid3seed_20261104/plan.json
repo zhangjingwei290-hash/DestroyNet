@@ -1,0 +1,60 @@
+{
+  "status": "READY",
+  "search_authorized_now": true,
+  "training_authorized_now": true,
+  "instances": [
+    "50-0-0",
+    "50-1-2",
+    "50-2-4",
+    "150-0-0",
+    "150-1-2",
+    "150-2-4",
+    "250-0-0",
+    "250-1-2",
+    "250-2-4"
+  ],
+  "evaluation_seeds": [
+    20261104,
+    20261105,
+    20261106
+  ],
+  "methods": [
+    "roulette_sa5",
+    "neural_sa5_retrained"
+  ],
+  "expected_results": 54,
+  "local_attempt_limit": 5,
+  "total_budget_seconds": {
+    "50-0-0": 117.0,
+    "50-1-2": 270.0,
+    "50-2-4": 146.0,
+    "150-0-0": 183.0,
+    "150-1-2": 300.0,
+    "150-2-4": 220.0,
+    "250-0-0": 258.0,
+    "250-1-2": 338.0,
+    "250-2-4": 282.0
+  },
+  "budget_origin": "existing nine-IID protocol; verify against canonical budget manifest before dispatch",
+  "training_budget": {
+    "total_seconds": 1800,
+    "meta_seconds": 1200,
+    "adapt_remaining_seconds": 600,
+    "meta_round_cap": 400,
+    "adapt_updates_cap_per_direction": 30,
+    "training_seed": 20261104
+  },
+  "training_budget_note": "Same 1800s total cap, meta <=1200s; increased iteration caps inside existing time ceiling; no extra test seeds",
+  "temperature_rule": "calibrated positive scalar deterioration / -log(target_probability)",
+  "temperature_calibration": {
+    "normalized_positive_delta": 0.01,
+    "accept_probability": 0.5,
+    "end_to_start": 0.01,
+    "note": "development fixed setting, not validation-tuned; same both groups"
+  },
+  "acceptance": "Metropolis current; retain best; feasible on-time candidates only",
+  "reward": "best_before-best_after under frozen session scalar",
+  "reference": "Each IID both methods three seeds shared empirical ND, per-seed scoring",
+  "statistics": "9 IID paired means exact signedrank Holm2; scale analyses exploratory",
+  "no_dispatch": false
+}

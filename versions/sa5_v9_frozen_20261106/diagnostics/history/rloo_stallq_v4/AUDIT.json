@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "physical_case_audits": 6,
+  "searches": 15,
+  "source_locks_unchanged": true,
+  "training_counts_matched": true,
+  "no_significance_claim": true
+}

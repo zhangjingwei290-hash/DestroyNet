@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "development_searches": 12,
+  "optimization_ceiling_seconds": 600,
+  "combined_training_validation_original_limit_passed": false,
+  "frozen_validation_extension": true,
+  "report": "REPORT.md"
+}

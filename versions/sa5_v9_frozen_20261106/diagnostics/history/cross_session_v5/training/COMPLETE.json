@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "updates": 288,
+  "transitions": 5760,
+  "seconds": 262.0493586002849,
+  "all_v2_expert_weights_unchanged": true,
+  "real_states": true,
+  "positive_stall_training_updates": 123,
+  "mean_objective": true
+}

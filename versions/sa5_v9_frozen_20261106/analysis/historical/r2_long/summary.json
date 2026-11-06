@@ -1,0 +1,71 @@
+{
+  "new_searches": 0,
+  "old_runs": 180,
+  "new_runs": 27,
+  "scoring": "Each seed archive scored separately under two-method per-IID common empirical ND from old20+new3; HV ref1.1^5; zero relative physical scale threshold1e-12; IID equally weighted",
+  "comparison": [
+    {
+      "scope": "all",
+      "hv_old": 0.7049192996099973,
+      "hv_v9": 0.8505761466168318,
+      "hv_relative_percent": 20.662910930005808,
+      "igd_old": 0.11820119638466474,
+      "igd_v9": 0.0524512204440977,
+      "igd_reduction_percent": 55.62547415052843,
+      "hv_wins": 9,
+      "hv_ties": 0,
+      "hv_losses": 0,
+      "igd_wins": 8,
+      "igd_losses": 1
+    },
+    {
+      "scope": 50,
+      "hv_old": 0.9360761839862952,
+      "hv_v9": 1.0104511326013101,
+      "hv_relative_percent": 7.945394818003804,
+      "igd_old": 0.06049720463663019,
+      "igd_v9": 0.02314949625734391,
+      "igd_reduction_percent": 61.73460179459727,
+      "hv_wins": 3,
+      "hv_ties": 0,
+      "hv_losses": 0,
+      "igd_wins": 3,
+      "igd_losses": 0
+    },
+    {
+      "scope": 150,
+      "hv_old": 0.6927819694368484,
+      "hv_v9": 0.882817182476689,
+      "hv_relative_percent": 27.43073887940779,
+      "igd_old": 0.140801952576284,
+      "igd_v9": 0.055236173806657934,
+      "igd_reduction_percent": 60.77030694817108,
+      "hv_wins": 3,
+      "hv_ties": 0,
+      "hv_losses": 0,
+      "igd_wins": 2,
+      "igd_losses": 1
+    },
+    {
+      "scope": 250,
+      "hv_old": 0.4858997454068482,
+      "hv_v9": 0.658460124772496,
+      "hv_relative_percent": 35.51357682255245,
+      "igd_old": 0.15330443194108004,
+      "igd_v9": 0.07896799126829127,
+      "igd_reduction_percent": 48.48942703845557,
+      "hv_wins": 3,
+      "hv_ties": 0,
+      "hv_losses": 0,
+      "igd_wins": 3,
+      "igd_losses": 0
+    }
+  ],
+  "limits": [
+    "Different non-overlapping search seeds and unequal sample sizes:20 old vs3 new; not paired-seed comparison",
+    "Old R2 long sessions use min(10,T/16,remaining); V9 uses five-step SA and parallel direction repairs",
+    "Model/controller/q mapping/acceptance/cache/scheduling also differ: full-system historical comparison, not isolated local-session-budget effect",
+    "Different historical CPU resource allocation/load epochs; same wall budget does not ensure same CPU core seconds",
+    "Nine IID are repeatedly inspected development instances"
+  ]
+}

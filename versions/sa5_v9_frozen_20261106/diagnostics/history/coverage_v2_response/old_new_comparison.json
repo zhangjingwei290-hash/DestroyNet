@@ -1,0 +1,94 @@
+{
+  "old": {
+    "preference": {
+      "q_range_pp_median": 0.6782909150880276,
+      "q_range_pp_max": 3.0212534279504903,
+      "mode_range_pp_median": 1.0346340264837297,
+      "mode_range_pp_max": 6.350639283232584,
+      "argmax_mode_changes": 0,
+      "blocks": 96
+    },
+    "archive_summary": {
+      "q_range_pp_median": 0.1311536047525423,
+      "q_range_pp_max": 0.4631393340175982,
+      "mode_range_pp_median": 0.24201474443049653,
+      "mode_range_pp_max": 0.6840429161670603,
+      "argmax_mode_changes": 1,
+      "blocks": 96
+    },
+    "steps_only": {
+      "q_range_pp_median": 0.08200776065466764,
+      "q_range_pp_max": 0.25003900797645473,
+      "mode_range_pp_median": 0.1452178832483747,
+      "mode_range_pp_max": 0.3278322888197738,
+      "argmax_mode_changes": 1,
+      "blocks": 96
+    },
+    "steps_temperature": {
+      "q_range_pp_median": 0.11772412347597488,
+      "q_range_pp_max": 0.3987853577674255,
+      "mode_range_pp_median": 0.23634664638478575,
+      "mode_range_pp_max": 0.5096768994242717,
+      "argmax_mode_changes": 1,
+      "blocks": 96
+    },
+    "global_stage": {
+      "q_range_pp_median": 0.09702154413262082,
+      "q_range_pp_max": 0.299074824833509,
+      "mode_range_pp_median": 0.38231740754433585,
+      "mode_range_pp_max": 0.9335252115520332,
+      "argmax_mode_changes": 1,
+      "blocks": 96
+    },
+    "customer_preference": {
+      "top10_overlap_median": 0.2,
+      "tv_median": 0.3137171108255573
+    }
+  },
+  "new": {
+    "preference": {
+      "q_range_pp_median": 0.7482740542743158,
+      "q_range_pp_max": 1.6449248090995323,
+      "mode_range_pp_median": 1.2085061480308288,
+      "mode_range_pp_max": 7.184705535764724,
+      "argmax_mode_changes": 0,
+      "blocks": 96
+    },
+    "archive_summary": {
+      "q_range_pp_median": 0.07656717761880122,
+      "q_range_pp_max": 0.2668321687161662,
+      "mode_range_pp_median": 0.3326135868961966,
+      "mode_range_pp_max": 0.8666834502252252,
+      "argmax_mode_changes": 0,
+      "blocks": 96
+    },
+    "steps_only": {
+      "q_range_pp_median": 0.0288673554049608,
+      "q_range_pp_max": 0.2206554976299402,
+      "mode_range_pp_median": 0.2203068389566687,
+      "mode_range_pp_max": 0.5798658295989023,
+      "argmax_mode_changes": 0,
+      "blocks": 96
+    },
+    "steps_temperature": {
+      "q_range_pp_median": 0.03872404635382534,
+      "q_range_pp_max": 0.4242647366870106,
+      "mode_range_pp_median": 0.3750506152933486,
+      "mode_range_pp_max": 0.9953630462749108,
+      "argmax_mode_changes": 0,
+      "blocks": 96
+    },
+    "global_stage": {
+      "q_range_pp_median": 0.0343392210193777,
+      "q_range_pp_max": 0.11126160294507581,
+      "mode_range_pp_median": 0.286974467022566,
+      "mode_range_pp_max": 1.1806019758560327,
+      "argmax_mode_changes": 0,
+      "blocks": 96
+    },
+    "customer_preference": {
+      "top10_overlap_median": 0.2,
+      "tv_median": 0.30817555321116896
+    }
+  }
+}

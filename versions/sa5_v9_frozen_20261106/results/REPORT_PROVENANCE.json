@@ -1,0 +1,3887 @@
+[
+  {
+    "path": "results/test/roulette/50-0-0_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "8b50ef513502f486109e699b1aa0b9ef2741c9358db3b589708c143fdfb4d0e0",
+    "published_sha256": "43d08f560f944bbcb7f95f82b15fc62c11b7d12135f1c3cbf3d1b20319ce6a26",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14608,
+    "batches": 183
+  },
+  {
+    "path": "results/test/roulette/50-0-0_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "85330e6be1f16b62b492f098dbb0d2989dbaf07d09012cfb38efc05591e2bbed",
+    "published_sha256": "8af60aaec4eeb52bbf61f950f10fe596df41e99cd6843cf2c9a9d31e99b41c34",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14320,
+    "batches": 179
+  },
+  {
+    "path": "results/test/roulette/50-0-0_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-0-0\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "3fa693bc0ec2700422ce0a928b99ed185ece5c04b9b850206fd97000b924b623",
+    "published_sha256": "b8477170fad53260d261126508e18ad519fcec21e44d71a94008cafda0342ba3",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14352,
+    "batches": 180
+  },
+  {
+    "path": "results/test/roulette/50-1-2_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "a0f40c5e77e4506bdd77152fd5e0843f7be8a9b2b3a8397707267e8aebf277dd",
+    "published_sha256": "a3e0f879c652c746eb35a056c0f9d7e9e0aef9b2e537e92cbdffb667b9a81274",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 27790,
+    "batches": 348
+  },
+  {
+    "path": "results/test/roulette/50-1-2_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "923a5d767f4eebbff8a2330999cd25664f7664b35fbf8c4d734f1362575e207f",
+    "published_sha256": "b5dadb7b52da70ab29395ab0be419084282445c8347e1183a64b061836738fd9",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 27440,
+    "batches": 343
+  },
+  {
+    "path": "results/test/roulette/50-1-2_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-1-2\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "5d4a2398959263bc875989fca2bf92f6da33ed8a4940a1533010f831e88eed19",
+    "published_sha256": "24fdad44b2e616e750317a0f95cb167561a891b01709a642992ac18ea6a07a40",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 28800,
+    "batches": 360
+  },
+  {
+    "path": "results/test/roulette/50-2-4_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "9ed0c28bafc0a59d3f07226f91b6b24ff7a4390729faaf59e2ad894cec8da2bd",
+    "published_sha256": "11ae24d906ae655c724999c739e4ac8aabb7d3e1b768510834123dd789d1c3af",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 17232,
+    "batches": 216
+  },
+  {
+    "path": "results/test/roulette/50-2-4_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "261069dd74550754575c5adfd7bef1ca970f475eeca32ca1202e7f2ba37f71f9",
+    "published_sha256": "d02179dac170a5d111c2dfcc81a6fee1d00723123f9928a699b298cffb6d7aeb",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 16896,
+    "batches": 212
+  },
+  {
+    "path": "results/test/roulette/50-2-4_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\50-2-4\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "1910a988ebea16a0509e6d7389d5cd6fcddbd996c069d270ee300ef868f1e662",
+    "published_sha256": "5135743c5d990630638a1c16a7eafaef66900e94399f1413d99cef8f149b94fc",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 16512,
+    "batches": 207
+  },
+  {
+    "path": "results/test/roulette/150-0-0_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "f93feb0860ad8305b8a51b65feae2f92aff7f154783e6cb7a2a8e9d78a2ab741",
+    "published_sha256": "c9ce7eebefb1624f89f72f05ff8c39a12a1ea677e2e2f2269d5b8c960027eb70",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 3744,
+    "batches": 47
+  },
+  {
+    "path": "results/test/roulette/150-0-0_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "5ffeef9f6d6376d960a69008735fc338da2759c62a0ed1eecfe24209c2384054",
+    "published_sha256": "b81f718774066efa39dc2caeb2efeff9ba433ddd7630cd4b5a4221b902b61bb5",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 3904,
+    "batches": 49
+  },
+  {
+    "path": "results/test/roulette/150-0-0_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-0-0\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "f0871f272da77a4efeddd370a6575656d20fb88b85f880bef422018102e9dc1e",
+    "published_sha256": "5a5b094beda3c964a17e0d45c5ec9543ab99bac6845d592573de0218d233c4f5",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 3824,
+    "batches": 48
+  },
+  {
+    "path": "results/test/roulette/150-1-2_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "5226ef3feb8e47c9c765b2408fa2b4039dce0be0c4ce7ced8dfbbdd6cc9709b8",
+    "published_sha256": "463fe5c1b4d3555a476d580748dd9c8b3f2add20ba4389944281de15604a3e18",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6768,
+    "batches": 85
+  },
+  {
+    "path": "results/test/roulette/150-1-2_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "aa7d15b988f93bdd2fbb4df5a18074cc2e040aabb1f5ecb6e2ae720081ef8b92",
+    "published_sha256": "f202b6d9a3babe8f07872588ab5a27207390090c80fbbec4d1e24e265c54caab",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6512,
+    "batches": 82
+  },
+  {
+    "path": "results/test/roulette/150-1-2_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-1-2\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "fbcf8772637dd5c6df59b4da8c2d22e094ed96949019a4e72bd9d95ca8b38ff9",
+    "published_sha256": "a0c81575cc8723bd52d88a5ac41c0d56f1f1fb5f791d60c924aebfde93222703",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6480,
+    "batches": 82
+  },
+  {
+    "path": "results/test/roulette/150-2-4_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "e51774fda26dd2b26c7ab5bf213d880a065a4ea3726dd29a9fe8c2b10ae93e58",
+    "published_sha256": "31e865430ce28502199728529bc12c17b080a9ce8e5dc0c9b02acc005d78e3a7",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5008,
+    "batches": 63
+  },
+  {
+    "path": "results/test/roulette/150-2-4_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "2c20456dd1f229f176564c86789a7f393dc45c0d3bda756be042e50dd533150a",
+    "published_sha256": "0bd808443328938fe86812b7de01f0b03b32a741d237adef7d74ecb1320cb406",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5216,
+    "batches": 66
+  },
+  {
+    "path": "results/test/roulette/150-2-4_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\150-2-4\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "01f2b95fbee4bc05b6e7a2a942c6b6c6474a858a228afccb296bc34e3afe3b13",
+    "published_sha256": "0876feb255369a18a21179004e62b43386f70721fa99df55b54cf3c724a4402d",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4896,
+    "batches": 62
+  },
+  {
+    "path": "results/test/roulette/250-0-0_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "92b6d3a2c4f04cd650e51947752313d5d4850132fe68dff12ff8a3861eb5fb2b",
+    "published_sha256": "d4141117b5b18711e6f8e83c564c87f0057c839a2dbbc2fdb808effa934e70d0",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 1696,
+    "batches": 22
+  },
+  {
+    "path": "results/test/roulette/250-0-0_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "f137331e5a4ab0af66518e3634ec66b93cca190ce82609db3a041c41720cb97d",
+    "published_sha256": "05d1ab24c137432f0f036703ed4fda968d8784638487a70c5fd3eb28904afd5d",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 1776,
+    "batches": 23
+  },
+  {
+    "path": "results/test/roulette/250-0-0_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-0-0\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "9a8ef9bf9b02cb64e9c3bd0ede680bff730d9a20d0547ffdd8f43f7b45ebeac2",
+    "published_sha256": "baec6d6cac9e2d1f7adf6c2fbcbf5ee337cf9456fc4d3e8b4f9427a272bbf19e",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 1600,
+    "batches": 21
+  },
+  {
+    "path": "results/test/roulette/250-1-2_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "f815fe83e564e63ec191ea2d5ca5bda531d0b6548f1a6b6247de6f5cd110bc60",
+    "published_sha256": "3688e1ab96a7f28a6b2dc2c8ae5ea2a30ab33f2f06bd4890625c9993c208394a",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2096,
+    "batches": 27
+  },
+  {
+    "path": "results/test/roulette/250-1-2_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "73bb9cac46c1ad1e456b4e53f9c62304240dfaae89837cc3d45908cf15f2b48f",
+    "published_sha256": "65a7816326ef0c613169cdf03c1da5c2c5ea60d8565aab85bc3cb1894d6188fa",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2160,
+    "batches": 27
+  },
+  {
+    "path": "results/test/roulette/250-1-2_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-1-2\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "fa8b612e2b0748cf5dac841b843d4fa3a21326512911c498cf1e93757e3cc2e6",
+    "published_sha256": "70f33dc5f2301233b59789a6269dcf4bb77945cd90148ad64033ccd11d89aa1d",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2688,
+    "batches": 34
+  },
+  {
+    "path": "results/test/roulette/250-2-4_seed20261104.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261104\\results\\roulette_sa5.json",
+    "source_sha256": "83ae6a018752f96ea728884c952b18aa43e7009d337c4653c498c4a70bcaad26",
+    "published_sha256": "c073b07228aa646e90b12816183bcfcce6fb0248683d82b94b3c15441948743b",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2224,
+    "batches": 28
+  },
+  {
+    "path": "results/test/roulette/250-2-4_seed20261105.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261105\\results\\roulette_sa5.json",
+    "source_sha256": "518d6817181314b071c5f09c6b9f76505db4e0f906cdaead14578a52360ae930",
+    "published_sha256": "c95e38bce05ed511becb1e2167d8f15b4c61da0535ed71da9e84e377fad9c8f2",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2400,
+    "batches": 30
+  },
+  {
+    "path": "results/test/roulette/250-2-4_seed20261106.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\cases\\250-2-4\\20261106\\results\\roulette_sa5.json",
+    "source_sha256": "453b6ee6f13b3ab29f6607562a6665f26b9164f5918b37d854cdb375c01623f8",
+    "published_sha256": "19da89017e6238c4f4dcc7383e86dc51d3ab333d1cd8abb05dec155295482383",
+    "method": "roulette",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2464,
+    "batches": 31
+  },
+  {
+    "path": "results/test/v8/50-0-0_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-0-0\\20261104\\results\\gate_trained.json",
+    "source_sha256": "ba3b3705ec40080950062098aa3f440773f2c18cb023f345aceab5fadd81820f",
+    "published_sha256": "d56dfa64f65d7c0ee35fd4d9581f57a6c3c19787f05b1cb5a29f1fb63d50dda5",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 11552,
+    "batches": 145
+  },
+  {
+    "path": "results/test/v8/50-0-0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-0-0\\20261105\\results\\gate_trained.json",
+    "source_sha256": "ce834a1e1cf3621dd0f69af9c91826d88a2715cfc0f4efe87c42d1aeb6346b30",
+    "published_sha256": "90fdb57d2c81e6af7b6226995b5e022bd7a51c79047b93da577e56832680bdbd",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 11500,
+    "batches": 144
+  },
+  {
+    "path": "results/test/v8/50-0-0_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-0-0\\20261106\\results\\gate_trained.json",
+    "source_sha256": "cdc068296cc82555e121c24982be563f9141cab7f60219430fa6e7adb9b4da73",
+    "published_sha256": "01a1373f99f0be8ecc3173f9812c3a52cafc0807fda1988559637a50470b0d0f",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 11664,
+    "batches": 146
+  },
+  {
+    "path": "results/test/v8/50-1-2_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-1-2\\20261104\\results\\gate_trained.json",
+    "source_sha256": "97670661c38e66404bbe6ae64c06266e6b9454bc9592763cdcc84705a8897bfb",
+    "published_sha256": "769297356e0f6a03df6ed6adc0796e084bb0714be5b4b61e5de24383ee65c00a",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14368,
+    "batches": 180
+  },
+  {
+    "path": "results/test/v8/50-1-2_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-1-2\\20261105\\results\\gate_trained.json",
+    "source_sha256": "d5ce43883639f671112ba8703822a38854e139319a264a8bb96dde5bcde8d76f",
+    "published_sha256": "50b65ad6115b4a24bfc0c49be80eece6a20a29167de4af2119a4c694cc4b0325",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15693,
+    "batches": 197
+  },
+  {
+    "path": "results/test/v8/50-1-2_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-1-2\\20261106\\results\\gate_trained.json",
+    "source_sha256": "fe488c1767dc867930fd9531c6ef555f793c67c7db5346d9b3756d2f794fe7d4",
+    "published_sha256": "a4f24eb43ab52e02cce797381d5a275d163e240e1303a1cb647116c43e7874ec",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15281,
+    "batches": 192
+  },
+  {
+    "path": "results/test/v8/50-2-4_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-2-4\\20261104\\results\\gate_trained.json",
+    "source_sha256": "408a345eb84c511870c664870f560739ad17cafa3bce0307db05291e90e0e77b",
+    "published_sha256": "0351f2477eefbcb0ee1d2c8488f7364e3cb14228226f974a1d269d5891cac5c4",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 13920,
+    "batches": 174
+  },
+  {
+    "path": "results/test/v8/50-2-4_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-2-4\\20261105\\results\\gate_trained.json",
+    "source_sha256": "ddba9d0b080576fb4a9afe82f25aeb125e8afcd7155e7bae3bb2713e1b3b8078",
+    "published_sha256": "6e2de9020996582e22b043ff15c95c434962c8c4ffa5b6befd9a69a1aae5ebfe",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14053,
+    "batches": 176
+  },
+  {
+    "path": "results/test/v8/50-2-4_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\50-2-4\\20261106\\results\\gate_trained.json",
+    "source_sha256": "73b36fa67fdc13d0343b323d168fd933f4c9acfe1ef645a585a2b4ef303df411",
+    "published_sha256": "cc37e7b8efe3ef57618be3af0f024398258ba801d823d05570976c86353928e4",
+    "method": "v8",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12448,
+    "batches": 156
+  },
+  {
+    "path": "results/test/v8/150-0-0_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-0-0\\20261104\\results\\gate_trained.json",
+    "source_sha256": "ec9c06682891a993ed455262ac0ee5df999a8be96759af06969098c11197e359",
+    "published_sha256": "c64ca5674d8a1abe677449a1ce72fdc4e54568f6d5eb9652435ec3d24a4bcb1a",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8096,
+    "batches": 102
+  },
+  {
+    "path": "results/test/v8/150-0-0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-0-0\\20261105\\results\\gate_trained.json",
+    "source_sha256": "fb02fec8dc0cac2d99b3403f7ad45ad934255d07b1f7712794825954ee7440f9",
+    "published_sha256": "a337da25b327cec6e9a172477f9f5bc3a197b90a78705133870c00671514c7c3",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8720,
+    "batches": 110
+  },
+  {
+    "path": "results/test/v8/150-0-0_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-0-0\\20261106\\results\\gate_trained.json",
+    "source_sha256": "bc208dfba33137d4fb6fd87f470220ba7cd35435dceafef6cc0ef43a37b66096",
+    "published_sha256": "c1a503b5569441123e0d8231793d6ff607a639b750f3d01679bc1bb1180947a7",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8784,
+    "batches": 110
+  },
+  {
+    "path": "results/test/v8/150-1-2_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-1-2\\20261104\\results\\gate_trained.json",
+    "source_sha256": "eb8289c29cde6536446ff72bfb7d529b0256f4124dbecb38cc44e0079ab7c34d",
+    "published_sha256": "e1560e04d39d25bc49d69a2f560c980dff7d0fd57b11cdc1ff69704d701ae551",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10288,
+    "batches": 129
+  },
+  {
+    "path": "results/test/v8/150-1-2_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-1-2\\20261105\\results\\gate_trained.json",
+    "source_sha256": "41edd8819433e94ff2edef8c8f525c96b772bb168bb453acb416714afd56c170",
+    "published_sha256": "1a5b98513b76fe9b73ea590765cb3533121d53a368bb882e57fb52bca6923594",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10256,
+    "batches": 129
+  },
+  {
+    "path": "results/test/v8/150-1-2_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-1-2\\20261106\\results\\gate_trained.json",
+    "source_sha256": "fcb8e69f83a88fad26d7b226837fc5dedc0a20e8e6107cae08cf9e8a8c0783b5",
+    "published_sha256": "1317fd9448a2f674b1ad5975e08f0f9956adf7709ac3e95584fe9373c4b69753",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10412,
+    "batches": 131
+  },
+  {
+    "path": "results/test/v8/150-2-4_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-2-4\\20261104\\results\\gate_trained.json",
+    "source_sha256": "e63d07163141272a41e9703d3b52a63bfa8f17c068a7a90a80f368efff2d5fc5",
+    "published_sha256": "437be0b153d7cea80cdfb20cff850a9ce1a7be712481474d2bf6b9069de9fff7",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8464,
+    "batches": 106
+  },
+  {
+    "path": "results/test/v8/150-2-4_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-2-4\\20261105\\results\\gate_trained.json",
+    "source_sha256": "38d495d006ebf96b40be04589370d1c19898e2f649418c2e5cdd03ecc3dd16d9",
+    "published_sha256": "600f8e7872a053b920da430ff50551dec0db1b14cd9c941e624f2c3a53dc6e21",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8283,
+    "batches": 104
+  },
+  {
+    "path": "results/test/v8/150-2-4_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\150-2-4\\20261106\\results\\gate_trained.json",
+    "source_sha256": "db283ed04b4aaf30881d9f36dad9144464f451aeb880f66c88162cb42c4e3eec",
+    "published_sha256": "f749c15b36a73b90fc8c4ec352687cbc7cc4a814ebae95ded5d426df459df8cc",
+    "method": "v8",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8880,
+    "batches": 112
+  },
+  {
+    "path": "results/test/v8/250-0-0_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-0-0\\20261104\\results\\gate_trained.json",
+    "source_sha256": "775d4ff5ea8b1d26718e7c3587c449b3c2448636d7560a04878bfb917ad353c5",
+    "published_sha256": "a2b61da5bca0b8a1b59901c2d727548a683dfa8d4710c09b8a4a642196a38c93",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8080,
+    "batches": 101
+  },
+  {
+    "path": "results/test/v8/250-0-0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-0-0\\20261105\\results\\gate_trained.json",
+    "source_sha256": "b1b7b91c63e1d53b573cd0de14ed520d74c6224a44b23a7732e8524b1e44e883",
+    "published_sha256": "cee8f7f86c94f7ed183bed020ee9bcf78dd1867682616e1d33bd6290829c9b96",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7888,
+    "batches": 99
+  },
+  {
+    "path": "results/test/v8/250-0-0_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-0-0\\20261106\\results\\gate_trained.json",
+    "source_sha256": "cfc32a3025c2b25e6cca85e2e9e1082acb107161ef4664dc50d1ee7f25f1f9e1",
+    "published_sha256": "36a177c172916006abfe5f3b6f976591ec1078e4069ddba8cffc39635f573f52",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8032,
+    "batches": 101
+  },
+  {
+    "path": "results/test/v8/250-1-2_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-1-2\\20261104\\results\\gate_trained.json",
+    "source_sha256": "d5e02459eb8d8054df8eecf999870f207c96868c55b964f0b91f6a5c2722e7d2",
+    "published_sha256": "4af4a7871ef21fde78336b6acbb906d8b4491e4e11c3efedff921982a8358074",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 9376,
+    "batches": 118
+  },
+  {
+    "path": "results/test/v8/250-1-2_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-1-2\\20261105\\results\\gate_trained.json",
+    "source_sha256": "6fdc18697389be99eafadfa16a360f6cc1480f5f327b28c22fb8465665d9836f",
+    "published_sha256": "6253e4e5bc0c1da3ea3df5c9be747db697e5329218996c1ce872c91e712b1259",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 9360,
+    "batches": 117
+  },
+  {
+    "path": "results/test/v8/250-1-2_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-1-2\\20261106\\results\\gate_trained.json",
+    "source_sha256": "1d086f1908d3b124a3a5d095f92c33f17df015ff1559e6a0ea02b1b3423b3b20",
+    "published_sha256": "7d3f73cbb52a3eef53dd707d14947dba9f1ee68785f3a96046a33d6234b0f224",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8994,
+    "batches": 113
+  },
+  {
+    "path": "results/test/v8/250-2-4_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-2-4\\20261104\\results\\gate_trained.json",
+    "source_sha256": "8da31e947bced60d6c4faa0098725b8086dcd8e042104215232bc239ec80965c",
+    "published_sha256": "f6e49f9fd51ccc219e9c53c50d2af9241689ff603f799bea7b8df45dd1108a87",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8496,
+    "batches": 107
+  },
+  {
+    "path": "results/test/v8/250-2-4_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-2-4\\20261105\\results\\gate_trained.json",
+    "source_sha256": "21654d23c5e300fe6959bc03d61559f47736ef1a95958404aa54f7919ef7ab6b",
+    "published_sha256": "66041ff09a67fc402707d43597c8b4db70216c37beea41a9a730fe729be77849",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8528,
+    "batches": 107
+  },
+  {
+    "path": "results/test/v8/250-2-4_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v8_numpy_gate_9iid3seed_20261105\\test\\250-2-4\\20261106\\results\\gate_trained.json",
+    "source_sha256": "60eefe5a0416a9a43001209df662c852f350680e2d046fbb2f71cecf7a00aab2",
+    "published_sha256": "c566f8bed91ef781aacba9ce074fccfc275767b895bfbe2f5b188149e6c09572",
+    "method": "v8",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8480,
+    "batches": 106
+  },
+  {
+    "path": "results/test/v9/50-0-0_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-0-0\\20261104\\results\\gate_trained.json",
+    "source_sha256": "8271d7364fe199368d24e5fae877a64ba061878ccfa2d87644b31546867703e9",
+    "published_sha256": "3876e8fca44244708084f35db16574bf1becc966afbfc2755e2c4435685080da",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12912,
+    "batches": 162
+  },
+  {
+    "path": "results/test/v9/50-0-0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-0-0\\20261105\\results\\gate_trained.json",
+    "source_sha256": "2ee79daab25e5c8d89f85ca496987a34839e3836f3de26bc411d1211b419fc1c",
+    "published_sha256": "1841c80fbb8c1245ebf9e90de2f25d8199c7b007eb22f571673009206d09f731",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15113,
+    "batches": 189
+  },
+  {
+    "path": "results/test/v9/50-0-0_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-0-0\\20261106\\results\\gate_trained.json",
+    "source_sha256": "e5da165f837b552244b95a0eea11dad2993f8f70b8efcf02bf48100634c7db22",
+    "published_sha256": "3d69a1160d56768634358176689ba194e2f20ed7dd417febe1a4d04168d4e734",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15120,
+    "batches": 189
+  },
+  {
+    "path": "results/test/v9/50-1-2_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-1-2\\20261104\\results\\gate_trained.json",
+    "source_sha256": "449266cff8d793cfd1637b1aabd36ef1c8a658fb0e5b1c4641353d745a01d83a",
+    "published_sha256": "4e82f0774fc051c68bfd01d40caa3b958d90c0d04366f04a97aca5ee0d21274c",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15887,
+    "batches": 199
+  },
+  {
+    "path": "results/test/v9/50-1-2_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-1-2\\20261105\\results\\gate_trained.json",
+    "source_sha256": "09249e94ef5e829d16cfadfe8d587382596fc7a27db709718a9ad6ba0ae70600",
+    "published_sha256": "01c5a0c16f79f6b732294daf64f745d8890c71b5953799a97052720c5e567b60",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 16297,
+    "batches": 204
+  },
+  {
+    "path": "results/test/v9/50-1-2_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-1-2\\20261106\\results\\gate_trained.json",
+    "source_sha256": "7b2718412eabc534fa9d6d064b40179653896260076dc61ca59306df2e38d5fc",
+    "published_sha256": "18db053b30ee2604d41e7d1a25611d5c7bb822abf18912ff46a090e69e9a8d3b",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 16879,
+    "batches": 211
+  },
+  {
+    "path": "results/test/v9/50-2-4_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-2-4\\20261104\\results\\gate_trained.json",
+    "source_sha256": "ca308a7ed9a4415f15d756672932ffa43de54b6c9d52d895f400c1ae2b3d67e6",
+    "published_sha256": "a89bd10f250a157990a0212b4f8aa2ccaf5dcce49b6f90de7a6c10743c0bf964",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 17920,
+    "batches": 225
+  },
+  {
+    "path": "results/test/v9/50-2-4_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-2-4\\20261105\\results\\gate_trained.json",
+    "source_sha256": "eb34b78b78fc0e97f6c454074de907c81d3d318503c0973559af26c9b06a8db4",
+    "published_sha256": "74d5d4b8f250bb117a370d4459809814d67cd5e01fe7904a0a3b31266acc6e7a",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 17328,
+    "batches": 217
+  },
+  {
+    "path": "results/test/v9/50-2-4_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\50-2-4\\20261106\\results\\gate_trained.json",
+    "source_sha256": "5d658049fb08bb41d5aeff6f14d586bc388b824c10ccac003cdfd5b68207fcea",
+    "published_sha256": "026e3f60fa0b26187f17eae2be0ad1b158ac0b1fa7bf42fdefa93a979cecba44",
+    "method": "v9",
+    "stage": "test",
+    "iid": "50-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 18128,
+    "batches": 227
+  },
+  {
+    "path": "results/test/v9/150-0-0_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-0-0\\20261104\\results\\gate_trained.json",
+    "source_sha256": "20a084e32b52796a13e6660e84ef336809206166a8ce36eee53c1bcd0cc325fe",
+    "published_sha256": "28370a0f1595989d65f920fb5963388e32e8caafe69104a6e0a7abec6651793b",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8480,
+    "batches": 107
+  },
+  {
+    "path": "results/test/v9/150-0-0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-0-0\\20261105\\results\\gate_trained.json",
+    "source_sha256": "7eacd88ec8ae2f0f438f93b4cc5a1121cf559e16de188bae2e8362d64ebe8881",
+    "published_sha256": "2ed17809b5dfbaef67fd08a7acfb0f489bc8d8c5bf67059fa59c1b8c74f1e535",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8848,
+    "batches": 111
+  },
+  {
+    "path": "results/test/v9/150-0-0_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-0-0\\20261106\\results\\gate_trained.json",
+    "source_sha256": "67f90f1ea298538bc9c300c1a3fe903dcf07406780c834b1ad59b408650a06aa",
+    "published_sha256": "0f2ec61dcde190adfd0e43ca50f8ff4cba75f34f616e786ff98f8a1a818f82ae",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8944,
+    "batches": 112
+  },
+  {
+    "path": "results/test/v9/150-1-2_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-1-2\\20261104\\results\\gate_trained.json",
+    "source_sha256": "3670211b839397ba9701e429c0b0beb478a644b721ac97dda37cc4fbf7db0690",
+    "published_sha256": "7620b6a47fa5493fde1bada0be47781abc55a3c23b8882c1e23ff57fe6a46abc",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10528,
+    "batches": 132
+  },
+  {
+    "path": "results/test/v9/150-1-2_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-1-2\\20261105\\results\\gate_trained.json",
+    "source_sha256": "e3e5302856441a170551f1940372de2ae2bc457a2b15d04f918b85f4756ba343",
+    "published_sha256": "857bb241c74dbc1c3b43156f914a0032fc71f590ba23b0b5fa9e50f0b6ecd8a9",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10960,
+    "batches": 137
+  },
+  {
+    "path": "results/test/v9/150-1-2_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-1-2\\20261106\\results\\gate_trained.json",
+    "source_sha256": "a274999f0c53370db32282f166d0726fa3f9dea94b01c0f19c68ae2ae7e348ec",
+    "published_sha256": "4d0b22c7f73b13b97b1edacfca16a7066c3af92d20d7858fb4d65fb5a17902bb",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10560,
+    "batches": 133
+  },
+  {
+    "path": "results/test/v9/150-2-4_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-2-4\\20261104\\results\\gate_trained.json",
+    "source_sha256": "3b6ce5a053c849db8da95aae9de9be13528757702a03ab6a836ae328dafdab96",
+    "published_sha256": "3a2807b91707b5ac11f135abc31a7aefb8d4011114be81975ef1b6b0cbb392ce",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 9031,
+    "batches": 113
+  },
+  {
+    "path": "results/test/v9/150-2-4_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-2-4\\20261105\\results\\gate_trained.json",
+    "source_sha256": "830bb1b9b16d6ef218026013ced8eea790a1361847a45e08ef36ab084ad829a6",
+    "published_sha256": "a6d2a66d06837b67c2162ee552452b1937398ba8bb1e8ad7dc677af195ea712a",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 9024,
+    "batches": 113
+  },
+  {
+    "path": "results/test/v9/150-2-4_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\150-2-4\\20261106\\results\\gate_trained.json",
+    "source_sha256": "376bc19e7b62709a3106903e5e0ad06e23914c1543ca79349772d13d4bdc3333",
+    "published_sha256": "87e439d8c96bd96aded0f55591df57db362edba9d6dffe0dc065e8785b750bbd",
+    "method": "v9",
+    "stage": "test",
+    "iid": "150-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 9253,
+    "batches": 116
+  },
+  {
+    "path": "results/test/v9/250-0-0_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-0-0\\20261104\\results\\gate_trained.json",
+    "source_sha256": "95440ff8d6beea7909c92a8d17ac29b6951a17c9a5119ea31e790e721c55144c",
+    "published_sha256": "ab8d965a67f4dfc914b1a9cf12bb480fa301ccc17bc8e3338682754c06fa7c9b",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7888,
+    "batches": 99
+  },
+  {
+    "path": "results/test/v9/250-0-0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-0-0\\20261105\\results\\gate_trained.json",
+    "source_sha256": "b5483f61784be27d30959eb9e673b360f5db8a811c996b00bfab4c0dee450f5c",
+    "published_sha256": "786ebd8ce79dd97a115f64adb940dabc2c46a700da963442371d823cd211f4b4",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7840,
+    "batches": 99
+  },
+  {
+    "path": "results/test/v9/250-0-0_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-0-0\\20261106\\results\\gate_trained.json",
+    "source_sha256": "df100f386e6b31cd4120a83ed8797bb9570144c00e1a04f45aadcdd06f18cb5e",
+    "published_sha256": "53f4f40ae37f205d001d76017029fb03f5986bcee8697052f9c042ae387d6bb8",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-0-0",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7824,
+    "batches": 98
+  },
+  {
+    "path": "results/test/v9/250-1-2_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-1-2\\20261104\\results\\gate_trained.json",
+    "source_sha256": "a038faffb39f2c5d0226e41f9ccf37e16ef9931ef7a6bfe1d25d171334001bc1",
+    "published_sha256": "94b0c62cd61e2921d4fcab979067d84b7984a40ba21c8d7e9c33c2c0c6ed2625",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8608,
+    "batches": 108
+  },
+  {
+    "path": "results/test/v9/250-1-2_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-1-2\\20261105\\results\\gate_trained.json",
+    "source_sha256": "5bafa1a47a3b38270738a00dec5c62179a889647637860758ea3fdccc3a57d3d",
+    "published_sha256": "8d7f24499e903b1509e163baf20e83504a7c2157b3abfb1a5c8298ca5682def6",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 9120,
+    "batches": 115
+  },
+  {
+    "path": "results/test/v9/250-1-2_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-1-2\\20261106\\results\\gate_trained.json",
+    "source_sha256": "fae5c4bf37e9963fd89927af2cb3760180797cd68d115671a6159d7aee0626c5",
+    "published_sha256": "e6c7b1ae99ce714d9afc97efcfb0b76e977ebe22716e5f4b8959592c62ef38b6",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-1-2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8896,
+    "batches": 112
+  },
+  {
+    "path": "results/test/v9/250-2-4_seed20261104.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-2-4\\20261104\\results\\gate_trained.json",
+    "source_sha256": "3985361d53a259675b60513a693a9488ddd54a954ac41fc165ef6a12706e4822",
+    "published_sha256": "32e28600b3228be7567674d412e0817a8d4aaf6bf8efaaa75ace8986e6fc03f5",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261104,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8400,
+    "batches": 105
+  },
+  {
+    "path": "results/test/v9/250-2-4_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-2-4\\20261105\\results\\gate_trained.json",
+    "source_sha256": "55c8201f86743d9325ce05ae9a8512cf1da19ef390294511f088bcf2b881c888",
+    "published_sha256": "63d173ad63131f1cf6c91d774be84cc3b76f0098a8c58f492595fcf7335ae041",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8304,
+    "batches": 104
+  },
+  {
+    "path": "results/test/v9/250-2-4_seed20261106.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\test\\250-2-4\\20261106\\results\\gate_trained.json",
+    "source_sha256": "98bfcda0187e36b2044bd14a77661c3a15b25d98a7a52778a702f4c6539381d2",
+    "published_sha256": "572c9f3a73f543f84de88342558578666e56a675f74a034cd3cac5a3a413de80",
+    "method": "v9",
+    "stage": "test",
+    "iid": "250-2-4",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8320,
+    "batches": 104
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d0_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d0_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "76d01be26cd9e504738223134d409ef98a014231c9bb9e7648cac99a17e367e1",
+    "published_sha256": "3c87720abde08314b70fb07d9816f7fea397435f99fb0fb247e3d640ffbdfec3",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8528,
+    "batches": 107
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d0_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d0_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "aaf865e227b5003ead676b77c77db75f0b3ce817eec387a2418a328c2deebed7",
+    "published_sha256": "2b03dcb6150ff4e16ac41499daf6a7adad6caec41c0f78a4f4f48d12037f267e",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7753,
+    "batches": 97
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d0_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d0_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "a9e17cbef6ec8954b659e26ae6a21bd8eb402b0d54c04833091384e42698792d",
+    "published_sha256": "f8286444d1594bc50e25223058ffca5f501686a636344e8789901768c1625869",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7200,
+    "batches": 90
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d0_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d0_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "ea6c458e71a48a9886938a5312a0ad8cd8cbf519ef5153e6a1fd8fdafe49be3d",
+    "published_sha256": "b91fcbce0e19a4e11ffdb77089b4e757658de721a28a741cae7c48ef8122ce7c",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6560,
+    "batches": 82
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d0_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d0_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "1e2a19a6a7db1beac90fdcdffdf669c5f40b415222b945d92763a79461273923",
+    "published_sha256": "248615dd372ac9c597103ac9bb9d1566d4f1d980cf0b6f72c24ac8975b1be90e",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7682,
+    "batches": 97
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d1_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d1_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "9b15c8b0ae369d5159f39c4c5fff6ee0f0c4c766a3459db48bff2efc644b269e",
+    "published_sha256": "95898d4b2a89461358991c15fddbb59a98f6870ca6fca67f5d0f3c3100ffb206",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8656,
+    "batches": 109
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d1_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d1_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "f8460b4e65dbee1c9ee08e93bdf3275a48c0b1b5743ce0b92c719f6b8da0fd67",
+    "published_sha256": "1576a48bc48b3037df02d23f2c623925e60d3f33067d288456335b5160b2bb17",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8160,
+    "batches": 102
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d1_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d1_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "a5651b43bf12c6564b697bb41cbebbc100d31180a7af85a06b59032d27096f72",
+    "published_sha256": "c67f65beb851cae826f7c78126c245a5388f41c97e259dbf2e0e9df737793bec",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7008,
+    "batches": 88
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d1_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d1_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "3aaeabd0ca2be2d8a64817c4429a8b80a6f13df31e141f271a17df34ec2e000f",
+    "published_sha256": "1e9cdfa2b1776cc6eeb1d1d6709faeee7002ae755cd21e8239a1c70ad9e20d8d",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6412,
+    "batches": 81
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d1_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d1_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "18bc3cbf31f7b2155c0222e5578a695ec5f678c64e0fea2062f9d771e57d98ee",
+    "published_sha256": "475128cf9ce98259028d34d0d1380f5204bc3168c4abcbeb84800c1d23d59951",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7704,
+    "batches": 97
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d2_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d2_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "bd91115218189c38b5a3ed047a3557d7c8d4bab9bef050f8165595aadca38c6d",
+    "published_sha256": "35bbb8159410c930075cb6f75a5630110429030a6729c8fe10c29c7dd3a70312",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8529,
+    "batches": 107
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d2_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d2_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "8ae2f1ab403d00cf1140151d516f1c7b83f87da8dcb432e052448ccbc26aa525",
+    "published_sha256": "44ffa6a6a3a93dca52cdf1b4ee7f01a1a443b732efe79ac0ef25920490498def",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7305,
+    "batches": 92
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d2_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d2_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "38c1470d5dcade7e0b4879fefa27c103412dc17901e31bbde67f2c8afc25d5ba",
+    "published_sha256": "477327490855d0165a6ead3921b55b81e4c473fd087021fa2b9de2cca6670f68",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6992,
+    "batches": 88
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d2_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d2_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "f383de9e7640cb7b7b63a9bcc5c10292a1ee1d68dd0e50ee5546271988523224",
+    "published_sha256": "bd274b7de9a8268a908294785875bbcb8442c929f50b08a409e56628a251e26e",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7200,
+    "batches": 91
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_150_d2_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_150_d2_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "ffb2f6b37935ed7c76bf6633063338318082ee1e2b4fc4faffc3bd262fe97b87",
+    "published_sha256": "96c8411da81aeceba509d7a49663b9da58b07c9d70620227ed1963daa8611543",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8224,
+    "batches": 103
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d0_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d0_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "7d7eb0fc3d4f7863be3f0272e390358f440ecf3ca6b622b9af909f0292177f66",
+    "published_sha256": "20832190df502279461cdb27d9bdeee043b52059b0115f378902e00cd626122b",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5200,
+    "batches": 65
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d0_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d0_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "390876459214d7461fb8137d480ca4eff5f99d8766ef901ae27149f6e99ca15c",
+    "published_sha256": "2feb83caa8b0013a762e2038f40752c938feeb8426eab20ab66af269c8a29e77",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5248,
+    "batches": 66
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d0_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d0_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "daa3e87d5fafb00fb081ae093d5d62f59760c459c27faef11f439c1b588213f0",
+    "published_sha256": "e037afca6830b05beed60c1e4fc8f1a4f6ea09c99331f921c6be64a8638251d0",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4976,
+    "batches": 63
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d0_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d0_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "1da11127ce87c21a85157595be9a63d8aee6914b9db9e2f5b08f936ab6ddefdd",
+    "published_sha256": "afcca0ab13b6fd05e2aece320ed8fbd008172c2496e92120a512305aa2f71b8d",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4608,
+    "batches": 58
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d0_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d0_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "8824f3d7b01a53fda3ef914521572f8db7631358eafc4eb552638caebb740204",
+    "published_sha256": "61a6d03e0a6c0fbd5ee41f9403efe1b02c6293d012c3f7664b64cb5dd807a57e",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5680,
+    "batches": 71
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d1_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d1_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "e5f389db3d8ade7cd50f283addcdfce5daed1fe1c451f1a926029fad122a6f96",
+    "published_sha256": "4ac9f2dad270fa118cf8fba9297f6a22016904f6786086278b913d26c425d9a1",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5296,
+    "batches": 67
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d1_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d1_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "a789517dc462a997f27c24d8715262e7a4531b7b42dbf13084d56165c98e7f6f",
+    "published_sha256": "af954bc4c52b934ebbf86a81d72f25abd650237df8e1272e2a3eb69c8c3ea079",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5549,
+    "batches": 70
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d1_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d1_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "151bc35c59fcba9f671b5ec953bf675e57df33f2295931d0fc24d4574d2c4822",
+    "published_sha256": "2db5550fbda2d865878df48f50873686a85c0b7a74adc1241fa897fb69eda5d8",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4593,
+    "batches": 58
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d1_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d1_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "952c00b71c4ea160cae51c2e34a4776d96da062441841a4c524c9a1195a15b20",
+    "published_sha256": "3e5cb5e898e7f75391fa55885e0d5e904b1beea1f4e42216e502a379348f9786",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4384,
+    "batches": 55
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d1_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d1_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "fd5f1e49c4d6c58354f859bf79203f092474e2422f0aeb8db94e16cd3881fd8a",
+    "published_sha256": "b8b8b9c7b549e18bf681e2c52e1271287774c5e8603a1ed0542878611f07322f",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5680,
+    "batches": 72
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d2_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d2_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "c69a8797dd12ed0b661e3ed22c3791e8164555479862a6ac3830dcd88b8626cf",
+    "published_sha256": "292266ab9f0f1e0a67aee4929646147118c5e68e20742fb882e5173f9db1c0eb",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5056,
+    "batches": 64
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d2_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d2_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "794605dbf9e671a25a72a429a9272090779369cfe294a597772519a228448b4d",
+    "published_sha256": "2d1f2e288d5cdd7011b63c08c38de34f62348e5527656877656babdd66baf68d",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5072,
+    "batches": 64
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d2_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d2_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "5f5fd65a04971bb98528fd90f6de5c5017f83f6abe70874b86c8bc99549241b5",
+    "published_sha256": "5bb25a4cdf9083d1459963e2fdc920160f7e2a4ebe6e1144ae117c682ba23fec",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4544,
+    "batches": 57
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d2_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d2_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "eb09cf3d659966ca80bbe4a54ffbf5540899ca25309cd156850bc5f6d2075fd6",
+    "published_sha256": "b3a292425fca5af847e9ba8118bbe9fa0752dfc594e2049ea255541ebf2cb53d",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4416,
+    "batches": 56
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_250_d2_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_250_d2_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "b5b79eea1917646bc563203b59493d58fc797911c7611314e7b60d94cd41da81",
+    "published_sha256": "1f5edf241d380c7657f6b41f0b83426d67790e1d97b090f28ba8ceeba665aa9f",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5504,
+    "batches": 69
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d0_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d0_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "646629b5b17d140f2804781a2047c27cf0794a3e016aa2322de75d0ce642a061",
+    "published_sha256": "63434eaf030a99f3afe13bccf276a5553dc37c1c291eea9af86d818b95581124",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 22224,
+    "batches": 278
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d0_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d0_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "e145579d9c298b8c5fa649df52e3856d8e06eb3ccabfec833f399b8189c47e96",
+    "published_sha256": "97e44ebc91b8a42fe581199575ef2b66e489cb4f89b7afe75498938b108c9d28",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12928,
+    "batches": 162
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d0_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d0_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "aaf57458210117186c441599964571a57df0a156aab1a9f0eb2c88200a4cf236",
+    "published_sha256": "d72b5cb5e86145dc9b1b9133dda38ff836ac37d88b63346ed3feae38f5b929a1",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12016,
+    "batches": 151
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d0_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d0_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "a75be6347771d45f5582684a13ea97e300c71e5d70788b279691f71d96e0b148",
+    "published_sha256": "8f55f8874a30c4061ca1bc4a1d8bacf8caba65a81054ede262a1ea06b5d1f240",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10736,
+    "batches": 135
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d0_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d0_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "99f330b0063135c32cb7a3d443949587b0bfe6261f529b4fb58eea35e5ce1696",
+    "published_sha256": "7422b0e73550240a6021b9fb15a39fac5f6e86339872aa6fb4405b23f3d2bb05",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14080,
+    "batches": 176
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d1_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d1_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "0b03ffad6148f7daf8e1cd8fe4c826ed9246a4d6d94164f779a16461840ca65d",
+    "published_sha256": "d9ac54205714017a45f04f904e87cc62bc5047b507beb6cddf0bca05156e2693",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 23360,
+    "batches": 292
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d1_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d1_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "db0d3d24164bd8640154401befbe1d8cc57e317e5ed07b3603a533aeb3b7b03f",
+    "published_sha256": "0cf9a2899bcf8f07cd05ca403fc42d449b04ec5cf26444f490c886e4db7baff0",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12657,
+    "batches": 159
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d1_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d1_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "8f97e8074d30b114f60bc46373cb24a12d652f1d7936f22b994319f5f417df31",
+    "published_sha256": "c9fb92bd2597c6b54665779d7563752c37b58518e0b1380bed866a388d53a16a",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12000,
+    "batches": 150
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d1_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d1_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "44ddee80a0f964eac894a0e468e8d0f88aba74a6c777dec03f6dcf5050adb8c3",
+    "published_sha256": "d2468e134f8dcc072925ab49e680e1614794cb5f9d3d19d58d2e8ec416c1dd2d",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 13184,
+    "batches": 165
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d1_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d1_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "d15c8a1929eaaf942fa4f0fb04f1716135cb89baec1a30b785cbdf962bd8f249",
+    "published_sha256": "7b57b27e0ce44d36849079b92c2c4a3d199cbc5c1329b6de211c3ffb0f969d2e",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 14181,
+    "batches": 178
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d2_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d2_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "dc2b5a9ae836cb6ef8718c20f610af559da15b78bf1d0e2b229c9e0d77268f09",
+    "published_sha256": "57b9cfd284254d208e580204d0fabbb94f53b1b37b2bf73e64e7e56b02f0fdd6",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 27008,
+    "batches": 338
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d2_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d2_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "4b42089ba2bf36a33e87b578ca69d8f4a7c82eab0ce07c095f8aab7d299b3240",
+    "published_sha256": "33c56fdd278bb2bdeafef70ca6d74b8b2f133b5f23ed582569aa7432a87db26c",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 19648,
+    "batches": 246
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d2_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d2_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "044cb855ca77cf8a818c32e5023494cd8625989fc194f3b3c18b71892f308f02",
+    "published_sha256": "ea108088b1f57215afae1ab0c273779946c22f41861791f790d59fd6eba391c8",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15792,
+    "batches": 198
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d2_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d2_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "1c87786a7645c240c4500e48db16345392bfc4ad0e017375a34174683f0d7fce",
+    "published_sha256": "a8f7cb86a7469b31afa00f18852e2012ef3d52f501fb53e31c725ed14741d063",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15585,
+    "batches": 195
+  },
+  {
+    "path": "results/validation/cycle3/v5p_validation_50_d2_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle3\\v5p_validation_50_d2_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "3ebc1a03ae818018be0675017f4308add60b20a83a12fcb6f017a6386169c5bd",
+    "published_sha256": "406ded0c98c72974e80e1152001bec9e19c4fb53fe8d183a1ae82a8cb4fa7086",
+    "method": "cycle3",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 16096,
+    "batches": 202
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d0_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d0_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "488dc9466467fab20af8b592ae07b54a91a26699fafc3636987c06fefce6cc95",
+    "published_sha256": "f4e890edbb1de8a097a87a6814f81e5d58e33680d55731c733e285708658596f",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8288,
+    "batches": 104
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d0_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d0_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "195a6cfdc942d5143cb89470512a073b7262469629d631597a72a7d537154168",
+    "published_sha256": "e7999fe179ae05f7d4e1d7632c5c8868b9cbc71c37e90bb6fef8ff6acb75855a",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7488,
+    "batches": 94
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d0_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d0_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "211e149f530347fd2d1319ef135f9575286e7b6a7ba9d095e5a8ebdc70574e07",
+    "published_sha256": "85bf6fdf991074da8f4c97cb4d4b357e7969088d4911cbd9a86d82502ae87eac",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7056,
+    "batches": 89
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d0_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d0_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "6a4c313854dc4d18898536b42d7eaa06bebda9607fa7e830003ab435a50ac19a",
+    "published_sha256": "83fa12f2dc86aeaa19e2d5f206d6db22c2a38374172589b30ec0042a0218a93b",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6415,
+    "batches": 81
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d0_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d0_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "ca084a50a802fb452d025aef770d735da574ec8578ade9b3b122e6f7572ceb85",
+    "published_sha256": "21759189c794b0217ca3eb413d83b5864753132c065a333666820436fc106813",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d0_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7097,
+    "batches": 89
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d1_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d1_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "c99b73d287360ffef021828ab9ac082aa0df95376b39e13f8d975c85abee2bb6",
+    "published_sha256": "b770ec9fc0e36e919087bcef713b8a2bd2e6931831ba1ac40f06163d04ff3e1e",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8304,
+    "batches": 104
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d1_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d1_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "9e82e864dbe13e9487e631e6a252852c7c736dae66dcbccc928c8952307035d7",
+    "published_sha256": "79293adc74795fd2eab6ec64642a4613ff20f4d5357a01ac8897465e045cc5da",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7813,
+    "batches": 98
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d1_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d1_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "20d5640e85d10e3e4351f5d4e2ba078d08ba53253497852c52ad513f5513691b",
+    "published_sha256": "d35067ae3a009aa3f1591c6d9dd974c34fdae93ffd310e4f6b7fc7a70d1a4c06",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6946,
+    "batches": 87
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d1_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d1_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "f0a2c06e2ecc5ad5521c69a63b188306987e95a452e354a385765f87f49ae27c",
+    "published_sha256": "b521a722dd38a74486b4394ee7710f9f306311d3b23d89bb3c5ae2662f138557",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6512,
+    "batches": 82
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d1_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d1_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "ff841355bdde3bea308e5dd0027ff65b0b9bafdcf4e0a9d7b21cbe524e6147ef",
+    "published_sha256": "2122180b57e58862d57b350d4ff14706a64ad9ac437f5a951e4fd5d54589ef60",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d1_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7476,
+    "batches": 94
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d2_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d2_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "d9f8f51ef9187d80dbadd5bd610c392904cd9078ec85e2c49de1f461b22fd287",
+    "published_sha256": "712275ed5de2a77e28ad5306606f8efd6c8c21f8f35ff9b4c6baeda545524979",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8416,
+    "batches": 106
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d2_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d2_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "aa1c633f36c58a87e61c6be6d4052f0752913790077c14096deffd432e740ab2",
+    "published_sha256": "52fec3256e22379ee04804330d61d920ed4ab91438fcee5eff7d00b97a1a8b61",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7675,
+    "batches": 96
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d2_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d2_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "3cb2f0e5bcc8226ed4b5a4eb7b652ab684b1f4ec2a58f5a06b1a956edba8c660",
+    "published_sha256": "bffea26288457c62f063213f5d4791464239e9f985f21fd44244d5c6bdee91dd",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6896,
+    "batches": 87
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d2_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d2_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "1854ff9794f6a6b133e201e6f098f1e74ca4c491a77d216f7f7ae72d7306a458",
+    "published_sha256": "202acc5d30811c82f382f67e0329bc7193d4d7d51dd95af428f9acbd4caa3fbd",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6928,
+    "batches": 87
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_150_d2_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_150_d2_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "c00a12a836551519f7e264507e194004bbf50f97dda20974acc5040bb3befaad",
+    "published_sha256": "2f57a43661acfc7c496fbc9b0e6cf7115b72039594862b9d3a97e208c3bc9c06",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_150_d2_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8072,
+    "batches": 101
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d0_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d0_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "85b9920e3eca7875688cc4f018e9ba7b1ab0918781e5d6f11e5444cba477142d",
+    "published_sha256": "6aa4121cf752ee678bdb5cb4740334cedc907a4f2ba01db7683bbd5276a11171",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5168,
+    "batches": 65
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d0_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d0_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "d31f86ba20e627b8b26968c2f099e732828b797532c560ceff80b48ef828d572",
+    "published_sha256": "5b2d215ca1a429c3db7f9d3bc42b9e7507b9f90f699f1301723b7d2e5dfbe644",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5232,
+    "batches": 66
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d0_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d0_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "126f3c7c42647c0730beaa11733b40f153331791959a0d14e1146f55d9a9e92e",
+    "published_sha256": "50c319462a82ba3c114e5501dcc9bc77122cbf2293391e5752db66056abfafc8",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5040,
+    "batches": 63
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d0_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d0_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "30b7e4e08b4a63f09470662e3bffd50d6457ef97ccda448602f116e5f3d30c60",
+    "published_sha256": "42667234f4715ed682210ef1a35aaac34ffcb66dd7d497324a040c02d82c420a",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4464,
+    "batches": 56
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d0_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d0_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "ba84e0014402f7615c74633e185dc33ee1279aaaec30692a1fde1300d17441dd",
+    "published_sha256": "8a8f7c7597ad54312fb01265dd862e428e29dded244bdd750f7c3dae0b424a34",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d0_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5696,
+    "batches": 72
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d1_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d1_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "7620e2fedba3930f020f047f7bc5f99243478b4f216a48419662059cb1e18103",
+    "published_sha256": "bc8f919053934e27f5ee9fc1786ea9e365a8b1dd18359579e40b30a92e537449",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5216,
+    "batches": 66
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d1_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d1_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "f1aeafd8841b69aff096a2e0cf7707f624fd66b4842ef1ea6048ae29a27c1354",
+    "published_sha256": "6f81bd79a0116924e8bc33045dcf3a7cd1622c162c5ca00cda5ab31b1ab7d109",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5440,
+    "batches": 68
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d1_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d1_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "ae48ba3ef6cc562b08d6fb2c4ff97d60b441e3acaf94026aa6c50b2826680053",
+    "published_sha256": "d226fa778a7dbc4c80ca5aa4a30f17d4831db3392b0a6cf859d8952891c6b4f1",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4656,
+    "batches": 59
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d1_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d1_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "787d91ccc5cdecded17a31dcdccb3b5db3940597a1334e70f80a7ea2d599e2c2",
+    "published_sha256": "00a7f096e04a081123f8a67f8180bb8d8d3fe70d3f1257dfbfd13f51315b1ef5",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4320,
+    "batches": 54
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d1_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d1_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "849d030085988f6850a8ecae6da45dc386fdf6a0090f4138f513d448bc4f83a6",
+    "published_sha256": "d10395cd83a3d8288dc19faf73d3333d377b104745436a28103e2edc8072f167",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d1_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5696,
+    "batches": 72
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d2_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d2_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "2032354582d618de8231bedee9186a0752991b0e436350431f685e03314892f3",
+    "published_sha256": "8bf8f1426c538eeb0f3d4c3a56801caebcbc8e943ac8d25c11159c18888c6e1a",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5024,
+    "batches": 63
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d2_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d2_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "101a67026c12e9ce8f183e076505151de8a5e8a1ad774c743c01931f431ed285",
+    "published_sha256": "7b567cf15476817936a880d86ab93be9e02a90750d3761028b256fabc9bac91f",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5024,
+    "batches": 63
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d2_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d2_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "2a03bc80b7b742158f0a03b996956e7f82c608681dc4d186abc504b8bc94b700",
+    "published_sha256": "07d970a30b79f7340993e1362e133538e3c018623fcabf700f888a2efa83bae6",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4704,
+    "batches": 59
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d2_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d2_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "18100f8ea078e83f71aca358825d578ed8314c7ad16ea992fcaa10c0e92dbf25",
+    "published_sha256": "5224d0bd20ffa3a3c95c30b5df680aa8fe0f6258b5518f070621e604adf79426",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4400,
+    "batches": 55
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_250_d2_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_250_d2_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "fbddab620ddbd629ac5cd114d27c2e5d0f073ce0101175985bc16d0217e9c584",
+    "published_sha256": "31aa75eedd5d7e0014cbb2fb56d5a183a8871842d68bfd19f6324ef1fa75d223",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_250_d2_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5808,
+    "batches": 73
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d0_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d0_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "08d65421cf029705850fd7d72cd0123edd92de159f8373600fdc157c59d8eab9",
+    "published_sha256": "5d9a5106a448318a24b1b262ad03f40bb1c197975c1acf2ad5345959c5e323b3",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 22695,
+    "batches": 284
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d0_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d0_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "efc727d79c77e4aca69d283c6615d126b82423d3633afb243461b88d0c37deb8",
+    "published_sha256": "bc13392794cd070d7a0f15e9c66ca31115b53f7d9ed12f7d8d55fcdd3b9a1796",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 13648,
+    "batches": 171
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d0_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d0_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "69a2fe66dccd068942143ea243df38872f4cf71c03a34e0d43bbaed26e3c0eaf",
+    "published_sha256": "26031084d3798b4c8971d934c04d6d722e6799bf3521202edbfaa88216d48f4e",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12176,
+    "batches": 153
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d0_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d0_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "f81228efb6e31b0a193cd16ff0d20d95403e4f7b4b0763673fa368dd416d9d9a",
+    "published_sha256": "3ee3177b4c1cab81de3261ffc2fc702c7cbb94d42e427c3975c2261816f03762",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12163,
+    "batches": 153
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d0_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d0_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "1e62cb734f4b83d057113fc1f11be530a31c7b7630da4088efdde9196abede3d",
+    "published_sha256": "d287dbcf6458a861a3e4a37953b2a94a00109ff21a74ef4b02622d3b849f0b99",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d0_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15344,
+    "batches": 192
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d1_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d1_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "0018aa03db50b13d7005098b7c9a33cb8295e65ec114c24f53b0ac4fde3ae579",
+    "published_sha256": "6fad8260bdc1bd0c26808e982b1296c6a8bae44a4c3dfaf6b4080f365f8dfbb5",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 23472,
+    "batches": 294
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d1_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d1_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "8cb6c33b63b9241fd323d2ccda7ae5197fddcb06742031bf85b23100cb553fbe",
+    "published_sha256": "e7359e60e77951cdc19cade331e47677422479ec6069ab14cefb498035d79a0d",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12928,
+    "batches": 162
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d1_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d1_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "01e23d83e5f9c8ab9a47cee4796fd6d981ca907caf8257ac46623eb44e9b00c2",
+    "published_sha256": "d993137347fa8cbae01dbeb1462dcbe14f27c0d285102d933e5860c267658610",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 11950,
+    "batches": 150
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d1_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d1_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "49bc83cc26f3f5bbd59c48cb82c938c99a84a8b78fb2e497647f0e14d086f7d2",
+    "published_sha256": "6f9084688181c3fac472028388a357a6889c084e3a220eb3a93d9a171d8d8b2d",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 13199,
+    "batches": 165
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d1_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d1_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "1f0ece8e6e0f2b9a4bdc86514e2816674febf604562637f4c0d6ee9624ffe0bb",
+    "published_sha256": "d088cd5cc91057aaa7e8e962cf75b45ac2cdeaea231507aa08363b35ae221e71",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d1_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 13770,
+    "batches": 173
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d2_tw0_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d2_tw0_0\\results\\gate_trained.json",
+    "source_sha256": "a8beeeff098d0577c975b37d05178b67207820b17eecd0c8a500fc497d09b55d",
+    "published_sha256": "a434712a72e5ef889efb7c1cf5fde1ad487bacd71e48bcb841bd45df595551d5",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw0_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 26896,
+    "batches": 337
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d2_tw1_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d2_tw1_0\\results\\gate_trained.json",
+    "source_sha256": "47232fde7ff5f56ef2ed1ae0cfe6d26f165bcd5b4d942b338df62d4574768c26",
+    "published_sha256": "f03f8953eca314e9046785ff80619bf8ef1b6a934478a3378c4e2fb6c075602e",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw1_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 19420,
+    "batches": 243
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d2_tw2_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d2_tw2_0\\results\\gate_trained.json",
+    "source_sha256": "f47f82343adc02e63dc8b08a0a81e211b8efd259a0d3f29fee71cbf20524532c",
+    "published_sha256": "9a3f7d51df28554aaa9a5f9518759b1d7553c707f7d66a4511f668fbdfa75091",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw2_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 16570,
+    "batches": 208
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d2_tw3_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d2_tw3_0\\results\\gate_trained.json",
+    "source_sha256": "ef92751c0203f6a3724a25ca43e671bb92a7c2760d39b0c8ee0a7b49f1714dd3",
+    "published_sha256": "fab2070a64aad8eb8f67d117787eef1d22974708c7f2780786e51dd194e73339",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw3_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15169,
+    "batches": 190
+  },
+  {
+    "path": "results/validation/cycle6/v5p_validation_50_d2_tw4_0_seed20261105.json.gz",
+    "source": "D:\\WorkSpace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\validation\\cycle6\\v5p_validation_50_d2_tw4_0\\results\\gate_trained.json",
+    "source_sha256": "8d353b38cc137e0c2fe686c05c7b334d7e1e510583fc1d0a330a309b9310b831",
+    "published_sha256": "f5890a73287a2998b52910279d157eb362ae8875fd1edabf363c309d670ac95a",
+    "method": "cycle6",
+    "stage": "validation",
+    "iid": "v5p_validation_50_d2_tw4_0",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15392,
+    "batches": 193
+  },
+  {
+    "path": "training/rollouts/cycle1_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle1\\N50\\session_rollout.pt",
+    "source_sha256": "83d4c459ebe14cfa0ec0cba7da19ed11f4ccdb1b92d595638ecd35efff764b60",
+    "published_sha256": "54ee6a262f45eb83cc4229acecff9a1be66cd047b71f23c80c93ef00a54e0109",
+    "stage": "training_replay",
+    "cycle": 1,
+    "n": 50,
+    "rows": 12880,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle1_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle1\\N50\\results\\gate_trained.json",
+    "source_sha256": "63e68aac0e270a2864f95df772475c30725ef112b0c37c5657c4a03ecf81d3d6",
+    "published_sha256": "700aa886b5c2ca19141ac2db7db41b7a680cebb707ac9bf796dfdf2fee433c5f",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_50_d2_tw3_2",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 12912,
+    "batches": 162
+  },
+  {
+    "path": "training/rollouts/cycle1_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle1\\N150\\session_rollout.pt",
+    "source_sha256": "9e54b9428a371c12dc5cc5204b50855bb3f22796b3e56d14cdb508580c91cc97",
+    "published_sha256": "2aaad1da58a412a2d6c964017e4b3b793e4f41687d0aded82dade22116ad34e4",
+    "stage": "training_replay",
+    "cycle": 1,
+    "n": 150,
+    "rows": 8400,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle1_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle1\\N150\\results\\gate_trained.json",
+    "source_sha256": "f068515b50ba356d8519e5f4a24b50dc7811f1ac81d5f5af371e71a66b7330c5",
+    "published_sha256": "3bedc95d453dcd6af8659b18bceefc0f1ff70873079ad996f5bdeb755474972d",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_150_d0_tw0_3",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8400,
+    "batches": 105
+  },
+  {
+    "path": "training/rollouts/cycle1_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle1\\N250\\session_rollout.pt",
+    "source_sha256": "b245a48ddf2cb798fe9464357d4b5fcc303f6e64d878f0600751533911cee50e",
+    "published_sha256": "b5761a3ac017bc37d8e334813ed698533db2dad301b9c5ddcf98f95c1ce4edce",
+    "stage": "training_replay",
+    "cycle": 1,
+    "n": 250,
+    "rows": 4400,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle1_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle1\\N250\\results\\gate_trained.json",
+    "source_sha256": "21ddc58fe2b7839050cf289eea14370dae1cd63fd8e9ae4535dda3f405e1ac45",
+    "published_sha256": "3e742a9f2165a4186eeaac566d0e2d6f876a05f2d08b6b882e4057e746dd7b61",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_250_d1_tw3_3",
+    "seed": 20261105,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4422,
+    "batches": 56
+  },
+  {
+    "path": "training/rollouts/cycle2_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle2\\N50\\session_rollout.pt",
+    "source_sha256": "5492416f3a16a74643bcf433bb67f0a3ecf9aa3173aa6a60139fcb879f8a7697",
+    "published_sha256": "80907d6aaf147c8690bcc8aa2ced017e19641254ec4b49afde3cf606d3b66bf3",
+    "stage": "training_replay",
+    "cycle": 2,
+    "n": 50,
+    "rows": 15600,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle2_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle2\\N50\\results\\gate_trained.json",
+    "source_sha256": "6f01b748b9b561992570cad950ab5804ab5e690e58a7030a9d75da75a57b5e5f",
+    "published_sha256": "ec123a857a9d902188c4fa2aa37dc7a0ecdd696ced382ff0e89e1d7e8db864e7",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_50_d2_tw3_3",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 15608,
+    "batches": 196
+  },
+  {
+    "path": "training/rollouts/cycle2_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle2\\N150\\session_rollout.pt",
+    "source_sha256": "e699bf85392aa250d48577d8f99d0cf09fc97d4b73d2bf782d8882574fe16b1f",
+    "published_sha256": "7395c4b4189788210d49c0e018aea177cd1edba52e9a341a67330bbc94d7bf4b",
+    "stage": "training_replay",
+    "cycle": 2,
+    "n": 150,
+    "rows": 6640,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle2_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle2\\N150\\results\\gate_trained.json",
+    "source_sha256": "9aeed52f37136bc06dcd6052418ac10c40ba81da4cbdab24c1d1f3371905fc0e",
+    "published_sha256": "0a71e05d7e9224fbfbe6d0714d082b6777e00fe867d571810e42e7b0c1363114",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_150_d0_tw2_2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6656,
+    "batches": 84
+  },
+  {
+    "path": "training/rollouts/cycle2_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle2\\N250\\session_rollout.pt",
+    "source_sha256": "fffc9d0538f93cc97c7361871f1ccc0432b32163f1491ab6908c1f8e3d3d9a6c",
+    "published_sha256": "20bb28cb7e57b95f71936deddb98328d8d7a3a84c564f002a12327c313804013",
+    "stage": "training_replay",
+    "cycle": 2,
+    "n": 250,
+    "rows": 4720,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle2_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle2\\N250\\results\\gate_trained.json",
+    "source_sha256": "a02186b717968f6a9366346ebd97fcf34028411c26634c78daf9dc6fe302ffcc",
+    "published_sha256": "ffc51d4caa9aea3321c6355d1ab1c77b903f78303469ab7bc27896ba053909f4",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_250_d1_tw2_2",
+    "seed": 20261106,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4800,
+    "batches": 60
+  },
+  {
+    "path": "training/rollouts/cycle3_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle3\\N50\\session_rollout.pt",
+    "source_sha256": "8471ca2c685946bfa3e0e2ceacfe3360a7d45754e172cd6cab4cc10729509d9d",
+    "published_sha256": "348708f36a7b5cf9797cc784aa0c812a7e0620e38ce330c38c9c781d8ad12320",
+    "stage": "training_replay",
+    "cycle": 3,
+    "n": 50,
+    "rows": 24800,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle3_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle3\\N50\\results\\gate_trained.json",
+    "source_sha256": "fb742a0a84daa23ce2a2dd99de443a32fd154097983f7ea40e5d8c2c72eda75f",
+    "published_sha256": "0136138ef9475960b33d53103b55fcea5cf663470a42cf36269703440bfd4b7b",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_50_d2_tw0_2",
+    "seed": 20261107,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 24801,
+    "batches": 311
+  },
+  {
+    "path": "training/rollouts/cycle3_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle3\\N150\\session_rollout.pt",
+    "source_sha256": "4dab0edafa32296825c4dcaa5eedfed76a7058cd93f4b41c13d6fedc64e51b9a",
+    "published_sha256": "e948b4a7bd974a676b28c4a4db652507801a73af473d7260369b0f7933626242",
+    "stage": "training_replay",
+    "cycle": 3,
+    "n": 150,
+    "rows": 6800,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle3_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle3\\N150\\results\\gate_trained.json",
+    "source_sha256": "fe106be2dfbbc7eaec40711cf82864fd3ce5eb10922bc58303acbe0b1624de87",
+    "published_sha256": "8896ae4c9e988b01519cd7941347282f09292d06fc2b1edf513cd0e6811cb29c",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_150_d0_tw2_3",
+    "seed": 20261107,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6832,
+    "batches": 86
+  },
+  {
+    "path": "training/rollouts/cycle3_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle3\\N250\\session_rollout.pt",
+    "source_sha256": "e2da56f3cb5b2628094588b7ed9f0d3f5f87da34485c7d2d159dd24416262878",
+    "published_sha256": "daa97fb704d2b1cba55011a790920bd6f9096e6bdc69cfba36ebd27b1cb087ec",
+    "stage": "training_replay",
+    "cycle": 3,
+    "n": 250,
+    "rows": 5840,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle3_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle3\\N250\\results\\gate_trained.json",
+    "source_sha256": "f878cfe6c8259de41d759ec35afdd2c84bdc0f0e3a1e6ae69345bbb9cfe768ea",
+    "published_sha256": "a1f0005ec479668709a67d5d52e380c539af581e3c0ab37aed9798b842f94346",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_250_d0_tw4_2",
+    "seed": 20261107,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5840,
+    "batches": 73
+  },
+  {
+    "path": "training/rollouts/cycle4_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle4\\N50\\session_rollout.pt",
+    "source_sha256": "5ce501a2f16cd94acf8550d0be4724f4a1a5c2bfff7bf21b1e0f8f9614bf8371",
+    "published_sha256": "7ebd9515306484e12479c7801cf4aaab13d9b723b632af6896f9e6b719473495",
+    "stage": "training_replay",
+    "cycle": 4,
+    "n": 50,
+    "rows": 22880,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle4_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle4\\N50\\results\\gate_trained.json",
+    "source_sha256": "1d6cc0a8b27505fd56aa522a28e2931aed9ad1389be6bad5617952df02ca867a",
+    "published_sha256": "984fe547e7b9e0685038842dbf4877a1aef6a8f573d928e559f1aa95dd325e64",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_50_d2_tw0_3",
+    "seed": 20261108,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 22944,
+    "batches": 287
+  },
+  {
+    "path": "training/rollouts/cycle4_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle4\\N150\\session_rollout.pt",
+    "source_sha256": "b3965ba2da112a2d022a99e7967b7ce58db2a71d00960c537fc1a5b434399629",
+    "published_sha256": "584d793063cd055611950c134d5059ba3689aa59eb68b142267afde94c866316",
+    "stage": "training_replay",
+    "cycle": 4,
+    "n": 150,
+    "rows": 6560,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle4_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle4\\N150\\results\\gate_trained.json",
+    "source_sha256": "b8cde055b997eeb5939b4431d6f1975515a5bda164377ba7d0f3156d70ea8eb8",
+    "published_sha256": "9928165e45bfb10acbed44590edf4de7c098142c1538ebf2d70f7a0d2dceb8ae",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_150_d0_tw2_0",
+    "seed": 20261108,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 6608,
+    "batches": 83
+  },
+  {
+    "path": "training/rollouts/cycle4_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle4\\N250\\session_rollout.pt",
+    "source_sha256": "e60152104388cb02137f085e442386822df3cb310dc7d976c5147e9674c4a733",
+    "published_sha256": "57711cdd7ad54ce0de73b10cb9859912ade98c66d72927289ee1fc7971336861",
+    "stage": "training_replay",
+    "cycle": 4,
+    "n": 250,
+    "rows": 5360,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle4_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle4\\N250\\results\\gate_trained.json",
+    "source_sha256": "a8d9d3ddf684a7cc0737cae37c8cb92956069b476597ea1760f2bc46deca5ad7",
+    "published_sha256": "d63b5bff20f659a33932f4f084eb75e242760148c817b90704dd277bc336cccb",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_250_d1_tw1_1",
+    "seed": 20261108,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5360,
+    "batches": 67
+  },
+  {
+    "path": "training/rollouts/cycle5_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle5\\N50\\session_rollout.pt",
+    "source_sha256": "49b35e7a21712b02cbc2ac1c3cfcf7c5497b2acaf71dc404383916dfeb5ff5d8",
+    "published_sha256": "c6fe09416f536004f5cb8663307f027a8d632974c42cfd4dc57d9afd001552a6",
+    "stage": "training_replay",
+    "cycle": 5,
+    "n": 50,
+    "rows": 10480,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle5_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle5\\N50\\results\\gate_trained.json",
+    "source_sha256": "4c8b5f4e085cbacb13c52d84e582779bebe7939a19c68bc3220068eff1aa45c3",
+    "published_sha256": "f52d5ffbc2e5922c9dc74b57f57225e621c0356869d607300d735c465bb050ea",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_50_d1_tw3_1",
+    "seed": 20261109,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 10536,
+    "batches": 132
+  },
+  {
+    "path": "training/rollouts/cycle5_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle5\\N150\\session_rollout.pt",
+    "source_sha256": "6edbfb8f973afeceeb1f43c0343ea58094c9cbe6a3f8f885232c8bb7ae8f49d9",
+    "published_sha256": "a4cd11cb9567dfa58347397af15fef93706c275b6123232a364d4f2b9309812f",
+    "stage": "training_replay",
+    "cycle": 5,
+    "n": 150,
+    "rows": 8400,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle5_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle5\\N150\\results\\gate_trained.json",
+    "source_sha256": "26ce19d75e2f8831487b1874d75ae37ebc87cfbc03bfa02507683f02982e24cd",
+    "published_sha256": "0240d873ea696f2555cb799532076eebb10d560101834514b279a46327fc893e",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_150_d2_tw0_2",
+    "seed": 20261109,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 8464,
+    "batches": 106
+  },
+  {
+    "path": "training/rollouts/cycle5_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle5\\N250\\session_rollout.pt",
+    "source_sha256": "497c7000b1adb91dfb49825e825e7ae818f87de0cf4d358931ea32ce935a5015",
+    "published_sha256": "4523fc1ef95a6fc6f435204315a30be62786094c23db107f0b91f342d096c56d",
+    "stage": "training_replay",
+    "cycle": 5,
+    "n": 250,
+    "rows": 5360,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle5_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle5\\N250\\results\\gate_trained.json",
+    "source_sha256": "e20a7eab8e29e678773594931c804eb6a663d8b8647fde729cbe35a35a173ce8",
+    "published_sha256": "bc068d1c2c0f560dff0cbd6d214f7a4fdb6267b294c474b986e1c167b18e8623",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_250_d2_tw1_3",
+    "seed": 20261109,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 5360,
+    "batches": 68
+  },
+  {
+    "path": "training/rollouts/cycle6_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle6\\N50\\session_rollout.pt",
+    "source_sha256": "69fa47551fc06572ddb4591712949bbd6ca735096c3c48250e81e9e99363ba4c",
+    "published_sha256": "9af79bbcea7979601bb220bbee3465c44c01c267112894049ac35fd4d6ed501e",
+    "stage": "training_replay",
+    "cycle": 6,
+    "n": 50,
+    "rows": 20080,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle6_N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle6\\N50\\results\\gate_trained.json",
+    "source_sha256": "d507ac33146cbfe27716a38d335b237132743c9e40409defbcc163fee240bf8c",
+    "published_sha256": "5b7ff96bc724ed9c2c6a1373afe2cf78513d8130f672aa34dbbe32a822673018",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_50_d2_tw4_0",
+    "seed": 20261110,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 20144,
+    "batches": 252
+  },
+  {
+    "path": "training/rollouts/cycle6_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle6\\N150\\session_rollout.pt",
+    "source_sha256": "183c96fc6a972025cf3e024bc5af6bf0d47ed43edb524e959cfae9f47af6980f",
+    "published_sha256": "5f7ea7528cb372d372c11e2a89d0884a50d2a5f38de1ba80a93a1f61b9243eb6",
+    "stage": "training_replay",
+    "cycle": 6,
+    "n": 150,
+    "rows": 7200,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle6_N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle6\\N150\\results\\gate_trained.json",
+    "source_sha256": "64b0a03e74529d4950af0f8c468c331d7e6e9f62dcc1ee9c33d306a10a7f216c",
+    "published_sha256": "6044ca3a0fc6b763f6ab549465c338a8f9a6dbe141902d0df83d2c4d8128150f",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_150_d0_tw3_1",
+    "seed": 20261110,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 7280,
+    "batches": 91
+  },
+  {
+    "path": "training/rollouts/cycle6_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle6\\N250\\session_rollout.pt",
+    "source_sha256": "10c3401b7110e1383ca8ea79d394399c12a9d48f49b5b2fab4c691271dc22e67",
+    "published_sha256": "5854f6c2f19ab349892f8edecd66522de0a145da784519ada1e41d24a1dea9d2",
+    "stage": "training_replay",
+    "cycle": 6,
+    "n": 250,
+    "rows": 4960,
+    "omitted_fields": [
+      "full_replay_proof"
+    ]
+  },
+  {
+    "path": "results/training/cycle6_N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\training\\cycle6\\N250\\results\\gate_trained.json",
+    "source_sha256": "d77d604d6dedb1b31d06b400f9e2b6d727c105b7e7988431f5525d28b3f697b2",
+    "published_sha256": "8d6169d58b6d2670a601ca6e3aedbcee10d598b904c60b9c7a7ce300eb7f469b",
+    "method": "v9",
+    "stage": "training",
+    "iid": "v5p_train_250_d1_tw2_1",
+    "seed": 20261110,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 4976,
+    "batches": 63
+  },
+  {
+    "path": "results/smoke/N50.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\smoke\\N50\\results\\gate_trained.json",
+    "source_sha256": "85ec78fc4ba1c6cbf92c5510f64a3158f833304348abee4c7ebb4effaa2e95d6",
+    "published_sha256": "fd69c9a47378df2a7c3f0cdbeba65679dc4f3600f03dbf9afc37e0ec78b0ca64",
+    "method": "v9_untrained",
+    "stage": "smoke",
+    "iid": "v5p_train_50_d0_tw0_0",
+    "seed": 20261107,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 2209,
+    "batches": 28
+  },
+  {
+    "path": "results/smoke/N150.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\smoke\\N150\\results\\gate_trained.json",
+    "source_sha256": "86262059c24bea5257c4f6bee5b77691d067de0aa0124283ad58f61264e98f00",
+    "published_sha256": "ded65e48d41a692c17bf56d5bbbaf6a02834509ac5b351ea84d6ae1ee139e553",
+    "method": "v9_untrained",
+    "stage": "smoke",
+    "iid": "v5p_train_150_d0_tw0_0",
+    "seed": 20261107,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 688,
+    "batches": 9
+  },
+  {
+    "path": "results/smoke/N250.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105\\smoke\\N250\\results\\gate_trained.json",
+    "source_sha256": "c53d8869eea950d83d19ab34d45ded85d9d0ee8856f013e0a023e5d20955cfe5",
+    "published_sha256": "f1c5e7ce7515e4a69b89e264f0ef2de0204a7a1986b94945bbe19b15926b4007",
+    "method": "v9_untrained",
+    "stage": "smoke",
+    "iid": "v5p_train_250_d0_tw0_0",
+    "seed": 20261107,
+    "omitted_fields": [
+      "archive_snapshots",
+      "batches",
+      "point_events",
+      "records"
+    ],
+    "records": 432,
+    "batches": 6
+  },
+  {
+    "path": "results/historical_dbmt/150-0-0_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\150-0-0_20261024.json",
+    "source_sha256": "d0f6bf6d32c27e12b953b91b40d6127a2a2b3c938257762db1744d12db293c1c",
+    "published_sha256": "382c9229f6f19da174b649e880b0ef2e1768f6b6c339a32d2611f503d95c452e",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "150-0-0",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/150-0-0_20261025.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\150-0-0_20261025.json",
+    "source_sha256": "6cb0fbe1c047412e24c655f188c1085c873b49136c6d7c17adaea2148a724f66",
+    "published_sha256": "b96cc85d877453d648d6598b8caed696ac40728044c669484620e7e56a4a582d",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "150-0-0",
+    "seed": 20261025,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/150-1-2_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\150-1-2_20261024.json",
+    "source_sha256": "b36f7895c9c914a600df4c5cc35994cda90bf8176eb9df5b14af82d6c14ba5d3",
+    "published_sha256": "b60f02d2d6fee6e33e00d287d41db70a82d061729ebffc4f30dd014e7a124167",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "150-1-2",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/150-1-2_20261025.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\150-1-2_20261025.json",
+    "source_sha256": "b7c1aa0b6d69f40e6202413587768bde26a1d0367fbb443d4b381fe2774265ba",
+    "published_sha256": "bea56c8bad6bcb85d03b895aa3a412b3b68ecd761cf9f9db92e82c9b6beb1453",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "150-1-2",
+    "seed": 20261025,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/150-2-4_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\150-2-4_20261024.json",
+    "source_sha256": "3d0a5bbf9a6754f03e22c480474e73466fdba25482050fafc45a49b23af81a58",
+    "published_sha256": "fb7f63ac7552df70c1332cc358716cf47ad04017754654f627d555ca3d879d86",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "150-2-4",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/150-2-4_20261025.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\150-2-4_20261025.json",
+    "source_sha256": "42998d9d169aa07db9765dcb0096dd36b13b24922d747827f118095da27340e7",
+    "published_sha256": "c5621b09e1c402c510ef2b8f79ca37cb60758f40faf15c7b0dffe55f142bfaf9",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "150-2-4",
+    "seed": 20261025,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/250-0-0_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\250-0-0_20261024.json",
+    "source_sha256": "c00f7281cb6769a6230c389e60103ec97baa84f611befe4871d53c0a614c8e76",
+    "published_sha256": "16565b06fab5b64d91395b15eacbddf4b9160e2297b123730e5dfcdc731b771c",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "250-0-0",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/250-1-2_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\250-1-2_20261024.json",
+    "source_sha256": "5caff28f39fb40efd42a0dfd7078af0956eb5af97c1f08fc7a77958bed967199",
+    "published_sha256": "f40dd50b9de42dd39056da2ea65b9dfac80db14ed3587d7e9bfe005cd9ee3408",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "250-1-2",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/250-2-4_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\250-2-4_20261024.json",
+    "source_sha256": "6bb5ba8f84bb234325b8bab33a4ea07552b68184fed6b0700ae9dd820861159d",
+    "published_sha256": "0e1f41b02fae6c0bbbe0bea2fc4994ff2c0e1a2532e01212870a15053a8d6217",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "250-2-4",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/50-0-0_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\50-0-0_20261024.json",
+    "source_sha256": "0853b90d624ed20395b2dbf2e4372914adb4758516c636e1d4df450ad84e49e9",
+    "published_sha256": "3dfe337ec65c48f258bcea286b022bcebc870cf8eb945748b5df395c9a1f268e",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "50-0-0",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/50-0-0_20261025.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\50-0-0_20261025.json",
+    "source_sha256": "ca7ac678b4bfddfb7a66e108d817baa2b2eb5781e453eed02d3b1e60e92eadf5",
+    "published_sha256": "bab6db247077b4969dce0545983901f72eae3b3148467694fd08751dc0b42ed4",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "50-0-0",
+    "seed": 20261025,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/50-1-2_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\50-1-2_20261024.json",
+    "source_sha256": "c7f645887dd174be2b4e8ac95803f1d95f128a9c970a0ddfebacfadd44b54256",
+    "published_sha256": "35b78a37ac4bf9745d92b6fc817065a26a950cd51034fa53fba71d67b5226e28",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "50-1-2",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/50-1-2_20261025.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\50-1-2_20261025.json",
+    "source_sha256": "b8a104ffe108020b5a22f940fa7012a34004b789b2c867cbf47ba7409dac1e52",
+    "published_sha256": "1354572d08af18de26d26b3675be54e07056c084c18d7669688ac5567ff82256",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "50-1-2",
+    "seed": 20261025,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/50-2-4_20261024.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\50-2-4_20261024.json",
+    "source_sha256": "9f2100c5bffbdf64a161a1f4436843c2f56bebcd04db7fc6558b10fbc852692e",
+    "published_sha256": "f302ab166bfc36d94b5daf08ba85e344b40835dc9f041e64915d0bfe7427740b",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "50-2-4",
+    "seed": 20261024,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  },
+  {
+    "path": "results/historical_dbmt/50-2-4_20261025.json.gz",
+    "source": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\dbmt_ls9_3seed_fullr2_20261103\\results\\dbmt_original_ls\\50-2-4_20261025.json",
+    "source_sha256": "931bd82bb1da3f235843023ef24297634e6a283803c73c6b8b6f37e16e04f6b1",
+    "published_sha256": "cd797d4c5cf4da0c3b6f4eb360467a455bea73a3c488c7e78d112af2a00d08b1",
+    "method": "dbmt_original",
+    "stage": "historical",
+    "iid": "50-2-4",
+    "seed": 20261025,
+    "omitted_fields": [],
+    "records": 0,
+    "batches": 0
+  }
+]

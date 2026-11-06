@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "new_tests": 27,
+  "reused_roulette": 27,
+  "training_runs": 0,
+  "report": "analysis/REPORT.md"
+}

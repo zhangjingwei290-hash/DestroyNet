@@ -1,0 +1,302 @@
+[
+  {
+    "actions": 25680,
+    "epochs": [
+      {
+        "epoch": 0,
+        "loss": 0.013539547217078507,
+        "grad_norm": 0.48040756583213806,
+        "mean_log_ratio": 6.3643277314895386e-09,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      },
+      {
+        "epoch": 1,
+        "loss": 0.01161501172464341,
+        "grad_norm": 0.4636032283306122,
+        "mean_log_ratio": 1.818610144255217e-05,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "n": 50,
+        "count": 12880,
+        "weight": 0.3333333730697632
+      },
+      {
+        "n": 150,
+        "count": 8400,
+        "weight": 0.3333333730697632
+      },
+      {
+        "n": 250,
+        "count": 4400,
+        "weight": 0.3333333134651184
+      }
+    ],
+    "cycle": 1,
+    "maximum_behavior_logratio_error": 1.33514404296875e-05,
+    "minimum_stratum_count": 87,
+    "strata": 144
+  },
+  {
+    "actions": 26960,
+    "epochs": [
+      {
+        "epoch": 0,
+        "loss": 0.006690367590636015,
+        "grad_norm": 0.46012765169143677,
+        "mean_log_ratio": 5.988100237885874e-09,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      },
+      {
+        "epoch": 1,
+        "loss": 0.004888171562924981,
+        "grad_norm": 0.4434848129749298,
+        "mean_log_ratio": -1.1742033166228794e-05,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "n": 50,
+        "count": 15600,
+        "weight": 0.3333333432674408
+      },
+      {
+        "n": 150,
+        "count": 6640,
+        "weight": 0.3333333432674408
+      },
+      {
+        "n": 250,
+        "count": 4720,
+        "weight": 0.3333333432674408
+      }
+    ],
+    "cycle": 2,
+    "maximum_behavior_logratio_error": 1.33514404296875e-05,
+    "minimum_stratum_count": 90,
+    "strata": 144
+  },
+  {
+    "actions": 37440,
+    "epochs": [
+      {
+        "epoch": 0,
+        "loss": 0.011763740913011134,
+        "grad_norm": 0.42987555265426636,
+        "mean_log_ratio": -9.892715091552873e-09,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      },
+      {
+        "epoch": 1,
+        "loss": 0.01012744300533086,
+        "grad_norm": 0.4134467542171478,
+        "mean_log_ratio": 1.5206348507490475e-05,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "n": 50,
+        "count": 24800,
+        "weight": 0.3333333134651184
+      },
+      {
+        "n": 150,
+        "count": 6800,
+        "weight": 0.3333333134651184
+      },
+      {
+        "n": 250,
+        "count": 5840,
+        "weight": 0.3333333432674408
+      }
+    ],
+    "cycle": 3,
+    "maximum_behavior_logratio_error": 1.52587890625e-05,
+    "minimum_stratum_count": 119,
+    "strata": 144
+  },
+  {
+    "actions": 34800,
+    "epochs": [
+      {
+        "epoch": 0,
+        "loss": 0.010813359636813402,
+        "grad_norm": 0.3867756128311157,
+        "mean_log_ratio": 3.103552304040136e-09,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      },
+      {
+        "epoch": 1,
+        "loss": 0.00935742657748051,
+        "grad_norm": 0.3704657554626465,
+        "mean_log_ratio": 9.681202755018603e-06,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "n": 50,
+        "count": 22880,
+        "weight": 0.3333333730697632
+      },
+      {
+        "n": 150,
+        "count": 6560,
+        "weight": 0.3333333134651184
+      },
+      {
+        "n": 250,
+        "count": 5360,
+        "weight": 0.3333333134651184
+      }
+    ],
+    "cycle": 4,
+    "maximum_behavior_logratio_error": 1.1444091796875e-05,
+    "minimum_stratum_count": 105,
+    "strata": 144
+  },
+  {
+    "actions": 24240,
+    "epochs": [
+      {
+        "epoch": 0,
+        "loss": -0.01005879312288016,
+        "grad_norm": 0.29629164934158325,
+        "mean_log_ratio": 3.2925173698572507e-09,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      },
+      {
+        "epoch": 1,
+        "loss": -0.01122250803746283,
+        "grad_norm": 0.2801906168460846,
+        "mean_log_ratio": -4.096207703696564e-06,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "n": 50,
+        "count": 10480,
+        "weight": 0.3333333432674408
+      },
+      {
+        "n": 150,
+        "count": 8400,
+        "weight": 0.3333333134651184
+      },
+      {
+        "n": 250,
+        "count": 5360,
+        "weight": 0.3333333730697632
+      }
+    ],
+    "cycle": 5,
+    "maximum_behavior_logratio_error": 1.33514404296875e-05,
+    "minimum_stratum_count": 109,
+    "strata": 144
+  },
+  {
+    "actions": 32240,
+    "epochs": [
+      {
+        "epoch": 0,
+        "loss": 0.001040346804074943,
+        "grad_norm": 0.3277868926525116,
+        "mean_log_ratio": 6.7489689392630225e-09,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      },
+      {
+        "epoch": 1,
+        "loss": -0.00017030758317559958,
+        "grad_norm": 0.31265348196029663,
+        "mean_log_ratio": -2.8950211344636045e-05,
+        "clip_fraction": 0.0,
+        "scales": [
+          50,
+          150,
+          250
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "n": 50,
+        "count": 20080,
+        "weight": 0.3333333134651184
+      },
+      {
+        "n": 150,
+        "count": 7200,
+        "weight": 0.3333333134651184
+      },
+      {
+        "n": 250,
+        "count": 4960,
+        "weight": 0.3333333134651184
+      }
+    ],
+    "cycle": 6,
+    "maximum_behavior_logratio_error": 1.52587890625e-05,
+    "minimum_stratum_count": 95,
+    "strata": 144
+  }
+]

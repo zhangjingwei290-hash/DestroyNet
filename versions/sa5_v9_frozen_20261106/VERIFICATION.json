@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "version": "sa5_v9_frozen_20261106",
+  "package_files": 657,
+  "byte_copies": 418,
+  "python_source_files": 14,
+  "expert_models": 16,
+  "controller_files": 8,
+  "compact_reports": {
+    "test": 81,
+    "validation": 90,
+    "training": 18,
+    "smoke": 3,
+    "historical_dbmt": 15
+  },
+  "source_audits": 192,
+  "metrics": 81,
+  "mean_sd_rows": 27,
+  "exact_tests": 16,
+  "holm4_recomputed": true,
+  "common_initial_blocks": 27,
+  "training_rows": 181360,
+  "neural_model_loaded": false,
+  "training_or_search_executed": false
+}

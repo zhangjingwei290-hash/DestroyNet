@@ -34,3 +34,7 @@ V5合成集由真实统计参与拟合；N150/N250最近邻中位数偏差为约
 ## 2026-11-02追加：Step5 r2
 
 实际60meta批、15merges、16方向各20PPO批、223330优化转移、4460.9478429活跃秒；单训练seed20261024。r3 full12训练量不属于部署r2。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。
+
+## 2026-11-06追加：SA5 V9
+
+fit180池抽18IID，54分钟名义采样，6联合轮/12优化步/181360动作，validation45选cycle3；详见实际回报与144组合权重。 [版本目录](../versions/sa5_v9_frozen_20261106/README.md)。

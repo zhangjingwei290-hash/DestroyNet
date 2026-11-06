@@ -1,0 +1,117 @@
+[
+  {
+    "source": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5\\training\\data\\split_v5.json",
+    "repository_path": "versions/v5/training/data/split_v5.json",
+    "sha256": "591ef4066aaf535024f4d7a752155f37c7a396ff5e56c1e707916ee1981686bb"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\plan.json",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_aligned_9iid3seed_20261104/plan.json",
+    "sha256": "25a01b7b1665e2c2d48b290fa43c3d0c42d7d488d11f975ffa629c8dd13c65b5"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\learning.py",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/learning.py",
+    "sha256": "894228509a7d7864d1d1b49e6e821bbb72e55d5ce3be6bfeba783fc637b91a77"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\network.py",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/network.py",
+    "sha256": "405be221aca6887e64f28c31cdc377a31acf3e7eff1ae9d85875cf1e27809303"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\session_contract.py",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/session_contract.py",
+    "sha256": "52e93b2eed10d2364f4f1c3daa1433cc3eda9174b9da5de91742aeeebd6f0cf2"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_00.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_00.pt",
+    "sha256": "23ce5e68ef18f7fea31e2517132a383f6b076c12c0a6a164eec9574b851494c6"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_01.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_01.pt",
+    "sha256": "b5aed852c5e5fee32779f9016b28da2c48d691e07505023e66b458e45f411c85"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_02.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_02.pt",
+    "sha256": "d8424015ea801ed781298c1c2d9d0608bdc0639bfeffb9e8f1e7db871106a533"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_03.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_03.pt",
+    "sha256": "8c269b8c5ed89b161e466b4f525c5a2a5fc89bcc9eab0ba405effe4051df7650"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_04.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_04.pt",
+    "sha256": "3fbaf36aca7355899855c12282ed3ff8ca5b6ef96beef0942084dbaf7a3f5c7a"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_05.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_05.pt",
+    "sha256": "2a3ddaf881692c4cb77e354ffe8273611b273fc99fa65d316fa4115f60a23411"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_06.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_06.pt",
+    "sha256": "f349ff74f8cabf18f976cfe3d4cbacb181f171d4a8bb25e2e0691fed1a7ec54c"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_07.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_07.pt",
+    "sha256": "6320a8005955b4b7edba16bbace2ca6babb0263012e89ccf3f374bbe8ccbf84d"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_08.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_08.pt",
+    "sha256": "d0e8b8bfda9bd9d17b53937a955e563cd3ab9c63c65d7735668bd4deba261498"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_09.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_09.pt",
+    "sha256": "714dfbff67d541fa405ee3643854cce0a53e7ac63b8a0129a9397cccdf5f81dc"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_10.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_10.pt",
+    "sha256": "bf783f74e0907167df75e9dbca87263113f6d0d9066ea078a9da6d873e4113d3"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_11.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_11.pt",
+    "sha256": "dd0cd9d483d82a52c523e86d24e4442ac4650fc15b7f6b02e52f0f7b44058470"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_12.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_12.pt",
+    "sha256": "8f2fc89c8d0b6b299da1e7ef24f58f9a9a84d3b19f8512dd4d92e01b5269b3c8"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_13.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_13.pt",
+    "sha256": "420ce9355d4cf7dfbe447d831830709bdba88cdfb4f8bf77426a956bf7330b9a"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_14.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_14.pt",
+    "sha256": "e160f6eb6eaa8c42c812ef47c6feedd2a900d81d045610aec0d43e92bf52e909"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_15.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_coverage_v2_20261104/training/direction_15.pt",
+    "sha256": "8538ba1356381a8ad70db3ca19d3609e7197068b9810676c740a6250e2e851fa"
+  },
+  {
+    "source": "D:\\workspace\\fuxian\\DPR\\development\\sa5_state_action_v6_stage2_20261105\\training\\gate.pt",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/fuxian/DPR/development/sa5_state_action_v6_stage2_20261105/training/gate.pt",
+    "sha256": "26ced0bd11fc5f9f24cfe7a097e0feb0265c258300ce6a108e02ae9bc3f4095e"
+  },
+  {
+    "source": "D:\\workspace\\outputs\\r2_parallel_branch_probe_20261104\\probe.py",
+    "repository_path": "versions/sa5_v9_frozen_20261106/evidence/inherited_lock_assets/outputs/r2_parallel_branch_probe_20261104/probe.py",
+    "sha256": "8f2b2d2a3c94969ad35cdb42eb7875ad6b9b72855aa5c798ac388cc547ee59b6"
+  }
+]

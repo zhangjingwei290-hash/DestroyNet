@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "candidate_rows": 2160,
+  "trajectories": 81,
+  "crossfit_rows": 54,
+  "monotonic_best_checked": true,
+  "no_significance_claim": true
+}

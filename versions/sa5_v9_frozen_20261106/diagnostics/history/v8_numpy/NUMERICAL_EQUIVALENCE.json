@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "contexts": 5122,
+  "real_contexts": 768,
+  "max_abs_error": 5.587935447692871e-09,
+  "mean_abs_error": 5.134586786725553e-10,
+  "tolerance": 1e-06,
+  "cpu_dtype": "float32",
+  "checkpoint_sha256": "40da903540ffa3a496985ee0bd0cdadfb8e452aff77e45ac87fb4bf098473992",
+  "same_checkpoint": true,
+  "benchmark": {
+    "calls": 1024,
+    "gpu_seconds": 0.5732011999934912,
+    "numpy_seconds": 0.020559499971568584,
+    "speedup": 27.880113854235866
+  },
+  "scope": "Gate only; inherited V2 adapter and GNN remain GPU; random and real first-pass training contexts, no searches"
+}

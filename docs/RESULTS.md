@@ -62,3 +62,7 @@ V2训练seed20261020，搜索seed20268020..20268039。V4/F训练seed20261024，�
 ## 2026-11-02追加：Step5 r2
 
 最新三方法各900次，主指标共同经验前沿、逐seed独立计分。详细逐IID均值SD与总体/逐IID精确Wilcoxon/Holm6均归档，不与其他方法集合的旧参考直接比较。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。
+
+## 2026-11-06追加：SA5 V9
+
+9IID×3seed的三方主表；R2/DBMT历史比较各自重建参考，不跨参考混用绝对HV。 [版本目录](../versions/sa5_v9_frozen_20261106/README.md)。

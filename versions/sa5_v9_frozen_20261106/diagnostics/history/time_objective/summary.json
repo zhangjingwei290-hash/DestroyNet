@@ -1,0 +1,85 @@
+{
+  "findings": {
+    "global_remaining_already_in_actor": true,
+    "old_critic_has_global_remaining": true,
+    "five_step_terminal_bootstrap_zero": true,
+    "no_following_outer_generations_in_training": true,
+    "repair_deadline_uses_training_run_deadline": true,
+    "remaining_budget_feature_does_not_enforce_captured_solver_deadline": true,
+    "conclusion": "Time input exists, but training return ends at5 steps and does not price lost outer evolution opportunities. Real deployment obeys total clock; training and deployment budget semantics differ."
+  },
+  "paired_costs": [
+    {
+      "n": 50,
+      "shift": -0.1,
+      "mean_gain": 0.0806103345501516,
+      "group_wall_seconds": 7.2578213000670075,
+      "gain_per_second": 1.0662417544977454,
+      "mean_trajectory_seconds": 0.07560230520903133
+    },
+    {
+      "n": 50,
+      "shift": 0,
+      "mean_gain": 0.08324000200726227,
+      "group_wall_seconds": 7.142617299687117,
+      "gain_per_second": 1.118783193528684,
+      "mean_trajectory_seconds": 0.07440226353840747
+    },
+    {
+      "n": 50,
+      "shift": 0.1,
+      "mean_gain": 0.083335927429319,
+      "group_wall_seconds": 7.506728100124747,
+      "gain_per_second": 1.065743813617237,
+      "mean_trajectory_seconds": 0.07819508437629945
+    },
+    {
+      "n": 150,
+      "shift": -0.1,
+      "mean_gain": 0.0310681323710916,
+      "group_wall_seconds": 15.079043700359762,
+      "gain_per_second": 0.19779375714347422,
+      "mean_trajectory_seconds": 0.1570733718787475
+    },
+    {
+      "n": 150,
+      "shift": 0,
+      "mean_gain": 0.03398827305950723,
+      "group_wall_seconds": 18.238120399415493,
+      "gain_per_second": 0.17890408343928166,
+      "mean_trajectory_seconds": 0.18998042082724473
+    },
+    {
+      "n": 150,
+      "shift": 0.1,
+      "mean_gain": 0.03823165067310052,
+      "group_wall_seconds": 22.1233888999559,
+      "gain_per_second": 0.16589856469164027,
+      "mean_trajectory_seconds": 0.23045196770787393
+    },
+    {
+      "n": 250,
+      "shift": -0.1,
+      "mean_gain": 0.08097177960073641,
+      "group_wall_seconds": 24.608958799857646,
+      "gain_per_second": 0.315872398539497,
+      "mean_trajectory_seconds": 0.25634332083185046
+    },
+    {
+      "n": 250,
+      "shift": 0,
+      "mean_gain": 0.08720925164967759,
+      "group_wall_seconds": 31.81548700062558,
+      "gain_per_second": 0.26314505756911505,
+      "mean_trajectory_seconds": 0.33141132292318315
+    },
+    {
+      "n": 250,
+      "shift": 0.1,
+      "mean_gain": 0.10681061724250734,
+      "group_wall_seconds": 42.786914500873536,
+      "gain_per_second": 0.23964848540483946,
+      "mean_trajectory_seconds": 0.445697026050766
+    }
+  ]
+}

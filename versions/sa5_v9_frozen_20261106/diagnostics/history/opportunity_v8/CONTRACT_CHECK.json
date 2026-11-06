@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "causal_ema": true,
+  "dynamic_coordinate_rebase": true,
+  "three_scale_equal_weights": true,
+  "incomplete_scales_rejected": true,
+  "identity_migration": true,
+  "film_and_new_features_receive_gradients": true,
+  "no_per_scale_optimizer_step": true
+}

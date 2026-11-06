@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "forward_conditions": 3264,
+  "source_hashes_unchanged": true,
+  "all16_weights_unchanged": true,
+  "repair_calls": 0,
+  "optimization_searches": 0,
+  "training_updates": 0,
+  "device": "cpu",
+  "affinity": [
+    14,
+    15
+  ],
+  "history": "zero at session entry; other step values are counterfactual, no fabricated GRU history",
+  "mode2_q": "1024 common PL samples per route-count bin with the actual k-conditioned customer scores; Monte Carlo diagnostic estimate",
+  "archive_test": "only three-number summary varied; dynamic coordinates and raw count held fixed to isolate new set pathway",
+  "global_test": "cache held fixed, live global raw and adapter stage fields changed; local budget held fixed"
+}

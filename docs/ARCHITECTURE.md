@@ -45,3 +45,7 @@ context45维：偏好5、归一化目标5、全局剩余秒/已用比例/局搜�
 ## 2026-11-02追加：Step5 r2
 
 结构化三mode categorical/Beta/选中prefix PL，统一动态标量化与前置邻居快照判重；共享encoder/context/history归一化冻结。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。
+
+## 2026-11-06追加：SA5 V9
+
+16冻结原专家，新增22→32→4共享Controller；五步SA与首步GPU缓存；详见架构字段和动作密度。 [版本目录](../versions/sa5_v9_frozen_20261106/README.md)。

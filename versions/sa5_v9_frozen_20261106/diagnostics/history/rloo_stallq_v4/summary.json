@@ -1,0 +1,1402 @@
+{
+  "metrics": [
+    {
+      "stage": "quick1",
+      "iid": "50-2-4",
+      "hv_change_pct": 0.0,
+      "method": "v2_baseline",
+      "hv": 1.1913395234168163,
+      "igd_plus": 0.021970726905131844,
+      "fixed_box_hv": 0.12173163696870522,
+      "archive_size": 69,
+      "online_seconds": 60.00271110003814,
+      "attempts": 6048,
+      "batches": 76,
+      "accepted": 4051,
+      "best_improvements": 2078,
+      "worse_accepted": 1051,
+      "late": 16,
+      "direction_calls": [
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76
+      ],
+      "direction_attempts": [
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378,
+        378
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.9784983027356257
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.083475302575473
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.1268099827245066
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1418928101908612
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1724994316862964
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.1913395234168174
+        }
+      ]
+    },
+    {
+      "stage": "quick1",
+      "iid": "50-2-4",
+      "hv_change_pct": 1.1870583779226784,
+      "method": "v2_stallq",
+      "hv": 1.2054814190390397,
+      "igd_plus": 0.015089727026823945,
+      "fixed_box_hv": 0.12190661286765993,
+      "archive_size": 64,
+      "online_seconds": 60.00591279985383,
+      "attempts": 5844,
+      "batches": 74,
+      "accepted": 3852,
+      "best_improvements": 1953,
+      "worse_accepted": 1039,
+      "late": 4,
+      "direction_calls": [
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
+      ],
+      "direction_attempts": [
+        365,
+        365,
+        365,
+        366,
+        365,
+        365,
+        365,
+        366,
+        365,
+        365,
+        366,
+        365,
+        365,
+        365,
+        366,
+        365
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 1.0524190517967227
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.124894618637919
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.1489850621114457
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1681489108416572
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1864036148698363
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.205481419039039
+        }
+      ]
+    },
+    {
+      "stage": "quick1",
+      "iid": "150-2-4",
+      "hv_change_pct": 0.0,
+      "method": "v2_baseline",
+      "hv": 0.8306358591143101,
+      "igd_plus": 0.02782602754450297,
+      "fixed_box_hv": 0.16634966124767298,
+      "archive_size": 273,
+      "online_seconds": 60.00285409996286,
+      "attempts": 2704,
+      "batches": 34,
+      "accepted": 1911,
+      "best_improvements": 1455,
+      "worse_accepted": 293,
+      "late": 16,
+      "direction_calls": [
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34
+      ],
+      "direction_attempts": [
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169,
+        169
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.6398932010063105
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.740336770116323
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.788864418439799
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.8103144683406628
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.820488239332074
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.83063585911431
+        }
+      ]
+    },
+    {
+      "stage": "quick1",
+      "iid": "150-2-4",
+      "hv_change_pct": 8.26126743729867,
+      "method": "v2_stallq",
+      "hv": 0.8992569088658467,
+      "igd_plus": 0.018072049521162835,
+      "fixed_box_hv": 0.16658617633939457,
+      "archive_size": 311,
+      "online_seconds": 60.01265549985692,
+      "attempts": 2640,
+      "batches": 34,
+      "accepted": 1783,
+      "best_improvements": 1327,
+      "worse_accepted": 286,
+      "late": 0,
+      "direction_calls": [
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34
+      ],
+      "direction_attempts": [
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165,
+        165
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.6078176442322673
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.78661077044694
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.8298512525771937
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.8481048849107146
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.8769949286593537
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.8992569088658465
+        }
+      ]
+    },
+    {
+      "stage": "quick1",
+      "iid": "250-2-4",
+      "hv_change_pct": 0.0,
+      "method": "v2_baseline",
+      "hv": 0.9448848176915102,
+      "igd_plus": 0.02595381354215635,
+      "fixed_box_hv": 0.14834679103446716,
+      "archive_size": 243,
+      "online_seconds": 60.003259300254285,
+      "attempts": 2032,
+      "batches": 26,
+      "accepted": 1647,
+      "best_improvements": 1200,
+      "worse_accepted": 265,
+      "late": 16,
+      "direction_calls": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26
+      ],
+      "direction_attempts": [
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.1127925200499643
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.3441237036440076
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.7987864735221468
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.8600968497656051
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.9162122619670817
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.9448848176915107
+        }
+      ]
+    },
+    {
+      "stage": "quick1",
+      "iid": "250-2-4",
+      "hv_change_pct": 9.70199098796285,
+      "method": "v2_stallq",
+      "hv": 1.0365574575505698,
+      "igd_plus": 0.0167825915461207,
+      "fixed_box_hv": 0.14847222729784407,
+      "archive_size": 206,
+      "online_seconds": 60.005623299628496,
+      "attempts": 1936,
+      "batches": 25,
+      "accepted": 1561,
+      "best_improvements": 1178,
+      "worse_accepted": 221,
+      "late": 0,
+      "direction_calls": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "direction_attempts": [
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.0912630866485291
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.35770055087764907
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6929915747379034
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.9235219325544991
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.9764690820567244
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.0365574575505678
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "50-2-4",
+      "hv_change_pct": 0.0,
+      "method": "v2_baseline",
+      "hv": 1.161146737022594,
+      "igd_plus": 0.019119107728348288,
+      "fixed_box_hv": 0.12145096661920747,
+      "archive_size": 74,
+      "online_seconds": 60.0051841000095,
+      "attempts": 5963,
+      "batches": 75,
+      "accepted": 3983,
+      "best_improvements": 2119,
+      "worse_accepted": 1021,
+      "late": 11,
+      "direction_calls": [
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "direction_attempts": [
+        373,
+        372,
+        373,
+        373,
+        373,
+        372,
+        373,
+        373,
+        373,
+        372,
+        372,
+        373,
+        373,
+        373,
+        373,
+        372
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 1.017804532597929
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.0597966598791828
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.10927324920814
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1186606330506177
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1419957883441014
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.161146737022596
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "50-2-4",
+      "hv_change_pct": -1.24519404604293,
+      "method": "v2_ppo_continued",
+      "hv": 1.146688206987367,
+      "igd_plus": 0.018788324361856255,
+      "fixed_box_hv": 0.12239759157241915,
+      "archive_size": 88,
+      "online_seconds": 60.003824699670076,
+      "attempts": 5760,
+      "batches": 73,
+      "accepted": 3908,
+      "best_improvements": 1985,
+      "worse_accepted": 1068,
+      "late": 0,
+      "direction_calls": [
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73,
+        73
+      ],
+      "direction_attempts": [
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.9852643821236305
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.0550450585570574
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.0827685473413027
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1189005744631486
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1294707882134818
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.1466882069873674
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "50-2-4",
+      "hv_change_pct": 0.29648848882843915,
+      "method": "v2_rloo_continued",
+      "hv": 1.1645894034362732,
+      "igd_plus": 0.01666248566352181,
+      "fixed_box_hv": 0.12222132514073362,
+      "archive_size": 77,
+      "online_seconds": 60.00449030008167,
+      "attempts": 5859,
+      "batches": 74,
+      "accepted": 3913,
+      "best_improvements": 1957,
+      "worse_accepted": 1118,
+      "late": 3,
+      "direction_calls": [
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
+      ],
+      "direction_attempts": [
+        366,
+        366,
+        366,
+        366,
+        366,
+        366,
+        366,
+        366,
+        366,
+        366,
+        367,
+        366,
+        367,
+        366,
+        366,
+        367
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.953045034346709
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.0427720347990177
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.1027151247043696
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1326254584229098
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1486657062590473
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.164589403436274
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "150-2-4",
+      "hv_change_pct": 0.0,
+      "method": "v2_baseline",
+      "hv": 0.8591348984447135,
+      "igd_plus": 0.024765550359256226,
+      "fixed_box_hv": 0.16676594156512045,
+      "archive_size": 267,
+      "online_seconds": 60.00224230019376,
+      "attempts": 2736,
+      "batches": 35,
+      "accepted": 1960,
+      "best_improvements": 1413,
+      "worse_accepted": 333,
+      "late": 16,
+      "direction_calls": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35
+      ],
+      "direction_attempts": [
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.6086392887720722
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6569050588919316
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.7454979207068867
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7744380523435158
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.8410496703862939
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.8591348984447147
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "150-2-4",
+      "hv_change_pct": -7.063426461948397,
+      "method": "v2_ppo_continued",
+      "hv": 0.7984505366841361,
+      "igd_plus": 0.03863528942953121,
+      "fixed_box_hv": 0.1657954955639986,
+      "archive_size": 312,
+      "online_seconds": 60.00184730021283,
+      "attempts": 2736,
+      "batches": 35,
+      "accepted": 1957,
+      "best_improvements": 1476,
+      "worse_accepted": 308,
+      "late": 16,
+      "direction_calls": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35
+      ],
+      "direction_attempts": [
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171,
+        171
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.5061564729132871
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.709022728718519
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.7575230279263486
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7657513771796066
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.7921932773384703
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.7984505366841369
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "150-2-4",
+      "hv_change_pct": -12.2994078223004,
+      "method": "v2_rloo_continued",
+      "hv": 0.7534663935412917,
+      "igd_plus": 0.030347322469639594,
+      "fixed_box_hv": 0.16410186170029367,
+      "archive_size": 335,
+      "online_seconds": 60.015645400155336,
+      "attempts": 2672,
+      "batches": 34,
+      "accepted": 1853,
+      "best_improvements": 1422,
+      "worse_accepted": 262,
+      "late": 0,
+      "direction_calls": [
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34,
+        34
+      ],
+      "direction_attempts": [
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.5881820789485588
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6763707663544316
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6983170755386799
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7092965285979765
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.722920110355385
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.7534663935412921
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "250-2-4",
+      "hv_change_pct": 0.0,
+      "method": "v2_baseline",
+      "hv": 1.0452927963338434,
+      "igd_plus": 0.03413768058312347,
+      "fixed_box_hv": 0.14776059069244565,
+      "archive_size": 237,
+      "online_seconds": 60.001940399874,
+      "attempts": 2016,
+      "batches": 26,
+      "accepted": 1653,
+      "best_improvements": 1217,
+      "worse_accepted": 254,
+      "late": 16,
+      "direction_calls": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26
+      ],
+      "direction_attempts": [
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126,
+        126
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.13562270113884034
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.39752072865532995
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.8325441802048641
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.9617093450317973
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.0001870374398087
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.0452927963338425
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "250-2-4",
+      "hv_change_pct": 7.554128897557,
+      "method": "v2_ppo_continued",
+      "hv": 1.1242555615257799,
+      "igd_plus": 0.02614616694784449,
+      "fixed_box_hv": 0.1478369278245155,
+      "archive_size": 214,
+      "online_seconds": 60.00291809998453,
+      "attempts": 1920,
+      "batches": 24,
+      "accepted": 1584,
+      "best_improvements": 1180,
+      "worse_accepted": 236,
+      "late": 16,
+      "direction_calls": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "direction_attempts": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.1680254442005565
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.5784886389192717
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.9361046506820258
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.0229639326384299
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.0880808395253767
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.1242555615257785
+        }
+      ]
+    },
+    {
+      "stage": "quick2",
+      "iid": "250-2-4",
+      "hv_change_pct": 0.060708103150175496,
+      "method": "v2_rloo_continued",
+      "hv": 1.0459273737628632,
+      "igd_plus": 0.03164375342797974,
+      "fixed_box_hv": 0.14794378646621886,
+      "archive_size": 237,
+      "online_seconds": 60.00488509982824,
+      "attempts": 1920,
+      "batches": 24,
+      "accepted": 1564,
+      "best_improvements": 1170,
+      "worse_accepted": 214,
+      "late": 16,
+      "direction_calls": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "direction_attempts": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.1696283766692519
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6889219206059976
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.8854443909873007
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.980033855547267
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.0113447198579175
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.045927373762864
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "stage": "quick1",
+      "iid": "50-2-4",
+      "method": "v2_stallq",
+      "hv_change_pct": 1.1870583779226784,
+      "igd_reduction_pct": 31.318945012696233,
+      "attempt_ratio": 0.9662698412698413,
+      "batch_ratio": 0.9736842105263158
+    },
+    {
+      "stage": "quick1",
+      "iid": "150-2-4",
+      "method": "v2_stallq",
+      "hv_change_pct": 8.26126743729867,
+      "igd_reduction_pct": 35.05343336464508,
+      "attempt_ratio": 0.9763313609467456,
+      "batch_ratio": 1.0
+    },
+    {
+      "stage": "quick1",
+      "iid": "250-2-4",
+      "method": "v2_stallq",
+      "hv_change_pct": 9.70199098796285,
+      "igd_reduction_pct": 35.336702951722245,
+      "attempt_ratio": 0.952755905511811,
+      "batch_ratio": 0.9615384615384616
+    },
+    {
+      "stage": "quick2",
+      "iid": "50-2-4",
+      "method": "v2_ppo_continued",
+      "hv_change_pct": -1.24519404604293,
+      "igd_reduction_pct": 1.7301192670282073,
+      "attempt_ratio": 0.9659567331879926,
+      "batch_ratio": 0.9733333333333334
+    },
+    {
+      "stage": "quick2",
+      "iid": "50-2-4",
+      "method": "v2_rloo_continued",
+      "hv_change_pct": 0.29648848882843915,
+      "igd_reduction_pct": 12.849041386926196,
+      "attempt_ratio": 0.9825591145396613,
+      "batch_ratio": 0.9866666666666667
+    },
+    {
+      "stage": "quick2",
+      "iid": "150-2-4",
+      "method": "v2_ppo_continued",
+      "hv_change_pct": -7.063426461948397,
+      "igd_reduction_pct": -56.004162512346966,
+      "attempt_ratio": 1.0,
+      "batch_ratio": 1.0
+    },
+    {
+      "stage": "quick2",
+      "iid": "150-2-4",
+      "method": "v2_rloo_continued",
+      "hv_change_pct": -12.2994078223004,
+      "igd_reduction_pct": -22.53845373679393,
+      "attempt_ratio": 0.9766081871345029,
+      "batch_ratio": 0.9714285714285714
+    },
+    {
+      "stage": "quick2",
+      "iid": "250-2-4",
+      "method": "v2_ppo_continued",
+      "hv_change_pct": 7.554128897557,
+      "igd_reduction_pct": 23.40965613003515,
+      "attempt_ratio": 0.9523809523809523,
+      "batch_ratio": 0.9230769230769231
+    },
+    {
+      "stage": "quick2",
+      "iid": "250-2-4",
+      "method": "v2_rloo_continued",
+      "hv_change_pct": 0.060708103150175496,
+      "igd_reduction_pct": 7.305496778174925,
+      "attempt_ratio": 0.9523809523809523,
+      "batch_ratio": 0.9230769230769231
+    }
+  ],
+  "validation": [
+    {
+      "kind": "initial",
+      "mean_scalar_gain": 0.03520573152219476,
+      "positive_trajectories": 20,
+      "total": 27
+    },
+    {
+      "kind": "ppo",
+      "mean_scalar_gain": 0.03293715578478183,
+      "positive_trajectories": 19,
+      "total": 27
+    },
+    {
+      "kind": "rloo",
+      "mean_scalar_gain": 0.03362474865834933,
+      "positive_trajectories": 18,
+      "total": 27
+    }
+  ],
+  "training": {
+    "passed": true,
+    "counts": {
+      "ppo": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "rloo": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    "updates": 288,
+    "transitions": 5760,
+    "seconds": 307.85209280019626,
+    "limit_seconds": 900,
+    "validation_rows": 81,
+    "rloo_critic_and_encoder_unchanged": true,
+    "architecture": "exact_v2",
+    "reward": "scalar_best_gain_only",
+    "scope": "Matched continued adaptation; no repeated meta-training"
+  }
+}

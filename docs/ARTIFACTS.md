@@ -18,3 +18,7 @@
 ## 2026-11-02追加：Step5 r2
 
 新增17份实际r2最终模型、270输入、135个gzip JSONL共2700紧凑报告，原始逐步日志与恢复断点保留本地。 [版本目录](../versions/v5_step5_r2_frozen_20261102/README.md)与[文件范围](../versions/v5_step5_r2_frozen_20261102/ARTIFACTS.md)。
+
+## 2026-11-06追加：SA5 V9
+
+原字节源码、16原专家与8个Controller文件、18场compact PPO样本、81测试/90验证/18训练/3冒烟/15历史DBMT紧凑报告。 [版本目录](../versions/sa5_v9_frozen_20261106/README.md)。

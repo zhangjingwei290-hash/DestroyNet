@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "effective_sampling_seconds": 3240,
+  "joint_cycles": 6,
+  "ppo_epochs_per_cycle": 2,
+  "all_144_strata_per_update": true
+}

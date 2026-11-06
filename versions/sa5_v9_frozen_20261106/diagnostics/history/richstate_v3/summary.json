@@ -1,0 +1,1249 @@
+{
+  "training": {
+    "passed": true,
+    "seconds": 934.1733017996885,
+    "limit": 900,
+    "original_combined_cap_passed": false,
+    "optimizer_update_ceiling_seconds": 600,
+    "extra_frozen_validation_seconds": 34.17330339970067,
+    "extra_frozen_validation_limit": 180,
+    "extra_optimizer_updates": 0,
+    "meta_rounds": null,
+    "adapt_updates": null,
+    "validation_rows": 81,
+    "gate_meta_retained": 8,
+    "gate_validated_directions": 12,
+    "encoder_unchanged": true,
+    "limitation": "Original900s ceiling exhausted during frozen gating. Kept meta for ungated directions. Only frozen holdout continued separately; no retraining. Full optimizer history lost on budget exception; no invented update counts."
+  },
+  "holdout": [
+    {
+      "checkpoint": "initial",
+      "scalar_gain": 0.009150492628313306,
+      "archive_gain": 0.0005455740538992985,
+      "return_total": 0.009696066682212604,
+      "value_mse": 0.0038915205926471482
+    },
+    {
+      "checkpoint": "meta",
+      "scalar_gain": 0.008377917240183266,
+      "archive_gain": 0.0005749453017967329,
+      "return_total": 0.008952862541979998,
+      "value_mse": 0.0034443030425139747
+    },
+    {
+      "checkpoint": "selected",
+      "scalar_gain": 0.009218328282616997,
+      "archive_gain": 0.0005589148482689452,
+      "return_total": 0.009777243130885942,
+      "value_mse": 0.007054788399426961
+    }
+  ],
+  "performance": [
+    {
+      "iid": "50-2-4",
+      "method": "neural_v3_sa5",
+      "hv_change_pct": -4.929989407756774,
+      "igd_reduction_pct": -280.786634261633,
+      "attempts": 4784,
+      "batches": 60
+    },
+    {
+      "iid": "50-2-4",
+      "method": "neural_v3_sa10",
+      "hv_change_pct": -6.0843290135423995,
+      "igd_reduction_pct": -361.9717492139002,
+      "attempts": 4769,
+      "batches": 30
+    },
+    {
+      "iid": "150-2-4",
+      "method": "neural_v3_sa5",
+      "hv_change_pct": -9.195341764789555,
+      "igd_reduction_pct": -25.3907843381165,
+      "attempts": 2320,
+      "batches": 29
+    },
+    {
+      "iid": "150-2-4",
+      "method": "neural_v3_sa10",
+      "hv_change_pct": -14.414428946346902,
+      "igd_reduction_pct": -124.38493763373764,
+      "attempts": 2416,
+      "batches": 16
+    },
+    {
+      "iid": "250-2-4",
+      "method": "neural_v3_sa5",
+      "hv_change_pct": -9.285037090174708,
+      "igd_reduction_pct": -55.58431826793726,
+      "attempts": 1856,
+      "batches": 24
+    },
+    {
+      "iid": "250-2-4",
+      "method": "neural_v3_sa10",
+      "hv_change_pct": -7.032437755296483,
+      "igd_reduction_pct": -68.09266505552512,
+      "attempts": 1956,
+      "batches": 13
+    }
+  ],
+  "metrics": [
+    {
+      "iid": "50-2-4",
+      "method": "roulette_sa5",
+      "hv": 1.2447375094426238,
+      "igd_plus": 0.01557512481710844,
+      "fixed_box_hv": 0.12182388386544189,
+      "archive_size": 104,
+      "online_seconds": 60.000606699846685,
+      "attempts": 6976,
+      "batches": 88,
+      "accepted": 4604,
+      "best_improvements": 2155,
+      "worse_accepted": 882,
+      "late": 2,
+      "direction_calls": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88
+      ],
+      "direction_attempts": [
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436,
+        436
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 1.162003224049305
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.1958612351125897
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.2123755755155563
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.2249803617270174
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.2312042948147617
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.2447375094426247
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.020745625157377063
+    },
+    {
+      "iid": "50-2-4",
+      "method": "neural_v2_sa5",
+      "hv": 1.2551032662984551,
+      "igd_plus": 0.01207270303028373,
+      "fixed_box_hv": 0.12227387483396986,
+      "archive_size": 98,
+      "online_seconds": 60.00417249975726,
+      "attempts": 5862,
+      "batches": 74,
+      "accepted": 3911,
+      "best_improvements": 1830,
+      "worse_accepted": 1073,
+      "late": 6,
+      "direction_calls": [
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
+      ],
+      "direction_attempts": [
+        366,
+        366,
+        367,
+        367,
+        366,
+        366,
+        366,
+        367,
+        366,
+        366,
+        367,
+        366,
+        366,
+        367,
+        367,
+        366
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 1.1264382893717602
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.1861489295928984
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.2178898696060334
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.2469682230803754
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.2540897180496422
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.2551032662984543
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.020918387771640918
+    },
+    {
+      "iid": "50-2-4",
+      "method": "neural_v3_sa5",
+      "hv": 1.193226808213532,
+      "igd_plus": 0.04597123953341959,
+      "fixed_box_hv": 0.12159322568530684,
+      "archive_size": 50,
+      "online_seconds": 60.020808399654925,
+      "attempts": 4784,
+      "batches": 60,
+      "accepted": 3210,
+      "best_improvements": 1635,
+      "worse_accepted": 810,
+      "late": 0,
+      "direction_calls": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "direction_attempts": [
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299,
+        299
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 1.0516786010097956
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.0878595553453723
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.1057337870849564
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1464857532778805
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1738008171290402
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.193226808213532
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.019887113470225534
+    },
+    {
+      "iid": "50-2-4",
+      "method": "neural_v3_sa10",
+      "hv": 1.1787386541171399,
+      "igd_plus": 0.055772477366401285,
+      "fixed_box_hv": 0.12195275428307298,
+      "archive_size": 78,
+      "online_seconds": 60.001098399981856,
+      "attempts": 4769,
+      "batches": 30,
+      "accepted": 3151,
+      "best_improvements": 1355,
+      "worse_accepted": 821,
+      "late": 1,
+      "direction_calls": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "direction_attempts": [
+        299,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298,
+        298
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.937338740739945
+        },
+        {
+          "seconds": 20.0,
+          "hv": 1.0418656650010751
+        },
+        {
+          "seconds": 30.0,
+          "hv": 1.1313404140923804
+        },
+        {
+          "seconds": 40.0,
+          "hv": 1.1490256699857384
+        },
+        {
+          "seconds": 50.0,
+          "hv": 1.1659173382118442
+        },
+        {
+          "seconds": 60.0,
+          "hv": 1.1787386541171396
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.019645644235285663
+    },
+    {
+      "iid": "150-2-4",
+      "method": "roulette_sa5",
+      "hv": 0.8576111881429092,
+      "igd_plus": 0.034090967456766715,
+      "fixed_box_hv": 0.16666300702889741,
+      "archive_size": 226,
+      "online_seconds": 60.002316100057214,
+      "attempts": 1616,
+      "batches": 21,
+      "accepted": 1138,
+      "best_improvements": 857,
+      "worse_accepted": 134,
+      "late": 16,
+      "direction_calls": [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "direction_attempts": [
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.466686348572523
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6497501607019885
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.7072687732362093
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.8005673709034811
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.8146867022434668
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.8576111881429098
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.01429351980238182
+    },
+    {
+      "iid": "150-2-4",
+      "method": "neural_v2_sa5",
+      "hv": 0.8170109895547664,
+      "igd_plus": 0.034669543496807155,
+      "fixed_box_hv": 0.16370583464709015,
+      "archive_size": 319,
+      "online_seconds": 60.00955870002508,
+      "attempts": 2815,
+      "batches": 36,
+      "accepted": 1982,
+      "best_improvements": 1459,
+      "worse_accepted": 347,
+      "late": 15,
+      "direction_calls": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ],
+      "direction_attempts": [
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        175,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.5288552558142027
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6250266703999414
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.7443727116208445
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7765878037553464
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.8029169460699312
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.8170109895547667
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.013616849825912773
+    },
+    {
+      "iid": "150-2-4",
+      "method": "neural_v3_sa5",
+      "hv": 0.7418840368093165,
+      "igd_plus": 0.043472412517090955,
+      "fixed_box_hv": 0.15704086601920322,
+      "archive_size": 295,
+      "online_seconds": 60.0009481003508,
+      "attempts": 2320,
+      "batches": 29,
+      "accepted": 1707,
+      "best_improvements": 1252,
+      "worse_accepted": 274,
+      "late": 8,
+      "direction_calls": [
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29
+      ],
+      "direction_attempts": [
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.552244980439708
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6553345699101183
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6837157215494563
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7094963693810674
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.7263205939300135
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.7418840368093158
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.012364733946821941
+    },
+    {
+      "iid": "150-2-4",
+      "method": "neural_v3_sa10",
+      "hv": 0.6992435209815488,
+      "igd_plus": 0.07779323355321227,
+      "fixed_box_hv": 0.1629601791155992,
+      "archive_size": 321,
+      "online_seconds": 60.00472340034321,
+      "attempts": 2416,
+      "batches": 16,
+      "accepted": 1711,
+      "best_improvements": 1127,
+      "worse_accepted": 274,
+      "late": 16,
+      "direction_calls": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "direction_attempts": [
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.44361886599710787
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.5383624422746061
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6090017465362704
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.6571385938889945
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.6840918957802281
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.6992435209815503
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.011654058683025815
+    },
+    {
+      "iid": "250-2-4",
+      "method": "roulette_sa5",
+      "hv": 0.7729598395557242,
+      "igd_plus": 0.08176558746277268,
+      "fixed_box_hv": 0.1473971802384712,
+      "archive_size": 73,
+      "online_seconds": 60.00576229998842,
+      "attempts": 464,
+      "batches": 6,
+      "accepted": 311,
+      "best_improvements": 242,
+      "worse_accepted": 40,
+      "late": 16,
+      "direction_calls": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "direction_attempts": [
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.16230500161285977
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.5374888523112921
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6644365805044843
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7031764981641285
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.7243769869585946
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.7729598395557232
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.012882663992595404
+    },
+    {
+      "iid": "250-2-4",
+      "method": "neural_v2_sa5",
+      "hv": 0.8725102258033467,
+      "igd_plus": 0.03536001371086763,
+      "fixed_box_hv": 0.1483976763041367,
+      "archive_size": 175,
+      "online_seconds": 60.01926700025797,
+      "attempts": 2000,
+      "batches": 26,
+      "accepted": 1664,
+      "best_improvements": 1246,
+      "worse_accepted": 240,
+      "late": 0,
+      "direction_calls": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26
+      ],
+      "direction_attempts": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.0481899390155255
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.29531132400257887
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.5885062507915777
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.6934408626899708
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.76327053770765
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.8725102258033478
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.014541837096722444
+    },
+    {
+      "iid": "250-2-4",
+      "method": "neural_v3_sa5",
+      "hv": 0.7914973277219388,
+      "igd_plus": 0.05501463627150255,
+      "fixed_box_hv": 0.1475053053424685,
+      "archive_size": 190,
+      "online_seconds": 60.047559400089085,
+      "attempts": 1856,
+      "batches": 24,
+      "accepted": 1585,
+      "best_improvements": 1237,
+      "worse_accepted": 191,
+      "late": 0,
+      "direction_calls": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "direction_attempts": [
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116,
+        116
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.33197886832804285
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6678361606707371
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7184992392838105
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.7648212050952247
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.7914973277219388
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.01319162212869898
+    },
+    {
+      "iid": "250-2-4",
+      "method": "neural_v3_sa10",
+      "hv": 0.8111514872651295,
+      "igd_plus": 0.059437589410596486,
+      "fixed_box_hv": 0.1474604949882347,
+      "archive_size": 216,
+      "online_seconds": 60.00257190037519,
+      "attempts": 1956,
+      "batches": 13,
+      "accepted": 1604,
+      "best_improvements": 1111,
+      "worse_accepted": 225,
+      "late": 4,
+      "direction_calls": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "direction_attempts": [
+        122,
+        122,
+        122,
+        122,
+        123,
+        122,
+        122,
+        122,
+        122,
+        123,
+        122,
+        123,
+        122,
+        123,
+        122,
+        122
+      ],
+      "hv_curve": [
+        {
+          "seconds": 0.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 10.0,
+          "hv": 0.0
+        },
+        {
+          "seconds": 20.0,
+          "hv": 0.6426177011686012
+        },
+        {
+          "seconds": 30.0,
+          "hv": 0.6961068549927767
+        },
+        {
+          "seconds": 40.0,
+          "hv": 0.7661393929592677
+        },
+        {
+          "seconds": 50.0,
+          "hv": 0.7895519251471457
+        },
+        {
+          "seconds": 60.0,
+          "hv": 0.8111514872651298
+        }
+      ],
+      "initial_hv": 0.0,
+      "hv_gain_per_second": 0.013519191454418825
+    }
+  ],
+  "response": {
+    "groups": {
+      "archive_summary": {
+        "mode_tv": {
+          "median": 0.0,
+          "max": 0.0036994397295420783,
+          "min": 0.0
+        },
+        "q_delta_pp": {
+          "median": 0.0,
+          "max": 0.024551949173243215,
+          "min": -0.04828334642581755
+        },
+        "customer_tv": {
+          "median": 0.0,
+          "max": 0.0024762024359444284,
+          "min": 0.0
+        },
+        "top10_overlap": {
+          "median": 1.0,
+          "max": 1.0,
+          "min": 0.56
+        }
+      },
+      "control": {
+        "mode_tv": {
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "q_delta_pp": {
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "customer_tv": {
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "top10_overlap": {
+          "median": 1.0,
+          "max": 1.0,
+          "min": 1.0
+        }
+      },
+      "global_stage": {
+        "mode_tv": {
+          "median": 0.0008343025868871867,
+          "max": 0.0044344804953494535,
+          "min": 0.0
+        },
+        "q_delta_pp": {
+          "median": 0.0,
+          "max": 0.027413754960436965,
+          "min": -0.031017554215514997
+        },
+        "customer_tv": {
+          "median": 0.00020793076967204186,
+          "max": 0.0010049413491087303,
+          "min": 0.0
+        },
+        "top10_overlap": {
+          "median": 1.0,
+          "max": 1.0,
+          "min": 0.9333333333333333
+        }
+      },
+      "preference": {
+        "mode_tv": {
+          "median": 0.002727700223741473,
+          "max": 0.058732357731179755,
+          "min": 0.0
+        },
+        "q_delta_pp": {
+          "median": 0.0,
+          "max": 1.702126782291391,
+          "min": -1.3280492168054991
+        },
+        "customer_tv": {
+          "median": 0.309971905389521,
+          "max": 0.9903810233334315,
+          "min": 0.0
+        },
+        "top10_overlap": {
+          "median": 0.2,
+          "max": 1.0,
+          "min": 0.0
+        }
+      },
+      "steps_only": {
+        "mode_tv": {
+          "median": 0.0005743720107755715,
+          "max": 0.002172727920857938,
+          "min": 0.0
+        },
+        "q_delta_pp": {
+          "median": -0.005047240352437643,
+          "max": 0.026845058206760586,
+          "min": -0.04491779623942982
+        },
+        "customer_tv": {
+          "median": 0.00018608232058407387,
+          "max": 0.0012971125553017555,
+          "min": 0.0
+        },
+        "top10_overlap": {
+          "median": 1.0,
+          "max": 1.0,
+          "min": 0.84
+        }
+      },
+      "steps_temperature": {
+        "mode_tv": {
+          "median": 0.0014667455841600383,
+          "max": 0.004319009412165578,
+          "min": 0.0
+        },
+        "q_delta_pp": {
+          "median": -0.019940290220082924,
+          "max": 0.07934578946370008,
+          "min": -0.04928722931973328
+        },
+        "customer_tv": {
+          "median": 0.0004442575729881079,
+          "max": 0.002139120509842601,
+          "min": 0.0
+        },
+        "top10_overlap": {
+          "median": 1.0,
+          "max": 1.0,
+          "min": 0.8
+        }
+      }
+    },
+    "rows": 3264,
+    "states": 6,
+    "experts": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "mode2_samples": 512,
+    "seconds": 49.55250529991463
+  },
+  "scope": "3 reused development IIDs x1seed x4methods x60seconds; no significance/generalization claim"
+}

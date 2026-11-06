@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "physical_and_per_case_audits": 3,
+  "methods_per_case": 4,
+  "searches": 12,
+  "source_locks_unchanged": true,
+  "response_audit": true,
+  "holdout_rows": 81,
+  "no_significance_claim": true,
+  "full_graph_encoder_frozen": true
+}

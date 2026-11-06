@@ -1,0 +1,30 @@
+{
+  "pool": 180,
+  "sampled": {
+    "50": [
+      "v5p_train_50_d2_tw3_2",
+      "v5p_train_50_d2_tw3_3",
+      "v5p_train_50_d2_tw0_2",
+      "v5p_train_50_d2_tw0_3",
+      "v5p_train_50_d1_tw3_1",
+      "v5p_train_50_d2_tw4_0"
+    ],
+    "150": [
+      "v5p_train_150_d0_tw0_3",
+      "v5p_train_150_d0_tw2_2",
+      "v5p_train_150_d0_tw2_3",
+      "v5p_train_150_d0_tw2_0",
+      "v5p_train_150_d2_tw0_2",
+      "v5p_train_150_d0_tw3_1"
+    ],
+    "250": [
+      "v5p_train_250_d1_tw3_3",
+      "v5p_train_250_d1_tw2_2",
+      "v5p_train_250_d0_tw4_2",
+      "v5p_train_250_d1_tw1_1",
+      "v5p_train_250_d2_tw1_3",
+      "v5p_train_250_d1_tw2_1"
+    ]
+  },
+  "seed": 20261105
+}

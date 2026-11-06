@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "searches": 45,
+  "physical_case_audits": 9,
+  "common_reference_runs_per_iid": 15,
+  "source_locks_unchanged": true
+}

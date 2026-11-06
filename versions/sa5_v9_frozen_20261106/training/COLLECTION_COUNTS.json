@@ -1,0 +1,182 @@
+[
+  {
+    "cycle": 1,
+    "n": 50,
+    "iid": "v5p_train_50_d2_tw3_2",
+    "seed": 20261105,
+    "budget": 180.0,
+    "online_seconds": 180.00391579978168,
+    "sampled_rows": 12880,
+    "excluded_partial_actions": 32
+  },
+  {
+    "cycle": 1,
+    "n": 150,
+    "iid": "v5p_train_150_d0_tw0_3",
+    "seed": 20261105,
+    "budget": 180.0,
+    "online_seconds": 180.00213370006531,
+    "sampled_rows": 8400,
+    "excluded_partial_actions": 0
+  },
+  {
+    "cycle": 1,
+    "n": 250,
+    "iid": "v5p_train_250_d1_tw3_3",
+    "seed": 20261105,
+    "budget": 180.0,
+    "online_seconds": 180.01310259988531,
+    "sampled_rows": 4400,
+    "excluded_partial_actions": 22
+  },
+  {
+    "cycle": 2,
+    "n": 50,
+    "iid": "v5p_train_50_d2_tw3_3",
+    "seed": 20261106,
+    "budget": 180.0,
+    "online_seconds": 180.0089958999306,
+    "sampled_rows": 15600,
+    "excluded_partial_actions": 8
+  },
+  {
+    "cycle": 2,
+    "n": 150,
+    "iid": "v5p_train_150_d0_tw2_2",
+    "seed": 20261106,
+    "budget": 180.0,
+    "online_seconds": 180.0060493000783,
+    "sampled_rows": 6640,
+    "excluded_partial_actions": 16
+  },
+  {
+    "cycle": 2,
+    "n": 250,
+    "iid": "v5p_train_250_d1_tw2_2",
+    "seed": 20261106,
+    "budget": 180.0,
+    "online_seconds": 180.00375219993293,
+    "sampled_rows": 4720,
+    "excluded_partial_actions": 80
+  },
+  {
+    "cycle": 3,
+    "n": 50,
+    "iid": "v5p_train_50_d2_tw0_2",
+    "seed": 20261107,
+    "budget": 180.0,
+    "online_seconds": 180.00373459979892,
+    "sampled_rows": 24800,
+    "excluded_partial_actions": 1
+  },
+  {
+    "cycle": 3,
+    "n": 150,
+    "iid": "v5p_train_150_d0_tw2_3",
+    "seed": 20261107,
+    "budget": 180.0,
+    "online_seconds": 180.00401149969548,
+    "sampled_rows": 6800,
+    "excluded_partial_actions": 32
+  },
+  {
+    "cycle": 3,
+    "n": 250,
+    "iid": "v5p_train_250_d0_tw4_2",
+    "seed": 20261107,
+    "budget": 180.0,
+    "online_seconds": 180.00051450030878,
+    "sampled_rows": 5840,
+    "excluded_partial_actions": 0
+  },
+  {
+    "cycle": 4,
+    "n": 50,
+    "iid": "v5p_train_50_d2_tw0_3",
+    "seed": 20261108,
+    "budget": 180.0,
+    "online_seconds": 180.00786359980702,
+    "sampled_rows": 22880,
+    "excluded_partial_actions": 64
+  },
+  {
+    "cycle": 4,
+    "n": 150,
+    "iid": "v5p_train_150_d0_tw2_0",
+    "seed": 20261108,
+    "budget": 180.0,
+    "online_seconds": 180.00209100032225,
+    "sampled_rows": 6560,
+    "excluded_partial_actions": 48
+  },
+  {
+    "cycle": 4,
+    "n": 250,
+    "iid": "v5p_train_250_d1_tw1_1",
+    "seed": 20261108,
+    "budget": 180.0,
+    "online_seconds": 180.0009482000023,
+    "sampled_rows": 5360,
+    "excluded_partial_actions": 0
+  },
+  {
+    "cycle": 5,
+    "n": 50,
+    "iid": "v5p_train_50_d1_tw3_1",
+    "seed": 20261109,
+    "budget": 180.0,
+    "online_seconds": 180.00992889981717,
+    "sampled_rows": 10480,
+    "excluded_partial_actions": 56
+  },
+  {
+    "cycle": 5,
+    "n": 150,
+    "iid": "v5p_train_150_d2_tw0_2",
+    "seed": 20261109,
+    "budget": 180.0,
+    "online_seconds": 180.00160699989647,
+    "sampled_rows": 8400,
+    "excluded_partial_actions": 64
+  },
+  {
+    "cycle": 5,
+    "n": 250,
+    "iid": "v5p_train_250_d2_tw1_3",
+    "seed": 20261109,
+    "budget": 180.0,
+    "online_seconds": 180.01644569961354,
+    "sampled_rows": 5360,
+    "excluded_partial_actions": 0
+  },
+  {
+    "cycle": 6,
+    "n": 50,
+    "iid": "v5p_train_50_d2_tw4_0",
+    "seed": 20261110,
+    "budget": 180.0,
+    "online_seconds": 180.00488760042936,
+    "sampled_rows": 20080,
+    "excluded_partial_actions": 64
+  },
+  {
+    "cycle": 6,
+    "n": 150,
+    "iid": "v5p_train_150_d0_tw3_1",
+    "seed": 20261110,
+    "budget": 180.0,
+    "online_seconds": 180.00514449970797,
+    "sampled_rows": 7200,
+    "excluded_partial_actions": 80
+  },
+  {
+    "cycle": 6,
+    "n": 250,
+    "iid": "v5p_train_250_d1_tw2_1",
+    "seed": 20261110,
+    "budget": 180.0,
+    "online_seconds": 180.00618389993906,
+    "sampled_rows": 4960,
+    "excluded_partial_actions": 16
+  }
+]

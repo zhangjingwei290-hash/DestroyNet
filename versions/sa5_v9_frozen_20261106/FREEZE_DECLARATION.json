@@ -1,0 +1,111 @@
+{
+  "version": "sa5_v9_frozen_20261106",
+  "date": "2026-11-06",
+  "previous_github_commit": "b16ca2318add176e8f9a81101f141f4f8d90f65e",
+  "previous_version": "v5_step5_r2_frozen_20261102",
+  "source_run": "D:\\workspace\\fuxian\\DPR\\runs\\experiments\\sa5_v9_scale_preference_20261105",
+  "selected_controller": "checkpoints/controller/v9_best_gate.pt",
+  "selected_cycle": 3,
+  "selected_sha256": "b6c662accdbf40aa66bc1833d9aa06c07e1b4e3389cd9bd671d7f0e1f472750a",
+  "expert_files": [
+    {
+      "path": "checkpoints/experts/direction_00.pt",
+      "sha256": "69689223b259540e91f390e8b23a03c867f9e75355f1270217b87d30564b8222",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_01.pt",
+      "sha256": "acc2a9cff081fb560bb355de6e382dc4ed5464334eb62489573c102923662d36",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_02.pt",
+      "sha256": "02a33be8a9ec7d72ff6e7ec10429382111cbda843e601ca43105de3709f6da67",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_03.pt",
+      "sha256": "a40c61f88285867add6a53160a6eab7bcad79cb598ad27ee5bf4de163f4d9291",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_04.pt",
+      "sha256": "d5a40c74e227f57df98448b9a1f2bd2f9eae48b607ab66a59315f434f979fdc3",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_05.pt",
+      "sha256": "96545567f10b2f33666f6c7727a121ec828605d311f8c448ba4542ef5d0445e5",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_06.pt",
+      "sha256": "2c14a2c0ccf59868b69b0ba370138a12d37d2b8a28b5102377b975e1bfae237d",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_07.pt",
+      "sha256": "d52e8a5d70ba483620e0851b3212ddc8edc7825dc067056b92ecbb570c0fb50d",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_08.pt",
+      "sha256": "bfabba08c9429af6f571e5636920bae9f62bd5b1d4b2385cb061b1baec2f2c79",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_09.pt",
+      "sha256": "32eb89f0f6e451e5cca9dd5b5b315ab61795487129ad93e46c5fe60655a8635f",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_10.pt",
+      "sha256": "457010c175d68d5d03819817ca36d9e2912aa05327d93a51eec7352262e568ad",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_11.pt",
+      "sha256": "8ec1954d030b024f227a808a1359da404b714b7c6bff57ee541d738f3e923276",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_12.pt",
+      "sha256": "8fad1fb7dc53b6d71ccffa2a2614e701193538b9e73af667b1f12558466e4f37",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_13.pt",
+      "sha256": "7f961c5bac85bf1c921de8d96558d99505c0a189cda23205a0e7b2574a066c39",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_14.pt",
+      "sha256": "58ce2d830a3a8b3889af0bd3fbdcc8705c256bca9890a32f3b1b6801e434c6f3",
+      "unchanged_from_previous": true
+    },
+    {
+      "path": "checkpoints/experts/direction_15.pt",
+      "sha256": "b437f4fb7cd0ad0dbbf5d8c11c0ecdf6ae13553b1d9116f8a2edd9321bfa14c4",
+      "unchanged_from_previous": true
+    }
+  ],
+  "controller_parameters": 868,
+  "critic_parameters": 769,
+  "optimizer_steps": 12,
+  "joint_cycles": 6,
+  "training_rows": 181360,
+  "training_iids": 18,
+  "fit_pool": 180,
+  "validation_iids": 45,
+  "validation_runs": 90,
+  "new_tests": 27,
+  "reused_test_controls": 54,
+  "live_processes_included": false,
+  "new_training_during_packaging": false,
+  "new_searches_during_packaging": false,
+  "critic_checkpoint_saved": false,
+  "optimizer_checkpoint_saved": false,
+  "selected_checkpoint_training_rows": 90080,
+  "selected_checkpoint_optimizer_steps": 6,
+  "selected_checkpoint_training_iids": 9
+}

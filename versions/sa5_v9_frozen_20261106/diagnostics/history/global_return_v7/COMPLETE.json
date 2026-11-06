@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "training_runs": 6,
+  "heldout_runs": 6,
+  "seconds": 528.8740795999765,
+  "full_host_return": true,
+  "no_local_terminal_bootstrap": true,
+  "validation": [
+    {
+      "n": 50,
+      "kind": "initial",
+      "quality": -0.24399405507613292,
+      "batches": 32,
+      "actions": 2496,
+      "seconds": 30.000533199869096
+    },
+    {
+      "n": 50,
+      "kind": "trained",
+      "quality": -0.2495558950903734,
+      "batches": 31,
+      "actions": 2468,
+      "seconds": 30.007181600201875
+    },
+    {
+      "n": 150,
+      "kind": "initial",
+      "quality": -0.21206375477419143,
+      "batches": 18,
+      "actions": 1440,
+      "seconds": 30.00577459996566
+    },
+    {
+      "n": 150,
+      "kind": "trained",
+      "quality": -0.21073107699202137,
+      "batches": 17,
+      "actions": 1352,
+      "seconds": 30.0084560001269
+    },
+    {
+      "n": 250,
+      "kind": "initial",
+      "quality": -0.21769758888098026,
+      "batches": 13,
+      "actions": 976,
+      "seconds": 30.000667199958116
+    },
+    {
+      "n": 250,
+      "kind": "trained",
+      "quality": -0.2175193796439714,
+      "batches": 13,
+      "actions": 1008,
+      "seconds": 30.005728099960834
+    }
+  ]
+}

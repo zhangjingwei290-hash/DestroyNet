@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "seconds": 934.1733017996885,
+  "limit": 900,
+  "original_combined_cap_passed": false,
+  "optimizer_update_ceiling_seconds": 600,
+  "extra_frozen_validation_seconds": 34.17330339970067,
+  "extra_frozen_validation_limit": 180,
+  "extra_optimizer_updates": 0,
+  "meta_rounds": null,
+  "adapt_updates": null,
+  "validation_rows": 81,
+  "gate_meta_retained": 8,
+  "gate_validated_directions": 12,
+  "encoder_unchanged": true,
+  "limitation": "Original900s ceiling exhausted during frozen gating. Kept meta for ungated directions. Only frozen holdout continued separately; no retraining. Full optimizer history lost on budget exception; no invented update counts."
+}

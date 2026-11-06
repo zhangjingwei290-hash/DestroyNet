@@ -1,0 +1,544 @@
+{
+  "files": [
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/PROTOCOL.md",
+      "sha256": "dc8dc919919366ae7f6cbc2d063629cd93a04e23489316b3540ce4946a26eae8"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/coordinator.py",
+      "sha256": "6087a639c755f83e50790544d798b1e1cd70014eeeb623c55762ff863edacde7"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/plan.json",
+      "sha256": "ac1e7a4f1ae1a1c76d19e4d33a46f50dd13fff531f80dee0257db42aac399d86"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/aligned_cpu.py",
+      "sha256": "ef5d361119a5abdfea767c212950375a03be838d2f36f244fcc86f3249d46653"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/check_core.py",
+      "sha256": "d86742f1e7457c01ef8777d81beae4131f5e31babd9508db7b1f720227f468a8"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/check_rollout.py",
+      "sha256": "728fb7e018797e3baf911d323119f6e393780b84a08476aefe4112e7e30e082b"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/continuity.py",
+      "sha256": "f02b932bbe19cf35c0e4f1b68c1e0474ef5a491259358c321eb9bd63fd740124"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/data_contract.py",
+      "sha256": "83352e9f459485d754a53c03b36a3fc3f76ffdc50c5f911d8861e237338c4ea0"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/evaluate_case.py",
+      "sha256": "9d2b150e386259b398501f6937ac72f355a7fa0150e3b2531705a90a58df29bf"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/gate_ppo.py",
+      "sha256": "525c2dabda3ae0da595d77e73c5fc2a57a86a2079ba2d0c3cdee624e89210bae"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/network.py",
+      "sha256": "33160449258055c26ae5d0d3f101ffef3cc01963466a1eb9ffae0f4bedfee7a8"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/opportunity.py",
+      "sha256": "0479d79e4f967c8440381a342eed9de5117963e11c292b2913e037659ca765e8"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/reports.py",
+      "sha256": "25cdca036fde1ae53f9563e217e9eebdf90cc9812e7eea61dc71c2009c8951e3"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/runner.py",
+      "sha256": "e65da07d9c81bcab73da426068eb32a6a71475ace8a2fc8798ce2838c90f16eb"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/session_contract.py",
+      "sha256": "52e93b2eed10d2364f4f1c3daa1433cc3eda9174b9da5de91742aeeebd6f0cf2"
+    },
+    {
+      "windows_path": "D:/workspace/fuxian/DPR/runs/experiments/sa5_v9_scale_preference_20261105/repo/v9_policy.py",
+      "sha256": "77fbf87d443cfd79d33850986f1079bd0861e4739a78f959f0279f5043a6535e"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5\\training\\data\\split_v5.json",
+      "sha256": "591ef4066aaf535024f4d7a752155f37c7a396ff5e56c1e707916ee1981686bb"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_150_d0_tw0_0.json",
+      "sha256": "4ce84c0b8dde144adc100ce68de31795eb464dc5f63fdaefa5c8f72e9f7a1953"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_150_d1_tw2_0.json",
+      "sha256": "b1b938d1abd9dbca94004f072c552b95c894d8146233868e94d5a687d6dd2baf"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_150_d2_tw4_0.json",
+      "sha256": "dd6a668e3bd651e6fa629c98a31c80f0faeb183f5f07a8bbf801268ba9b6d05a"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_250_d0_tw0_0.json",
+      "sha256": "4f540688637832ab823e6f8faa527d78880d8fff866881e2909aa77d05575323"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_250_d1_tw2_0.json",
+      "sha256": "5116adebbd849a95a895dc3d77f3eb355df9441a35e9c9e744921b2d05dd16a0"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_250_d2_tw4_0.json",
+      "sha256": "7547eb49158422edb9f0988b58436d8197acae4fe9f2831ed60af0636095bedb"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_50_d0_tw0_0.json",
+      "sha256": "da0ff30dc32cc47b6047f306d06f8167b1f2487d1efde40c0caffc8d638b023e"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_50_d1_tw2_0.json",
+      "sha256": "37deaa3e4612dacc66cf893473472a76059fcd483cac7cfeaea79855b686a8d1"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\fit\\v5p_train_50_d2_tw4_0.json",
+      "sha256": "437732207a406b1d01015130af2cbdcee319d5951f05205b0fc7b0c2eec81264"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\FIT_MANIFEST.json",
+      "sha256": "b6244b6e12c700b1418add92cad9fdb73d27308908fc2313fbb4c49c84c32dec"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\150-0-0.json",
+      "sha256": "b0ccaf9ae5867932f6b2b520af26d9a136a362299f3b7a43aac74d775c63479d"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\150-1-2.json",
+      "sha256": "913fe3cc0eb6eab4944e526b8a93ee3c41e3c8391e26e05e0697610f92d5130b"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\150-2-4.json",
+      "sha256": "cb78adfd9da5ac0a6e199a8729e99c7581c3db0cf27c95f87fc02a5abfa772d0"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\250-0-0.json",
+      "sha256": "5f5c62211a0197fa0eaafe6edb331105db7de343e12ab5f9229996db750a306c"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\250-1-2.json",
+      "sha256": "758ec5d8a9afe96ca7cd1ade3f07e1cc4b8344a2cbbffc2bc1c4c7360be6f0f8"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\250-2-4.json",
+      "sha256": "019e0b680755daa4ee78be6e58853723da7e5282b85ff7cfb008088c1b65f40e"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\50-0-0.json",
+      "sha256": "e24a6a91919887c335a31b127373304e6d1bf6451b0e1ebb3ddb9d1bd387468c"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\50-1-2.json",
+      "sha256": "eacddae352b6fcdb26daea694b749baff94c4494dcf7760a4425339670c2dce2"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\test\\50-2-4.json",
+      "sha256": "6d44540f73e473fb74030041dc80ca7884f8e0d771a1fe7239db947e13e9fde1"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\validation\\v5p_validation_150_d1_tw2_0.json",
+      "sha256": "356899728db0db57643ab226572d5deb9a4441b0566baef1c62b5c46ba6e005c"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\validation\\v5p_validation_250_d1_tw2_0.json",
+      "sha256": "deab90cb70f55ca2cbbfb4b249536e9075c905d1b20ed702a4cbf6e9d4d41b15"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\data\\validation\\v5p_validation_50_d1_tw2_0.json",
+      "sha256": "824eda7e1d3003b5a70b59acf89f2e4f0eee1f0bce37bc123f034719c7e55dd1"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\boxes.json",
+      "sha256": "f7fd74fb26be8c4ecd09731d2b4a05c1ee9c7d4a0b00f27b7ab04f17842b8c5f"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\analyze_step4.py",
+      "sha256": "28b830a1da10d63c4985a08c7844b39b7dc86b0745e4d01b6c625a05aee18386"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\coordinator_step4.py",
+      "sha256": "1d85c3a05746dfe46402d645d9c5edc8e9b6dc21a3beb87f58b243e4e9ef2cec"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\eval_step4_both.py",
+      "sha256": "630c4c52fab797476c9bb740d05de61d2dfa24160ad0bff572243537161cf800"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\launch_step4.py",
+      "sha256": "2503d31f8a46b29aa196cdf33be7182cb02576a73a0e51b7a91bb59028c639b9"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\plan_training_budget.py",
+      "sha256": "4352cca744dca7cb08069acc3a9c26b0e314e59bb6b64fa4da4204b344eb4d8d"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\run.py",
+      "sha256": "9ca310a07547edc943cdbbe0cd2213be2a3920305c172c8d0bde2b1bcc5c3a30"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\base_environment.py",
+      "sha256": "620807f8a4c06abbc4ee7b8e7d7f117782c99adca2839efe49eb8c02bc21c210"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\config.py",
+      "sha256": "282012f75b86166d35ee62b19284dbebfcc2152ff9fae2822292d0b2a8f529df"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\cuda_actor.py",
+      "sha256": "a57064834d7f2fea37cd603279e385d4e7c40397acbc8da535c72a9bfbdd1b82"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\data.py",
+      "sha256": "fc961acab81b1883fb346af4730e1e8ce6e29c2cb12f3279e10bd3833e67b639"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\environment.py",
+      "sha256": "1314e376573cc21e21f974b9c45db20abf794e0b972d6e0b9a996c3c4eae7c00"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\model.py",
+      "sha256": "b729c796304dba9d7471a463ddd541fec12f1c53f6a4b97e13041bce5b6d8f58"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\network.py",
+      "sha256": "a6e8250d622579c5cdf8fe57ccbf801cc9a44881dacbc9ae79688cdc08ad6333"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\outer.py",
+      "sha256": "24b5cab7a15a98280179c8a7da259fe652a023fe054418710877a742762ecaa6"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\parallel_context.py",
+      "sha256": "82568690099dc9b71ff529bdca94f38b4926caf018cd3ca95c23468c0a886047"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\parallel_runtime.py",
+      "sha256": "2650794b4336542b3ae6648df89dffaeca9835287cc337f599f8dec579d15be3"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\q_statistics.py",
+      "sha256": "d18e87ab91037b3977e15e93444392608620bbf6cd4e6432f080158e0cb01612"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\repair.py",
+      "sha256": "d0d1c27a3aee1734082b66fe72831357552adcc7c67c61c5a19dc40ac0055150"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\route_ops.py",
+      "sha256": "d6deaac37e8ddbe5e6b702668cc4808f7008f574aad2222e7ca104cbd5f76b27"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\solver\\training.py",
+      "sha256": "2a70bdadbc71bceec056d3276af3f8a820f9c6f5c378b0165b00c06827387dd6"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\stage1_mechanisms.py",
+      "sha256": "8c16d87efb0c129409258d3e07cd2f39dbac88d9a9d3d30e13cb5181c645deb9"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\fixtures.py",
+      "sha256": "95fef8f0f80b1f872ed267b9d2c4b4f966f99642957d98fad87aa16d7147aba9"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\previous_version\\previous_test_v4.py",
+      "sha256": "05ae88ee4b10d13e7aae0965799fe63d528d4ed89cd567170f7a604508ae5298"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\previous_version\\previous_test_v41.py",
+      "sha256": "9522df53e9552fa33aa87951de748b39f03c8427f3f89b69aed9e8c72592b7a2"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\previous_version\\previous_test_v42.py",
+      "sha256": "12339ec24e76a46058fa269e77235e47ba59889de981ead3bea02d5c91be3436"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\test_parallel_v5.py",
+      "sha256": "444844243030000f1a21bff34633d9129f3f2fc3c711c56c9059136c03ee451f"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\test_regressions.py",
+      "sha256": "c416c02be66aa9d79af45aa88d874e77d33e76c52d22535df5d1352b6a27e698"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\test_search_budget.py",
+      "sha256": "8fbabf7ca4eb1def3835a0d3a00ef6136f98745da60f082e240e7eb2774f0952"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\tests\\test_v43.py",
+      "sha256": "ee4605c1e89b754557e6f943ae0d94bd9e583d6a4fef723c41d6d789fa150dfb"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\train_parallel_meta.py",
+      "sha256": "8c8a59d6ab205ca553d1ece05c81d015c89c8811beb5e26697d8099d35ef5f36"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\validate_step4.py",
+      "sha256": "551b4513e6a78648c34f2755c7d9925cfb41df52e65ec42fb03e181f49dc8b3a"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\verify_step4_final.py",
+      "sha256": "3a2ac83552ef313899ed520d040b7edb71e8c4809647996f3431cec0d4ed617e"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\evaluation_source\\stage2_repo\\watch_step4.py",
+      "sha256": "515caf51b5a562a69fd36e9a5d157a3a60981f6a68cfa9d279070dbd0dd42654"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\__init__.py",
+      "sha256": "f08169e551d7baf51cc67bb1e736256b0538caeda0a4f9b68e9a9f8bbd9e1f70"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\cooperative\\__init__.py",
+      "sha256": "13ec310891c55d56546da726d180359c002bbaecddccd8170a6b173f98fd6128"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\cooperative\\model.py",
+      "sha256": "875fa24c6f9df9b1584d29a70189e4435223c60cf0a615d3c9928e4fb141624d"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\cooperative\\operator.py",
+      "sha256": "b8220a5acd9ed2ee426af4d9ea95b62cd2987f35c8c89a1888a1da0140306d81"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\cooperative\\train.py",
+      "sha256": "9b1a49cb615aaf12e415cf28c331d743e8bc51e335df9b7aafd1d9e973c37f62"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\core\\__init__.py",
+      "sha256": "5e468699fe379a3138b98b75ad4581e59af568c4a7426cc9bde048c5a4d0cb54"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\core\\protocol.py",
+      "sha256": "ab40041870973ae4c681cc4e0f0bbbcdcb207e5bb591040943f959af2d5a682a"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\core\\replay.py",
+      "sha256": "20abee904d55f3f3cef27b1c0caac9c3678c713e0d631ca653ad762d56b138a4"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\core\\task_protocol.py",
+      "sha256": "9fd14885562a073881190c8165cb7831f42037059e41c6ad8f4f7cad02879db2"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\data_generation\\__init__.py",
+      "sha256": "1c71540b1d22d6f4318f03a2bff0a8f3b0d7daa676f0a03daa90edd850d3e28c"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\data_generation\\benchmark.py",
+      "sha256": "5db3a9f94926f41c88e2da5ebf7d8eb2f4d16c07550e44c532d0670b7198c9b0"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\data_generation\\gate.py",
+      "sha256": "168cab382235dcf20159eb87ea6f6f16b7ffd2a460f88caac959b19d4ebe383e"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\data_generation\\pipeline.py",
+      "sha256": "b9e545a085d12fb4b4c41544f9a75f96ed02afd8071fc62efa0b619659b7de6d"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\data_generation\\sharded.py",
+      "sha256": "40d4c6ce1c7f6ac54f33b9f8e5a8f8866fec605214d13bcb10eec92ee965be32"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\destroy\\__init__.py",
+      "sha256": "5aec699cac64d5051288b4effc2bffd919791ad897962bc22dde3c2d065237a2"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\destroy\\preview.py",
+      "sha256": "a7db6b801d5de26ac56b4e594fe7fa54dc93737a6a2f1b83f2e3b7b67174fb6b"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\destroy\\unified.py",
+      "sha256": "1e45fe0c25c8e9c1f0c631a9939958f9ae6482eb79e416bd62fad34485d31e89"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\evaluation\\__init__.py",
+      "sha256": "c9219f91b1617364d0118505982c3f0945b91b5b92b6f08cb99dcd457ffb3e94"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\evaluation\\vrptw_eval.py",
+      "sha256": "f8c07917c09627004a438a3ec788763970cabc0308686d7233566c5ad1492d90"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\manifest\\__init__.py",
+      "sha256": "8b136b9875061cba5c0e0b631e5535ce9a417320509aeab0c38ac17f969da541"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\manifest\\binding.py",
+      "sha256": "e2beabfdcda90f1f4af8029b3342ed3ab2d026d70307e2cc6045868c1d67649b"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\__init__.py",
+      "sha256": "fa36d05bf480dc700027d4570a2c914050d44d6608790775165f4292e2c91fb1"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\architecture_models.py",
+      "sha256": "4ba143558f18f178cc1b58910a60d33c70036b7dfac6c0451b054e00594f3b31"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\architecture_run.py",
+      "sha256": "c4825e5f1762453c1123152cca9b8bb870c8b2bd707a6301fbd0451a8674f44e"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\budget.py",
+      "sha256": "2ac7e05826b8a783613ee593514376102bbe81ac3cfe430921679c5fda9b5a4d"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\config.py",
+      "sha256": "6b30eaaeffdc991d7d440bd414a379afb94ffc426dfc2a9594e14fd02c85fbb5"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\data.py",
+      "sha256": "be151ad2a12a7aa4906f49571eb3ab94882176cdb3b229245b8f16b22b3cda59"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\engine.py",
+      "sha256": "d12a34c6db0072d13ff41fc92088571d48cbe2e5a9b6d6ce35f9d3a74eb8e125"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\experiment.py",
+      "sha256": "2df3937169b722e27b1f0637cc1a962b614c53adccf52432bbce3eda85150210"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\model.py",
+      "sha256": "9ffbb48d03ac85ab36d06e9a3236d03b08cce3fe62a9b1748faa502925c1bca9"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\report.py",
+      "sha256": "2a97308787056b8927eb8ed0adbe1fe726932ce86101d0621f8a1a23f86fe262"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\rl_core.py",
+      "sha256": "c2775b97b51b44101503742eda8ccd2852ab742fa5fe0c35f2c53c5b35cab0d0"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\rl_diagnostic.py",
+      "sha256": "727d9d9a81c5b797fc82e08c8efa3be7fa9f18d6c2b100a7eea9b4a0cbfa0468"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\rl_train.py",
+      "sha256": "40b339f9af614b89d21bbe15cc6372547ef93120449e10ce03ca46975e86c7b3"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\pilot\\validation.py",
+      "sha256": "201621734d697d8a5b566ff4fd4369f930823b4cc030ccb8d34d8acc54c7192f"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\preference\\__init__.py",
+      "sha256": "f2d416ed68255147e6435d555289ce020182fe7c195c67bcdb4de3590720b7d8"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\preference\\generation.py",
+      "sha256": "e5a12c38836612017d9e131cea6ae978f4d88f00604f8ffeafb3eb5259405b3c"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\utils\\__init__.py",
+      "sha256": "aa7ee569277dca9e662c0b0c599913e3d5788ddc0963d4f5ec4e1aa4c60cbdaa"
+    },
+    {
+      "windows_path": "D:\\workspace\\destroy-repair-V0.01-publication\\versions\\v5_step5_r2_frozen_20261102\\physical\\src\\utils\\route_utils.py",
+      "sha256": "eec98a1ccc1c207fff43e63deb857f30278306505900f4320f4d44a796ceab98"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_aligned_9iid3seed_20261104\\plan.json",
+      "sha256": "25a01b7b1665e2c2d48b290fa43c3d0c42d7d488d11f975ffa629c8dd13c65b5"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\learning.py",
+      "sha256": "894228509a7d7864d1d1b49e6e821bbb72e55d5ce3be6bfeba783fc637b91a77"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\network.py",
+      "sha256": "405be221aca6887e64f28c31cdc377a31acf3e7eff1ae9d85875cf1e27809303"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\session_contract.py",
+      "sha256": "52e93b2eed10d2364f4f1c3daa1433cc3eda9174b9da5de91742aeeebd6f0cf2"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_00.pt",
+      "sha256": "23ce5e68ef18f7fea31e2517132a383f6b076c12c0a6a164eec9574b851494c6"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_01.pt",
+      "sha256": "b5aed852c5e5fee32779f9016b28da2c48d691e07505023e66b458e45f411c85"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_02.pt",
+      "sha256": "d8424015ea801ed781298c1c2d9d0608bdc0639bfeffb9e8f1e7db871106a533"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_03.pt",
+      "sha256": "8c269b8c5ed89b161e466b4f525c5a2a5fc89bcc9eab0ba405effe4051df7650"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_04.pt",
+      "sha256": "3fbaf36aca7355899855c12282ed3ff8ca5b6ef96beef0942084dbaf7a3f5c7a"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_05.pt",
+      "sha256": "2a3ddaf881692c4cb77e354ffe8273611b273fc99fa65d316fa4115f60a23411"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_06.pt",
+      "sha256": "f349ff74f8cabf18f976cfe3d4cbacb181f171d4a8bb25e2e0691fed1a7ec54c"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_07.pt",
+      "sha256": "6320a8005955b4b7edba16bbace2ca6babb0263012e89ccf3f374bbe8ccbf84d"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_08.pt",
+      "sha256": "d0e8b8bfda9bd9d17b53937a955e563cd3ab9c63c65d7735668bd4deba261498"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_09.pt",
+      "sha256": "714dfbff67d541fa405ee3643854cce0a53e7ac63b8a0129a9397cccdf5f81dc"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_10.pt",
+      "sha256": "bf783f74e0907167df75e9dbca87263113f6d0d9066ea078a9da6d873e4113d3"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_11.pt",
+      "sha256": "dd0cd9d483d82a52c523e86d24e4442ac4650fc15b7f6b02e52f0f7b44058470"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_12.pt",
+      "sha256": "8f2fc89c8d0b6b299da1e7ef24f58f9a9a84d3b19f8512dd4d92e01b5269b3c8"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_13.pt",
+      "sha256": "420ce9355d4cf7dfbe447d831830709bdba88cdfb4f8bf77426a956bf7330b9a"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_14.pt",
+      "sha256": "e160f6eb6eaa8c42c812ef47c6feedd2a900d81d045610aec0d43e92bf52e909"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_coverage_v2_20261104\\training\\direction_15.pt",
+      "sha256": "8538ba1356381a8ad70db3ca19d3609e7197068b9810676c740a6250e2e851fa"
+    },
+    {
+      "windows_path": "D:\\workspace\\fuxian\\DPR\\development\\sa5_state_action_v6_stage2_20261105\\training\\gate.pt",
+      "sha256": "26ced0bd11fc5f9f24cfe7a097e0feb0265c258300ce6a108e02ae9bc3f4095e"
+    },
+    {
+      "windows_path": "D:\\workspace\\outputs\\r2_parallel_branch_probe_20261104\\probe.py",
+      "sha256": "8f2b2d2a3c94969ad35cdb42eb7875ad6b9b72855aa5c798ac388cc547ee59b6"
+    }
+  ]
+}

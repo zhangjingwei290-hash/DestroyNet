@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "counts": {
+    "ppo": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "rloo": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ]
+  },
+  "updates": 288,
+  "transitions": 5760,
+  "seconds": 307.85209280019626,
+  "limit_seconds": 900,
+  "validation_rows": 81,
+  "rloo_critic_and_encoder_unchanged": true,
+  "architecture": "exact_v2",
+  "reward": "scalar_best_gain_only",
+  "scope": "Matched continued adaptation; no repeated meta-training"
+}

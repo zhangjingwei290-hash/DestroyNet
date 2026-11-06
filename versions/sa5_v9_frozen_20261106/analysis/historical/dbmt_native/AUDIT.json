@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "metrics": 42,
+  "native_sources15": true,
+  "source_physical_audits": true,
+  "same_total_budgets": true,
+  "new_searches": 0
+}

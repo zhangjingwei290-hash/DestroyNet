@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "common_initial_population": true,
+  "all_archives_and_population_physical": true,
+  "no_late_candidates_in_archive": true,
+  "exactly_two_paired_searches": true,
+  "same_workers16": true,
+  "weights_torch_equal": true,
+  "source_manifest_unchanged": true,
+  "empirical_hv_matches_event_curve": true,
+  "training": true
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "complete_sessions": 176,
+  "actions": 880,
+  "negative_net_sessions": 61,
+  "exact_runtime_scalar_reward": true,
+  "raw_time_feature_verified": true,
+  "mean_customers_per_vehicle_verified": true,
+  "causal_nonzero_ema": true,
+  "three_scale_joint_updates": 2,
+  "film_updated": true,
+  "source_manifest_unchanged": true,
+  "all_physical_audits_passed": true,
+  "performance_claim": false
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "run_metrics": 81,
+  "source_receipts": 81,
+  "all_common_initials": true,
+  "statistics": "exact paired signedrank on IID seed means, Holm4 for V9 vs two controls x two metrics; scales exploratory"
+}

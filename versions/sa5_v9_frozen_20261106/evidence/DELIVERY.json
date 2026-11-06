@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "training_audits": 18,
+  "validation_audits": 90,
+  "new_test_audits": 27,
+  "test_metrics": 81,
+  "report": "analysis/REPORT.md",
+  "per_instance": "analysis/per_instance.csv",
+  "tests": "analysis/tests.csv",
+  "throughput": "analysis/throughput.csv",
+  "training_pool": 180,
+  "sampled_training_iids": 18,
+  "checkpoint": 3,
+  "main_scoring": "per-seed archives then IID means, three-method common empirical reference",
+  "limits": "9 development IID and 3 seeds per IID; no blind-test generalization claim"
+}

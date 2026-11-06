@@ -1,0 +1,17 @@
+﻿scope,control,metric,independent_iids,raw_p,exploratory,holm4_p
+all,roulette,hv,9,0.00390625,False,0.015625
+all,roulette,igd_plus,9,0.00390625,False,0.015625
+all,v8,hv,9,0.0546875,False,0.0546875
+all,v8,igd_plus,9,0.02734375,False,0.0546875
+50,roulette,hv,3,0.25,True,1.0
+50,roulette,igd_plus,3,0.25,True,1.0
+50,v8,hv,3,0.25,True,1.0
+50,v8,igd_plus,3,0.25,True,1.0
+150,roulette,hv,3,0.25,True,1.0
+150,roulette,igd_plus,3,0.25,True,1.0
+150,v8,hv,3,0.25,True,1.0
+150,v8,igd_plus,3,0.25,True,1.0
+250,roulette,hv,3,0.25,True,1.0
+250,roulette,igd_plus,3,0.25,True,1.0
+250,v8,hv,3,1.0,True,1.0
+250,v8,igd_plus,3,0.5,True,1.0

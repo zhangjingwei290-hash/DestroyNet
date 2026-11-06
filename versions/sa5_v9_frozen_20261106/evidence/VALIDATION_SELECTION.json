@@ -1,0 +1,8 @@
+{
+  "cycle": 3,
+  "macro_hv": {
+    "3": 0.9160993668912779,
+    "6": 0.9088272344655803
+  },
+  "selection": "45 validation IID common reference; macro HV; earlier checkpoint tie"
+}

@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "searches": 0,
+  "controller_features": [
+    "log_n50",
+    "n250",
+    "lambda0",
+    "lambda1",
+    "lambda2",
+    "lambda3",
+    "lambda4",
+    "step_fraction",
+    "stagnation",
+    "temperature_fraction",
+    "mean_load_fraction",
+    "route_count_fraction",
+    "time_remaining",
+    "mean_route_length",
+    "mean_detour",
+    "mean_makespan_slack",
+    "mean_waiting",
+    "mean_tardiness",
+    "archive_gap",
+    "archive_nearest",
+    "archive_other",
+    "last_repair_sec"
+  ],
+  "controller_params": 868,
+  "max_numpy_gpu_error": 2.2351741790771484e-08,
+  "mlp_numpy_gpu_error": 5.960464477539062e-07,
+  "all_controller_layers_nonzero_gradient": true,
+  "ppo_output_gradient_norms": [
+    0.09858331084251404,
+    0.09626708924770355,
+    0.08153757452964783,
+    0.6191501021385193
+  ],
+  "expert_count": 16,
+  "distinct_physical_matrices": 16,
+  "distinct_route_matrices": 16,
+  "original_encoder_equal": true,
+  "q_bounds": [
+    {
+      "n": 50,
+      "mode": 0,
+      "bounds": [
+        3,
+        18
+      ],
+      "midpoint": 10
+    },
+    {
+      "n": 50,
+      "mode": 1,
+      "bounds": [
+        3,
+        18
+      ],
+      "midpoint": 10
+    },
+    {
+      "n": 50,
+      "mode": 2,
+      "bounds": [
+        3,
+        18
+      ],
+      "midpoint": 10
+    },
+    {
+      "n": 150,
+      "mode": 0,
+      "bounds": [
+        6,
+        52
+      ],
+      "midpoint": 29
+    },
+    {
+      "n": 150,
+      "mode": 1,
+      "bounds": [
+        6,
+        52
+      ],
+      "midpoint": 29
+    },
+    {
+      "n": 150,
+      "mode": 2,
+      "bounds": [
+        6,
+        52
+      ],
+      "midpoint": 29
+    },
+    {
+      "n": 250,
+      "mode": 0,
+      "bounds": [
+        10,
+        60
+      ],
+      "midpoint": 35
+    },
+    {
+      "n": 250,
+      "mode": 1,
+      "bounds": [
+        10,
+        60
+      ],
+      "midpoint": 35
+    },
+    {
+      "n": 250,
+      "mode": 2,
+      "bounds": [
+        10,
+        60
+      ],
+      "midpoint": 35
+    }
+  ],
+  "notes": [
+    "All modes share physical bounds; controller selects mode and grain without scale priors.",
+    "First whole route can exceed target/cap; matches original protection behavior and must be logged.",
+    "These are implementation checks, not policy behavior or HV results."
+  ]
+}

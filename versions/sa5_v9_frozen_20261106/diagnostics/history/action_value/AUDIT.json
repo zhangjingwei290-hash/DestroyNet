@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "candidate_rows": 2160,
+  "continuation_rows": 1215,
+  "repair_calls": 3384,
+  "independent_feasible_objective_checks": 3361,
+  "repeatability_checks": 9,
+  "source_hashes_unchanged": true,
+  "weights_unchanged": true,
+  "training_updates": 0,
+  "diagnostic_only": true,
+  "seconds": 100.71658660005778
+}
